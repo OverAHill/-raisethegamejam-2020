@@ -12,6 +12,7 @@ class RAISETHEGAMEJAME2020_API GoToLocationAgentTask : public IAgentTask
 private:
 	AActor* Parent;
 	FVector GoalLocation;
+	bool IsRunning;
 	bool IsAtTargetLocation();
 
 public:

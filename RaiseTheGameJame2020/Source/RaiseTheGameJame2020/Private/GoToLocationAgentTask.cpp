@@ -7,6 +7,7 @@ GoToLocationAgentTask::GoToLocationAgentTask(AActor* parent, FVector goalLocatio
 {
 	Parent = parent;
 	GoalLocation = goalLocation;
+	IsRunning = false;
 }
 
 GoToLocationAgentTask::~GoToLocationAgentTask()
@@ -16,7 +17,6 @@ GoToLocationAgentTask::~GoToLocationAgentTask()
 
 bool GoToLocationAgentTask::CanRun()
 {
-	IAgentTask::CanRun();
 
 	if (IsAtTargetLocation())
 	{
@@ -33,6 +33,22 @@ bool GoToLocationAgentTask::CanRun()
 
 void GoToLocationAgentTask::Run(float DeltaTime)
 {
+	if (!IsRunning)
+	{
+		IsRunning = true;
+	
+		FString location = "Going To Location: " + FString::SanitizeFloat(GoalLocation.X) + FString::SanitizeFloat(GoalLocation.Y) + FString::SanitizeFloat(GoalLocation.Z);
+		GEngine->AddOnScreenDebugMessage(-1, 2, FColor::Blue, location);
+
+		FString currentLocation = "At Location: " + FString::SanitizeFloat(Parent->GetActorLocation().X) + FString::SanitizeFloat(Parent->GetActorLocation().Y) + FString::SanitizeFloat(Parent->GetActorLocation().Z);
+		GEngine->AddOnScreenDebugMessage(-1, 2, FColor::Blue, currentLocation);
+
+		FVector direction = GoalLocation - Parent->GetActorLocation();
+
+		FString distance = "Distance: " + FString::SanitizeFloat(direction.Size());
+		GEngine->AddOnScreenDebugMessage(-1, 2, FColor::Blue, distance);
+	}
+
 	IAgentTask::Run(DeltaTime);
 
 	FVector direction = GoalLocation - Parent->GetActorLocation();
@@ -52,7 +68,7 @@ bool GoToLocationAgentTask::IsAtTargetLocation()
 	FVector direction = GoalLocation - Parent->GetActorLocation();
 
 	// If we're too far return false
-	if (direction.Size() > 10)
+	if (direction.Size() > 100)
 	{
 		return false;
 	}

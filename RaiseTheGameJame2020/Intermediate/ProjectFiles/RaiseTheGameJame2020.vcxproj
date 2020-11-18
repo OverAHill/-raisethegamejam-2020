@@ -51,7 +51,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{4EFC7ABF-7CB1-4F35-91C4-4C34F8B30FE4}</ProjectGuid>
+    <ProjectGuid>{44488A7B-8083-416C-884E-73F7E1F36914}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
     <RootNamespace>RaiseTheGameJame2020</RootNamespace>
     <PlatformToolset>v142</PlatformToolset>
