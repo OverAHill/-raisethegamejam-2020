@@ -1,7 +1,18 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020).
+  Parsing headers for RaiseTheGameJame2020Editor
+    Running UnrealHeaderTool "D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\RaiseTheGameJame2020.uproject" "D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\RaiseTheGameJame2020Editor\Development\RaiseTheGameJame2020Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\h017026h\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  Reflection code generated for RaiseTheGameJame2020Editor in 14.336567 seconds
   Building RaiseTheGameJame2020Editor...
   Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 1 action with 12 processes...
-    [1/1] RaiseTheGameJame2020Editor.target
-  Total time in Parallel executor: 0.24 seconds
-  Total execution time: 2.17 seconds
+  Building 7 actions with 12 processes...
+    [1/7] HealthComponent.cpp
+    [2/7] PlayerAttackComponent.cpp
+    [3/7] HealthComponent.gen.cpp
+    [4/7] PlayerAttackComponent.gen.cpp
+    [5/7] UE4Editor-RaiseTheGameJame2020.lib
+       Creating library D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\UE4Editor-RaiseTheGameJame2020.lib and object D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\UE4Editor-RaiseTheGameJame2020.exp
+    [6/7] UE4Editor-RaiseTheGameJame2020.dll
+       Creating library D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\UE4Editor-RaiseTheGameJame2020.suppressed.lib and object D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\UE4Editor-RaiseTheGameJame2020.suppressed.exp
+    [7/7] RaiseTheGameJame2020Editor.target
+  Total time in Parallel executor: 210.28 seconds
+  Total execution time: 227.13 seconds

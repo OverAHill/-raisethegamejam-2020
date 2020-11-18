@@ -1,0 +1,1068 @@
+﻿Log file open, 11/18/20 11:56:37
+LogInit: Display: Running engine for game: RaiseTheGameJame2020
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.639160
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz, GPU: NVIDIA GeForce RTX 2080
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: D:/Program Files (x86)/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.11.18-11.56.38:126][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.11.18-11.56.38:126][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.11.18-11.56.38:126][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Engine.ini]
+[2020.11.18-11.56.38:126][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.11.18-11.56.38:126][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Engine.ini]
+[2020.11.18-11.56.38:126][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Engine.ini]
+[2020.11.18-11.56.38:126][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.11.18-11.56.38:126][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.11.18-11.56.38:126][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.11.18-11.56.38:126][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.11.18-11.56.38:126][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.11.18-11.56.38:126][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.11.18-11.56.38:126][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.11.18-11.56.38:126][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.11.18-11.56.38:126][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.11.18-11.56.38:127][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.11.18-11.56.38:127][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.11.18-11.56.38:127][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.11.18-11.56.38:127][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.11.18-11.56.38:127][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.11.18-11.56.38:127][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Engine.ini]
+[2020.11.18-11.56.38:127][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.11.18-11.56.38:127][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.11.18-11.56.38:127][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.11.18-11.56.38:127][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.11.18-11.56.38:127][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.11.18-11.56.38:127][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.11.18-11.56.38:127][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.11.18-11.56.38:127][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.11.18-11.56.38:127][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.11.18-11.56.38:127][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.11.18-11.56.38:127][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.11.18-11.56.38:127][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.11.18-11.56.38:127][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.11.18-11.56.38:127][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Engine.ini]
+[2020.11.18-11.56.38:128][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Engine.ini]
+[2020.11.18-11.56.38:132][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Scalability.ini]
+[2020.11.18-11.56.38:133][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.11.18-11.56.38:133][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.11.18-11.56.38:133][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Scalability.ini]
+[2020.11.18-11.56.38:133][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.11.18-11.56.38:133][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Scalability.ini]
+[2020.11.18-11.56.38:133][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.11.18-11.56.38:133][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.11.18-11.56.38:133][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.11.18-11.56.38:133][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.11.18-11.56.38:133][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.11.18-11.56.38:133][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.11.18-11.56.38:133][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.11.18-11.56.38:133][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.11.18-11.56.38:133][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.11.18-11.56.38:133][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.11.18-11.56.38:133][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.11.18-11.56.38:133][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.11.18-11.56.38:133][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.11.18-11.56.38:133][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.11.18-11.56.38:133][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.11.18-11.56.38:134][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.11.18-11.56.38:134][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.11.18-11.56.38:134][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.11.18-11.56.38:134][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Scalability.ini]
+[2020.11.18-11.56.38:134][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.11.18-11.56.38:134][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.11.18-11.56.38:134][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.11.18-11.56.38:134][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.11.18-11.56.38:134][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.11.18-11.56.38:134][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.11.18-11.56.38:134][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.11.18-11.56.38:134][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.11.18-11.56.38:134][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.11.18-11.56.38:134][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.11.18-11.56.38:134][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.11.18-11.56.38:134][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.11.18-11.56.38:134][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.11.18-11.56.38:134][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.11.18-11.56.38:134][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.11.18-11.56.38:134][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.11.18-11.56.38:134][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.11.18-11.56.38:135][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.11.18-11.56.38:135][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.11.18-11.56.38:135][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.11.18-11.56.38:135][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.11.18-11.56.38:135][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.11.18-11.56.38:135][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.11.18-11.56.38:135][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.11.18-11.56.38:135][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.11.18-11.56.38:135][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.11.18-11.56.38:135][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.11.18-11.56.38:135][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.11.18-11.56.38:135][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.11.18-11.56.38:135][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.11.18-11.56.38:135][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Scalability.ini]
+[2020.11.18-11.56.38:135][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.11.18-11.56.38:135][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.11.18-11.56.38:135][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.11.18-11.56.38:135][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.11.18-11.56.38:135][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.11.18-11.56.38:135][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.11.18-11.56.38:135][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.11.18-11.56.38:136][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.11.18-11.56.38:136][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.11.18-11.56.38:136][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Scalability.ini]
+[2020.11.18-11.56.38:136][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.11.18-11.56.38:136][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.11.18-11.56.38:136][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.11.18-11.56.38:136][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.11.18-11.56.38:136][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.11.18-11.56.38:136][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.11.18-11.56.38:136][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.11.18-11.56.38:136][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.11.18-11.56.38:136][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.11.18-11.56.38:136][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.11.18-11.56.38:136][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.11.18-11.56.38:136][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.11.18-11.56.38:136][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.11.18-11.56.38:136][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.11.18-11.56.38:136][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.11.18-11.56.38:136][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.11.18-11.56.38:136][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.11.18-11.56.38:136][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.11.18-11.56.38:136][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.11.18-11.56.38:137][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.11.18-11.56.38:137][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.11.18-11.56.38:137][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.11.18-11.56.38:137][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.11.18-11.56.38:137][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.11.18-11.56.38:137][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.11.18-11.56.38:137][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.11.18-11.56.38:137][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Scalability.ini]
+[2020.11.18-11.56.38:137][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.11.18-11.56.38:137][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.11.18-11.56.38:137][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Scalability.ini]
+[2020.11.18-11.56.38:137][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.11.18-11.56.38:137][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.11.18-11.56.38:137][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.11.18-11.56.38:137][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.11.18-11.56.38:137][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.11.18-11.56.38:137][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.11.18-11.56.38:137][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.11.18-11.56.38:137][  0]LogInit: Selected Device Profile: [Windows]
+[2020.11.18-11.56.38:137][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.11.18-11.56.38:138][  0]LogHAL: Display: Platform has ~ 16 GB [17130930176 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.11.18-11.56.38:138][  0]LogInit: Going up to parent DeviceProfile []
+[2020.11.18-11.56.38:138][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Scalability.ini]
+[2020.11.18-11.56.38:138][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.11.18-11.56.38:138][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.11.18-11.56.38:138][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Scalability.ini]
+[2020.11.18-11.56.38:138][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.11.18-11.56.38:138][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Scalability.ini]
+[2020.11.18-11.56.38:138][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.11.18-11.56.38:138][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.11.18-11.56.38:138][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.11.18-11.56.38:138][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.11.18-11.56.38:138][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.11.18-11.56.38:138][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.11.18-11.56.38:138][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.11.18-11.56.38:138][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.11.18-11.56.38:138][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.11.18-11.56.38:138][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.11.18-11.56.38:138][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.11.18-11.56.38:138][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.11.18-11.56.38:139][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.11.18-11.56.38:139][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.11.18-11.56.38:139][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.11.18-11.56.38:139][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.11.18-11.56.38:139][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.11.18-11.56.38:139][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.11.18-11.56.38:139][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Scalability.ini]
+[2020.11.18-11.56.38:139][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.11.18-11.56.38:139][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.11.18-11.56.38:139][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.11.18-11.56.38:139][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.11.18-11.56.38:139][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.11.18-11.56.38:139][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.11.18-11.56.38:139][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.11.18-11.56.38:139][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.11.18-11.56.38:139][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.11.18-11.56.38:139][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.11.18-11.56.38:139][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.11.18-11.56.38:139][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.11.18-11.56.38:139][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.11.18-11.56.38:139][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.11.18-11.56.38:140][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.11.18-11.56.38:140][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.11.18-11.56.38:140][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.11.18-11.56.38:140][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.11.18-11.56.38:140][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.11.18-11.56.38:140][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.11.18-11.56.38:140][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.11.18-11.56.38:140][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.11.18-11.56.38:140][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.11.18-11.56.38:140][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.11.18-11.56.38:140][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.11.18-11.56.38:140][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.11.18-11.56.38:140][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.11.18-11.56.38:140][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.11.18-11.56.38:140][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.11.18-11.56.38:140][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.11.18-11.56.38:140][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Scalability.ini]
+[2020.11.18-11.56.38:140][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.11.18-11.56.38:140][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.11.18-11.56.38:140][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.11.18-11.56.38:140][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.11.18-11.56.38:140][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.11.18-11.56.38:141][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.11.18-11.56.38:141][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.11.18-11.56.38:141][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.11.18-11.56.38:141][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.11.18-11.56.38:141][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Scalability.ini]
+[2020.11.18-11.56.38:141][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.11.18-11.56.38:141][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.11.18-11.56.38:141][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.11.18-11.56.38:141][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.11.18-11.56.38:141][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.11.18-11.56.38:141][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.11.18-11.56.38:141][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.11.18-11.56.38:141][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.11.18-11.56.38:141][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.11.18-11.56.38:141][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.11.18-11.56.38:141][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.11.18-11.56.38:141][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.11.18-11.56.38:141][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.11.18-11.56.38:142][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.11.18-11.56.38:142][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.11.18-11.56.38:142][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.11.18-11.56.38:142][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.11.18-11.56.38:142][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.11.18-11.56.38:142][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.11.18-11.56.38:142][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.11.18-11.56.38:142][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.11.18-11.56.38:142][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.11.18-11.56.38:142][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.11.18-11.56.38:142][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.11.18-11.56.38:142][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.11.18-11.56.38:142][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.11.18-11.56.38:142][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Scalability.ini]
+[2020.11.18-11.56.38:142][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.11.18-11.56.38:142][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.11.18-11.56.38:142][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Scalability.ini]
+[2020.11.18-11.56.38:142][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.11.18-11.56.38:142][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.11.18-11.56.38:142][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.11.18-11.56.38:142][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.11.18-11.56.38:143][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.11.18-11.56.38:143][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.11.18-11.56.38:143][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.11.18-11.56.38:143][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.11.18-11.56.38:152][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.11.18-11.56.38:152][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.11.18-11.56.38:152][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.11.18-11.56.38:152][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Engine.ini]
+[2020.11.18-11.56.38:152][  0]LogInit: Computer: DESKTOP-D8L6EI8
+[2020.11.18-11.56.38:152][  0]LogInit: User: h017026h
+[2020.11.18-11.56.38:153][  0]LogInit: CPU Page size=4096, Cores=6
+[2020.11.18-11.56.38:153][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.11.18-11.56.38:153][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2020.11.18-11.56.38:153][  0]LogMemory: Platform Memory Stats for Windows
+[2020.11.18-11.56.38:153][  0]LogMemory: Process Physical Memory: 115.70 MB used, 115.71 MB peak
+[2020.11.18-11.56.38:153][  0]LogMemory: Process Virtual Memory: 99.32 MB used, 99.32 MB peak
+[2020.11.18-11.56.38:153][  0]LogMemory: Physical Memory: 14411.37 MB used,  1925.96 MB free, 16337.33 MB total
+[2020.11.18-11.56.38:153][  0]LogMemory: Virtual Memory: 5167.53 MB used,  134212560.00 MB free, 134217728.00 MB total
+[2020.11.18-11.56.38:161][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.11.18-11.56.38:507][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.11.18-11.56.38:524][  0]LogInit: Using OS detected language (en-GB).
+[2020.11.18-11.56.38:524][  0]LogInit: Using OS detected locale (en-GB).
+[2020.11.18-11.56.38:527][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2020.11.18-11.56.39:278][  0]LogInit: Setting process to per monitor DPI aware
+[2020.11.18-11.56.39:398][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.11.18-11.56.39:398][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.11.18-11.56.39:819][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.11.18-11.56.39:819][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.11.18-11.56.39:819][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.11.18-11.56.39:819][  0]LogD3D11RHI: D3D11 adapters:
+[2020.11.18-11.56.39:925][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2080' (Feature Level 11_0)
+[2020.11.18-11.56.39:925][  0]LogD3D11RHI:       8010/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.11.18-11.56.39:931][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.11.18-11.56.39:932][  0]LogD3D11RHI:       0/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.11.18-11.56.39:932][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.11.18-11.56.39:942][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.11.18-11.56.39:942][  0]LogD3D11RHI:     GPU DeviceId: 0x1e87 (for the marketing name, search the web for "GPU Device Id")
+[2020.11.18-11.56.39:942][  0]LogWindows: EnumDisplayDevices:
+[2020.11.18-11.56.39:943][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2080' (P:1 D:1)
+[2020.11.18-11.56.39:943][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2080' (P:0 D:1)
+[2020.11.18-11.56.39:943][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
+[2020.11.18-11.56.39:944][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
+[2020.11.18-11.56.39:944][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.11.18-11.56.39:944][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2080
+[2020.11.18-11.56.39:944][  0]LogD3D11RHI:   Driver Version: 457.30 (internal:27.21.14.5730, unified:457.30)
+[2020.11.18-11.56.39:944][  0]LogD3D11RHI:      Driver Date: 11-6-2020
+[2020.11.18-11.56.39:944][  0]LogRHI: Texture pool is 5607 MB (70% of 8010 MB)
+[2020.11.18-11.56.39:994][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.11.18-11.56.39:994][  0]LogD3D11RHI: Async texture creation enabled
+[2020.11.18-11.56.39:994][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.11.18-11.56.40:029][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.11.18-11.56.40:318][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.11.18-11.56.40:348][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.11.18-11.56.40:348][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.11.18-11.56.40:348][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.11.18-11.56.40:348][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.11.18-11.56.40:348][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.11.18-11.56.40:348][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.11.18-11.56.40:348][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.11.18-11.56.40:348][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.11.18-11.56.40:348][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.11.18-11.56.40:349][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.11.18-11.56.40:422][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.11.18-11.56.40:422][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.11.18-11.56.40:445][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.11.18-11.56.40:475][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.11.18-11.56.40:492][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.11.18-11.56.40:503][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.11.18-11.56.40:519][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.11.18-11.56.40:551][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.11.18-11.56.40:566][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.11.18-11.56.40:598][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.11.18-11.56.40:598][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.11.18-11.56.40:623][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.11.18-11.56.40:624][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.11.18-11.56.40:644][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.11.18-11.56.40:654][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.11.18-11.56.40:677][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.11.18-11.56.40:687][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.11.18-11.56.40:687][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.11.18-11.56.40:758][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.11.18-11.56.41:130][  0]LogShaderCompilers: Guid format shader working directory is -43 characters bigger than the processId version (../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Intermediate/Shaders/WorkingDirectory/3052/).
+[2020.11.18-11.56.41:131][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/h017026h/AppData/Local/Temp/UnrealShaderWorkingDir/BBB6A5D247EB1A3D76624FB063877F66/'.
+[2020.11.18-11.56.41:140][  0]LogXGEController: Cleaning working directory: C:/Users/h017026h/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.11.18-11.56.41:141][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.11.18-11.56.41:141][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.11.18-11.56.41:141][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.11.18-11.56.42:613][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.11.18-11.56.42:837][  0]LogDerivedDataCache: Loaded boot cache 0.22s 79MB C:/Users/h017026h/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.11.18-11.56.42:837][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/h017026h/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.11.18-11.56.42:838][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.11.18-11.56.42:838][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.11.18-11.56.42:838][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.11.18-11.56.42:838][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.11.18-11.56.42:853][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.11.18-11.56.42:853][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.11.18-11.56.42:853][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.11.18-11.56.42:857][  0]LogDerivedDataCache: Using Local data cache path C:/Users/h017026h/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.11.18-11.56.42:857][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.11.18-11.56.42:857][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.11.18-11.56.42:903][  0]LogSlate: Using FreeType 2.10.0
+[2020.11.18-11.56.42:912][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.11.18-11.56.43:041][  0]LogAssetRegistry: FAssetRegistry took 0.0040 seconds to start up
+[2020.11.18-11.56.44:246][  0]LogInit: Selected Device Profile: [Windows]
+[2020.11.18-11.56.45:431][  0]LogFileManager: Warning: DeleteFile was unable to delete '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Intermediate/CachedAssetRegistry.bin', retrying in .5s...
+[2020.11.18-11.56.45:432][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.11.18-11.56.45:432][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.11.18-11.56.45:432][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.11.18-11.56.45:432][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.11.18-11.56.45:432][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.11.18-11.56.45:603][  0]LogFileManager: Warning: DeleteFile recovered during retry!
+[2020.11.18-11.56.45:604][  0]LogNetVersion: RaiseTheGameJame2020 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 1455622770)
+[2020.11.18-11.56.48:515][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001F9A57AA980), frame # 0
+[2020.11.18-11.56.48:515][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001F9A5659E40), frame # 0
+[2020.11.18-11.56.48:517][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001F9A56A1C00), frame # 0
+[2020.11.18-11.56.48:782][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.210355 seconds
+[2020.11.18-11.56.48:798][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.11.18-11.56.48:799][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.11.18-11.56.48:799][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.11.18-11.56.51:891][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.11.18-11.56.51:921][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.11.18-11.56.53:513][  0]SourceControl: Source control is disabled
+[2020.11.18-11.56.53:513][  0]SourceControl: Source control is disabled
+[2020.11.18-11.56.53:603][  0]SourceControl: Source control is disabled
+[2020.11.18-11.56.53:668][  0]SourceControl: Source control is disabled
+[2020.11.18-11.56.53:699][  0]SourceControl: Source control is disabled
+[2020.11.18-11.56.55:588][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.11.18-11.56.55:660][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.11.18-11.56.55:660][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.11.18-11.56.55:874][  0]LogOcInput: OculusInput pre-init called
+[2020.11.18-11.56.55:954][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.11.18-11.56.55:954][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.11.18-11.56.56:497][  0]LogEngine: Initializing Engine...
+[2020.11.18-11.56.56:524][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.11.18-11.56.56:524][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.11.18-11.56.56:533][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.007 s
+[2020.11.18-11.56.56:962][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.11.18-11.56.57:241][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.11.18-11.56.57:241][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001F9ADA2DA00), frame # 0
+[2020.11.18-11.56.57:242][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001F9ADA7C680), frame # 0
+[2020.11.18-11.56.57:388][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.18-11.56.57:389][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.18-11.56.57:389][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.18-11.56.57:389][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.18-11.56.57:389][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.18-11.56.57:389][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.18-11.56.57:389][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.18-11.56.57:389][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.18-11.56.57:392][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.18-11.56.57:393][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.18-11.56.57:502][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.18-11.56.57:502][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.11.18-11.56.57:502][  0]LogAudioMixer: Display: 2: FrontCenter
+[2020.11.18-11.56.57:503][  0]LogAudioMixer: Display: 3: LowFrequency
+[2020.11.18-11.56.57:503][  0]LogAudioMixer: Display: 4: BackLeft
+[2020.11.18-11.56.57:503][  0]LogAudioMixer: Display: 5: BackRight
+[2020.11.18-11.56.57:503][  0]LogAudioMixer: Display: 6: SideLeft
+[2020.11.18-11.56.57:503][  0]LogAudioMixer: Display: 7: SideRight
+[2020.11.18-11.56.57:679][  0]LogAudioMixer: Display: Using Audio Device Headset Earphone (CORSAIR HS70 PRO Wireless Gaming Headset)
+[2020.11.18-11.56.57:680][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.18-11.56.57:702][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.18-11.56.57:702][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.18-11.56.57:713][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.18-11.56.57:715][  0]LogInit: FAudioDevice initialized.
+[2020.11.18-11.56.57:722][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.11.18-11.56.57:796][  0]LogDerivedDataCache: Saved boot cache 0.07s 79MB C:/Users/h017026h/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.11.18-11.56.57:809][  0]LogInit: Texture streaming: Enabled
+[2020.11.18-11.56.57:907][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.11.18-11.56.57:916][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Debugger, SessionId={32C77DBF-4105-1C04-4021-119E10EA450A}
+[2020.11.18-11.56.57:916][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.11.18-11.56.57:929][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.11.18-11.56.58:085][  0]LogInit: Transaction tracking system initialized
+[2020.11.18-11.56.58:386][  0]BlueprintLog: New page: Editor Load
+[2020.11.18-11.56.59:327][  0]LocalizationService: Localization service is disabled
+[2020.11.18-11.57.00:819][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.11.18-11.57.00:819][  0]LogCook: Display: Mobile HDR setting 1
+[2020.11.18-11.57.01:335][  0]LogFileCache: Scanning file cache for directory 'D:/Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Content/' took 0.00s
+[2020.11.18-11.57.02:347][  0]SourceControl: Source control is disabled
+[2020.11.18-11.57.02:347][  0]LogUnrealEdMisc: Loading editor; pre map load, took 31.024
+[2020.11.18-11.57.02:369][  0]LightingResults: New page: Lighting Build
+[2020.11.18-11.57.02:387][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.11.18-11.57.02:389][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.18-11.57.02:409][  0]MapCheck: New page: Map Check
+[2020.11.18-11.57.02:409][  0]LightingResults: New page: Lighting Build
+[2020.11.18-11.57.02:709][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001F9ADA2DA00), frame # 0
+[2020.11.18-11.57.02:710][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001F9ADA7C680), frame # 0
+[2020.11.18-11.57.02:711][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2020.11.18-11.57.03:321][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.11.18-11.57.03:321][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001F9ADD4AC00), frame # 0
+[2020.11.18-11.57.03:321][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001F9A7C9AC00), frame # 0
+[2020.11.18-11.57.03:758][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.18-11.57.03:783][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2020.11.18-11.57.03:784][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.18-11.57.03:784][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.262ms to complete.
+[2020.11.18-11.57.03:784][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 1.430
+[2020.11.18-11.57.04:387][  0]LogUnrealEdMisc: Total Editor Startup Time, took 33.063
+[2020.11.18-11.57.04:607][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.18-11.57.04:614][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.18-11.57.04:620][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.18-11.57.04:626][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.18-11.57.04:641][  0]LogCollectionManager: Loaded 0 collections in 0.000989 seconds
+[2020.11.18-11.57.04:706][  0]LogFileCache: Scanning file cache for directory 'D:/Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Collections/' took 0.00s
+[2020.11.18-11.57.04:707][  0]LogFileCache: Scanning file cache for directory 'D:/Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Content/Developers/h017026h/Collections/' took 0.00s
+[2020.11.18-11.57.04:707][  0]LogFileCache: Scanning file cache for directory 'D:/Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Content/Collections/' took 0.00s
+[2020.11.18-11.57.04:707][  0]LogContentBrowser: Native class hierarchy populated in 0.0082 seconds. Added 3429 classes and 823 folders.
+[2020.11.18-11.57.04:834][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.11.18-11.57.05:507][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.11.18-11.57.05:548][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 2 classes and 0 folders.
+[2020.11.18-11.57.06:113][  0]LogSlate: Took 0.005099 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.11.18-11.57.06:124][  0]LogSlate: Took 0.009287 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.11.18-11.57.06:144][  0]LogSlate: Took 0.009731 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.11.18-11.57.06:297][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2020.11.18-11.57.06:479][  0]LogSlate: Took 0.004913 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.11.18-11.57.06:617][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.11.18-11.57.06:618][  0]LogLoad: (Engine Initialization) Total time: 35.29 seconds
+[2020.11.18-11.57.06:618][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.11.18-11.57.06:728][  0]LogAssetRegistry: Asset discovery search completed in 23.6895 seconds
+[2020.11.18-11.57.06:738][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2020.11.18-11.57.06:810][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.11.18-12.01.55:965][431]LogSlate: Took 0.000205 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.11.18-12.01.56:014][431]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\University\Final Year\UKIE Game Jam\PNG/Arrow.png)
+[2020.11.18-12.01.56:069][431]LogTexture: Display: Building textures: Arrow (BGRA8, 32X38)
+[2020.11.18-12.01.56:132][431]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\University\Final Year\UKIE Game Jam\PNG/Arrows.png)
+[2020.11.18-12.01.56:142][431]LogTexture: Display: Building textures: Arrows (BGRA8, 213X84)
+[2020.11.18-12.01.56:152][431]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\University\Final Year\UKIE Game Jam\PNG/Arrows02.png)
+[2020.11.18-12.01.56:154][431]LogTexture: Display: Building textures: Arrows02 (BGRA8, 203X84)
+[2020.11.18-12.01.56:162][431]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\University\Final Year\UKIE Game Jam\PNG/Arrows03.png)
+[2020.11.18-12.01.56:164][431]LogTexture: Display: Building textures: Arrows03 (BGRA8, 197X75)
+[2020.11.18-12.01.56:175][431]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\University\Final Year\UKIE Game Jam\PNG/ArrowsLeft.png)
+[2020.11.18-12.01.56:177][431]LogTexture: Display: Building textures: ArrowsLeft (AutoDXT, 48X84)
+[2020.11.18-12.01.56:218][431]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\University\Final Year\UKIE Game Jam\PNG/ArrowsLeft2.png)
+[2020.11.18-12.01.56:220][431]LogTexture: Display: Building textures: ArrowsLeft2 (AutoDXT, 44X84)
+[2020.11.18-12.01.56:228][431]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\University\Final Year\UKIE Game Jam\PNG/ArrowsLeft3.png)
+[2020.11.18-12.01.56:230][431]LogTexture: Display: Building textures: ArrowsLeft3 (BGRA8, 40X75)
+[2020.11.18-12.01.56:240][431]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\University\Final Year\UKIE Game Jam\PNG/ArrowsRight.png)
+[2020.11.18-12.01.56:241][431]LogTexture: Display: Building textures: ArrowsRight (AutoDXT, 48X84)
+[2020.11.18-12.01.56:250][431]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\University\Final Year\UKIE Game Jam\PNG/ArrowsRight2.png)
+[2020.11.18-12.01.56:252][431]LogTexture: Display: Building textures: ArrowsRight2 (AutoDXT, 44X84)
+[2020.11.18-12.01.56:256][431]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\University\Final Year\UKIE Game Jam\PNG/ArrowsRight3.png)
+[2020.11.18-12.01.56:257][431]LogTexture: Display: Building textures: ArrowsRight3 (BGRA8, 40X75)
+[2020.11.18-12.01.56:260][431]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\University\Final Year\UKIE Game Jam\PNG/Btn01.png)
+[2020.11.18-12.01.56:262][431]LogTexture: Display: Building textures: Btn01 (BGRA8, 357X57)
+[2020.11.18-12.01.56:266][431]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\University\Final Year\UKIE Game Jam\PNG/Circle01.png)
+[2020.11.18-12.01.56:268][431]LogTexture: Display: Building textures: Circle01 (BGRA8, 130X130)
+[2020.11.18-12.01.56:278][431]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\University\Final Year\UKIE Game Jam\PNG/Circle02.png)
+[2020.11.18-12.01.56:280][431]LogTexture: Display: Building textures: Circle02 (BGRA8, 130X130)
+[2020.11.18-12.01.56:288][431]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\University\Final Year\UKIE Game Jam\PNG/Circle03.png)
+[2020.11.18-12.01.56:289][431]LogTexture: Display: Building textures: Circle03 (BGRA8, 130X130)
+[2020.11.18-12.01.56:298][431]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\University\Final Year\UKIE Game Jam\PNG/Close.png)
+[2020.11.18-12.01.56:299][431]LogTexture: Display: Building textures: Close (BGRA8, 39X42)
+[2020.11.18-12.01.56:307][431]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\University\Final Year\UKIE Game Jam\PNG/Icon01.png)
+[2020.11.18-12.01.56:308][431]LogTexture: Display: Building textures: Icon01 (BGRA8, 93X90)
+[2020.11.18-12.01.56:316][431]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\University\Final Year\UKIE Game Jam\PNG/Icon02.png)
+[2020.11.18-12.01.56:318][431]LogTexture: Display: Building textures: Icon02 (BGRA8, 117X86)
+[2020.11.18-12.01.56:326][431]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\University\Final Year\UKIE Game Jam\PNG/Icon03.png)
+[2020.11.18-12.01.56:328][431]LogTexture: Display: Building textures: Icon03 (AutoDXT, 52X48)
+[2020.11.18-12.01.56:337][431]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\University\Final Year\UKIE Game Jam\PNG/Icon04.png)
+[2020.11.18-12.01.56:338][431]LogTexture: Display: Building textures: Icon04 (BGRA8, 39X77)
+[2020.11.18-12.01.56:347][431]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\University\Final Year\UKIE Game Jam\PNG/Icon05.png)
+[2020.11.18-12.01.56:348][431]LogTexture: Display: Building textures: Icon05 (BGRA8, 32X31)
+[2020.11.18-12.01.56:356][431]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\University\Final Year\UKIE Game Jam\PNG/Icon06.png)
+[2020.11.18-12.01.56:357][431]LogTexture: Display: Building textures: Icon06 (BGRA8, 32X31)
+[2020.11.18-12.01.56:365][431]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\University\Final Year\UKIE Game Jam\PNG/Icon07.png)
+[2020.11.18-12.01.56:366][431]LogTexture: Display: Building textures: Icon07 (BGRA8, 55X62)
+[2020.11.18-12.01.56:375][431]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\University\Final Year\UKIE Game Jam\PNG/Icon08.png)
+[2020.11.18-12.01.56:376][431]LogTexture: Display: Building textures: Icon08 (BGRA8, 59X58)
+[2020.11.18-12.01.56:385][431]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\University\Final Year\UKIE Game Jam\PNG/Icon09.png)
+[2020.11.18-12.01.56:387][431]LogTexture: Display: Building textures: Icon09 (BGRA8, 63X32)
+[2020.11.18-12.01.56:397][431]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\University\Final Year\UKIE Game Jam\PNG/Icon10.png)
+[2020.11.18-12.01.56:398][431]LogTexture: Display: Building textures: Icon10 (BGRA8, 52X47)
+[2020.11.18-12.01.56:408][431]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\University\Final Year\UKIE Game Jam\PNG/Icon11.png)
+[2020.11.18-12.01.56:410][431]LogTexture: Display: Building textures: Icon11 (BGRA8, 58X54)
+[2020.11.18-12.01.56:422][431]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\University\Final Year\UKIE Game Jam\PNG/Icon12.png)
+[2020.11.18-12.01.56:424][431]LogTexture: Display: Building textures: Icon12 (BGRA8, 57X57)
+[2020.11.18-12.01.56:434][431]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\University\Final Year\UKIE Game Jam\PNG/Icon13.png)
+[2020.11.18-12.01.56:435][431]LogTexture: Display: Building textures: Icon13 (BGRA8, 62X63)
+[2020.11.18-12.01.56:443][431]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\University\Final Year\UKIE Game Jam\PNG/Icon14.png)
+[2020.11.18-12.01.56:445][431]LogTexture: Display: Building textures: Icon14 (BGRA8, 58X56)
+[2020.11.18-12.01.56:454][431]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\University\Final Year\UKIE Game Jam\PNG/Icon15.png)
+[2020.11.18-12.01.56:455][431]LogTexture: Display: Building textures: Icon15 (BGRA8, 60X53)
+[2020.11.18-12.01.56:464][431]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\University\Final Year\UKIE Game Jam\PNG/Icon16.png)
+[2020.11.18-12.01.56:466][431]LogTexture: Display: Building textures: Icon16 (BGRA8, 126X129)
+[2020.11.18-12.01.56:474][431]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\University\Final Year\UKIE Game Jam\PNG/Icon17.png)
+[2020.11.18-12.01.56:475][431]LogTexture: Display: Building textures: Icon17 (BGRA8, 125X118)
+[2020.11.18-12.01.56:483][431]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\University\Final Year\UKIE Game Jam\PNG/Icon18.png)
+[2020.11.18-12.01.56:485][431]LogTexture: Display: Building textures: Icon18 (BGRA8, 57X58)
+[2020.11.18-12.01.56:493][431]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\University\Final Year\UKIE Game Jam\PNG/Icon19.png)
+[2020.11.18-12.01.56:495][431]LogTexture: Display: Building textures: Icon19 (BGRA8, 61X61)
+[2020.11.18-12.01.56:503][431]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\University\Final Year\UKIE Game Jam\PNG/Icon20.png)
+[2020.11.18-12.01.56:504][431]LogTexture: Display: Building textures: Icon20 (BGRA8, 57X57)
+[2020.11.18-12.01.56:511][431]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\University\Final Year\UKIE Game Jam\PNG/Icon21.png)
+[2020.11.18-12.01.56:512][431]LogTexture: Display: Building textures: Icon21 (AutoDXT, 60X32)
+[2020.11.18-12.01.56:522][431]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\University\Final Year\UKIE Game Jam\PNG/Icon22.png)
+[2020.11.18-12.01.56:523][431]LogTexture: Display: Building textures: Icon22 (BGRA8, 119X110)
+[2020.11.18-12.01.56:536][431]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\University\Final Year\UKIE Game Jam\PNG/Icon23.png)
+[2020.11.18-12.01.56:537][431]LogTexture: Display: Building textures: Icon23 (BGRA8, 117X86)
+[2020.11.18-12.01.56:545][431]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\University\Final Year\UKIE Game Jam\PNG/Icon24.png)
+[2020.11.18-12.01.56:547][431]LogTexture: Display: Building textures: Icon24 (BGRA8, 117X86)
+[2020.11.18-12.01.56:557][431]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\University\Final Year\UKIE Game Jam\PNG/Icon25.png)
+[2020.11.18-12.01.56:558][431]LogTexture: Display: Building textures: Icon25 (BGRA8, 117X86)
+[2020.11.18-12.01.56:567][431]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\University\Final Year\UKIE Game Jam\PNG/Icon26.png)
+[2020.11.18-12.01.56:569][431]LogTexture: Display: Building textures: Icon26 (BGRA8, 117X86)
+[2020.11.18-12.01.56:578][431]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\University\Final Year\UKIE Game Jam\PNG/Icon27.png)
+[2020.11.18-12.01.56:579][431]LogTexture: Display: Building textures: Icon27 (BGRA8, 93X88)
+[2020.11.18-12.01.56:587][431]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\University\Final Year\UKIE Game Jam\PNG/Icon28.png)
+[2020.11.18-12.01.56:588][431]LogTexture: Display: Building textures: Icon28 (AutoDXT, 88X88)
+[2020.11.18-12.01.56:605][431]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\University\Final Year\UKIE Game Jam\PNG/Icon29.png)
+[2020.11.18-12.01.56:607][431]LogTexture: Display: Building textures: Icon29 (AutoDXT, 88X88)
+[2020.11.18-12.01.56:623][431]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\University\Final Year\UKIE Game Jam\PNG/Icon30.png)
+[2020.11.18-12.01.56:624][431]LogTexture: Display: Building textures: Icon30 (AutoDXT, 88X88)
+[2020.11.18-12.01.56:634][431]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\University\Final Year\UKIE Game Jam\PNG/Icon31.png)
+[2020.11.18-12.01.56:635][431]LogTexture: Display: Building textures: Icon31 (AutoDXT, 88X88)
+[2020.11.18-12.01.56:647][431]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\University\Final Year\UKIE Game Jam\PNG/Icon32.png)
+[2020.11.18-12.01.56:649][431]LogTexture: Display: Building textures: Icon32 (AutoDXT, 88X88)
+[2020.11.18-12.01.56:659][431]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\University\Final Year\UKIE Game Jam\PNG/Icon33.png)
+[2020.11.18-12.01.56:660][431]LogTexture: Display: Building textures: Icon33 (AutoDXT, 88X88)
+[2020.11.18-12.01.56:673][431]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\University\Final Year\UKIE Game Jam\PNG/Icon34.png)
+[2020.11.18-12.01.56:675][431]LogTexture: Display: Building textures: Icon34 (AutoDXT, 88X88)
+[2020.11.18-12.01.56:688][431]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\University\Final Year\UKIE Game Jam\PNG/Icon35.png)
+[2020.11.18-12.01.56:689][431]LogTexture: Display: Building textures: Icon35 (AutoDXT, 88X88)
+[2020.11.18-12.01.56:704][431]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\University\Final Year\UKIE Game Jam\PNG/Icon36.png)
+[2020.11.18-12.01.56:705][431]LogTexture: Display: Building textures: Icon36 (AutoDXT, 88X88)
+[2020.11.18-12.01.56:718][431]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\University\Final Year\UKIE Game Jam\PNG/Icon37.png)
+[2020.11.18-12.01.56:720][431]LogTexture: Display: Building textures: Icon37 (AutoDXT, 88X88)
+[2020.11.18-12.01.56:738][431]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\University\Final Year\UKIE Game Jam\PNG/Icon38.png)
+[2020.11.18-12.01.56:740][431]LogTexture: Display: Building textures: Icon38 (AutoDXT, 88X88)
+[2020.11.18-12.01.56:753][431]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\University\Final Year\UKIE Game Jam\PNG/Panel01.png)
+[2020.11.18-12.01.56:755][431]LogTexture: Display: Building textures: Panel01 (BGRA8, 452X35)
+[2020.11.18-12.01.56:767][431]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\University\Final Year\UKIE Game Jam\PNG/Panel02.png)
+[2020.11.18-12.01.56:768][431]LogTexture: Display: Building textures: Panel02 (BGRA8, 452X33)
+[2020.11.18-12.01.56:777][431]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\University\Final Year\UKIE Game Jam\PNG/Panel03.png)
+[2020.11.18-12.01.56:779][431]LogTexture: Display: Building textures: Panel03 (BGRA8, 443X49)
+[2020.11.18-12.01.56:787][431]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\University\Final Year\UKIE Game Jam\PNG/Panel04.png)
+[2020.11.18-12.01.56:789][431]LogTexture: Display: Building textures: Panel04 (BGRA8, 443X49)
+[2020.11.18-12.01.59:828][733]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2020.11.18-12.02.00:115][733]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/ThirdPersonExampleMap125D1E61472CB43E0DA64BB638B21AB3.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2020.11.18-12.02.00:347][733]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/ThirdPersonExampleMap_BuiltData9B53E6DE46ECD03C93E6379504ECDF7F.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2020.11.18-12.02.00:373][733]AssetCheck: New page: Asset Save: multiple assets
+[2020.11.18-12.02.00:373][733]LogContentValidation: Display: Validating World /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2020.11.18-12.02.00:374][733]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2020.11.18-12.03.16:839][734]LogAssetEditorSubsystem: Opening Asset editor for Class /Script/RaiseTheGameJame2020.RaiseTheGameJame2020Character
+[2020.11.18-12.03.17:095][734]LogVSAccessor: Warning: Couldn't goto line number '1' in 'D:/Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Source/RaiseTheGameJame2020/RaiseTheGameJame2020Character.h'
+[2020.11.18-12.05.13:889][454]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2020.11.18-12.05.14:654][454]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 125 classes and 0 folders.
+[2020.11.18-12.05.16:108][454]LogSlate: Took 0.004880 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.11.18-12.05.22:914][221]LogRenderer: Reallocating scene render targets to support 1208x900 Format 10 NumSamples 1 (Frame:1).
+[2020.11.18-12.12.00:218][516]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2020.11.18-12.12.00:220][516]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.082
+[2020.11.18-12.12.00:234][516]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Images/UIImages/PNG/Arrow] ([1] browsable assets)...
+[2020.11.18-12.12.00:273][516]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Images/UIImages/PNG/Arrow.Arrow]
+[2020.11.18-12.12.00:273][516]OBJ SavePackage: Finished generating thumbnails for package [/Game/Images/UIImages/PNG/Arrow]
+[2020.11.18-12.12.00:315][516]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Arrow_Auto1D214DFA14F244D5873E5C18161A5049B.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Autosaves/Game/Images/UIImages/PNG/Arrow_Auto1.uasset'
+[2020.11.18-12.12.00:324][516]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Images/UIImages/PNG/Arrows] ([1] browsable assets)...
+[2020.11.18-12.12.00:327][516]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Images/UIImages/PNG/Arrows.Arrows]
+[2020.11.18-12.12.00:327][516]OBJ SavePackage: Finished generating thumbnails for package [/Game/Images/UIImages/PNG/Arrows]
+[2020.11.18-12.12.00:337][516]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Arrows_Auto1EE702DAD4708363193DB1D9A7395A721.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Autosaves/Game/Images/UIImages/PNG/Arrows_Auto1.uasset'
+[2020.11.18-12.12.00:338][516]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Images/UIImages/PNG/Arrows02] ([1] browsable assets)...
+[2020.11.18-12.12.00:342][516]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Images/UIImages/PNG/Arrows02.Arrows02]
+[2020.11.18-12.12.00:342][516]OBJ SavePackage: Finished generating thumbnails for package [/Game/Images/UIImages/PNG/Arrows02]
+[2020.11.18-12.12.00:350][516]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Arrows02_Auto1ABD5CE4C48ABD4EB0048A4859EFEE6AC.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Autosaves/Game/Images/UIImages/PNG/Arrows02_Auto1.uasset'
+[2020.11.18-12.12.00:352][516]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Images/UIImages/PNG/Arrows03] ([1] browsable assets)...
+[2020.11.18-12.12.00:354][516]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Images/UIImages/PNG/Arrows03.Arrows03]
+[2020.11.18-12.12.00:354][516]OBJ SavePackage: Finished generating thumbnails for package [/Game/Images/UIImages/PNG/Arrows03]
+[2020.11.18-12.12.00:364][516]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Arrows03_Auto1BD6DE1FC465D21E80B39BDBA188AE74F.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Autosaves/Game/Images/UIImages/PNG/Arrows03_Auto1.uasset'
+[2020.11.18-12.12.00:365][516]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Images/UIImages/PNG/ArrowsLeft] ([1] browsable assets)...
+[2020.11.18-12.12.00:367][516]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Images/UIImages/PNG/ArrowsLeft.ArrowsLeft]
+[2020.11.18-12.12.00:367][516]OBJ SavePackage: Finished generating thumbnails for package [/Game/Images/UIImages/PNG/ArrowsLeft]
+[2020.11.18-12.12.00:376][516]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/ArrowsLeft_Auto13C5A70F741703FDB78CE838BE29D7AA5.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Autosaves/Game/Images/UIImages/PNG/ArrowsLeft_Auto1.uasset'
+[2020.11.18-12.12.00:377][516]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Images/UIImages/PNG/ArrowsLeft2] ([1] browsable assets)...
+[2020.11.18-12.12.00:379][516]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Images/UIImages/PNG/ArrowsLeft2.ArrowsLeft2]
+[2020.11.18-12.12.00:379][516]OBJ SavePackage: Finished generating thumbnails for package [/Game/Images/UIImages/PNG/ArrowsLeft2]
+[2020.11.18-12.12.00:386][516]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/ArrowsLeft2_Auto16977D3AC4DB845F851D98F94C99316CD.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Autosaves/Game/Images/UIImages/PNG/ArrowsLeft2_Auto1.uasset'
+[2020.11.18-12.12.00:387][516]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Images/UIImages/PNG/ArrowsLeft3] ([1] browsable assets)...
+[2020.11.18-12.12.00:389][516]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Images/UIImages/PNG/ArrowsLeft3.ArrowsLeft3]
+[2020.11.18-12.12.00:390][516]OBJ SavePackage: Finished generating thumbnails for package [/Game/Images/UIImages/PNG/ArrowsLeft3]
+[2020.11.18-12.12.00:398][516]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/ArrowsLeft3_Auto18D8DED774A3BC4E6DBFC3EBF6549C822.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Autosaves/Game/Images/UIImages/PNG/ArrowsLeft3_Auto1.uasset'
+[2020.11.18-12.12.00:399][516]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Images/UIImages/PNG/ArrowsRight] ([1] browsable assets)...
+[2020.11.18-12.12.00:401][516]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Images/UIImages/PNG/ArrowsRight.ArrowsRight]
+[2020.11.18-12.12.00:401][516]OBJ SavePackage: Finished generating thumbnails for package [/Game/Images/UIImages/PNG/ArrowsRight]
+[2020.11.18-12.12.00:409][516]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/ArrowsRight_Auto181C9FF2B4877156EBC91D7A5BC36BFD0.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Autosaves/Game/Images/UIImages/PNG/ArrowsRight_Auto1.uasset'
+[2020.11.18-12.12.00:410][516]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Images/UIImages/PNG/ArrowsRight2] ([1] browsable assets)...
+[2020.11.18-12.12.00:411][516]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Images/UIImages/PNG/ArrowsRight2.ArrowsRight2]
+[2020.11.18-12.12.00:411][516]OBJ SavePackage: Finished generating thumbnails for package [/Game/Images/UIImages/PNG/ArrowsRight2]
+[2020.11.18-12.12.00:420][516]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/ArrowsRight2_Auto14ACE0ED9459D3575C69A76908B26C59A.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Autosaves/Game/Images/UIImages/PNG/ArrowsRight2_Auto1.uasset'
+[2020.11.18-12.12.00:421][516]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Images/UIImages/PNG/ArrowsRight3] ([1] browsable assets)...
+[2020.11.18-12.12.00:422][516]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Images/UIImages/PNG/ArrowsRight3.ArrowsRight3]
+[2020.11.18-12.12.00:423][516]OBJ SavePackage: Finished generating thumbnails for package [/Game/Images/UIImages/PNG/ArrowsRight3]
+[2020.11.18-12.12.00:431][516]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/ArrowsRight3_Auto1AF15456742606F5630D6C0804E41DC41.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Autosaves/Game/Images/UIImages/PNG/ArrowsRight3_Auto1.uasset'
+[2020.11.18-12.12.00:432][516]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Images/UIImages/PNG/Btn01] ([1] browsable assets)...
+[2020.11.18-12.12.00:434][516]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Images/UIImages/PNG/Btn01.Btn01]
+[2020.11.18-12.12.00:434][516]OBJ SavePackage: Finished generating thumbnails for package [/Game/Images/UIImages/PNG/Btn01]
+[2020.11.18-12.12.00:442][516]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Btn01_Auto18ACDC47142678524EA523C8B0659C9A4.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Autosaves/Game/Images/UIImages/PNG/Btn01_Auto1.uasset'
+[2020.11.18-12.12.00:443][516]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Images/UIImages/PNG/Circle01] ([1] browsable assets)...
+[2020.11.18-12.12.00:446][516]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Images/UIImages/PNG/Circle01.Circle01]
+[2020.11.18-12.12.00:446][516]OBJ SavePackage: Finished generating thumbnails for package [/Game/Images/UIImages/PNG/Circle01]
+[2020.11.18-12.12.00:456][516]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Circle01_Auto11337DE764B68DDA706179B95C4E3147A.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Autosaves/Game/Images/UIImages/PNG/Circle01_Auto1.uasset'
+[2020.11.18-12.12.00:457][516]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Images/UIImages/PNG/Circle02] ([1] browsable assets)...
+[2020.11.18-12.12.00:459][516]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Images/UIImages/PNG/Circle02.Circle02]
+[2020.11.18-12.12.00:460][516]OBJ SavePackage: Finished generating thumbnails for package [/Game/Images/UIImages/PNG/Circle02]
+[2020.11.18-12.12.00:468][516]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Circle02_Auto17062441C44484E869A645EABBE2C0BD2.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Autosaves/Game/Images/UIImages/PNG/Circle02_Auto1.uasset'
+[2020.11.18-12.12.00:469][516]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Images/UIImages/PNG/Circle03] ([1] browsable assets)...
+[2020.11.18-12.12.00:472][516]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Images/UIImages/PNG/Circle03.Circle03]
+[2020.11.18-12.12.00:472][516]OBJ SavePackage: Finished generating thumbnails for package [/Game/Images/UIImages/PNG/Circle03]
+[2020.11.18-12.12.00:482][516]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Circle03_Auto1860621ED40E52FADFA379B8E9251E2A6.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Autosaves/Game/Images/UIImages/PNG/Circle03_Auto1.uasset'
+[2020.11.18-12.12.00:483][516]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Images/UIImages/PNG/Close] ([1] browsable assets)...
+[2020.11.18-12.12.00:485][516]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Images/UIImages/PNG/Close.Close]
+[2020.11.18-12.12.00:485][516]OBJ SavePackage: Finished generating thumbnails for package [/Game/Images/UIImages/PNG/Close]
+[2020.11.18-12.12.00:492][516]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Close_Auto1BC3FC71C49DC53AEDA83CD882B09A9C7.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Autosaves/Game/Images/UIImages/PNG/Close_Auto1.uasset'
+[2020.11.18-12.12.00:494][516]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Images/UIImages/PNG/Icon01] ([1] browsable assets)...
+[2020.11.18-12.12.00:495][516]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Images/UIImages/PNG/Icon01.Icon01]
+[2020.11.18-12.12.00:495][516]OBJ SavePackage: Finished generating thumbnails for package [/Game/Images/UIImages/PNG/Icon01]
+[2020.11.18-12.12.00:504][516]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Icon01_Auto1D20413A946C18F354A6612B0E2C5CE3B.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Autosaves/Game/Images/UIImages/PNG/Icon01_Auto1.uasset'
+[2020.11.18-12.12.00:505][516]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Images/UIImages/PNG/Icon02] ([1] browsable assets)...
+[2020.11.18-12.12.00:507][516]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Images/UIImages/PNG/Icon02.Icon02]
+[2020.11.18-12.12.00:507][516]OBJ SavePackage: Finished generating thumbnails for package [/Game/Images/UIImages/PNG/Icon02]
+[2020.11.18-12.12.00:516][516]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Icon02_Auto145E38D1949D210F8659FE4B2DD52DED3.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Autosaves/Game/Images/UIImages/PNG/Icon02_Auto1.uasset'
+[2020.11.18-12.12.00:517][516]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Images/UIImages/PNG/Icon03] ([1] browsable assets)...
+[2020.11.18-12.12.00:519][516]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Images/UIImages/PNG/Icon03.Icon03]
+[2020.11.18-12.12.00:519][516]OBJ SavePackage: Finished generating thumbnails for package [/Game/Images/UIImages/PNG/Icon03]
+[2020.11.18-12.12.00:527][516]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Icon03_Auto12E49488E42A707C9A6817CAB6D873618.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Autosaves/Game/Images/UIImages/PNG/Icon03_Auto1.uasset'
+[2020.11.18-12.12.00:528][516]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Images/UIImages/PNG/Icon04] ([1] browsable assets)...
+[2020.11.18-12.12.00:530][516]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Images/UIImages/PNG/Icon04.Icon04]
+[2020.11.18-12.12.00:530][516]OBJ SavePackage: Finished generating thumbnails for package [/Game/Images/UIImages/PNG/Icon04]
+[2020.11.18-12.12.00:538][516]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Icon04_Auto19A751C454D389D59601F18BAF3C072E0.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Autosaves/Game/Images/UIImages/PNG/Icon04_Auto1.uasset'
+[2020.11.18-12.12.00:540][516]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Images/UIImages/PNG/Icon05] ([1] browsable assets)...
+[2020.11.18-12.12.00:542][516]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Images/UIImages/PNG/Icon05.Icon05]
+[2020.11.18-12.12.00:542][516]OBJ SavePackage: Finished generating thumbnails for package [/Game/Images/UIImages/PNG/Icon05]
+[2020.11.18-12.12.00:551][516]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Icon05_Auto1643664CF4F0C6E0F8FE765A3E5B32EFF.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Autosaves/Game/Images/UIImages/PNG/Icon05_Auto1.uasset'
+[2020.11.18-12.12.00:552][516]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Images/UIImages/PNG/Icon06] ([1] browsable assets)...
+[2020.11.18-12.12.00:554][516]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Images/UIImages/PNG/Icon06.Icon06]
+[2020.11.18-12.12.00:554][516]OBJ SavePackage: Finished generating thumbnails for package [/Game/Images/UIImages/PNG/Icon06]
+[2020.11.18-12.12.00:563][516]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Icon06_Auto14FAC9027494F4E24E5E7128B0BE65331.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Autosaves/Game/Images/UIImages/PNG/Icon06_Auto1.uasset'
+[2020.11.18-12.12.00:564][516]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Images/UIImages/PNG/Icon07] ([1] browsable assets)...
+[2020.11.18-12.12.00:565][516]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Images/UIImages/PNG/Icon07.Icon07]
+[2020.11.18-12.12.00:565][516]OBJ SavePackage: Finished generating thumbnails for package [/Game/Images/UIImages/PNG/Icon07]
+[2020.11.18-12.12.00:577][516]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Icon07_Auto1A39DD5BA404D178A04B27BA0DE4B534D.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Autosaves/Game/Images/UIImages/PNG/Icon07_Auto1.uasset'
+[2020.11.18-12.12.00:578][516]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Images/UIImages/PNG/Icon08] ([1] browsable assets)...
+[2020.11.18-12.12.00:580][516]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Images/UIImages/PNG/Icon08.Icon08]
+[2020.11.18-12.12.00:580][516]OBJ SavePackage: Finished generating thumbnails for package [/Game/Images/UIImages/PNG/Icon08]
+[2020.11.18-12.12.00:591][516]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Icon08_Auto1B492D2CB4BCE5739E9C651A02360FF7F.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Autosaves/Game/Images/UIImages/PNG/Icon08_Auto1.uasset'
+[2020.11.18-12.12.00:592][516]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Images/UIImages/PNG/Icon09] ([1] browsable assets)...
+[2020.11.18-12.12.00:594][516]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Images/UIImages/PNG/Icon09.Icon09]
+[2020.11.18-12.12.00:594][516]OBJ SavePackage: Finished generating thumbnails for package [/Game/Images/UIImages/PNG/Icon09]
+[2020.11.18-12.12.00:604][516]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Icon09_Auto12B407E894A66EB56F9C429B29BF2F979.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Autosaves/Game/Images/UIImages/PNG/Icon09_Auto1.uasset'
+[2020.11.18-12.12.00:606][516]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Images/UIImages/PNG/Icon10] ([1] browsable assets)...
+[2020.11.18-12.12.00:608][516]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Images/UIImages/PNG/Icon10.Icon10]
+[2020.11.18-12.12.00:608][516]OBJ SavePackage: Finished generating thumbnails for package [/Game/Images/UIImages/PNG/Icon10]
+[2020.11.18-12.12.00:617][516]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Icon10_Auto186021ADC4B46528A61FEA1A5C035C05C.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Autosaves/Game/Images/UIImages/PNG/Icon10_Auto1.uasset'
+[2020.11.18-12.12.00:619][516]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Images/UIImages/PNG/Icon11] ([1] browsable assets)...
+[2020.11.18-12.12.00:620][516]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Images/UIImages/PNG/Icon11.Icon11]
+[2020.11.18-12.12.00:620][516]OBJ SavePackage: Finished generating thumbnails for package [/Game/Images/UIImages/PNG/Icon11]
+[2020.11.18-12.12.00:629][516]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Icon11_Auto1A4A49A5E47AA8018674B7BB1257BAC57.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Autosaves/Game/Images/UIImages/PNG/Icon11_Auto1.uasset'
+[2020.11.18-12.12.00:631][516]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Images/UIImages/PNG/Icon12] ([1] browsable assets)...
+[2020.11.18-12.12.00:632][516]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Images/UIImages/PNG/Icon12.Icon12]
+[2020.11.18-12.12.00:632][516]OBJ SavePackage: Finished generating thumbnails for package [/Game/Images/UIImages/PNG/Icon12]
+[2020.11.18-12.12.00:642][516]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Icon12_Auto1A6807093470481E71F04688A8EFA1822.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Autosaves/Game/Images/UIImages/PNG/Icon12_Auto1.uasset'
+[2020.11.18-12.12.00:643][516]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Images/UIImages/PNG/Icon13] ([1] browsable assets)...
+[2020.11.18-12.12.00:644][516]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Images/UIImages/PNG/Icon13.Icon13]
+[2020.11.18-12.12.00:644][516]OBJ SavePackage: Finished generating thumbnails for package [/Game/Images/UIImages/PNG/Icon13]
+[2020.11.18-12.12.00:654][516]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Icon13_Auto1FB3DCB1542EA18D9712686BA5DAC51B8.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Autosaves/Game/Images/UIImages/PNG/Icon13_Auto1.uasset'
+[2020.11.18-12.12.00:656][516]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Images/UIImages/PNG/Icon14] ([1] browsable assets)...
+[2020.11.18-12.12.00:657][516]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Images/UIImages/PNG/Icon14.Icon14]
+[2020.11.18-12.12.00:657][516]OBJ SavePackage: Finished generating thumbnails for package [/Game/Images/UIImages/PNG/Icon14]
+[2020.11.18-12.12.00:668][516]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Icon14_Auto1F928CADD4F160CB55EA6ACB8CAA9F39A.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Autosaves/Game/Images/UIImages/PNG/Icon14_Auto1.uasset'
+[2020.11.18-12.12.00:670][516]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Images/UIImages/PNG/Icon15] ([1] browsable assets)...
+[2020.11.18-12.12.00:671][516]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Images/UIImages/PNG/Icon15.Icon15]
+[2020.11.18-12.12.00:671][516]OBJ SavePackage: Finished generating thumbnails for package [/Game/Images/UIImages/PNG/Icon15]
+[2020.11.18-12.12.00:681][516]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Icon15_Auto19FA2ED254E8883CE72D2D9A939BC17D8.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Autosaves/Game/Images/UIImages/PNG/Icon15_Auto1.uasset'
+[2020.11.18-12.12.00:682][516]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Images/UIImages/PNG/Icon16] ([1] browsable assets)...
+[2020.11.18-12.12.00:684][516]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Images/UIImages/PNG/Icon16.Icon16]
+[2020.11.18-12.12.00:685][516]OBJ SavePackage: Finished generating thumbnails for package [/Game/Images/UIImages/PNG/Icon16]
+[2020.11.18-12.12.00:693][516]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Icon16_Auto186C236F74A157CF0293908BE57A70502.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Autosaves/Game/Images/UIImages/PNG/Icon16_Auto1.uasset'
+[2020.11.18-12.12.00:694][516]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Images/UIImages/PNG/Icon17] ([1] browsable assets)...
+[2020.11.18-12.12.00:696][516]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Images/UIImages/PNG/Icon17.Icon17]
+[2020.11.18-12.12.00:696][516]OBJ SavePackage: Finished generating thumbnails for package [/Game/Images/UIImages/PNG/Icon17]
+[2020.11.18-12.12.00:705][516]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Icon17_Auto116E8EC2B4C9ED6863A7C7AA3EA9A0C5F.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Autosaves/Game/Images/UIImages/PNG/Icon17_Auto1.uasset'
+[2020.11.18-12.12.00:706][516]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Images/UIImages/PNG/Icon18] ([1] browsable assets)...
+[2020.11.18-12.12.00:707][516]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Images/UIImages/PNG/Icon18.Icon18]
+[2020.11.18-12.12.00:707][516]OBJ SavePackage: Finished generating thumbnails for package [/Game/Images/UIImages/PNG/Icon18]
+[2020.11.18-12.12.00:717][516]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Icon18_Auto1B481D89641D56971892C2DB0E809E2AB.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Autosaves/Game/Images/UIImages/PNG/Icon18_Auto1.uasset'
+[2020.11.18-12.12.00:719][516]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Images/UIImages/PNG/Icon19] ([1] browsable assets)...
+[2020.11.18-12.12.00:720][516]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Images/UIImages/PNG/Icon19.Icon19]
+[2020.11.18-12.12.00:720][516]OBJ SavePackage: Finished generating thumbnails for package [/Game/Images/UIImages/PNG/Icon19]
+[2020.11.18-12.12.00:728][516]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Icon19_Auto111FE915C404B1627C1A108AFB55A92FA.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Autosaves/Game/Images/UIImages/PNG/Icon19_Auto1.uasset'
+[2020.11.18-12.12.00:729][516]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Images/UIImages/PNG/Icon20] ([1] browsable assets)...
+[2020.11.18-12.12.00:730][516]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Images/UIImages/PNG/Icon20.Icon20]
+[2020.11.18-12.12.00:730][516]OBJ SavePackage: Finished generating thumbnails for package [/Game/Images/UIImages/PNG/Icon20]
+[2020.11.18-12.12.00:738][516]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Icon20_Auto162E094DF4F8DA379698E88BD37F56352.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Autosaves/Game/Images/UIImages/PNG/Icon20_Auto1.uasset'
+[2020.11.18-12.12.00:739][516]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Images/UIImages/PNG/Icon21] ([1] browsable assets)...
+[2020.11.18-12.12.00:741][516]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Images/UIImages/PNG/Icon21.Icon21]
+[2020.11.18-12.12.00:741][516]OBJ SavePackage: Finished generating thumbnails for package [/Game/Images/UIImages/PNG/Icon21]
+[2020.11.18-12.12.00:747][516]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Icon21_Auto14D97B6474287580A346911B02AED00DB.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Autosaves/Game/Images/UIImages/PNG/Icon21_Auto1.uasset'
+[2020.11.18-12.12.00:748][516]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Images/UIImages/PNG/Icon22] ([1] browsable assets)...
+[2020.11.18-12.12.00:750][516]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Images/UIImages/PNG/Icon22.Icon22]
+[2020.11.18-12.12.00:750][516]OBJ SavePackage: Finished generating thumbnails for package [/Game/Images/UIImages/PNG/Icon22]
+[2020.11.18-12.12.00:757][516]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Icon22_Auto19C37607B434BAECBF40B1DB3987107AA.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Autosaves/Game/Images/UIImages/PNG/Icon22_Auto1.uasset'
+[2020.11.18-12.12.00:758][516]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Images/UIImages/PNG/Icon23] ([1] browsable assets)...
+[2020.11.18-12.12.00:760][516]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Images/UIImages/PNG/Icon23.Icon23]
+[2020.11.18-12.12.00:760][516]OBJ SavePackage: Finished generating thumbnails for package [/Game/Images/UIImages/PNG/Icon23]
+[2020.11.18-12.12.00:768][516]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Icon23_Auto1F13E7CAB41B28DA1BF320BA4EBC6BCE6.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Autosaves/Game/Images/UIImages/PNG/Icon23_Auto1.uasset'
+[2020.11.18-12.12.00:768][516]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Images/UIImages/PNG/Icon24] ([1] browsable assets)...
+[2020.11.18-12.12.00:770][516]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Images/UIImages/PNG/Icon24.Icon24]
+[2020.11.18-12.12.00:770][516]OBJ SavePackage: Finished generating thumbnails for package [/Game/Images/UIImages/PNG/Icon24]
+[2020.11.18-12.12.00:778][516]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Icon24_Auto165858F274C1E2296DDBBBE9CBE39A594.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Autosaves/Game/Images/UIImages/PNG/Icon24_Auto1.uasset'
+[2020.11.18-12.12.00:779][516]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Images/UIImages/PNG/Icon25] ([1] browsable assets)...
+[2020.11.18-12.12.00:781][516]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Images/UIImages/PNG/Icon25.Icon25]
+[2020.11.18-12.12.00:781][516]OBJ SavePackage: Finished generating thumbnails for package [/Game/Images/UIImages/PNG/Icon25]
+[2020.11.18-12.12.00:789][516]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Icon25_Auto184762F7740D66ADA242D66BA8B3691C3.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Autosaves/Game/Images/UIImages/PNG/Icon25_Auto1.uasset'
+[2020.11.18-12.12.00:791][516]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Images/UIImages/PNG/Icon26] ([1] browsable assets)...
+[2020.11.18-12.12.00:793][516]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Images/UIImages/PNG/Icon26.Icon26]
+[2020.11.18-12.12.00:793][516]OBJ SavePackage: Finished generating thumbnails for package [/Game/Images/UIImages/PNG/Icon26]
+[2020.11.18-12.12.00:804][516]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Icon26_Auto124C49EED4305B85BE64516A66DB8E73E.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Autosaves/Game/Images/UIImages/PNG/Icon26_Auto1.uasset'
+[2020.11.18-12.12.00:805][516]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Images/UIImages/PNG/Icon27] ([1] browsable assets)...
+[2020.11.18-12.12.00:807][516]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Images/UIImages/PNG/Icon27.Icon27]
+[2020.11.18-12.12.00:807][516]OBJ SavePackage: Finished generating thumbnails for package [/Game/Images/UIImages/PNG/Icon27]
+[2020.11.18-12.12.00:816][516]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Icon27_Auto14469A5F44744A508ED86749253293682.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Autosaves/Game/Images/UIImages/PNG/Icon27_Auto1.uasset'
+[2020.11.18-12.12.00:817][516]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Images/UIImages/PNG/Icon28] ([1] browsable assets)...
+[2020.11.18-12.12.00:819][516]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Images/UIImages/PNG/Icon28.Icon28]
+[2020.11.18-12.12.00:819][516]OBJ SavePackage: Finished generating thumbnails for package [/Game/Images/UIImages/PNG/Icon28]
+[2020.11.18-12.12.00:828][516]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Icon28_Auto1F67E2D604AF2B7B35A5F28B3D8CD854E.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Autosaves/Game/Images/UIImages/PNG/Icon28_Auto1.uasset'
+[2020.11.18-12.12.00:830][516]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Images/UIImages/PNG/Icon29] ([1] browsable assets)...
+[2020.11.18-12.12.00:832][516]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Images/UIImages/PNG/Icon29.Icon29]
+[2020.11.18-12.12.00:832][516]OBJ SavePackage: Finished generating thumbnails for package [/Game/Images/UIImages/PNG/Icon29]
+[2020.11.18-12.12.00:840][516]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Icon29_Auto1F002DCE64B25A6F2DCDA99966F61CB01.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Autosaves/Game/Images/UIImages/PNG/Icon29_Auto1.uasset'
+[2020.11.18-12.12.00:841][516]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Images/UIImages/PNG/Icon30] ([1] browsable assets)...
+[2020.11.18-12.12.00:843][516]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Images/UIImages/PNG/Icon30.Icon30]
+[2020.11.18-12.12.00:843][516]OBJ SavePackage: Finished generating thumbnails for package [/Game/Images/UIImages/PNG/Icon30]
+[2020.11.18-12.12.00:850][516]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Icon30_Auto1DB0F6BA44E2C68B5C52CDB93B05E1047.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Autosaves/Game/Images/UIImages/PNG/Icon30_Auto1.uasset'
+[2020.11.18-12.12.00:852][516]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Images/UIImages/PNG/Icon31] ([1] browsable assets)...
+[2020.11.18-12.12.00:853][516]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Images/UIImages/PNG/Icon31.Icon31]
+[2020.11.18-12.12.00:854][516]OBJ SavePackage: Finished generating thumbnails for package [/Game/Images/UIImages/PNG/Icon31]
+[2020.11.18-12.12.00:862][516]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Icon31_Auto13402DF9843BFC1ECB019E3AE99758AC7.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Autosaves/Game/Images/UIImages/PNG/Icon31_Auto1.uasset'
+[2020.11.18-12.12.00:864][516]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Images/UIImages/PNG/Icon32] ([1] browsable assets)...
+[2020.11.18-12.12.00:865][516]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Images/UIImages/PNG/Icon32.Icon32]
+[2020.11.18-12.12.00:866][516]OBJ SavePackage: Finished generating thumbnails for package [/Game/Images/UIImages/PNG/Icon32]
+[2020.11.18-12.12.00:874][516]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Icon32_Auto1812BB4124F18A1FCF168E3AE92BB7A62.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Autosaves/Game/Images/UIImages/PNG/Icon32_Auto1.uasset'
+[2020.11.18-12.12.00:874][516]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Images/UIImages/PNG/Icon33] ([1] browsable assets)...
+[2020.11.18-12.12.00:876][516]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Images/UIImages/PNG/Icon33.Icon33]
+[2020.11.18-12.12.00:876][516]OBJ SavePackage: Finished generating thumbnails for package [/Game/Images/UIImages/PNG/Icon33]
+[2020.11.18-12.12.00:885][516]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Icon33_Auto1C3ACBF054AC4627BF6EE4BB7019146BB.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Autosaves/Game/Images/UIImages/PNG/Icon33_Auto1.uasset'
+[2020.11.18-12.12.00:886][516]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Images/UIImages/PNG/Icon34] ([1] browsable assets)...
+[2020.11.18-12.12.00:888][516]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Images/UIImages/PNG/Icon34.Icon34]
+[2020.11.18-12.12.00:888][516]OBJ SavePackage: Finished generating thumbnails for package [/Game/Images/UIImages/PNG/Icon34]
+[2020.11.18-12.12.00:896][516]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Icon34_Auto1705FC48C4113E9BC9B63A4973FF986A1.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Autosaves/Game/Images/UIImages/PNG/Icon34_Auto1.uasset'
+[2020.11.18-12.12.00:898][516]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Images/UIImages/PNG/Icon35] ([1] browsable assets)...
+[2020.11.18-12.12.00:899][516]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Images/UIImages/PNG/Icon35.Icon35]
+[2020.11.18-12.12.00:900][516]OBJ SavePackage: Finished generating thumbnails for package [/Game/Images/UIImages/PNG/Icon35]
+[2020.11.18-12.12.00:910][516]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Icon35_Auto1F2E79AD24130B586C8E331BFCB7B0169.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Autosaves/Game/Images/UIImages/PNG/Icon35_Auto1.uasset'
+[2020.11.18-12.12.00:912][516]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Images/UIImages/PNG/Icon36] ([1] browsable assets)...
+[2020.11.18-12.12.00:913][516]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Images/UIImages/PNG/Icon36.Icon36]
+[2020.11.18-12.12.00:914][516]OBJ SavePackage: Finished generating thumbnails for package [/Game/Images/UIImages/PNG/Icon36]
+[2020.11.18-12.12.00:922][516]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Icon36_Auto125B631034816F1D9A4A1188E1D994792.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Autosaves/Game/Images/UIImages/PNG/Icon36_Auto1.uasset'
+[2020.11.18-12.12.00:923][516]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Images/UIImages/PNG/Icon37] ([1] browsable assets)...
+[2020.11.18-12.12.00:925][516]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Images/UIImages/PNG/Icon37.Icon37]
+[2020.11.18-12.12.00:925][516]OBJ SavePackage: Finished generating thumbnails for package [/Game/Images/UIImages/PNG/Icon37]
+[2020.11.18-12.12.00:947][516]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Icon37_Auto112DB0A2B4F4B46B12F1DF9B9C39A6851.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Autosaves/Game/Images/UIImages/PNG/Icon37_Auto1.uasset'
+[2020.11.18-12.12.00:948][516]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Images/UIImages/PNG/Icon38] ([1] browsable assets)...
+[2020.11.18-12.12.00:950][516]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Images/UIImages/PNG/Icon38.Icon38]
+[2020.11.18-12.12.00:951][516]OBJ SavePackage: Finished generating thumbnails for package [/Game/Images/UIImages/PNG/Icon38]
+[2020.11.18-12.12.00:960][516]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Icon38_Auto1B7550D234ED8AFBDAD770A92A57688FE.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Autosaves/Game/Images/UIImages/PNG/Icon38_Auto1.uasset'
+[2020.11.18-12.12.00:962][516]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Images/UIImages/PNG/Panel01] ([1] browsable assets)...
+[2020.11.18-12.12.00:963][516]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Images/UIImages/PNG/Panel01.Panel01]
+[2020.11.18-12.12.00:963][516]OBJ SavePackage: Finished generating thumbnails for package [/Game/Images/UIImages/PNG/Panel01]
+[2020.11.18-12.12.00:971][516]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Panel01_Auto1F27421CA4DFE95335F3657A9EFDD0DA6.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Autosaves/Game/Images/UIImages/PNG/Panel01_Auto1.uasset'
+[2020.11.18-12.12.00:972][516]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Images/UIImages/PNG/Panel02] ([1] browsable assets)...
+[2020.11.18-12.12.00:974][516]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Images/UIImages/PNG/Panel02.Panel02]
+[2020.11.18-12.12.00:974][516]OBJ SavePackage: Finished generating thumbnails for package [/Game/Images/UIImages/PNG/Panel02]
+[2020.11.18-12.12.00:982][516]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Panel02_Auto1D6B30F5A4DA8EADF62526798162AAFBE.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Autosaves/Game/Images/UIImages/PNG/Panel02_Auto1.uasset'
+[2020.11.18-12.12.00:983][516]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Images/UIImages/PNG/Panel03] ([1] browsable assets)...
+[2020.11.18-12.12.00:985][516]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Images/UIImages/PNG/Panel03.Panel03]
+[2020.11.18-12.12.00:985][516]OBJ SavePackage: Finished generating thumbnails for package [/Game/Images/UIImages/PNG/Panel03]
+[2020.11.18-12.12.00:994][516]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Panel03_Auto1B2A92F95436E5B9FE033959853122479.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Autosaves/Game/Images/UIImages/PNG/Panel03_Auto1.uasset'
+[2020.11.18-12.12.00:995][516]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Images/UIImages/PNG/Panel04] ([1] browsable assets)...
+[2020.11.18-12.12.00:997][516]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Images/UIImages/PNG/Panel04.Panel04]
+[2020.11.18-12.12.00:997][516]OBJ SavePackage: Finished generating thumbnails for package [/Game/Images/UIImages/PNG/Panel04]
+[2020.11.18-12.12.01:006][516]LogSavePackage: Moving '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Panel04_Auto1C1C500754E4A9120C1E72F881336C53A.tmp' to '../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Autosaves/Game/Images/UIImages/PNG/Panel04_Auto1.uasset'
+[2020.11.18-12.12.01:007][516]LogFileHelpers: Auto-saving content packages took 0.787
+[2020.11.18-12.18.28:007][463]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2020.11.18-12.18.28:007][463]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.11.18-12.27.56:130][ 49]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.11.18-12.38.51:307][865]Running D:/Program Files (x86)/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="D:/Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/RaiseTheGameJame2020.uproject" -game -rocket -progress
+[2020.11.18-12.38.52:222][865]Discovering modules, targets and source code for project...
+[2020.11.18-12.38.57:935][865]Binding IntelliSense data...
+[2020.11.18-12.39.13:683][865]Binding IntelliSense data... 50%
+[2020.11.18-12.39.13:684][865]Binding IntelliSense data... 100%
+[2020.11.18-12.39.13:684][865]Writing project files...
+[2020.11.18-12.39.21:602][865]Writing project files... 100%
+[2020.11.18-12.39.21:846][865]Candidate modules for hot reload:
+[2020.11.18-12.39.21:846][865]  RaiseTheGameJame2020
+[2020.11.18-12.39.21:846][865]Launching UnrealBuildTool... [D:/Program Files (x86)/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=RaiseTheGameJame2020,1748 RaiseTheGameJame2020Editor Win64 Development -Project="D:/Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/RaiseTheGameJame2020.uproject" "D:/Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/RaiseTheGameJame2020.uproject"  -IgnoreJunk]
+[2020.11.18-12.43.27:879][865]CompilerResultsLog: New page: Compilation - 18 Nov 2020, 12:43:27
+[2020.11.18-12.43.27:884][865]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020).
+[2020.11.18-12.43.27:884][865]CompilerResultsLog: Creating makefile for RaiseTheGameJame2020Editor (no existing makefile)
+[2020.11.18-12.43.27:884][865]CompilerResultsLog: Parsing headers for RaiseTheGameJame2020Editor
+[2020.11.18-12.43.27:885][865]CompilerResultsLog:   Running UnrealHeaderTool "D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\RaiseTheGameJame2020.uproject" "D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\RaiseTheGameJame2020Editor\Development\RaiseTheGameJame2020Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\h017026h\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.11.18-12.43.27:885][865]CompilerResultsLog: Reflection code generated for RaiseTheGameJame2020Editor in 26.5804099 seconds
+[2020.11.18-12.43.27:885][865]CompilerResultsLog: Building RaiseTheGameJame2020Editor...
+[2020.11.18-12.43.27:885][865]CompilerResultsLog: Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.11.18-12.43.27:885][865]CompilerResultsLog: Building 11 actions with 12 processes...
+[2020.11.18-12.43.27:885][865]CompilerResultsLog:   [1/11] RaiseTheGameJame2020.cpp
+[2020.11.18-12.43.27:885][865]CompilerResultsLog:   [2/11] PlayerAttackComponent.cpp
+[2020.11.18-12.43.27:885][865]CompilerResultsLog:   [3/11] RaiseTheGameJame2020.init.gen.cpp
+[2020.11.18-12.43.27:885][865]CompilerResultsLog:   [4/11] PlayerAttackComponent.gen.cpp
+[2020.11.18-12.43.27:885][865]CompilerResultsLog:   [5/11] RaiseTheGameJame2020GameMode.cpp
+[2020.11.18-12.43.27:885][865]CompilerResultsLog:   [6/11] RaiseTheGameJame2020GameMode.gen.cpp
+[2020.11.18-12.43.27:885][865]CompilerResultsLog:   [7/11] RaiseTheGameJame2020Character.gen.cpp
+[2020.11.18-12.43.27:885][865]CompilerResultsLog:   [8/11] RaiseTheGameJame2020Character.cpp
+[2020.11.18-12.43.27:886][865]CompilerResultsLog:   [9/11] UE4Editor-RaiseTheGameJame2020-1748.lib
+[2020.11.18-12.43.27:886][865]CompilerResultsLog:      Creating library D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\UE4Editor-RaiseTheGameJame2020-1748.lib and object D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\UE4Editor-RaiseTheGameJame2020-1748.exp
+[2020.11.18-12.43.27:886][865]CompilerResultsLog:   [10/11] UE4Editor-RaiseTheGameJame2020-1748.dll
+[2020.11.18-12.43.27:886][865]CompilerResultsLog:      Creating library D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\UE4Editor-RaiseTheGameJame2020-1748.suppressed.lib and object D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\UE4Editor-RaiseTheGameJame2020-1748.suppressed.exp
+[2020.11.18-12.43.27:886][865]CompilerResultsLog:   [11/11] RaiseTheGameJame2020Editor.target
+[2020.11.18-12.43.27:886][865]CompilerResultsLog: Total time in Parallel executor: 216.32 seconds
+[2020.11.18-12.43.27:886][865]CompilerResultsLog: Total execution time: 245.83 seconds
+[2020.11.18-12.43.27:886][865]LogMainFrame: MainFrame: Module compiling took 246.120 seconds
+[2020.11.18-12.43.27:960][865]LogClass: Could not find existing class PlayerAttackComponent in package /Script/RaiseTheGameJame2020 for HotReload, assuming new class
+[2020.11.18-12.43.27:976][865]LogContentBrowser: Native class hierarchy updated for 'RaiseTheGameJame2020' in 0.0009 seconds. Added 3 classes and 3 folders.
+[2020.11.18-12.43.27:980][865]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.11.18-12.43.28:452][865]LogContentBrowser: Native class hierarchy populated in 0.0162 seconds. Added 3430 classes and 824 folders.
+[2020.11.18-12.43.28:471][865]Display: HotReload took 246.7s.
+[2020.11.18-12.43.28:484][865]Warning: HotReload operation took 246.7s.
+[2020.11.18-12.43.29:214][865]LogVSAccessor: Warning: Couldn't goto line number '1' in 'D:/Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Source/RaiseTheGameJame2020/Public/PlayerAttackComponent.h'
+[2020.11.18-12.43.29:402][865]LogSlate: Window 'Add C++ Class' being destroyed
+[2020.11.18-12.43.29:843][865]LogHotReload: New module detected: UE4Editor-RaiseTheGameJame2020-1748.dll
+[2020.11.18-12.43.30:282][866]LogHotReload: Starting Hot-Reload from IDE
+[2020.11.18-12.43.30:315][866]LogContentBrowser: Native class hierarchy updated for 'RaiseTheGameJame2020' in 0.0007 seconds. Added 3 classes and 3 folders.
+[2020.11.18-12.43.30:321][866]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.11.18-12.43.30:344][866]LogContentBrowser: Native class hierarchy populated in 0.0118 seconds. Added 3430 classes and 824 folders.
+[2020.11.18-12.43.30:348][866]Display: HotReload took  0.1s.
