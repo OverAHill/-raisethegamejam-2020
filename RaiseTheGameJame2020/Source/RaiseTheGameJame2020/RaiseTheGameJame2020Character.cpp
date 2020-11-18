@@ -43,8 +43,39 @@ ARaiseTheGameJame2020Character::ARaiseTheGameJame2020Character()
 	FollowCamera->SetupAttachment(CameraBoom, USpringArmComponent::SocketName); // Attach the camera to the end of the boom and let the boom adjust to match the controller orientation
 	FollowCamera->bUsePawnControlRotation = false; // Camera does not rotate relative to arm
 
+
+	PrimaryActorTick.bCanEverTick = true;
+	PrimaryActorTick.bStartWithTickEnabled = true;
+
 	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
 	// are set in the derived blueprint asset named MyCharacter (to avoid direct content references in C++)
+}
+
+void ARaiseTheGameJame2020Character::AUpdate(float deltaSeconds)
+{
+	DeltaTime = deltaSeconds;
+	//Super::Tick(DeltaTime);
+	
+	Bloodlust += DeltaTime; //increases bloodlust - subject to change :) 
+	float nearest = roundf(Bloodlust * 100) / 100;
+	FString bloodlustDebug = FString::SanitizeFloat(nearest);
+
+
+	GEngine->AddOnScreenDebugMessage(-1, DeltaTime, FColor::Red, TEXT(" Bloodlust: " + bloodlustDebug));
+	GEngine->AddOnScreenDebugMessage(-1, DeltaTime, FColor::Red, TEXT(" Bool: " + bPlayerKilled ? TEXT("true") : TEXT("false")));
+
+	//If the player hasn't killed and their bloodlust has reached max then they DIE
+	if (Bloodlust >= 10)
+	{
+		//die
+		Destroy();
+	}
+
+	if (bPlayerKilled == true)
+	{
+		Bloodlust = Bloodlust / TestValue;
+		bPlayerKilled = false;
+	}
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -54,28 +85,35 @@ void ARaiseTheGameJame2020Character::SetupPlayerInputComponent(class UInputCompo
 {
 	// Set up gameplay key bindings
 	check(PlayerInputComponent);
-	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
+	PlayerInputComponent->BindAction("Jump", IE_Pressed,  this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
 
+	PlayerInputComponent->BindAction("Test", IE_Pressed,  this, &ARaiseTheGameJame2020Character::TestFunc);
+
 	PlayerInputComponent->BindAxis("MoveForward", this, &ARaiseTheGameJame2020Character::MoveForward);
-	PlayerInputComponent->BindAxis("MoveRight", this, &ARaiseTheGameJame2020Character::MoveRight);
+	PlayerInputComponent->BindAxis("MoveRight",   this, &ARaiseTheGameJame2020Character::MoveRight);
 
 	// We have 2 versions of the rotation bindings to handle different kinds of devices differently
 	// "turn" handles devices that provide an absolute delta, such as a mouse.
 	// "turnrate" is for devices that we choose to treat as a rate of change, such as an analog joystick
-	PlayerInputComponent->BindAxis("Turn", this, &APawn::AddControllerYawInput);
-	PlayerInputComponent->BindAxis("TurnRate", this, &ARaiseTheGameJame2020Character::TurnAtRate);
-	PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
+	PlayerInputComponent->BindAxis("Turn",       this, &APawn::AddControllerYawInput);
+	PlayerInputComponent->BindAxis("TurnRate",   this, &ARaiseTheGameJame2020Character::TurnAtRate);
+	PlayerInputComponent->BindAxis("LookUp",     this, &APawn::AddControllerPitchInput);
 	PlayerInputComponent->BindAxis("LookUpRate", this, &ARaiseTheGameJame2020Character::LookUpAtRate);
 
 	// handle touch devices
-	PlayerInputComponent->BindTouch(IE_Pressed, this, &ARaiseTheGameJame2020Character::TouchStarted);
+	PlayerInputComponent->BindTouch(IE_Pressed,  this, &ARaiseTheGameJame2020Character::TouchStarted);
 	PlayerInputComponent->BindTouch(IE_Released, this, &ARaiseTheGameJame2020Character::TouchStopped);
 
 	// VR headset functionality
 	PlayerInputComponent->BindAction("ResetVR", IE_Pressed, this, &ARaiseTheGameJame2020Character::OnResetVR);
 }
 
+//Just testing for when the player kills if it resets their bloodlust or not. 
+void ARaiseTheGameJame2020Character::TestFunc()
+{
+	bPlayerKilled = true;
+}
 
 void ARaiseTheGameJame2020Character::OnResetVR()
 {

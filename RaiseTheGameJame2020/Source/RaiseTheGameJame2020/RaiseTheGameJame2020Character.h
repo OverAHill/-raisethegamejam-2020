@@ -68,5 +68,22 @@ public:
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
 	/** Returns FollowCamera subobject **/
 	FORCEINLINE class UCameraComponent* GetFollowCamera() const { return FollowCamera; }
-};
 
+
+public:
+	// Update
+	UFUNCTION(BlueprintCallable)
+	void AUpdate(float deltaSeconds);
+
+	void TestFunc();
+	void TestAnotherFunc();
+
+	UPROPERTY(EditAnywhere, Category = "Player stats:");
+	float Bloodlust;
+	UPROPERTY(EditAnywhere, Category = "Player stats:");
+	float TestValue;
+
+	float DeltaTime;
+
+	bool bPlayerKilled;
+};

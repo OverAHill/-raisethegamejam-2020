@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\RaiseTheGameJame2020.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{FFD9049A-2821-47DB-A920-4F2F8912FAE4}</UniqueIdentifier>
+      <UniqueIdentifier>{1ECDF27B-213A-486A-8320-E8A03D436694}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\RaiseTheGameJame2020.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{64AE778C-3085-4948-8D3D-BF31521A62F7}</UniqueIdentifier>
+      <UniqueIdentifier>{4E93107B-DB5B-46C1-B6BB-8CBC5DC21126}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\RaiseTheGameJame2020">
-      <UniqueIdentifier>{47EEC1E1-4B9E-4D71-8A12-04865799AEAE}</UniqueIdentifier>
+      <UniqueIdentifier>{824E05BF-520E-482D-B96F-F6DEE1B4E855}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\RaiseTheGameJame2020\RaiseTheGameJame2020.Build.cs">
       <Filter>Source\RaiseTheGameJame2020</Filter>
