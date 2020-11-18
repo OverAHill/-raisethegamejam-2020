@@ -1,7 +1,6 @@
 // Fill out your copyright notice in the Description page of Project Settings.
-
-
 #include "AgentTaskManager.h"
+#include "GoToLocationAgentTask.h"
 
 // Sets default values for this component's properties
 UAgentTaskManager::UAgentTaskManager()
@@ -49,3 +48,22 @@ void UAgentTaskManager::RunCurrentTask(float DeltaTime)
 	}
 }
 
+bool UAgentTaskManager::IsRemainingTasksEmpty()
+{
+	return RemainingTasks.IsEmpty();
+}
+
+void UAgentTaskManager::SetupTaskManager(AActor* parent)
+{
+	RemainingTasks.Enqueue(new GoToLocationAgentTask(parent, FVector(0, 0, 130.277084)));
+	RemainingTasks.Enqueue(new GoToLocationAgentTask(parent, FVector(1000, 0, 130.277084)));
+	RemainingTasks.Enqueue(new GoToLocationAgentTask(parent, FVector(0, -1000, 130.277084)));
+	RemainingTasks.Enqueue(new GoToLocationAgentTask(parent, FVector(0, 0, 130.277084)));
+	RemainingTasks.Enqueue(new GoToLocationAgentTask(parent, FVector(1000, 0, 130.277084)));
+	RemainingTasks.Enqueue(new GoToLocationAgentTask(parent, FVector(0, -1000, 130.277084)));
+	RemainingTasks.Enqueue(new GoToLocationAgentTask(parent, FVector(0, 0, 130.277084)));
+	RemainingTasks.Enqueue(new GoToLocationAgentTask(parent, FVector(1000, 0, 130.277084)));
+	RemainingTasks.Enqueue(new GoToLocationAgentTask(parent, FVector(0, -1000, 130.277084)));
+
+	RemainingTasks.Dequeue(CurrentTask);
+}

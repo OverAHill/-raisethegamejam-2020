@@ -10,11 +10,11 @@
 class RAISETHEGAMEJAME2020_API IAgentTask
 {
 private:
-	bool completed;
-
 	int maxRetries;
 	int retryCount;
 
+protected:
+	bool completed;
 	void CheckForFailed();
 
 public:

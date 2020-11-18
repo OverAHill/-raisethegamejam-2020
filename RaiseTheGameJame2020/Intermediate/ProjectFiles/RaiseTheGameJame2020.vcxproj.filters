@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\RaiseTheGameJame2020.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{55EF30B4-CD6F-4319-8476-A0EB8F22C9C9}</UniqueIdentifier>
+      <UniqueIdentifier>{CAF72B73-C16E-478F-B5DA-0EFC7CA99981}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\RaiseTheGameJame2020.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{E6EBF5ED-FBA8-452D-BEED-0593FC14B429}</UniqueIdentifier>
+      <UniqueIdentifier>{2332BA3B-86C8-4731-8A79-87DAB9CBE657}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\RaiseTheGameJame2020">
-      <UniqueIdentifier>{27402C5C-5D08-4041-ABB2-5419BBFB2AF7}</UniqueIdentifier>
+      <UniqueIdentifier>{EA9ADD1B-C8B9-411E-81D6-E52BDAD7C9D0}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\RaiseTheGameJame2020\RaiseTheGameJame2020.Build.cs">
       <Filter>Source\RaiseTheGameJame2020</Filter>
@@ -54,7 +54,7 @@
       <Filter>Source\RaiseTheGameJame2020</Filter>
     </ClInclude>
     <Filter Include="Source\RaiseTheGameJame2020\Private">
-      <UniqueIdentifier>{3314C11A-6D08-414C-B70B-EA9FB70351A2}</UniqueIdentifier>
+      <UniqueIdentifier>{DCD0A508-35B3-4647-8BC6-A26CC0F5E488}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\RaiseTheGameJame2020\Private\AgentBody.cpp">
       <Filter>Source\RaiseTheGameJame2020\Private</Filter>
@@ -65,14 +65,20 @@
     <ClCompile Include="..\..\Source\RaiseTheGameJame2020\Private\AgentTaskManager.cpp">
       <Filter>Source\RaiseTheGameJame2020\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\RaiseTheGameJame2020\Private\GoToLocationAgentTask.cpp">
+      <Filter>Source\RaiseTheGameJame2020\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\RaiseTheGameJame2020\Private\IAgentTask.cpp">
       <Filter>Source\RaiseTheGameJame2020\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\RaiseTheGameJame2020\Private\PathfinderComponent.cpp">
       <Filter>Source\RaiseTheGameJame2020\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\RaiseTheGameJame2020\Private\RunThroughTasksAgentTask.cpp">
+      <Filter>Source\RaiseTheGameJame2020\Private</Filter>
+    </ClCompile>
     <Filter Include="Source\RaiseTheGameJame2020\Public">
-      <UniqueIdentifier>{2798C14C-F1A1-4DD7-9F22-A9AFD59DE863}</UniqueIdentifier>
+      <UniqueIdentifier>{F99BAC0C-A11E-4646-9647-526E9413C961}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\RaiseTheGameJame2020\Public\AgentBody.h">
       <Filter>Source\RaiseTheGameJame2020\Public</Filter>
@@ -83,10 +89,16 @@
     <ClInclude Include="..\..\Source\RaiseTheGameJame2020\Public\AgentTaskManager.h">
       <Filter>Source\RaiseTheGameJame2020\Public</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\RaiseTheGameJame2020\Public\GoToLocationAgentTask.h">
+      <Filter>Source\RaiseTheGameJame2020\Public</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\RaiseTheGameJame2020\Public\IAgentTask.h">
       <Filter>Source\RaiseTheGameJame2020\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\RaiseTheGameJame2020\Public\PathfinderComponent.h">
+      <Filter>Source\RaiseTheGameJame2020\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RaiseTheGameJame2020\Public\RunThroughTasksAgentTask.h">
       <Filter>Source\RaiseTheGameJame2020\Public</Filter>
     </ClInclude>
   </ItemGroup>

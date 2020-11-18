@@ -1,19 +1,4 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (E:\Projects\Personal Projects\-raisethegamejam-2020).
-  Failed to delete file 'E:\Projects\Personal Projects\-raisethegamejam-2020\RaiseTheGameJame2020\Binaries\Win64\UE4Editor-RaiseTheGameJame2020.pdb'
-      Exception: The process cannot access the file 'E:\Projects\Personal Projects\-raisethegamejam-2020\RaiseTheGameJame2020\Binaries\Win64\UE4Editor-RaiseTheGameJame2020.pdb' because it is being used by another process.
-  Attempting to retry...
-  Failed to delete file 'E:\Projects\Personal Projects\-raisethegamejam-2020\RaiseTheGameJame2020\Binaries\Win64\UE4Editor-RaiseTheGameJame2020.pdb'
-      Exception: The process cannot access the file 'E:\Projects\Personal Projects\-raisethegamejam-2020\RaiseTheGameJame2020\Binaries\Win64\UE4Editor-RaiseTheGameJame2020.pdb' because it is being used by another process.
-  Attempting to retry...
-  Building RaiseTheGameJame2020Editor...
-  Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 4 actions with 8 processes...
-    [1/4] IAgentTask.cpp
-E:\Projects\Personal Projects\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\IAgentTask.h(24): warning C4265: 'IAgentTask': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly
-    [2/4] UE4Editor-RaiseTheGameJame2020.lib
-       Creating library E:\Projects\Personal Projects\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\UE4Editor-RaiseTheGameJame2020.lib and object E:\Projects\Personal Projects\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\UE4Editor-RaiseTheGameJame2020.exp
-    [3/4] UE4Editor-RaiseTheGameJame2020.dll
-       Creating library E:\Projects\Personal Projects\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\UE4Editor-RaiseTheGameJame2020.suppressed.lib and object E:\Projects\Personal Projects\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\UE4Editor-RaiseTheGameJame2020.suppressed.exp
-    [4/4] RaiseTheGameJame2020Editor.target
-  Total time in Parallel executor: 1.54 seconds
-  Total execution time: 4.29 seconds
+  Creating makefile for RaiseTheGameJame2020Editor (no existing makefile)
+  Target is up to date
+  Total execution time: 7.49 seconds

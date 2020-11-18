@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "Containers/Queue.h"
+#include "AgentTaskManager.h"
 #include "AgentBody.generated.h"
 
 UCLASS()
@@ -17,7 +18,7 @@ public:
 	AAgentBody();
 
 protected:
-	//TQueue<AActor, EQueueMode::Spsc> TaskQueue;
+	UAgentTaskManager* TaskManager;
 
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
