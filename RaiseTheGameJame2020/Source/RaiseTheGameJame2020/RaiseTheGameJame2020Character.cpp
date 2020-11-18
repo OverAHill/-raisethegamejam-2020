@@ -84,6 +84,26 @@ void ARaiseTheGameJame2020Character::AUpdate(float deltaSeconds)
 		Bloodlust = Bloodlust / TestValue;
 		bPlayerKilled = false;
 	}
+
+
+	static float timer = 0;
+
+	if (Rewinding)
+	{
+		Rewinding = !mTimeRewind->Rewind(DeltaTime);
+	}
+	else
+	{
+		RewindParticleSystem->Deactivate();
+
+		timer += DeltaTime;
+
+		if (timer > mTimeRewind->GetSpacing())
+		{
+			mTimeRewind->AddTimeNode();
+			timer = 0;
+		}
+	}
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -178,31 +198,6 @@ void ARaiseTheGameJame2020Character::MoveRight(float Value)
 		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
 		// add movement in that direction
 		AddMovementInput(Direction, Value);
-	}
-}
-
-
-void ARaiseTheGameJame2020Character::Tick(float DeltaTime)
-{
-	Super::Tick(DeltaTime);
-
-	static float timer = 0;
-
-	if (Rewinding)
-	{
-		Rewinding = !mTimeRewind->Rewind(DeltaTime);
-	}
-	else
-	{
-		RewindParticleSystem->Deactivate();
-
-		timer += DeltaTime;
-
-		if (timer > mTimeRewind->GetSpacing())
-		{
-			mTimeRewind->AddTimeNode();
-			timer = 0;
-		}
 	}
 }
 
