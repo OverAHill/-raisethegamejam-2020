@@ -7,6 +7,7 @@
 #include "RaiseTheGameJame2020Character.generated.h"
 
 class TimeRewind;
+class UParticleSystemComponent;
 
 UCLASS(config=Game)
 class ARaiseTheGameJame2020Character : public ACharacter
@@ -80,6 +81,8 @@ public:
 // Variables
 //=================================================================================================
 public:
+	UPROPERTY(VisibleAnywhere, Category = "Time Rewind")
+	UParticleSystemComponent* RewindParticleSystem;
 
 protected:
 	TimeRewind* mTimeRewind;

@@ -5,7 +5,7 @@
 #include "CoreMinimal.h"
 
 class ARaiseTheGameJame2020Character;
-
+class UParticleSystemComponent;
 
 
 struct TimeNode
@@ -74,6 +74,7 @@ public:
 	float RewindDuration;
 	float RewindSpacing;
 	int MaxElements;
+	float RewindSpeed;
 
 	void AddTimeNode();
 	bool Rewind(float deltaTime);
@@ -83,8 +84,6 @@ public:
 private:
 	ARaiseTheGameJame2020Character* Character;
 	TArray<TimeNode> TimeNodes;
-	TimeNode CurrentTarget;
 
 	float RewindProgress;
-	float RewindSpeed;
 };

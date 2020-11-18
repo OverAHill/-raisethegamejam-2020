@@ -9,6 +9,7 @@
 #include "GameFramework/Controller.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "TimeRewind.h"
+#include "Particles/ParticleSystemComponent.h"
 
 //////////////////////////////////////////////////////////////////////////
 // ARaiseTheGameJame2020Character
@@ -51,6 +52,7 @@ ARaiseTheGameJame2020Character::ARaiseTheGameJame2020Character()
 
 	mTimeRewind = new TimeRewind(this);
 	Rewinding = false;
+	RewindParticleSystem = CreateDefaultSubobject<UParticleSystemComponent>(TEXT("MyRewindParticleSystem"));
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -146,7 +148,6 @@ void ARaiseTheGameJame2020Character::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-
 	static float timer = 0;
 
 	if (Rewinding)
@@ -155,6 +156,8 @@ void ARaiseTheGameJame2020Character::Tick(float DeltaTime)
 	}
 	else
 	{
+		RewindParticleSystem->Deactivate();
+
 		timer += DeltaTime;
 
 		if (timer > mTimeRewind->GetSpacing())
@@ -167,5 +170,6 @@ void ARaiseTheGameJame2020Character::Tick(float DeltaTime)
 
 void ARaiseTheGameJame2020Character::Rewind()
 {
+	RewindParticleSystem->Activate();
 	Rewinding = true;
 }

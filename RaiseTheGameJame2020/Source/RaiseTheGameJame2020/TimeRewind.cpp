@@ -5,7 +5,12 @@
 #include "RaiseTheGameJame2020Character.h"
 
 TimeRewind::TimeRewind(ARaiseTheGameJame2020Character* character) :
-	Character(character), RewindDuration(10.0f), RewindProgress(0.0f), RewindSpacing(0.2f), MaxElements(RewindDuration / RewindSpacing), RewindSpeed(5.0f)
+	RewindDuration(10.0f),
+	RewindSpacing(0.2f),
+	MaxElements(RewindDuration / RewindSpacing),
+	RewindSpeed(3.0f),
+	Character(character),
+	RewindProgress(0.0f)
 {
 	TimeNodes.Reserve(MaxElements);
 }
@@ -46,6 +51,7 @@ bool TimeRewind::Rewind(float deltaTime)
 
 
 	TimeNode currentElement;
+	TimeNode currentTarget;
 	if (targetElement == 0)
 	{
 		currentElement.position = Character->GetActorLocation();
@@ -57,9 +63,9 @@ bool TimeRewind::Rewind(float deltaTime)
 		currentElement = TimeNodes[targetElement - 1];
 	}
 
-	CurrentTarget = TimeNodes[targetElement];
+	currentTarget = TimeNodes[targetElement];
 
-	TimeNode finalValues = currentElement + ((CurrentTarget - currentElement) * percent);
+	TimeNode finalValues = currentElement + ((currentTarget - currentElement) * percent);
 
 	Character->SetActorLocation(finalValues.position);
 	Character->SetActorRotation(finalValues.rotation);
@@ -67,6 +73,7 @@ bool TimeRewind::Rewind(float deltaTime)
 
 	if (RewindProgress > RewindDuration)
 	{
+		TimeNodes.Reset();
 		RewindProgress = 0;
 		return true;
 	}
