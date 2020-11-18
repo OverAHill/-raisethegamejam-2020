@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\RaiseTheGameJame2020.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{FFD9049A-2821-47DB-A920-4F2F8912FAE4}</UniqueIdentifier>
+      <UniqueIdentifier>{A12ABF4D-1FCB-4B00-B96A-F7CE4AE5B663}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\RaiseTheGameJame2020.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{64AE778C-3085-4948-8D3D-BF31521A62F7}</UniqueIdentifier>
+      <UniqueIdentifier>{8C45E397-E4FF-4136-BE29-695E77A43916}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\RaiseTheGameJame2020">
-      <UniqueIdentifier>{47EEC1E1-4B9E-4D71-8A12-04865799AEAE}</UniqueIdentifier>
+      <UniqueIdentifier>{EB77B089-4E69-4CDF-9DD2-312390424BA3}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\RaiseTheGameJame2020\RaiseTheGameJame2020.Build.cs">
       <Filter>Source\RaiseTheGameJame2020</Filter>
@@ -52,6 +52,30 @@
     </ClCompile>
     <ClInclude Include="..\..\Source\RaiseTheGameJame2020\RaiseTheGameJame2020GameMode.h">
       <Filter>Source\RaiseTheGameJame2020</Filter>
+    </ClInclude>
+    <Filter Include="Source\RaiseTheGameJame2020\Private">
+      <UniqueIdentifier>{063E237C-9D3E-4D76-B15E-67012D142CB3}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\RaiseTheGameJame2020\Private\APlayerTask.cpp">
+      <Filter>Source\RaiseTheGameJame2020\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RaiseTheGameJame2020\Private\TargetActor.cpp">
+      <Filter>Source\RaiseTheGameJame2020\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RaiseTheGameJame2020\Private\TaskTarget.cpp">
+      <Filter>Source\RaiseTheGameJame2020\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\RaiseTheGameJame2020\Public">
+      <UniqueIdentifier>{0748C842-D131-4A0C-8FAF-8359AA0B61CC}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\RaiseTheGameJame2020\Public\APlayerTask.h">
+      <Filter>Source\RaiseTheGameJame2020\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RaiseTheGameJame2020\Public\TargetActor.h">
+      <Filter>Source\RaiseTheGameJame2020\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RaiseTheGameJame2020\Public\TaskTarget.h">
+      <Filter>Source\RaiseTheGameJame2020\Public</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
