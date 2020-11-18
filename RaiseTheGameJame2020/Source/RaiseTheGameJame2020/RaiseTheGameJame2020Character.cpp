@@ -8,12 +8,15 @@
 #include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/Controller.h"
 #include "GameFramework/SpringArmComponent.h"
+#include "TimeRewind.h"
 
 //////////////////////////////////////////////////////////////////////////
 // ARaiseTheGameJame2020Character
 
 ARaiseTheGameJame2020Character::ARaiseTheGameJame2020Character()
 {
+	PrimaryActorTick.bCanEverTick = true;
+
 	// Set size for collision capsule
 	GetCapsuleComponent()->InitCapsuleSize(42.f, 96.0f);
 
@@ -45,6 +48,9 @@ ARaiseTheGameJame2020Character::ARaiseTheGameJame2020Character()
 
 	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
 	// are set in the derived blueprint asset named MyCharacter (to avoid direct content references in C++)
+
+	mTimeRewind = new TimeRewind(this);
+	Rewinding = false;
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -74,6 +80,8 @@ void ARaiseTheGameJame2020Character::SetupPlayerInputComponent(class UInputCompo
 
 	// VR headset functionality
 	PlayerInputComponent->BindAction("ResetVR", IE_Pressed, this, &ARaiseTheGameJame2020Character::OnResetVR);
+
+	PlayerInputComponent->BindAction("Rewind", IE_Pressed, this, &ARaiseTheGameJame2020Character::Rewind);
 }
 
 
@@ -84,12 +92,12 @@ void ARaiseTheGameJame2020Character::OnResetVR()
 
 void ARaiseTheGameJame2020Character::TouchStarted(ETouchIndex::Type FingerIndex, FVector Location)
 {
-		Jump();
+	Jump();
 }
 
 void ARaiseTheGameJame2020Character::TouchStopped(ETouchIndex::Type FingerIndex, FVector Location)
 {
-		StopJumping();
+	StopJumping();
 }
 
 void ARaiseTheGameJame2020Character::TurnAtRate(float Rate)
@@ -131,4 +139,33 @@ void ARaiseTheGameJame2020Character::MoveRight(float Value)
 		// add movement in that direction
 		AddMovementInput(Direction, Value);
 	}
+}
+
+
+void ARaiseTheGameJame2020Character::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+
+
+	static float timer = 0;
+
+	if (Rewinding)
+	{
+		Rewinding = !mTimeRewind->Rewind(DeltaTime);
+	}
+	else
+	{
+		timer += DeltaTime;
+
+		if (timer > mTimeRewind->GetSpacing())
+		{
+			mTimeRewind->AddTimeNode();
+			timer = 0;
+		}
+	}
+}
+
+void ARaiseTheGameJame2020Character::Rewind()
+{
+	Rewinding = true;
 }
