@@ -1,7 +1,2 @@
-<<<<<<< HEAD
-C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\Definitions.RaiseTheGameJame2020.h
-C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\RaiseTheGameJame2020.h
-=======
-C:\Users\ryem_\Documents\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\Definitions.RaiseTheGameJame2020.h
-c:\users\ryem_\documents\-raisethegamejam-2020\raisethegamejame2020\source\raisethegamejame2020\RaiseTheGameJame2020.h
->>>>>>> Tasks
+E:\Documents\Uni Projects\Game Jam\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\Definitions.RaiseTheGameJame2020.h
+E:\Documents\Uni Projects\Game Jam\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\RaiseTheGameJame2020.h
