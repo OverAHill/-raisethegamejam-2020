@@ -76,9 +76,11 @@ public:
 	void AUpdate(float deltaSeconds);
 
 	void TestFunc();
-	void TestAnotherFunc();
 
-	UPROPERTY(EditAnywhere, Category = "Player stats:");
+	/* UFUNCTION(BlueprintCallable)
+	float AGetBloodlustVal(); */
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Player stats:");
 	float Bloodlust;
 	UPROPERTY(EditAnywhere, Category = "Player stats:");
 	float TestValue;

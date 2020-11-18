@@ -60,12 +60,11 @@ void ARaiseTheGameJame2020Character::AUpdate(float deltaSeconds)
 	float nearest = roundf(Bloodlust * 100) / 100;
 	FString bloodlustDebug = FString::SanitizeFloat(nearest);
 
-
-	GEngine->AddOnScreenDebugMessage(-1, DeltaTime, FColor::Red, TEXT(" Bloodlust: " + bloodlustDebug));
-	GEngine->AddOnScreenDebugMessage(-1, DeltaTime, FColor::Red, TEXT(" Bool: " + bPlayerKilled ? TEXT("true") : TEXT("false")));
+	//GEngine->AddOnScreenDebugMessage(-1, DeltaTime, FColor::Red, TEXT(" Bloodlust: " + bloodlustDebug));
+	//GEngine->AddOnScreenDebugMessage(-1, DeltaTime, FColor::Red, TEXT(" Bool: " + bPlayerKilled ? TEXT("true") : TEXT("false")));
 
 	//If the player hasn't killed and their bloodlust has reached max then they DIE
-	if (Bloodlust >= 10)
+	if (Bloodlust >= 50)
 	{
 		//die
 		Destroy();
@@ -78,6 +77,10 @@ void ARaiseTheGameJame2020Character::AUpdate(float deltaSeconds)
 	}
 }
 
+/* float ARaiseTheGameJame2020Character::AGetBloodlustVal()
+{
+	return Bloodlust;
+} */
 //////////////////////////////////////////////////////////////////////////
 // Input
 
@@ -113,7 +116,7 @@ void ARaiseTheGameJame2020Character::SetupPlayerInputComponent(class UInputCompo
 void ARaiseTheGameJame2020Character::TestFunc()
 {
 	bPlayerKilled = true;
-}
+} 
 
 void ARaiseTheGameJame2020Character::OnResetVR()
 {
