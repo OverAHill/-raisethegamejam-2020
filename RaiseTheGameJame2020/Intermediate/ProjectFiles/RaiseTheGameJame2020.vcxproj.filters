@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\RaiseTheGameJame2020.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{1ECDF27B-213A-486A-8320-E8A03D436694}</UniqueIdentifier>
+      <UniqueIdentifier>{5BCF9D45-9628-42B4-AFC5-308865979909}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\RaiseTheGameJame2020.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{4E93107B-DB5B-46C1-B6BB-8CBC5DC21126}</UniqueIdentifier>
+      <UniqueIdentifier>{5F7AA744-3FA1-4B7B-9673-5B6EF9A26459}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\RaiseTheGameJame2020">
-      <UniqueIdentifier>{824E05BF-520E-482D-B96F-F6DEE1B4E855}</UniqueIdentifier>
+      <UniqueIdentifier>{0A5E402B-CB0F-4CBB-8E5A-A6AC9B6B93C6}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\RaiseTheGameJame2020\RaiseTheGameJame2020.Build.cs">
       <Filter>Source\RaiseTheGameJame2020</Filter>
@@ -52,6 +52,24 @@
     </ClCompile>
     <ClInclude Include="..\..\Source\RaiseTheGameJame2020\RaiseTheGameJame2020GameMode.h">
       <Filter>Source\RaiseTheGameJame2020</Filter>
+    </ClInclude>
+    <Filter Include="Source\RaiseTheGameJame2020\Private">
+      <UniqueIdentifier>{32506601-3290-4415-A845-5E22EBB0BD0D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\RaiseTheGameJame2020\Private\HealthComponent.cpp">
+      <Filter>Source\RaiseTheGameJame2020\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RaiseTheGameJame2020\Private\PlayerAttackComponent.cpp">
+      <Filter>Source\RaiseTheGameJame2020\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\RaiseTheGameJame2020\Public">
+      <UniqueIdentifier>{66BFAE78-0A82-469A-8C5A-55BB808E98C9}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\RaiseTheGameJame2020\Public\HealthComponent.h">
+      <Filter>Source\RaiseTheGameJame2020\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RaiseTheGameJame2020\Public\PlayerAttackComponent.h">
+      <Filter>Source\RaiseTheGameJame2020\Public</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
