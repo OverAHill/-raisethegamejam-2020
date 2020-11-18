@@ -21,18 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeRaiseTheGameJame2020_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-<<<<<<< HEAD
-<<<<<<< HEAD
-				0xFA773344,
-				0x476D8F57,
-=======
-				0xE8903AF0,
-				0xC3257138,
->>>>>>> KillAbility
-=======
-				0x1EAB47F0,
-				0xD77EEC93,
->>>>>>> Tasks
+				0x69B18873,
+				0x572CAD2E,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);
