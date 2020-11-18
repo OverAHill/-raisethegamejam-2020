@@ -20,6 +20,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerAttackComponent() {}
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
 	ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	ENGINE_API UClass* Z_Construct_UClass_UBoxComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USphereComponent_NoRegister();
 // End Cross Module References
@@ -329,9 +330,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerAttackComponent() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UPlayerAttackComponent_OnSphereBeginOverlap_Statics::Function_MetaDataParams[] = {
-		{ "Comment", "// No cones\n" },
 		{ "ModuleRelativePath", "Public/PlayerAttackComponent.h" },
-		{ "ToolTip", "No cones" },
 	};
 #endif
 	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UPlayerAttackComponent_OnSphereBeginOverlap_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UPlayerAttackComponent, nullptr, "OnSphereBeginOverlap", nullptr, nullptr, sizeof(PlayerAttackComponent_eventOnSphereBeginOverlap_Parms), Z_Construct_UFunction_UPlayerAttackComponent_OnSphereBeginOverlap_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UPlayerAttackComponent_OnSphereBeginOverlap_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00420401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UPlayerAttackComponent_OnSphereBeginOverlap_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UPlayerAttackComponent_OnSphereBeginOverlap_Statics::Function_MetaDataParams)) };
@@ -438,6 +437,14 @@ void EmptyLinkFunctionForGeneratedCodePlayerAttackComponent() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SphereRadius_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_SphereRadius;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BoxColliderSize_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_BoxColliderSize;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ViewBoxCollider_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ViewBoxCollider;
@@ -457,7 +464,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerAttackComponent() {}
 		{ &Z_Construct_UFunction_UPlayerAttackComponent_AttackTarget, "AttackTarget" }, // 1663072977
 		{ &Z_Construct_UFunction_UPlayerAttackComponent_OnBoxBeginOverlap, "OnBoxBeginOverlap" }, // 2354531825
 		{ &Z_Construct_UFunction_UPlayerAttackComponent_OnBoxEndOverlap, "OnBoxEndOverlap" }, // 2557049445
-		{ &Z_Construct_UFunction_UPlayerAttackComponent_OnSphereBeginOverlap, "OnSphereBeginOverlap" }, // 3826637078
+		{ &Z_Construct_UFunction_UPlayerAttackComponent_OnSphereBeginOverlap, "OnSphereBeginOverlap" }, // 4180957289
 		{ &Z_Construct_UFunction_UPlayerAttackComponent_OnSphereEndOverlap, "OnSphereEndOverlap" }, // 475594111
 		{ &Z_Construct_UFunction_UPlayerAttackComponent_SelectTarget, "SelectTarget" }, // 2999686034
 	};
@@ -469,6 +476,22 @@ void EmptyLinkFunctionForGeneratedCodePlayerAttackComponent() {}
 		{ "ModuleRelativePath", "Public/PlayerAttackComponent.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UPlayerAttackComponent_Statics::NewProp_SphereRadius_MetaData[] = {
+		{ "Category", "PlayerAttackComponent" },
+		{ "ModuleRelativePath", "Public/PlayerAttackComponent.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UPlayerAttackComponent_Statics::NewProp_SphereRadius = { "SphereRadius", nullptr, (EPropertyFlags)0x0010000000020001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UPlayerAttackComponent, SphereRadius), METADATA_PARAMS(Z_Construct_UClass_UPlayerAttackComponent_Statics::NewProp_SphereRadius_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UPlayerAttackComponent_Statics::NewProp_SphereRadius_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UPlayerAttackComponent_Statics::NewProp_BoxColliderSize_MetaData[] = {
+		{ "Category", "PlayerAttackComponent" },
+		{ "Comment", "// No cones\n" },
+		{ "ModuleRelativePath", "Public/PlayerAttackComponent.h" },
+		{ "ToolTip", "No cones" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_UPlayerAttackComponent_Statics::NewProp_BoxColliderSize = { "BoxColliderSize", nullptr, (EPropertyFlags)0x0010000000020001, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UPlayerAttackComponent, BoxColliderSize), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_UPlayerAttackComponent_Statics::NewProp_BoxColliderSize_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UPlayerAttackComponent_Statics::NewProp_BoxColliderSize_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UPlayerAttackComponent_Statics::NewProp_ViewBoxCollider_MetaData[] = {
 		{ "Category", "PlayerAttackComponent" },
@@ -486,6 +509,8 @@ void EmptyLinkFunctionForGeneratedCodePlayerAttackComponent() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UPlayerAttackComponent_Statics::NewProp_SphereCollider = { "SphereCollider", nullptr, (EPropertyFlags)0x00100000000a0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UPlayerAttackComponent, SphereCollider), Z_Construct_UClass_USphereComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UPlayerAttackComponent_Statics::NewProp_SphereCollider_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UPlayerAttackComponent_Statics::NewProp_SphereCollider_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UPlayerAttackComponent_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPlayerAttackComponent_Statics::NewProp_SphereRadius,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPlayerAttackComponent_Statics::NewProp_BoxColliderSize,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPlayerAttackComponent_Statics::NewProp_ViewBoxCollider,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPlayerAttackComponent_Statics::NewProp_SphereCollider,
 	};
@@ -516,7 +541,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerAttackComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UPlayerAttackComponent, 1573550575);
+	IMPLEMENT_CLASS(UPlayerAttackComponent, 153786359);
 	template<> RAISETHEGAMEJAME2020_API UClass* StaticClass<UPlayerAttackComponent>()
 	{
 		return UPlayerAttackComponent::StaticClass();

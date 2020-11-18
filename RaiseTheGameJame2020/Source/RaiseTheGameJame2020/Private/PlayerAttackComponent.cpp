@@ -14,7 +14,7 @@ UPlayerAttackComponent::UPlayerAttackComponent()
 
 	//Sphere collider for detecting general area around the player
 	SphereCollider = CreateDefaultSubobject<USphereComponent>(TEXT("Sphere Collider"));
-	SphereCollider->InitSphereRadius(10.0f);
+	SphereCollider->InitSphereRadius(SphereRadius);
 	SphereCollider->SetCollisionEnabled(ECollisionEnabled::QueryOnly);
 	SphereCollider->SetCollisionProfileName("Attack Radius");
 	SphereCollider->OnComponentBeginOverlap.AddDynamic(this, &UPlayerAttackComponent::OnSphereBeginOverlap);
@@ -23,7 +23,7 @@ UPlayerAttackComponent::UPlayerAttackComponent()
 	//Box (rectangle) collider to simulate the players view and to help determin the target
 	// TO DO: Set location and size of box so it extends in front of the player
 	ViewBoxCollider = CreateDefaultSubobject<UBoxComponent>(TEXT("View Collider"));
-	ViewBoxCollider->InitBoxExtent(FVector(5, 2, 5)); // half the size of the box: x, y, z //change me
+	ViewBoxCollider->InitBoxExtent(BoxColliderSize); // half the size of the box: x, y, z //change me
 	ViewBoxCollider->SetCollisionEnabled(ECollisionEnabled::QueryOnly);
 	ViewBoxCollider->SetCollisionProfileName("View Box");
 	ViewBoxCollider->OnComponentBeginOverlap.AddDynamic(this, &UPlayerAttackComponent::OnBoxBeginOverlap);
@@ -142,7 +142,7 @@ void UPlayerAttackComponent::AttackTarget()
 
 	//TArray<UActorComponent> targetComponents = CurrentTarget->GetComponents();
 	//CurrentTarget->FindComponentByClass(TSubclassOf<UActorComponent> UHealthComponent);
-	CurrentTarget->FindComponentByClass<UHealthComponent>();
+	CurrentTarget->FindComponentByClass<UHealthComponent>()->Alive = false;
 	
 }
 
