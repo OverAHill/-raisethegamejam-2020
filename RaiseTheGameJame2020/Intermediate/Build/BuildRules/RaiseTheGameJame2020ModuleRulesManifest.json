@@ -1,8 +1,14 @@
 {
 	"SourceFiles": [
+<<<<<<< HEAD
 		"C:\\Users\\onlyr\\OneDrive - Staffordshire University\\GameJam\\WORKINGONE\\-raisethegamejam-2020\\RaiseTheGameJame2020\\Source\\RaiseTheGameJame2020\\RaiseTheGameJame2020.Build.cs",
 		"C:\\Users\\onlyr\\OneDrive - Staffordshire University\\GameJam\\WORKINGONE\\-raisethegamejam-2020\\RaiseTheGameJame2020\\Source\\RaiseTheGameJame2020.Target.cs",
 		"C:\\Users\\onlyr\\OneDrive - Staffordshire University\\GameJam\\WORKINGONE\\-raisethegamejam-2020\\RaiseTheGameJame2020\\Source\\RaiseTheGameJame2020Editor.Target.cs"
+=======
+		"C:\\Users\\ryem_\\Documents\\-raisethegamejam-2020\\RaiseTheGameJame2020\\Source\\RaiseTheGameJame2020\\RaiseTheGameJame2020.Build.cs",
+		"C:\\Users\\ryem_\\Documents\\-raisethegamejam-2020\\RaiseTheGameJame2020\\Source\\RaiseTheGameJame2020.Target.cs",
+		"C:\\Users\\ryem_\\Documents\\-raisethegamejam-2020\\RaiseTheGameJame2020\\Source\\RaiseTheGameJame2020Editor.Target.cs"
+>>>>>>> Tasks
 	],
 	"EngineVersion": "4.25.4"
 }
