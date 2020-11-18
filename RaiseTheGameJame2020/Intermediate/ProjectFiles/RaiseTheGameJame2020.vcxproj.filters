@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\RaiseTheGameJame2020.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{7C4D2A80-EB09-45F6-9636-6FD8E6F58D00}</UniqueIdentifier>
+      <UniqueIdentifier>{200C48F4-2C4C-4233-B52B-52BC512F577B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\RaiseTheGameJame2020.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{58C039AA-D32C-4D3A-A002-C7C7D309A500}</UniqueIdentifier>
+      <UniqueIdentifier>{A2C750CA-3181-4D35-9D26-229DAEBE2D3C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\RaiseTheGameJame2020">
-      <UniqueIdentifier>{88B41FA3-F9DF-402B-A9F4-43062664D45A}</UniqueIdentifier>
+      <UniqueIdentifier>{69746CE2-099A-4ED2-BF07-99A2B7606228}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\RaiseTheGameJame2020\RaiseTheGameJame2020.Build.cs">
       <Filter>Source\RaiseTheGameJame2020</Filter>
@@ -54,7 +54,7 @@
       <Filter>Source\RaiseTheGameJame2020</Filter>
     </ClInclude>
     <Filter Include="Source\RaiseTheGameJame2020\Private">
-      <UniqueIdentifier>{EECBA3A6-1F02-4B7D-BBD5-83035656699F}</UniqueIdentifier>
+      <UniqueIdentifier>{F6CEC7C2-2E0F-484D-B849-D5DDCEB3CB65}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\RaiseTheGameJame2020\Private\AgentBody.cpp">
       <Filter>Source\RaiseTheGameJame2020\Private</Filter>
@@ -69,7 +69,7 @@
       <Filter>Source\RaiseTheGameJame2020\Private</Filter>
     </ClCompile>
     <Filter Include="Source\RaiseTheGameJame2020\Public">
-      <UniqueIdentifier>{C51DA4BC-6A75-45DC-B9C1-B84D1230F4D3}</UniqueIdentifier>
+      <UniqueIdentifier>{D9F805AE-68AA-49C0-B9FF-A8F10F1CE5C4}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\RaiseTheGameJame2020\Public\AgentBody.h">
       <Filter>Source\RaiseTheGameJame2020\Public</Filter>
