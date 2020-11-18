@@ -4,8 +4,9 @@
 
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
+#include "Containers/Queue.h"
+#include "IAgentTask.h"
 #include "AgentTaskManager.generated.h"
-
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class RAISETHEGAMEJAME2020_API UAgentTaskManager : public UActorComponent
@@ -17,12 +18,15 @@ public:
 	UAgentTaskManager();
 
 protected:
+	IAgentTask* CurrentTask = nullptr;
+	TQueue<IAgentTask*> RemainingTasks;
+	
 	// Called when the game starts
 	virtual void BeginPlay() override;
 
 public:	
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
-
+	void RunCurrentTask(float DeltaTime);
 		
 };

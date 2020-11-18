@@ -4,8 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-//#include "Containers/Queue.h"
-//#include "AgentTask.h"
+#include "Containers/Queue.h"
 #include "AgentBody.generated.h"
 
 UCLASS()

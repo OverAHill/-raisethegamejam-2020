@@ -28,7 +28,24 @@ void UAgentTaskManager::BeginPlay()
 void UAgentTaskManager::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
+	RunCurrentTask(DeltaTime);
+}
 
-	// ...
+void UAgentTaskManager::RunCurrentTask(float DeltaTime)
+{
+	if (CurrentTask != nullptr)
+	{
+		if (CurrentTask->IsFinished())
+		{
+			RemainingTasks.Dequeue(CurrentTask);
+			RunCurrentTask(DeltaTime);
+			return;
+		}
+
+		if (CurrentTask->CanRun())
+		{
+			CurrentTask->Run(DeltaTime);
+		}
+	}
 }
 
