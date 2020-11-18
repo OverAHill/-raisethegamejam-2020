@@ -47,6 +47,9 @@ ARaiseTheGameJame2020Character::ARaiseTheGameJame2020Character()
 	PrimaryActorTick.bCanEverTick = true;
 	PrimaryActorTick.bStartWithTickEnabled = true;
 	//bToggleBloodlust = true;
+	Bloodlust = 0.0f;
+	IncreaseBloodlust = 1.0f; 
+	DecreaseBloodlust = 2.0f; 
 
 	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
 	// are set in the derived blueprint asset named MyCharacter (to avoid direct content references in C++)
@@ -58,15 +61,15 @@ void ARaiseTheGameJame2020Character::AUpdate(float deltaSeconds)
 	//Super::Tick(DeltaTime);
 	if(bToggleBloodlustOn)
 	{
-		Bloodlust += t * DeltaTime; //increases bloodlust - subject to change :) 
-		float nearest = roundf(Bloodlust * 100) / 100;
+		Bloodlust += IncreaseBloodlust * DeltaTime; //increases bloodlust - subject to change :) 
+		float nearest = roundf(Bloodlust * 100) / 100; // sets debug text to only display to two decimal places
 		FString bloodlustDebug = FString::SanitizeFloat(nearest);
 
 		GEngine->AddOnScreenDebugMessage(-1, DeltaTime, FColor::Red, TEXT(" Bloodlust: " + bloodlustDebug));
 		//GEngine->AddOnScreenDebugMessage(-1, DeltaTime, FColor::Red, TEXT(" Bool: " + bPlayerKilled ? TEXT("true") : TEXT("false")));
 
 		//If the player hasn't killed and their bloodlust has reached max then they DIE
-		if (Bloodlust >= 50)
+		if (Bloodlust >= 100)
 		{
 			//die
 			Destroy();
@@ -74,7 +77,7 @@ void ARaiseTheGameJame2020Character::AUpdate(float deltaSeconds)
 
 		if (bPlayerKilled == true)
 		{
-			Bloodlust = Bloodlust / TestValue;
+			Bloodlust = Bloodlust / DecreaseBloodlust;
 			bPlayerKilled = false;
 		}
 	}

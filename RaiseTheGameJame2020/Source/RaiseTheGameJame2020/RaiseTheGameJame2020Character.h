@@ -83,9 +83,9 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Player stats:");
 	float Bloodlust;
 	UPROPERTY(EditAnywhere, Category = "Player stats:");
-	float TestValue;
+	float DecreaseBloodlust;
 	UPROPERTY(EditAnywhere, Category = "Player stats:")
-	float t;
+	float IncreaseBloodlust;
 	float DeltaTime;
 
 	bool bPlayerKilled;

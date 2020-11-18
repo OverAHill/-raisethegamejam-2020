@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeRaiseTheGameJame2020_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x9801F1DC,
+				0x1BD4695A,
 				0xC3257138,
 				METADATA_PARAMS(nullptr, 0)
 			};

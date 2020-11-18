@@ -1,12 +1,18 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020).
+  Parsing headers for RaiseTheGameJame2020Editor
+    Running UnrealHeaderTool "C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\RaiseTheGameJame2020.uproject" "C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\RaiseTheGameJame2020Editor\Development\RaiseTheGameJame2020Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\onlyr\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  Reflection code generated for RaiseTheGameJame2020Editor in 4.9865561 seconds
   Building RaiseTheGameJame2020Editor...
   Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 4 actions with 6 processes...
-    [1/4] RaiseTheGameJame2020Character.cpp
-    [2/4] UE4Editor-RaiseTheGameJame2020.lib
+  Building 7 actions with 6 processes...
+    [1/7] RaiseTheGameJame2020.init.gen.cpp
+    [2/7] RaiseTheGameJame2020GameMode.cpp
+    [3/7] RaiseTheGameJame2020Character.gen.cpp
+    [4/7] RaiseTheGameJame2020Character.cpp
+    [5/7] UE4Editor-RaiseTheGameJame2020.lib
        Creating library C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\UE4Editor-RaiseTheGameJame2020.lib and object C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\UE4Editor-RaiseTheGameJame2020.exp
-    [3/4] UE4Editor-RaiseTheGameJame2020.dll
+    [6/7] UE4Editor-RaiseTheGameJame2020.dll
        Creating library C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\UE4Editor-RaiseTheGameJame2020.suppressed.lib and object C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\UE4Editor-RaiseTheGameJame2020.suppressed.exp
-    [4/4] RaiseTheGameJame2020Editor.target
-  Total time in Parallel executor: 11.19 seconds
-  Total execution time: 11.94 seconds
+    [7/7] RaiseTheGameJame2020Editor.target
+  Total time in Parallel executor: 1.60 seconds
+  Total execution time: 7.25 seconds
