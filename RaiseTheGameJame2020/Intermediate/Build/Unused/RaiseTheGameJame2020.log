@@ -3,5 +3,5 @@
   Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Building 1 action with 12 processes...
     [1/1] RaiseTheGameJame2020Editor.target
-  Total time in Parallel executor: 0.41 seconds
-  Total execution time: 1.80 seconds
+  Total time in Parallel executor: 0.24 seconds
+  Total execution time: 2.17 seconds
