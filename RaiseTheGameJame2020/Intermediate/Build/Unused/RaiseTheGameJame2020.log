@@ -1,7 +1,12 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020).
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020).
   Building RaiseTheGameJame2020Editor...
   Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 1 action with 12 processes...
-    [1/1] RaiseTheGameJame2020Editor.target
-  Total time in Parallel executor: 0.24 seconds
-  Total execution time: 2.17 seconds
+  Building 4 actions with 6 processes...
+    [1/4] RaiseTheGameJame2020Character.cpp
+    [2/4] UE4Editor-RaiseTheGameJame2020.lib
+       Creating library C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\UE4Editor-RaiseTheGameJame2020.lib and object C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\UE4Editor-RaiseTheGameJame2020.exp
+    [3/4] UE4Editor-RaiseTheGameJame2020.dll
+       Creating library C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\UE4Editor-RaiseTheGameJame2020.suppressed.lib and object C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\UE4Editor-RaiseTheGameJame2020.suppressed.exp
+    [4/4] RaiseTheGameJame2020Editor.target
+  Total time in Parallel executor: 11.19 seconds
+  Total execution time: 11.94 seconds

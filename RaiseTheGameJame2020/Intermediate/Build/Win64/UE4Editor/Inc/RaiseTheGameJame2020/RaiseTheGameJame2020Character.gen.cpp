@@ -82,6 +82,15 @@ void EmptyLinkFunctionForGeneratedCodeRaiseTheGameJame2020Character() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bToggleBloodlust_MetaData[];
+#endif
+		static void NewProp_bToggleBloodlust_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bToggleBloodlust;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_t_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_t;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TestValue_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_TestValue;
@@ -123,6 +132,24 @@ void EmptyLinkFunctionForGeneratedCodeRaiseTheGameJame2020Character() {}
 		{ "ModuleRelativePath", "RaiseTheGameJame2020Character.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ARaiseTheGameJame2020Character_Statics::NewProp_bToggleBloodlust_MetaData[] = {
+		{ "Category", "Player stats:" },
+		{ "ModuleRelativePath", "RaiseTheGameJame2020Character.h" },
+	};
+#endif
+	void Z_Construct_UClass_ARaiseTheGameJame2020Character_Statics::NewProp_bToggleBloodlust_SetBit(void* Obj)
+	{
+		((ARaiseTheGameJame2020Character*)Obj)->bToggleBloodlust = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ARaiseTheGameJame2020Character_Statics::NewProp_bToggleBloodlust = { "bToggleBloodlust", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ARaiseTheGameJame2020Character), &Z_Construct_UClass_ARaiseTheGameJame2020Character_Statics::NewProp_bToggleBloodlust_SetBit, METADATA_PARAMS(Z_Construct_UClass_ARaiseTheGameJame2020Character_Statics::NewProp_bToggleBloodlust_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ARaiseTheGameJame2020Character_Statics::NewProp_bToggleBloodlust_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ARaiseTheGameJame2020Character_Statics::NewProp_t_MetaData[] = {
+		{ "Category", "Player stats:" },
+		{ "ModuleRelativePath", "RaiseTheGameJame2020Character.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ARaiseTheGameJame2020Character_Statics::NewProp_t = { "t", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ARaiseTheGameJame2020Character, t), METADATA_PARAMS(Z_Construct_UClass_ARaiseTheGameJame2020Character_Statics::NewProp_t_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ARaiseTheGameJame2020Character_Statics::NewProp_t_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ARaiseTheGameJame2020Character_Statics::NewProp_TestValue_MetaData[] = {
 		{ "Category", "Player stats:" },
@@ -180,6 +207,8 @@ void EmptyLinkFunctionForGeneratedCodeRaiseTheGameJame2020Character() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ARaiseTheGameJame2020Character_Statics::NewProp_CameraBoom = { "CameraBoom", nullptr, (EPropertyFlags)0x00400000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ARaiseTheGameJame2020Character, CameraBoom), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ARaiseTheGameJame2020Character_Statics::NewProp_CameraBoom_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ARaiseTheGameJame2020Character_Statics::NewProp_CameraBoom_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ARaiseTheGameJame2020Character_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARaiseTheGameJame2020Character_Statics::NewProp_bToggleBloodlust,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARaiseTheGameJame2020Character_Statics::NewProp_t,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARaiseTheGameJame2020Character_Statics::NewProp_TestValue,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARaiseTheGameJame2020Character_Statics::NewProp_Bloodlust,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARaiseTheGameJame2020Character_Statics::NewProp_BaseLookUpRate,
@@ -214,7 +243,7 @@ void EmptyLinkFunctionForGeneratedCodeRaiseTheGameJame2020Character() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ARaiseTheGameJame2020Character, 1995658112);
+	IMPLEMENT_CLASS(ARaiseTheGameJame2020Character, 1580428408);
 	template<> RAISETHEGAMEJAME2020_API UClass* StaticClass<ARaiseTheGameJame2020Character>()
 	{
 		return ARaiseTheGameJame2020Character::StaticClass();

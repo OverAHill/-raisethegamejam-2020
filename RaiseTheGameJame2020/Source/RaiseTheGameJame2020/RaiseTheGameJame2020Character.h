@@ -84,8 +84,11 @@ public:
 	float Bloodlust;
 	UPROPERTY(EditAnywhere, Category = "Player stats:");
 	float TestValue;
-
+	UPROPERTY(EditAnywhere, Category = "Player stats:")
+	float t;
 	float DeltaTime;
 
 	bool bPlayerKilled;
+	UPROPERTY(EditAnywhere, Category = "Player stats:");
+	bool bToggleBloodlustOn;
 };
