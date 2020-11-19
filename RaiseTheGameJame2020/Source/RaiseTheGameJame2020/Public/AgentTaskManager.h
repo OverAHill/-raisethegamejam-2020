@@ -8,6 +8,9 @@
 #include "AgentController.h"
 #include "AgentTaskManager.generated.h"
 
+
+class TimeNode;
+
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class RAISETHEGAMEJAME2020_API UAgentTaskManager : public UActorComponent
 {
@@ -31,4 +34,7 @@ public:
 	bool IsRemainingTasksEmpty();
 	void SetupTaskManager(FString AIType, ACharacter* parent, TArray<FVector> positions, FVector* pointerPosForPathfinding);
 	void ForceTaskToFront(IAgentTask* taskToFront);
+
+	void FillTimeNode(TimeNode& timeNode);
+	void OverwriteFromTimeNode(TimeNode& timeNode);
 };

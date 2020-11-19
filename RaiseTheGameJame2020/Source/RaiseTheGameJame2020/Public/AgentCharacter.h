@@ -7,6 +7,8 @@
 #include "AgentTaskManager.h"
 #include "AgentCharacter.generated.h"
 
+class TimeRewind;
+
 UCLASS()
 class RAISETHEGAMEJAME2020_API AAgentCharacter : public ACharacter
 {
@@ -24,8 +26,11 @@ public:
 		FString AIType;
 
 
-protected:
 	UAgentTaskManager* TaskManager;
+
+	TimeRewind* mTimeRewind;
+
+protected:
 
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;

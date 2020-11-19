@@ -3,15 +3,20 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "Public/AgentTaskManager.h"
 
 class ARaiseTheGameJame2020Character;
 class UParticleSystemComponent;
+class AAgentCharacter;
 
 
-struct TimeNode
+class TimeNode
 {
+public:
 	FVector position;
 	FRotator rotation;
+	IAgentTask currentTask;
+	TQueue<IAgentTask> remainingTasks;
 
 	TimeNode()
 	{
@@ -21,6 +26,42 @@ struct TimeNode
 	{
 		position = pos;
 		rotation = rot;
+	}
+
+	TimeNode(FVector& pos, FRotator& rot, IAgentTask& currTask, TQueue<IAgentTask> remTasks)
+	{
+		position = pos;
+		rotation = rot;
+		currentTask = currTask;
+
+		while (!remTasks.IsEmpty())
+		{
+			IAgentTask poppedTask;
+			remTasks.Dequeue(poppedTask);
+			remainingTasks.Enqueue(poppedTask);
+		}
+	}
+
+	TimeNode(const TimeNode& copy)
+	{
+		position = copy.position;
+		rotation = copy.rotation;
+		currentTask = copy.currentTask;
+
+		TArray<IAgentTask> tasks;
+
+		while (!copy.remainingTasks.IsEmpty())
+		{
+			IAgentTask poppedTask;
+			const_cast<TimeNode&>(copy).remainingTasks.Dequeue(poppedTask);
+			tasks.Add(poppedTask);
+		}
+
+		for (auto task : tasks)
+		{
+			const_cast<TimeNode&>(copy).remainingTasks.Enqueue(task);
+			remainingTasks.Enqueue(task);
+		}
 	}
 
 
@@ -62,7 +103,7 @@ struct TimeNode
 class RAISETHEGAMEJAME2020_API TimeRewind
 {
 public:
-	TimeRewind(ARaiseTheGameJame2020Character* character);
+	TimeRewind(ACharacter* character);
 	~TimeRewind();
 
 	float RewindDuration;
@@ -76,8 +117,10 @@ public:
 	float GetRewindSpeed() { return RewindSpeed; }
 
 private:
-	ARaiseTheGameJame2020Character* Character;
+	ACharacter* Character;
 	TArray<TimeNode> TimeNodes;
 
 	float RewindProgress;
+
+	AAgentCharacter* AICharacter;
 };

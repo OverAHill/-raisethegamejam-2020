@@ -2,6 +2,9 @@
 #include "AgentCharacter.h"
 #include "AgentController.h"
 #include "RunFromKillerAgentTask.h"
+#include "../TimeRewind.h"
+#include "Kismet/GameplayStatics.h"
+#include "../RaiseTheGameJame2020Character.h"
 
 // Sets default values
 AAgentCharacter::AAgentCharacter()
@@ -10,6 +13,8 @@ AAgentCharacter::AAgentCharacter()
 	PrimaryActorTick.bCanEverTick = true;
 
 	TaskManager = CreateDefaultSubobject<UAgentTaskManager>(TEXT("Agent Task Manager"));
+
+	mTimeRewind = new TimeRewind(this);
 }
 
 // Called when the game starts or when spawned
@@ -31,6 +36,26 @@ void AAgentCharacter::Tick(float DeltaTime)
 
 	if (PointerPosForPathfinding != FVector(0, 0, 0))
 		PathfindToLocation(PointerPosForPathfinding);
+
+
+	ARaiseTheGameJame2020Character* character = dynamic_cast<ARaiseTheGameJame2020Character*>(UGameplayStatics::GetPlayerCharacter(GetWorld(), 0));
+
+	static float timer = 0;
+
+	if (character->Rewinding)
+	{
+		mTimeRewind->Rewind(DeltaTime);
+	}
+	else
+	{
+		timer += DeltaTime;
+
+		if (timer > mTimeRewind->GetSpacing())
+		{
+			mTimeRewind->AddTimeNode();
+			timer = 0;
+		}
+	}
 }
 
 // Called to bind functionality to input

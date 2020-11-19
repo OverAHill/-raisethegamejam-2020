@@ -3,6 +3,7 @@
 #include "GoToLocationAgentTask.h"
 #include "WaitForDurationAgentTask.h"
 #include "GoToRandomLocationAgentTask.h"
+#include "../TimeRewind.h"
 
 // Sets default values for this component's properties
 UAgentTaskManager::UAgentTaskManager()
@@ -136,5 +137,43 @@ void UAgentTaskManager::ForceTaskToFront(IAgentTask* taskToFront)
 	for (auto task : tasks)
 	{
 		RemainingTasks.Enqueue(task);
+	}
+}
+
+void UAgentTaskManager::FillTimeNode(TimeNode& timeNode)
+{
+	if (CurrentTask) timeNode.currentTask = *CurrentTask;
+
+	TArray<IAgentTask*> tasks;
+
+	IAgentTask* poppedTask;
+	while (!RemainingTasks.IsEmpty())
+	{
+		poppedTask = nullptr;
+		RemainingTasks.Dequeue(poppedTask);
+		tasks.Add(poppedTask);
+	}
+
+	for (auto task : tasks)
+	{
+		RemainingTasks.Enqueue(task);
+		timeNode.remainingTasks.Enqueue(*task);
+	}
+}
+
+
+void UAgentTaskManager::OverwriteFromTimeNode(TimeNode& timeNode)
+{
+	*CurrentTask = timeNode.currentTask;
+
+	TArray<IAgentTask*> tasks;
+
+	while (!timeNode.remainingTasks.IsEmpty())
+	{
+		IAgentTask poppedTask;
+		timeNode.remainingTasks.Dequeue(poppedTask);
+		IAgentTask* taskToAdd = new IAgentTask();
+		*taskToAdd = poppedTask;
+		RemainingTasks.Enqueue(taskToAdd);
 	}
 }

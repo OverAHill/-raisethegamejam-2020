@@ -3,8 +3,9 @@
 
 #include "TimeRewind.h"
 #include "RaiseTheGameJame2020Character.h"
+#include "Public/AgentCharacter.h"
 
-TimeRewind::TimeRewind(ARaiseTheGameJame2020Character* character) :
+TimeRewind::TimeRewind(ACharacter* character) :
 	RewindDuration(10.0f),
 	RewindSpacing(0.2f),
 	MaxElements(RewindDuration / RewindSpacing),
@@ -13,6 +14,8 @@ TimeRewind::TimeRewind(ARaiseTheGameJame2020Character* character) :
 	RewindProgress(0.0f)
 {
 	TimeNodes.Reserve(MaxElements);
+
+	AICharacter = dynamic_cast<AAgentCharacter*>(character);
 }
 
 TimeRewind::~TimeRewind()
@@ -21,10 +24,16 @@ TimeRewind::~TimeRewind()
 
 void TimeRewind::AddTimeNode()
 {
-	FVector charPosition = Character->GetActorLocation();
-	FRotator charRotation = Character->GetActorRotation();
+	TimeNode newNode;
+	newNode.position = Character->GetActorLocation();
+	newNode.rotation = Character->GetActorRotation();
 
-	TimeNodes.EmplaceAt(0, charPosition, charRotation);
+	if (AICharacter)
+	{
+		AICharacter->TaskManager->FillTimeNode(newNode);
+	}
+
+	TimeNodes.EmplaceAt(0, newNode);
 
 	if (TimeNodes.Num() > MaxElements)
 		TimeNodes.RemoveAt(MaxElements);
@@ -63,10 +72,16 @@ bool TimeRewind::Rewind(float deltaTime)
 
 	currentTarget = TimeNodes[targetElement];
 
-	TimeNode finalValues = currentElement + ((currentTarget - currentElement) * percent);
+	TimeNode finalValues;
+	finalValues = currentElement + ((currentTarget - currentElement) * percent);
 
 	Character->SetActorLocation(finalValues.position);
 	Character->SetActorRotation(finalValues.rotation);
+
+	if (AICharacter)
+	{
+		AICharacter->TaskManager->OverwriteFromTimeNode(TimeNodes[targetElement]);
+	}
 
 	if (RewindProgress > RewindDuration)
 	{
