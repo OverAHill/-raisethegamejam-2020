@@ -13,6 +13,8 @@
 #include "Public/HealthComponent.h"
 #include "Particles/ParticleSystemComponent.h"
 #include "APlayerTask.h"
+#include <Runtime/Engine/Classes/Kismet/GameplayStatics.h>
+#include <Runtime/Engine/Public/DrawDebugHelpers.h>
 
 //////////////////////////////////////////////////////////////////////////
 // ARaiseTheGameJame2020Character
@@ -67,6 +69,13 @@ ARaiseTheGameJame2020Character::ARaiseTheGameJame2020Character()
 	mTimeRewind = new TimeRewind(this);
 	Rewinding = false;
 	RewindParticleSystem = CreateDefaultSubobject<UParticleSystemComponent>(TEXT("MyRewindParticleSystem"));
+
+}
+
+void ARaiseTheGameJame2020Character::BeginPlay()
+{
+	Super::BeginPlay();
+	GetAllTasks();
 }
 
 void ARaiseTheGameJame2020Character::AUpdate(float deltaSeconds)
@@ -101,7 +110,7 @@ void ARaiseTheGameJame2020Character::AUpdate(float deltaSeconds)
 	   	}
     }
 
-	static float timer = 0;
+static float timer = 0;
 
 	if (Rewinding && Controller)
 	{
@@ -111,7 +120,10 @@ void ARaiseTheGameJame2020Character::AUpdate(float deltaSeconds)
 	{
 		RewindParticleSystem->Deactivate();
 
-		timer += DeltaTime;
+void ARaiseTheGameJame2020Character::GetAllTasks()
+{
+	TArray<AActor*> FoundActors;
+	UGameplayStatics::GetAllActorsOfClass(GetWorld(), ATargetActor::StaticClass(), FoundActors);
 
 		if (timer > mTimeRewind->GetSpacing() && Controller)
 		{
@@ -128,24 +140,24 @@ void ARaiseTheGameJame2020Character::SetupPlayerInputComponent(class UInputCompo
 {
 	// Set up gameplay key bindings
 	check(PlayerInputComponent);
-	PlayerInputComponent->BindAction("Jump", IE_Pressed,  this, &ACharacter::Jump);
+	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
 
 	PlayerInputComponent->BindAction("Test", IE_Pressed,  this, &ARaiseTheGameJame2020Character::PlayerKilled);
 
 	PlayerInputComponent->BindAxis("MoveForward", this, &ARaiseTheGameJame2020Character::MoveForward);
-	PlayerInputComponent->BindAxis("MoveRight",   this, &ARaiseTheGameJame2020Character::MoveRight);
+	PlayerInputComponent->BindAxis("MoveRight", this, &ARaiseTheGameJame2020Character::MoveRight);
 
 	// We have 2 versions of the rotation bindings to handle different kinds of devices differently
 	// "turn" handles devices that provide an absolute delta, such as a mouse.
 	// "turnrate" is for devices that we choose to treat as a rate of change, such as an analog joystick
-	PlayerInputComponent->BindAxis("Turn",       this, &APawn::AddControllerYawInput);
-	PlayerInputComponent->BindAxis("TurnRate",   this, &ARaiseTheGameJame2020Character::TurnAtRate);
-	PlayerInputComponent->BindAxis("LookUp",     this, &APawn::AddControllerPitchInput);
+	PlayerInputComponent->BindAxis("Turn", this, &APawn::AddControllerYawInput);
+	PlayerInputComponent->BindAxis("TurnRate", this, &ARaiseTheGameJame2020Character::TurnAtRate);
+	PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
 	PlayerInputComponent->BindAxis("LookUpRate", this, &ARaiseTheGameJame2020Character::LookUpAtRate);
 
 	// handle touch devices
-	PlayerInputComponent->BindTouch(IE_Pressed,  this, &ARaiseTheGameJame2020Character::TouchStarted);
+	PlayerInputComponent->BindTouch(IE_Pressed, this, &ARaiseTheGameJame2020Character::TouchStarted);
 	PlayerInputComponent->BindTouch(IE_Released, this, &ARaiseTheGameJame2020Character::TouchStopped);
 
 	// VR headset functionality
@@ -157,6 +169,36 @@ void ARaiseTheGameJame2020Character::SetupPlayerInputComponent(class UInputCompo
 //Just testing for when the player kills if it resets their bloodlust or not. 
 void ARaiseTheGameJame2020Character::PlayerKilled()
 {
+    bPlayerKilled = true;
+} 
+
+//TODO::FINISH THIS 
+float ARaiseTheGameJame2020Character::AGetHealth()
+{
+	return mHealthComponent->HealthValue;
+	
+}
+
+void ARaiseTheGameJame2020Character::OnResetVR()
+{
+	UHeadMountedDisplayFunctionLibrary::ResetOrientationAndPosition();
+}
+
+void ARaiseTheGameJame2020Character::TouchStarted(ETouchIndex::Type FingerIndex, FVector Location)
+{
+	Jump();
+}
+
+void ARaiseTheGameJame2020Character::TouchStopped(ETouchIndex::Type FingerIndex, FVector Location)
+{
+	StopJumping();
+}
+
+void ARaiseTheGameJame2020Character::TurnAtRate(float Rate)
+{
+	// calculate delta for this frame from the rate information
+	TArray<FHitResult> SweepResults;
+	
 	bPlayerKilled = true;
 } 
 
