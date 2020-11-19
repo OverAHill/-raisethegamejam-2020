@@ -11,14 +11,18 @@ class RAISETHEGAMEJAME2020_API RunFromKillerAgentTask : public IAgentTask
 {
 private:
 	AActor* ParentReference;
+	FVector* PointerPosForPathfinding;
 	AActor* KillerReference;
+
+	float fleeTime = 0;
+	float escapeTime = 30;
 
 	bool CanSeeKiller();
 	FVector GetDirectionToKiller();
 	float GetDistanceToKiller();
 
 public:
-	RunFromKillerAgentTask(AActor* parentReference, AActor* killerReference);
+	RunFromKillerAgentTask(AActor* parentReference, FVector* pointerPosForPathfinding, AActor* killerReference);
 	~RunFromKillerAgentTask();
 
 	virtual bool CanRun();

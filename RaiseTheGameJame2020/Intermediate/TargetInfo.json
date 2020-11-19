@@ -2,12 +2,20 @@
 	"Targets": [
 		{
 			"Name": "RaiseTheGameJame2020",
+<<<<<<< HEAD
 			"Path": "D:\\Users\\h017026h\\Documents\\GitKraken\\-raisethegamejam-2020\\RaiseTheGameJame2020\\Source\\RaiseTheGameJame2020.Target.cs",
+=======
+			"Path": "E:\\Projects\\Personal Projects\\-raisethegamejam-2020\\RaiseTheGameJame2020\\Source\\RaiseTheGameJame2020.Target.cs",
+>>>>>>> AI_Variance
 			"Type": "Game"
 		},
 		{
 			"Name": "RaiseTheGameJame2020Editor",
+<<<<<<< HEAD
 			"Path": "D:\\Users\\h017026h\\Documents\\GitKraken\\-raisethegamejam-2020\\RaiseTheGameJame2020\\Source\\RaiseTheGameJame2020Editor.Target.cs",
+=======
+			"Path": "E:\\Projects\\Personal Projects\\-raisethegamejam-2020\\RaiseTheGameJame2020\\Source\\RaiseTheGameJame2020Editor.Target.cs",
+>>>>>>> AI_Variance
 			"Type": "Editor"
 		}
 	]

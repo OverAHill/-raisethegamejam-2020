@@ -2,6 +2,7 @@
 #include "AgentTaskManager.h"
 #include "GoToLocationAgentTask.h"
 #include "WaitForDurationAgentTask.h"
+#include "GoToRandomLocationAgentTask.h"
 
 // Sets default values for this component's properties
 UAgentTaskManager::UAgentTaskManager()
@@ -64,14 +65,59 @@ bool UAgentTaskManager::IsRemainingTasksEmpty()
 	return RemainingTasks.IsEmpty();
 }
 
-void UAgentTaskManager::SetupTaskManager(AActor* parent, TArray<FVector> positions, FVector* pointerPosForPathfinding)
+void UAgentTaskManager::SetupTaskManager(FString AIType, ACharacter* parent, TArray<FVector> positions, FVector* pointerPosForPathfinding)
 {
-	for (auto pos : positions)
+	if (AIType == "Locations")
 	{
-		RemainingTasks.Enqueue(new GoToLocationAgentTask(parent, pos, pointerPosForPathfinding));
-	}
+		for (auto pos : positions)
+		{
+			RemainingTasks.Enqueue(new GoToLocationAgentTask(parent, pos, pointerPosForPathfinding));
+			RemainingTasks.Enqueue(new WaitForDurationAgentTask(FMath::RandRange(0, 10)));
+		}
 
-	RemainingTasks.Dequeue(CurrentTask);
+		RemainingTasks.Dequeue(CurrentTask);
+	}
+	else if (AIType == "Idle")
+	{
+		RemainingTasks.Enqueue(new WaitForDurationAgentTask(120));
+	}
+	else
+	{
+		RemainingTasks.Enqueue(new GoToRandomLocationAgentTask(parent));
+		RemainingTasks.Enqueue(new GoToRandomLocationAgentTask(parent));
+		RemainingTasks.Enqueue(new GoToRandomLocationAgentTask(parent));
+		RemainingTasks.Enqueue(new GoToRandomLocationAgentTask(parent));
+		RemainingTasks.Enqueue(new GoToRandomLocationAgentTask(parent));
+		RemainingTasks.Enqueue(new GoToRandomLocationAgentTask(parent));
+		RemainingTasks.Enqueue(new GoToRandomLocationAgentTask(parent));
+		RemainingTasks.Enqueue(new GoToRandomLocationAgentTask(parent));
+		RemainingTasks.Enqueue(new GoToRandomLocationAgentTask(parent));
+		RemainingTasks.Enqueue(new GoToRandomLocationAgentTask(parent));
+		RemainingTasks.Enqueue(new GoToRandomLocationAgentTask(parent));
+		RemainingTasks.Enqueue(new GoToRandomLocationAgentTask(parent));
+		RemainingTasks.Enqueue(new GoToRandomLocationAgentTask(parent));
+		RemainingTasks.Enqueue(new GoToRandomLocationAgentTask(parent));
+		RemainingTasks.Enqueue(new GoToRandomLocationAgentTask(parent));
+		RemainingTasks.Enqueue(new GoToRandomLocationAgentTask(parent));
+		RemainingTasks.Enqueue(new GoToRandomLocationAgentTask(parent));
+		RemainingTasks.Enqueue(new GoToRandomLocationAgentTask(parent));
+		RemainingTasks.Enqueue(new GoToRandomLocationAgentTask(parent));
+		RemainingTasks.Enqueue(new GoToRandomLocationAgentTask(parent));
+		RemainingTasks.Enqueue(new GoToRandomLocationAgentTask(parent));
+		RemainingTasks.Enqueue(new GoToRandomLocationAgentTask(parent));
+		RemainingTasks.Enqueue(new GoToRandomLocationAgentTask(parent));
+		RemainingTasks.Enqueue(new GoToRandomLocationAgentTask(parent));
+		RemainingTasks.Enqueue(new GoToRandomLocationAgentTask(parent));
+		RemainingTasks.Enqueue(new GoToRandomLocationAgentTask(parent));
+		RemainingTasks.Enqueue(new GoToRandomLocationAgentTask(parent));
+		RemainingTasks.Enqueue(new GoToRandomLocationAgentTask(parent));
+		RemainingTasks.Enqueue(new GoToRandomLocationAgentTask(parent));
+		RemainingTasks.Enqueue(new GoToRandomLocationAgentTask(parent));
+		RemainingTasks.Enqueue(new GoToRandomLocationAgentTask(parent));
+		RemainingTasks.Enqueue(new GoToRandomLocationAgentTask(parent));
+		RemainingTasks.Enqueue(new GoToRandomLocationAgentTask(parent));
+		RemainingTasks.Enqueue(new GoToRandomLocationAgentTask(parent));
+	}
 }
 
 void UAgentTaskManager::ForceTaskToFront(IAgentTask* taskToFront)

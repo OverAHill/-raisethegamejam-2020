@@ -21,7 +21,7 @@ void AAgentCharacter::BeginPlay()
 	PointerPosForPathfinding = FVector(0, 0, 0);
 
 	// Create our Agent Controller and give it control of the player.
-	TaskManager->SetupTaskManager(this, actionLocations, &PointerPosForPathfinding);
+	TaskManager->SetupTaskManager(AIType, this, actionLocations, &PointerPosForPathfinding);
 }
 
 // Called every frame
@@ -43,6 +43,6 @@ void AAgentCharacter::SignalWitnessedDeath(AActor* killerReference)
 {
 	if (TaskManager != nullptr)
 	{
-		TaskManager->ForceTaskToFront(new RunFromKillerAgentTask(this, killerReference));
+		TaskManager->ForceTaskToFront(new RunFromKillerAgentTask(this, &PointerPosForPathfinding, killerReference));
 	}
 }

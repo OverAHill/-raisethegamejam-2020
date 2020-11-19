@@ -3,9 +3,11 @@
 
 #include "RunFromKillerAgentTask.h"
 
-RunFromKillerAgentTask::RunFromKillerAgentTask(AActor* parentReference, AActor* killerReference)
+RunFromKillerAgentTask::RunFromKillerAgentTask(AActor* parentReference, FVector* pointerPosForPathfinding, AActor* killerReference)
 {
-
+	ParentReference = parentReference;
+	PointerPosForPathfinding = pointerPosForPathfinding;
+	KillerReference = killerReference;
 }
 
 RunFromKillerAgentTask::~RunFromKillerAgentTask()
@@ -15,13 +17,9 @@ RunFromKillerAgentTask::~RunFromKillerAgentTask()
 
 bool RunFromKillerAgentTask::CanRun()
 {
-	if (CanSeeKiller())
+	if (fleeTime < escapeTime)
 	{
 		return true;
-	}
-	else if (GetDistanceToKiller() > 100)
-	{
-		return false;
 	}
 
 	return IAgentTask::CanRun();
@@ -32,8 +30,20 @@ void RunFromKillerAgentTask::Run(float DeltaTime)
 	FVector direction = GetDirectionToKiller();
 	direction.Normalize();
 
+	FVector goalLocation = ParentReference->GetActorLocation() + (direction * 100 * DeltaTime * -1);
+
 	// Run Away
-	ParentReference->SetActorLocation(ParentReference->GetActorLocation() + (direction * 100 * DeltaTime * -1));
+	*PointerPosForPathfinding = goalLocation;
+
+	if (!CanSeeKiller())
+	{
+		fleeTime += DeltaTime;
+
+		if (fleeTime >= escapeTime)
+		{
+			completed = true;
+		}
+	}
 }
 
 bool RunFromKillerAgentTask::IsFinished()

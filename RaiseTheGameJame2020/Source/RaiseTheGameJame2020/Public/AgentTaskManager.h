@@ -20,7 +20,7 @@ public:
 protected:
 	IAgentTask* CurrentTask = nullptr;
 	TQueue<IAgentTask*> RemainingTasks;
-	
+
 	// Called when the game starts
 	virtual void BeginPlay() override;
 
@@ -29,6 +29,6 @@ public:
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 	void RunCurrentTask(float DeltaTime);
 	bool IsRemainingTasksEmpty();
-	void SetupTaskManager(AActor* parent, TArray<FVector> positions, FVector* pointerPosForPathfinding);
+	void SetupTaskManager(FString AIType, ACharacter* parent, TArray<FVector> positions, FVector* pointerPosForPathfinding);
 	void ForceTaskToFront(IAgentTask* taskToFront);
 };

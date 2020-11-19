@@ -3,7 +3,11 @@
   <ItemGroup>
     <None Include="..\..\RaiseTheGameJame2020.uproject" />
     <Filter Include="Source">
+<<<<<<< HEAD
       <UniqueIdentifier>{604AE7C3-4227-4710-94A3-62ACDF109082}</UniqueIdentifier>
+=======
+      <UniqueIdentifier>{C75917C5-3833-4DD2-AA34-90880F4DA5B9}</UniqueIdentifier>
+>>>>>>> AI_Variance
     </Filter>
     <None Include="..\..\Source\RaiseTheGameJame2020.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +16,11 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
+<<<<<<< HEAD
       <UniqueIdentifier>{4E671FA3-C4C1-42E6-BA7D-5C0FF7FE7CE1}</UniqueIdentifier>
+=======
+      <UniqueIdentifier>{83D0395D-E035-414F-8307-F22215BE82AB}</UniqueIdentifier>
+>>>>>>> AI_Variance
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +38,11 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\RaiseTheGameJame2020">
+<<<<<<< HEAD
       <UniqueIdentifier>{A689C269-A4DA-4023-8F4F-C232A24D6233}</UniqueIdentifier>
+=======
+      <UniqueIdentifier>{2CAE20F8-DAE4-4423-A074-B6127BDB9D6D}</UniqueIdentifier>
+>>>>>>> AI_Variance
     </Filter>
     <None Include="..\..\Source\RaiseTheGameJame2020\RaiseTheGameJame2020.Build.cs">
       <Filter>Source\RaiseTheGameJame2020</Filter>
@@ -60,7 +72,11 @@
       <Filter>Source\RaiseTheGameJame2020</Filter>
     </ClInclude>
     <Filter Include="Source\RaiseTheGameJame2020\Private">
+<<<<<<< HEAD
       <UniqueIdentifier>{8E42EF94-8CB1-4360-9510-516860A2400A}</UniqueIdentifier>
+=======
+      <UniqueIdentifier>{20988E10-6900-4EA2-A6BB-06A8755D14D4}</UniqueIdentifier>
+>>>>>>> AI_Variance
     </Filter>
     <ClCompile Include="..\..\Source\RaiseTheGameJame2020\Private\AgentBody.cpp">
       <Filter>Source\RaiseTheGameJame2020\Private</Filter>
@@ -87,6 +103,9 @@
       <Filter>Source\RaiseTheGameJame2020\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\RaiseTheGameJame2020\Private\GoToLocationAgentTask.cpp">
+      <Filter>Source\RaiseTheGameJame2020\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RaiseTheGameJame2020\Private\GoToRandomLocationAgentTask.cpp">
       <Filter>Source\RaiseTheGameJame2020\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\RaiseTheGameJame2020\Private\GrabComponent.cpp">
@@ -132,7 +151,11 @@
       <Filter>Source\RaiseTheGameJame2020\Private</Filter>
     </ClCompile>
     <Filter Include="Source\RaiseTheGameJame2020\Public">
+<<<<<<< HEAD
       <UniqueIdentifier>{FE4F2097-4397-426F-B6A1-C4BD356C993F}</UniqueIdentifier>
+=======
+      <UniqueIdentifier>{1EC9788A-7CF9-4AAA-A8CC-86C37C401F02}</UniqueIdentifier>
+>>>>>>> AI_Variance
     </Filter>
     <ClInclude Include="..\..\Source\RaiseTheGameJame2020\Public\AgentBody.h">
       <Filter>Source\RaiseTheGameJame2020\Public</Filter>
@@ -159,6 +182,9 @@
       <Filter>Source\RaiseTheGameJame2020\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\RaiseTheGameJame2020\Public\GoToLocationAgentTask.h">
+      <Filter>Source\RaiseTheGameJame2020\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RaiseTheGameJame2020\Public\GoToRandomLocationAgentTask.h">
       <Filter>Source\RaiseTheGameJame2020\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\RaiseTheGameJame2020\Public\GrabComponent.h">

@@ -2,9 +2,9 @@
 
 
 #include "GoToLocationAgentTask.h"
-#include "AgentController.h"
+#include "AgentCharacter.h"
 
-GoToLocationAgentTask::GoToLocationAgentTask(AActor* parent, FVector goalLocation, FVector* pointerPosForPathfinding)
+GoToLocationAgentTask::GoToLocationAgentTask(ACharacter* parent, FVector goalLocation, FVector* pointerPosForPathfinding)
 {
 	Parent = parent;
 	GoalLocation = goalLocation;
@@ -34,32 +34,16 @@ bool GoToLocationAgentTask::CanRun()
 
 void GoToLocationAgentTask::Run(float DeltaTime)
 {
-	if (!IsRunning)
-	{
-		IsRunning = true;
-	
-		FString location = "Going To Location: " + FString::SanitizeFloat(GoalLocation.X) + FString::SanitizeFloat(GoalLocation.Y) + FString::SanitizeFloat(GoalLocation.Z);
-		GEngine->AddOnScreenDebugMessage(-1, 2, FColor::Blue, location);
-
-		FString currentLocation = "At Location: " + FString::SanitizeFloat(Parent->GetActorLocation().X) + FString::SanitizeFloat(Parent->GetActorLocation().Y) + FString::SanitizeFloat(Parent->GetActorLocation().Z);
-		GEngine->AddOnScreenDebugMessage(-1, 2, FColor::Blue, currentLocation);
-
-		FVector direction = GoalLocation - Parent->GetActorLocation();
-
-		FString distance = "Distance: " + FString::SanitizeFloat(direction.Size());
-		GEngine->AddOnScreenDebugMessage(-1, 2, FColor::Blue, distance);
-	}
-
 	IAgentTask::Run(DeltaTime);
 
-	/*FVector direction = GoalLocation - Parent->GetActorLocation();
+	AAgentCharacter* character = (AAgentCharacter*)Parent;
 
-	direction.Normalize();*/
-
-	*PointerPosForPathfinding = GoalLocation;
-	//((AAgentController*)AgentController)->SetGoalLocationAndMovementSpeed(GoalLocation, 1);
-
-	//Parent->SetActorLocation(Parent->GetActorLocation() + (direction * 100 * DeltaTime));
+	bool isPathable = false;
+	character->IsLocationPathable(GoalLocation);
+	if (character->CanPathToLocation)
+		*PointerPosForPathfinding = GoalLocation;
+	else
+		completed = true;
 }
 
 bool GoToLocationAgentTask::IsFinished()
@@ -70,7 +54,6 @@ bool GoToLocationAgentTask::IsFinished()
 bool GoToLocationAgentTask::IsAtTargetLocation()
 {
 	FVector direction = GoalLocation - Parent->GetActorLocation();
-	GEngine->AddOnScreenDebugMessage(-1, 2, FColor::Blue, FString::SanitizeFloat(direction.Size()));
 
 	// If we're too far return false
 	if (direction.Size() > 50)
