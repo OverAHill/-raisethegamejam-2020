@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\RaiseTheGameJame2020.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{E2703D71-47BA-48E2-AC6D-DF7EA70F5571}</UniqueIdentifier>
+      <UniqueIdentifier>{95619645-21CB-4801-A1A7-C5609A0545C0}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\RaiseTheGameJame2020.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{A97F1902-F033-467F-814C-78CF66D639A3}</UniqueIdentifier>
+      <UniqueIdentifier>{A3C2F39A-9020-422E-9931-5565EE1D06CF}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\RaiseTheGameJame2020">
-      <UniqueIdentifier>{7AF597FE-C0EA-46EC-9972-BCB29FCF8504}</UniqueIdentifier>
+      <UniqueIdentifier>{E003EB73-13F0-4929-BDDD-CACFBE3AC4F4}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\RaiseTheGameJame2020\RaiseTheGameJame2020.Build.cs">
       <Filter>Source\RaiseTheGameJame2020</Filter>
@@ -60,9 +60,15 @@
       <Filter>Source\RaiseTheGameJame2020</Filter>
     </ClInclude>
     <Filter Include="Source\RaiseTheGameJame2020\Private">
-      <UniqueIdentifier>{75D2559D-F5E1-4587-A30E-7C2974B6EEFB}</UniqueIdentifier>
+      <UniqueIdentifier>{79329395-0921-424E-A2F7-81606673B95E}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\RaiseTheGameJame2020\Private\AgentBody.cpp">
+      <Filter>Source\RaiseTheGameJame2020\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RaiseTheGameJame2020\Private\AgentCharacter.cpp">
+      <Filter>Source\RaiseTheGameJame2020\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RaiseTheGameJame2020\Private\AgentController.cpp">
       <Filter>Source\RaiseTheGameJame2020\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\RaiseTheGameJame2020\Private\AgentTask.cpp">
@@ -117,9 +123,15 @@
       <Filter>Source\RaiseTheGameJame2020\Private</Filter>
     </ClCompile>
     <Filter Include="Source\RaiseTheGameJame2020\Public">
-      <UniqueIdentifier>{3FC9071D-11EC-4E38-B715-4B60378AFCD2}</UniqueIdentifier>
+      <UniqueIdentifier>{3E111621-3FB8-4FB1-A131-A85F2634FF06}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\RaiseTheGameJame2020\Public\AgentBody.h">
+      <Filter>Source\RaiseTheGameJame2020\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RaiseTheGameJame2020\Public\AgentCharacter.h">
+      <Filter>Source\RaiseTheGameJame2020\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RaiseTheGameJame2020\Public\AgentController.h">
       <Filter>Source\RaiseTheGameJame2020\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\RaiseTheGameJame2020\Public\AgentTask.h">
