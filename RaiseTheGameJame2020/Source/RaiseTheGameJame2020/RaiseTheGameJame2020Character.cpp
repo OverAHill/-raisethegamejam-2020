@@ -36,7 +36,7 @@ ARaiseTheGameJame2020Character::ARaiseTheGameJame2020Character()
 	// Configure character movement
 	GetCharacterMovement()->bOrientRotationToMovement = true; // Character moves in the direction of input...	
 	GetCharacterMovement()->RotationRate = FRotator(0.0f, 540.0f, 0.0f); // ...at this rotation rate
-	GetCharacterMovement()->JumpZVelocity = 6000.f;
+	GetCharacterMovement()->JumpZVelocity = 600.f;
 	GetCharacterMovement()->AirControl = 0.2f;
 
 	// Create a camera boom (pulls in towards the player if there is a collision)
@@ -103,7 +103,7 @@ void ARaiseTheGameJame2020Character::AUpdate(float deltaSeconds)
 
 	static float timer = 0;
 
-	if (Rewinding)
+	if (Rewinding && Controller)
 	{
 		Rewinding = !mTimeRewind->Rewind(DeltaTime);
     }
@@ -113,9 +113,9 @@ void ARaiseTheGameJame2020Character::AUpdate(float deltaSeconds)
 
 		timer += DeltaTime;
 
-		if (timer > mTimeRewind->GetSpacing())
-        {
-        	mTimeRewind->AddTimeNode();
+		if (timer > mTimeRewind->GetSpacing() && Controller)
+		{
+			mTimeRewind->AddTimeNode();
 			timer = 0;
 		}
 	}
