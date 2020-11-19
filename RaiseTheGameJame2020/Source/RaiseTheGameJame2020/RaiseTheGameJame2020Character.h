@@ -88,7 +88,7 @@ public:
 	UFUNCTION(BlueprintCallable)
 		float AGetHealth();
 
-	void PlayerKilled();
+	//void PlayerKilled();
 
 
 //=================================================================================================
@@ -124,7 +124,7 @@ public:
 	bool bToggleBloodlustOn;
 
 	float DeltaTime;
-	bool bPlayerKilled;
+	bool bPlayerAttacked;
 
 	//
 	// Ang Testing Stuff

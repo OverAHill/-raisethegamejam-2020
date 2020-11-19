@@ -17,8 +17,9 @@
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|x64'">
-    <LocalDebuggerCommandArguments>"$(SolutionDir)RaiseTheGameJame2020.uproject" -skipcompile</LocalDebuggerCommandArguments>
+    <LocalDebuggerCommandArguments>"C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\RaiseTheGameJame2020.uproject" -skipcompile</LocalDebuggerCommandArguments>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <RemoteDebuggerCommandArguments>"C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\RaiseTheGameJame2020.uproject" -skipcompile</RemoteDebuggerCommandArguments>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
