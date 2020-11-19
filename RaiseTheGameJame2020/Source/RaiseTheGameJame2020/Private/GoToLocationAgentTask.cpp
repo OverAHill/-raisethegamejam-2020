@@ -17,7 +17,6 @@ GoToLocationAgentTask::~GoToLocationAgentTask()
 
 bool GoToLocationAgentTask::CanRun()
 {
-
 	if (IsAtTargetLocation())
 	{
 		return false;
@@ -60,7 +59,7 @@ void GoToLocationAgentTask::Run(float DeltaTime)
 
 bool GoToLocationAgentTask::IsFinished()
 {
-	return IAgentTask::IsFinished();;
+	return IAgentTask::IsFinished();
 }
 
 bool GoToLocationAgentTask::IsAtTargetLocation()
@@ -68,10 +67,11 @@ bool GoToLocationAgentTask::IsAtTargetLocation()
 	FVector direction = GoalLocation - Parent->GetActorLocation();
 
 	// If we're too far return false
-	if (direction.Size() > 100)
+	if (direction.Size() > 10)
 	{
 		return false;
 	}
 
+	completed = true;
 	return true;
 }

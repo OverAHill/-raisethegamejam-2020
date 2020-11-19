@@ -22,7 +22,6 @@ void UAgentTaskManager::BeginPlay()
 
 }
 
-
 // Called every frame
 void UAgentTaskManager::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
@@ -36,7 +35,6 @@ void UAgentTaskManager::RunCurrentTask(float DeltaTime)
 	{
 		if (CurrentTask->IsFinished())
 		{
-			GEngine->AddOnScreenDebugMessage(-1, 2, FColor::Orange, "Changing Task");
 			RemainingTasks.Dequeue(CurrentTask);
 			RunCurrentTask(DeltaTime);
 			return;
@@ -44,13 +42,7 @@ void UAgentTaskManager::RunCurrentTask(float DeltaTime)
 
 		if (CurrentTask->CanRun())
 		{
-			GEngine->AddOnScreenDebugMessage(-1, 2, FColor::Green, "Can Run");
-
 			CurrentTask->Run(DeltaTime);
-		}
-		else
-		{
-			GEngine->AddOnScreenDebugMessage(-1, 2, FColor::Red, "Can't Run");
 		}
 	}
 }
