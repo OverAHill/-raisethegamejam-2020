@@ -11,6 +11,12 @@ UHealthComponent::UHealthComponent()
 	PrimaryComponentTick.bCanEverTick = true;
 
 	// ...
+	/*VisibilitySphere = CreateDefaultSubobject<USphereComponent>(TEXT("Root"));
+	RootComponent = VisibiltySphere;
+	this->GetOwner();
+	VisibilitySphere->AttachTo(this->GetOwner()->GetRootComponent());
+	VisibilitySphere->InitSphereRadius(40.0f);*/
+
 }
 
 

@@ -482,7 +482,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerAttackComponent() {}
 		{ "ModuleRelativePath", "Public/PlayerAttackComponent.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UPlayerAttackComponent_Statics::NewProp_SphereRadius = { "SphereRadius", nullptr, (EPropertyFlags)0x0010000000020001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UPlayerAttackComponent, SphereRadius), METADATA_PARAMS(Z_Construct_UClass_UPlayerAttackComponent_Statics::NewProp_SphereRadius_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UPlayerAttackComponent_Statics::NewProp_SphereRadius_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UPlayerAttackComponent_Statics::NewProp_SphereRadius = { "SphereRadius", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UPlayerAttackComponent, SphereRadius), METADATA_PARAMS(Z_Construct_UClass_UPlayerAttackComponent_Statics::NewProp_SphereRadius_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UPlayerAttackComponent_Statics::NewProp_SphereRadius_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UPlayerAttackComponent_Statics::NewProp_BoxColliderSize_MetaData[] = {
 		{ "Category", "PlayerAttackComponent" },
@@ -491,7 +491,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerAttackComponent() {}
 		{ "ToolTip", "No cones" },
 	};
 #endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_UPlayerAttackComponent_Statics::NewProp_BoxColliderSize = { "BoxColliderSize", nullptr, (EPropertyFlags)0x0010000000020001, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UPlayerAttackComponent, BoxColliderSize), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_UPlayerAttackComponent_Statics::NewProp_BoxColliderSize_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UPlayerAttackComponent_Statics::NewProp_BoxColliderSize_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_UPlayerAttackComponent_Statics::NewProp_BoxColliderSize = { "BoxColliderSize", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UPlayerAttackComponent, BoxColliderSize), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_UPlayerAttackComponent_Statics::NewProp_BoxColliderSize_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UPlayerAttackComponent_Statics::NewProp_BoxColliderSize_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UPlayerAttackComponent_Statics::NewProp_ViewBoxCollider_MetaData[] = {
 		{ "Category", "PlayerAttackComponent" },
@@ -499,7 +499,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerAttackComponent() {}
 		{ "ModuleRelativePath", "Public/PlayerAttackComponent.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UPlayerAttackComponent_Statics::NewProp_ViewBoxCollider = { "ViewBoxCollider", nullptr, (EPropertyFlags)0x00100000000a0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UPlayerAttackComponent, ViewBoxCollider), Z_Construct_UClass_UBoxComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UPlayerAttackComponent_Statics::NewProp_ViewBoxCollider_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UPlayerAttackComponent_Statics::NewProp_ViewBoxCollider_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UPlayerAttackComponent_Statics::NewProp_ViewBoxCollider = { "ViewBoxCollider", nullptr, (EPropertyFlags)0x001000000008000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UPlayerAttackComponent, ViewBoxCollider), Z_Construct_UClass_UBoxComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UPlayerAttackComponent_Statics::NewProp_ViewBoxCollider_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UPlayerAttackComponent_Statics::NewProp_ViewBoxCollider_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UPlayerAttackComponent_Statics::NewProp_SphereCollider_MetaData[] = {
 		{ "Category", "PlayerAttackComponent" },
@@ -507,7 +507,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerAttackComponent() {}
 		{ "ModuleRelativePath", "Public/PlayerAttackComponent.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UPlayerAttackComponent_Statics::NewProp_SphereCollider = { "SphereCollider", nullptr, (EPropertyFlags)0x00100000000a0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UPlayerAttackComponent, SphereCollider), Z_Construct_UClass_USphereComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UPlayerAttackComponent_Statics::NewProp_SphereCollider_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UPlayerAttackComponent_Statics::NewProp_SphereCollider_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UPlayerAttackComponent_Statics::NewProp_SphereCollider = { "SphereCollider", nullptr, (EPropertyFlags)0x001000000008000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UPlayerAttackComponent, SphereCollider), Z_Construct_UClass_USphereComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UPlayerAttackComponent_Statics::NewProp_SphereCollider_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UPlayerAttackComponent_Statics::NewProp_SphereCollider_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UPlayerAttackComponent_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPlayerAttackComponent_Statics::NewProp_SphereRadius,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPlayerAttackComponent_Statics::NewProp_BoxColliderSize,
@@ -541,7 +541,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerAttackComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UPlayerAttackComponent, 153786359);
+	IMPLEMENT_CLASS(UPlayerAttackComponent, 2981333069);
 	template<> RAISETHEGAMEJAME2020_API UClass* StaticClass<UPlayerAttackComponent>()
 	{
 		return UPlayerAttackComponent::StaticClass();

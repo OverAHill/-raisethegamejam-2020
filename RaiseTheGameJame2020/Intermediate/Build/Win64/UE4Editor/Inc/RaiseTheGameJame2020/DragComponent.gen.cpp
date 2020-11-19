@@ -95,7 +95,7 @@ void EmptyLinkFunctionForGeneratedCodeDragComponent() {}
 		{ "ModuleRelativePath", "Public/DragComponent.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_UDragComponent_Statics::NewProp_BoxColliderSize = { "BoxColliderSize", nullptr, (EPropertyFlags)0x0010000000020001, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UDragComponent, BoxColliderSize), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_UDragComponent_Statics::NewProp_BoxColliderSize_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UDragComponent_Statics::NewProp_BoxColliderSize_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_UDragComponent_Statics::NewProp_BoxColliderSize = { "BoxColliderSize", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UDragComponent, BoxColliderSize), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_UDragComponent_Statics::NewProp_BoxColliderSize_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UDragComponent_Statics::NewProp_BoxColliderSize_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UDragComponent_Statics::NewProp_AreaBoxCollider_MetaData[] = {
 		{ "Category", "DragComponent" },
@@ -103,7 +103,7 @@ void EmptyLinkFunctionForGeneratedCodeDragComponent() {}
 		{ "ModuleRelativePath", "Public/DragComponent.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UDragComponent_Statics::NewProp_AreaBoxCollider = { "AreaBoxCollider", nullptr, (EPropertyFlags)0x00100000000a0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UDragComponent, AreaBoxCollider), Z_Construct_UClass_UBoxComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UDragComponent_Statics::NewProp_AreaBoxCollider_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UDragComponent_Statics::NewProp_AreaBoxCollider_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UDragComponent_Statics::NewProp_AreaBoxCollider = { "AreaBoxCollider", nullptr, (EPropertyFlags)0x001000000008000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UDragComponent, AreaBoxCollider), Z_Construct_UClass_UBoxComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UDragComponent_Statics::NewProp_AreaBoxCollider_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UDragComponent_Statics::NewProp_AreaBoxCollider_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UDragComponent_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UDragComponent_Statics::NewProp_IsBeingDragged,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UDragComponent_Statics::NewProp_IsDragEnabled,
@@ -137,7 +137,7 @@ void EmptyLinkFunctionForGeneratedCodeDragComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UDragComponent, 3682995843);
+	IMPLEMENT_CLASS(UDragComponent, 2762233168);
 	template<> RAISETHEGAMEJAME2020_API UClass* StaticClass<UDragComponent>()
 	{
 		return UDragComponent::StaticClass();

@@ -55,12 +55,16 @@ void UPlayerAttackComponent::TickComponent(float DeltaTime, ELevelTick TickType,
 
 void UPlayerAttackComponent::OnSphereBeginOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
+	GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, "Target Located");
+
 	PotentialTargets.Add(OtherActor);
 }
 
 
 void UPlayerAttackComponent::OnSphereEndOverlap(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
 {
+	GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, "Target Left Range");
+
 	// Remove from list of potential targets as they are no longer in range
 	if (PotentialTargets.Contains(OtherActor))
 	{
@@ -75,6 +79,8 @@ void UPlayerAttackComponent::OnSphereEndOverlap(class UPrimitiveComponent* Overl
 
 void UPlayerAttackComponent::OnBoxBeginOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
+	GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, "Target Enetered View");
+
 	// 1. add to potential targets, if not already there
 	if (!PotentialTargets.Contains(OtherActor))
 		PotentialTargets.Add(OtherActor);
@@ -98,6 +104,8 @@ void UPlayerAttackComponent::OnBoxBeginOverlap(UPrimitiveComponent* OverlappedCo
 
 void UPlayerAttackComponent::OnBoxEndOverlap(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
 {
+	GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, "Target Left view");
+
 	// Just remove from TargetsInView
 	if (TargetsInView.Contains(OtherActor))
 	{
@@ -142,7 +150,15 @@ void UPlayerAttackComponent::AttackTarget()
 
 	//TArray<UActorComponent> targetComponents = CurrentTarget->GetComponents();
 	//CurrentTarget->FindComponentByClass(TSubclassOf<UActorComponent> UHealthComponent);
-	CurrentTarget->FindComponentByClass<UHealthComponent>()->Alive = false;
+	GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, "Attack function");
+
+	if (CanAttack)
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, "Attack If");
+		SelectTarget();
+		CurrentTarget->FindComponentByClass<UHealthComponent>()->Alive = false;
+	}
+	
 	
 }
 

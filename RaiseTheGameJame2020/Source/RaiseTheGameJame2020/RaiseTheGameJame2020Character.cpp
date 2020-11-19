@@ -57,6 +57,10 @@ ARaiseTheGameJame2020Character::ARaiseTheGameJame2020Character()
 	mTimeRewind = new TimeRewind(this);
 	Rewinding = false;
 	RewindParticleSystem = CreateDefaultSubobject<UParticleSystemComponent>(TEXT("MyRewindParticleSystem"));
+
+	// New Attack and Grab Component Set Up
+	GrabComp = CreateDefaultSubobject<UGrabComponent>(TEXT("PlayerGrab"));
+	AttackComp = CreateDefaultSubobject<UPlayerAttackComponent>(TEXT("PlayerAttack"));
 }
 
 void ARaiseTheGameJame2020Character::AUpdate(float deltaSeconds)
@@ -69,8 +73,8 @@ void ARaiseTheGameJame2020Character::AUpdate(float deltaSeconds)
 	FString bloodlustDebug = FString::SanitizeFloat(nearest);
 
 
-	GEngine->AddOnScreenDebugMessage(-1, DeltaTime, FColor::Red, TEXT(" Bloodlust: " + bloodlustDebug));
-	GEngine->AddOnScreenDebugMessage(-1, DeltaTime, FColor::Red, TEXT(" Bool: " + bPlayerKilled ? TEXT("true") : TEXT("false")));
+	//GEngine->AddOnScreenDebugMessage(-1, DeltaTime, FColor::Red, TEXT(" Bloodlust: " + bloodlustDebug));
+	//GEngine->AddOnScreenDebugMessage(-1, DeltaTime, FColor::Red, TEXT(" Bool: " + bPlayerKilled ? TEXT("true") : TEXT("false")));
 
 	//If the player hasn't killed and their bloodlust has reached max then they DIE
 	if (Bloodlust >= 10)
@@ -137,6 +141,11 @@ void ARaiseTheGameJame2020Character::SetupPlayerInputComponent(class UInputCompo
 	PlayerInputComponent->BindAction("ResetVR", IE_Pressed, this, &ARaiseTheGameJame2020Character::OnResetVR);
 
 	PlayerInputComponent->BindAction("Rewind", IE_Pressed, this, &ARaiseTheGameJame2020Character::Rewind);
+
+	// New Ang Input For Attacking and Grabbing
+	PlayerInputComponent->BindAction("Attack", IE_Pressed, this, &ARaiseTheGameJame2020Character::AttackTarget);
+	PlayerInputComponent->BindAction("Grab", IE_Pressed, this, &ARaiseTheGameJame2020Character::AttemptGrab);
+
 }
 
 //Just testing for when the player kills if it resets their bloodlust or not. 
@@ -205,4 +214,40 @@ void ARaiseTheGameJame2020Character::Rewind()
 {
 	RewindParticleSystem->Activate();
 	Rewinding = true;
+}
+
+
+// new Attack, Grab, Release Functions
+
+void ARaiseTheGameJame2020Character::AttackTarget()
+{
+	GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, "Attack");
+
+	AttackComp->AttackTarget();
+}
+
+
+void ARaiseTheGameJame2020Character::AttemptGrab()
+{
+	GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, "Attempt Grab");
+
+	if (GrabComp->CurrentlyDragging)
+	{
+		ReleaseTarget();
+	}
+	else
+	{
+		GrabTarget();
+	}
+}
+
+void ARaiseTheGameJame2020Character::GrabTarget()
+{
+	GrabComp->GrabGTarget();
+}
+
+
+void ARaiseTheGameJame2020Character::ReleaseTarget()
+{
+	GrabComp->ReleaseGTarget();
 }

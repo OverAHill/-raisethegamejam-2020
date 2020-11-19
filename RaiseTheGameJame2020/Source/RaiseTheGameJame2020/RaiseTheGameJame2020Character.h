@@ -4,6 +4,8 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "GrabComponent.h"
+#include "PlayerAttackComponent.h"
 #include "RaiseTheGameJame2020Character.generated.h"
 
 class TimeRewind;
@@ -106,4 +108,20 @@ public:
 	float DeltaTime;
 
 	bool bPlayerKilled;
+
+
+	// Ang Testing Stuff
+	UPROPERTY(EditAnywhere)
+		UPlayerAttackComponent* AttackComp; // ->AttackTarget()
+
+	UPROPERTY(EditAnywhere)
+		UGrabComponent* GrabComp; // ->GrabGtarget()  ->ReleaseGTarget()
+
+	void AttackTarget();
+
+	void AttemptGrab();
+
+	void GrabTarget();
+
+	void ReleaseTarget();
 };

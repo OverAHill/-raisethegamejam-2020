@@ -242,7 +242,7 @@ void EmptyLinkFunctionForGeneratedCodeGrabComponent() {}
 		{ "ModuleRelativePath", "Public/GrabComponent.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_UGrabComponent_Statics::NewProp_BoxColliderSize = { "BoxColliderSize", nullptr, (EPropertyFlags)0x0010000000020001, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UGrabComponent, BoxColliderSize), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_UGrabComponent_Statics::NewProp_BoxColliderSize_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UGrabComponent_Statics::NewProp_BoxColliderSize_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_UGrabComponent_Statics::NewProp_BoxColliderSize = { "BoxColliderSize", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UGrabComponent, BoxColliderSize), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_UGrabComponent_Statics::NewProp_BoxColliderSize_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UGrabComponent_Statics::NewProp_BoxColliderSize_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGrabComponent_Statics::NewProp_AreaBoxCollider_MetaData[] = {
 		{ "Category", "GrabComponent" },
@@ -250,7 +250,7 @@ void EmptyLinkFunctionForGeneratedCodeGrabComponent() {}
 		{ "ModuleRelativePath", "Public/GrabComponent.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UGrabComponent_Statics::NewProp_AreaBoxCollider = { "AreaBoxCollider", nullptr, (EPropertyFlags)0x00100000000a0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UGrabComponent, AreaBoxCollider), Z_Construct_UClass_UBoxComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UGrabComponent_Statics::NewProp_AreaBoxCollider_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UGrabComponent_Statics::NewProp_AreaBoxCollider_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UGrabComponent_Statics::NewProp_AreaBoxCollider = { "AreaBoxCollider", nullptr, (EPropertyFlags)0x001000000008000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UGrabComponent, AreaBoxCollider), Z_Construct_UClass_UBoxComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UGrabComponent_Statics::NewProp_AreaBoxCollider_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UGrabComponent_Statics::NewProp_AreaBoxCollider_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UGrabComponent_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGrabComponent_Statics::NewProp_BoxColliderSize,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGrabComponent_Statics::NewProp_AreaBoxCollider,
@@ -282,7 +282,7 @@ void EmptyLinkFunctionForGeneratedCodeGrabComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UGrabComponent, 1037927413);
+	IMPLEMENT_CLASS(UGrabComponent, 2089308199);
 	template<> RAISETHEGAMEJAME2020_API UClass* StaticClass<UGrabComponent>()
 	{
 		return UGrabComponent::StaticClass();
