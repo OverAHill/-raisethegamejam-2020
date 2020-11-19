@@ -110,7 +110,7 @@ void ARaiseTheGameJame2020Character::AUpdate(float deltaSeconds)
 	   	}
     }
 
-static float timer = 0;
+	static float timer = 0;
 
 	if (Rewinding && Controller)
 	{
@@ -119,7 +119,7 @@ static float timer = 0;
 	else
 	{
 		RewindParticleSystem->Deactivate();
-
+		timer += DeltaTime;
 
 		if (timer > mTimeRewind->GetSpacing() && Controller)
 		{
