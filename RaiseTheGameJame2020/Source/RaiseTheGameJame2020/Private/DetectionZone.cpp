@@ -23,5 +23,6 @@ void ADetectionZone::HandleOverlap(UPrimitiveComponent* OverlappedComponent, AAc
 	UE_LOG(LogTemp, Log, TEXT("Overlapped with danger zone"));
 
 
+
 }
 
