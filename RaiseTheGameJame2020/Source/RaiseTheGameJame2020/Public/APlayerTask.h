@@ -17,9 +17,12 @@ public:
 	bool bIsCompleted;
 	bool bIsActive;
 
+
 	UPROPERTY()
 	class USceneComponent* TaskRootComponent;
 
+	UPROPERTY(Category = Tasks, EditInstanceOnly, BlueprintReadOnly)
+	FString TaskName;
 	UPROPERTY(Category = Tasks, EditInstanceOnly, BlueprintReadOnly)
 	class UBoxComponent* TaskEntry;
 	UPROPERTY(Category = Tasks, EditInstanceOnly, BlueprintReadOnly)

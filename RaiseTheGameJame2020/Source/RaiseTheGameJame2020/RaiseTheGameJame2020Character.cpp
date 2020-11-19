@@ -12,6 +12,8 @@
 #include "TimeRewind.h"
 #include "Particles/ParticleSystemComponent.h"
 #include "APlayerTask.h"
+#include <Runtime/Engine/Classes/Kismet/GameplayStatics.h>
+#include <Runtime/Engine/Public/DrawDebugHelpers.h>
 
 //////////////////////////////////////////////////////////////////////////
 // ARaiseTheGameJame2020Character
@@ -60,6 +62,13 @@ ARaiseTheGameJame2020Character::ARaiseTheGameJame2020Character()
 	mTimeRewind = new TimeRewind(this);
 	Rewinding = false;
 	RewindParticleSystem = CreateDefaultSubobject<UParticleSystemComponent>(TEXT("MyRewindParticleSystem"));
+
+}
+
+void ARaiseTheGameJame2020Character::BeginPlay()
+{
+	Super::BeginPlay();
+	GetAllTasks();
 }
 
 void ARaiseTheGameJame2020Character::AUpdate(float deltaSeconds)
@@ -76,38 +85,47 @@ void ARaiseTheGameJame2020Character::AUpdate(float deltaSeconds)
 	FString out = "Bool: " + s;
 	GEngine->AddOnScreenDebugMessage(-1, DeltaTime, FColor::Green, out);
 
-	//If the player hasn't killed and their bloodlust has reached max then they DIE
-	if (Bloodlust >= 10)
+//If the player hasn't killed and their bloodlust has reached max then they DIE
+if (Bloodlust >= 10)
+{
+	//die
+	Destroy();
+}
+
+if (bPlayerKilled == true)
+{
+	Bloodlust = Bloodlust / TestValue;
+	bPlayerKilled = false;
+}
+
+
+static float timer = 0;
+
+if (Rewinding)
+{
+	Rewinding = !mTimeRewind->Rewind(DeltaTime);
+}
+else
+{
+	RewindParticleSystem->Deactivate();
+
+	timer += DeltaTime;
+
+	if (timer > mTimeRewind->GetSpacing())
 	{
-		//die
-		Destroy();
+		mTimeRewind->AddTimeNode();
+		timer = 0;
 	}
+}
+}
 
-	if (bPlayerKilled == true)
-	{
-		Bloodlust = Bloodlust / TestValue;
-		bPlayerKilled = false;
-	}
+void ARaiseTheGameJame2020Character::GetAllTasks()
+{
+	TArray<AActor*> FoundActors;
+	UGameplayStatics::GetAllActorsOfClass(GetWorld(), ATargetActor::StaticClass(), FoundActors);
 
-
-	static float timer = 0;
-
-	if (Rewinding)
-	{
-		Rewinding = !mTimeRewind->Rewind(DeltaTime);
-	}
-	else
-	{
-		RewindParticleSystem->Deactivate();
-
-		timer += DeltaTime;
-
-		if (timer > mTimeRewind->GetSpacing())
-		{
-			mTimeRewind->AddTimeNode();
-			timer = 0;
-		}
-	}
+	FString s = FString::SanitizeFloat(FoundActors.Num());
+	GEngine->AddOnScreenDebugMessage(INDEX_NONE, 5.f, FColor::Red, s);
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -117,24 +135,24 @@ void ARaiseTheGameJame2020Character::SetupPlayerInputComponent(class UInputCompo
 {
 	// Set up gameplay key bindings
 	check(PlayerInputComponent);
-	PlayerInputComponent->BindAction("Jump", IE_Pressed,  this, &ACharacter::Jump);
+	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
 
-	PlayerInputComponent->BindAction("Test", IE_Pressed,  this, &ARaiseTheGameJame2020Character::TestFunc);
+	PlayerInputComponent->BindAction("Test", IE_Pressed, this, &ARaiseTheGameJame2020Character::TestFunc);
 
 	PlayerInputComponent->BindAxis("MoveForward", this, &ARaiseTheGameJame2020Character::MoveForward);
-	PlayerInputComponent->BindAxis("MoveRight",   this, &ARaiseTheGameJame2020Character::MoveRight);
+	PlayerInputComponent->BindAxis("MoveRight", this, &ARaiseTheGameJame2020Character::MoveRight);
 
 	// We have 2 versions of the rotation bindings to handle different kinds of devices differently
 	// "turn" handles devices that provide an absolute delta, such as a mouse.
 	// "turnrate" is for devices that we choose to treat as a rate of change, such as an analog joystick
-	PlayerInputComponent->BindAxis("Turn",       this, &APawn::AddControllerYawInput);
-	PlayerInputComponent->BindAxis("TurnRate",   this, &ARaiseTheGameJame2020Character::TurnAtRate);
-	PlayerInputComponent->BindAxis("LookUp",     this, &APawn::AddControllerPitchInput);
+	PlayerInputComponent->BindAxis("Turn", this, &APawn::AddControllerYawInput);
+	PlayerInputComponent->BindAxis("TurnRate", this, &ARaiseTheGameJame2020Character::TurnAtRate);
+	PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
 	PlayerInputComponent->BindAxis("LookUpRate", this, &ARaiseTheGameJame2020Character::LookUpAtRate);
 
 	// handle touch devices
-	PlayerInputComponent->BindTouch(IE_Pressed,  this, &ARaiseTheGameJame2020Character::TouchStarted);
+	PlayerInputComponent->BindTouch(IE_Pressed, this, &ARaiseTheGameJame2020Character::TouchStarted);
 	PlayerInputComponent->BindTouch(IE_Released, this, &ARaiseTheGameJame2020Character::TouchStopped);
 
 	// VR headset functionality
@@ -146,7 +164,36 @@ void ARaiseTheGameJame2020Character::SetupPlayerInputComponent(class UInputCompo
 //Just testing for when the player kills if it resets their bloodlust or not. 
 void ARaiseTheGameJame2020Character::TestFunc()
 {
-	bPlayerKilled = true;
+	FCollisionShape Shape = FCollisionShape::MakeBox(FVector(50, 50, 50));
+	TArray<FHitResult> SweepResults;
+	FCollisionQueryParams Params;
+	FCollisionResponseParams ResponseParams;	
+
+	DrawDebugBox(GetWorld(), GetCapsuleComponent()->GetComponentLocation() + FVector(GetCapsuleComponent()->GetForwardVector() * 100), FVector(50, 50, 50), FColor::Purple, true, -1, 0, 10);
+
+	if(GetWorld()->SweepMultiByChannel
+	(
+		SweepResults,
+		GetCapsuleComponent()->GetComponentLocation() + FVector(GetCapsuleComponent()->GetForwardVector() * 100),
+		GetCapsuleComponent()->GetComponentLocation() + FVector(GetCapsuleComponent()->GetForwardVector() * 101),
+		FQuat(),
+		ECC_WorldDynamic,
+		Shape
+	))
+	{
+		if (SweepResults.Num() > 0)
+		{
+			for (FHitResult result : SweepResults)
+			{
+				ATargetActor* target = Cast<ATargetActor>(result.Actor);
+				if (target != nullptr)
+				{
+					target->SetIsAlive(false);
+					bPlayerKilled = true;
+				}
+			}
+		}
+	}
 }
 
 void ARaiseTheGameJame2020Character::OnResetVR()

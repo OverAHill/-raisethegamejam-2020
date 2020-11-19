@@ -8,3 +8,8 @@ bool ITaskTarget::GetIsAlive()
 {
 	return Health->Alive;
 };
+
+void ITaskTarget::SetIsAlive(bool state)
+{
+	Health->Alive = state;
+}

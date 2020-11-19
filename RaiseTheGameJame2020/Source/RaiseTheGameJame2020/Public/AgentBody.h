@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "AgentTaskManager.h"
+#include "TaskTarget.h"
 #include "AgentBody.generated.h"
 
 UCLASS()
@@ -28,7 +29,5 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
-
 	void SignalWitnessedDeath(AActor* killerReference);
-
 };

@@ -21,4 +21,5 @@ class RAISETHEGAMEJAME2020_API ITaskTarget
 public:
 	UHealthComponent* Health;
 	bool GetIsAlive();
+	void SetIsAlive(bool state);
 };

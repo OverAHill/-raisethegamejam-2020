@@ -13,7 +13,6 @@ UCLASS(config=Game)
 class ARaiseTheGameJame2020Character : public ACharacter
 {
 	GENERATED_BODY()
-
 	/** Camera boom positioning the camera behind the character */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	class USpringArmComponent* CameraBoom;
@@ -23,7 +22,7 @@ class ARaiseTheGameJame2020Character : public ACharacter
 	class UCameraComponent* FollowCamera;
 public:
 	ARaiseTheGameJame2020Character();
-
+	virtual void BeginPlay();
 	/** Base turn rate, in deg/sec. Other scaling may affect final turn rate. */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Camera)
 	float BaseTurnRate;
@@ -86,9 +85,11 @@ public:
 protected:
 	TimeRewind* mTimeRewind;
 	bool Rewinding;
+	
+	void GetAllTasks();
+	TArray<class ATargetActor*> PlayerTasks;
 
 private:
-
 
 public:
 	// Update
