@@ -126,8 +126,6 @@ public:
 	float DeltaTime;
 	bool bPlayerKilled;
 
-	bool bPlayerKilled;
-
 	//
 	// Ang Testing Stuff
 	//

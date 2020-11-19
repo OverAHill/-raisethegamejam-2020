@@ -173,7 +173,7 @@ void UPlayerAttackComponent::AttackTarget()
 
 	if (CurrentTarget != nullptr)
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, "Attack If");
+		//GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, "Attack If");
 		SelectTarget();
 
 		CurrentTarget->FindComponentByClass<UHealthComponent>()->Alive = false;

@@ -108,9 +108,8 @@ void ARaiseTheGameJame2020Character::AUpdate(float deltaSeconds)
 	DeltaTime = deltaSeconds;
 	//Super::Tick(DeltaTime);
 	
-	Bloodlust += DeltaTime; //increases bloodlust - subject to change :) 
-	float nearest = roundf(Bloodlust * 100) / 100;
-	FString bloodlustDebug = FString::SanitizeFloat(nearest);
+	CurrentBloodlust += DeltaTime; //increases bloodlust - subject to change :) 
+
 
     if(bToggleBloodlustOn)
     {

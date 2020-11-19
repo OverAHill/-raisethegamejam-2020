@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "RaiseTheGameJame2020",
-			"Path": "C:\\Users\\ryem_\\Desktop\\-raisethegamejam-2020\\RaiseTheGameJame2020\\Source\\RaiseTheGameJame2020.Target.cs",
+			"Path": "D:\\Users\\h017026h\\Documents\\GitKraken\\-raisethegamejam-2020\\RaiseTheGameJame2020\\Source\\RaiseTheGameJame2020.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "RaiseTheGameJame2020Editor",
-			"Path": "C:\\Users\\ryem_\\Desktop\\-raisethegamejam-2020\\RaiseTheGameJame2020\\Source\\RaiseTheGameJame2020Editor.Target.cs",
+			"Path": "D:\\Users\\h017026h\\Documents\\GitKraken\\-raisethegamejam-2020\\RaiseTheGameJame2020\\Source\\RaiseTheGameJame2020Editor.Target.cs",
 			"Type": "Editor"
 		}
 	]
