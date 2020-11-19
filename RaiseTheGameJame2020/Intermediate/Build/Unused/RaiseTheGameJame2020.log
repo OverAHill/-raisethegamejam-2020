@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿     0>Search paths being used for $(MSBuildExtensionsPath) are C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild;$(MSBuildProgramFiles32)\MSBuild
        Trying to import C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\$(MSBuildToolsVersion)\Microsoft.Common.props using extensions path C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild
        Property reassignment: $(MSBuildProjectExtensionsPath)="C:\Users\ryem_\Desktop\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\ProjectFiles\obj\" (previous value: "obj\") at C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Microsoft.Common.props (56,5)
@@ -368,3 +369,38 @@ Build succeeded.
     0 Error(s)
 
 Time Elapsed 00:00:02.69
+=======
+﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020).
+  Parsing headers for RaiseTheGameJame2020Editor
+    Running UnrealHeaderTool "D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\RaiseTheGameJame2020.uproject" "D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\RaiseTheGameJame2020Editor\Development\RaiseTheGameJame2020Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\h017026h\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  Reflection code generated for RaiseTheGameJame2020Editor in 17.9764277 seconds
+  Building RaiseTheGameJame2020Editor...
+  Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 22 actions with 12 processes...
+    [1/22] TestActor.cpp
+    [2/22] DragComponent.cpp
+    [3/22] HealthComponent.cpp
+    [4/22] HideComponent.cpp
+    [5/22] GrabComponent.cpp
+    [6/22] HideTestActor.cpp
+    [7/22] DragComponent.gen.cpp
+    [8/22] GrabComponent.gen.cpp
+    [9/22] TestActor.gen.cpp
+    [10/22] PlayerAttackComponent.cpp
+    [11/22] RaiseTheGameJame2020GameMode.cpp
+    [12/22] RaiseTheGameJame2020.init.gen.cpp
+    [13/22] HealthComponent.gen.cpp
+    [14/22] HideComponent.gen.cpp
+    [15/22] HideTestActor.gen.cpp
+    [16/22] PlayerAttackComponent.gen.cpp
+    [17/22] TimeRewind.cpp
+    [18/22] RaiseTheGameJame2020Character.gen.cpp
+    [19/22] RaiseTheGameJame2020Character.cpp
+    [20/22] UE4Editor-RaiseTheGameJame2020.lib
+       Creating library D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\UE4Editor-RaiseTheGameJame2020.lib and object D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\UE4Editor-RaiseTheGameJame2020.exp
+    [21/22] UE4Editor-RaiseTheGameJame2020.dll
+       Creating library D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\UE4Editor-RaiseTheGameJame2020.suppressed.lib and object D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\UE4Editor-RaiseTheGameJame2020.suppressed.exp
+    [22/22] RaiseTheGameJame2020Editor.target
+  Total time in Parallel executor: 185.78 seconds
+  Total execution time: 205.14 seconds
+>>>>>>> TestingComponents

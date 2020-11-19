@@ -27,17 +27,9 @@ public:
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
 	UPROPERTY(VisibleAnywhere)
-		UBoxComponent* AreaBoxCollider;
-
-	UPROPERTY(VisibleAnywhere)
-		FVector BoxColliderSize;
-
-	UPROPERTY(VisibleAnywhere)
 		bool IsDragEnabled = false;
 
 	UPROPERTY(VisibleAnywhere)
 		bool IsBeingDragged = false;
 
-	//UPROPERTY(VisibleAnywhere)
-		//FSocket DragSocket;
 };

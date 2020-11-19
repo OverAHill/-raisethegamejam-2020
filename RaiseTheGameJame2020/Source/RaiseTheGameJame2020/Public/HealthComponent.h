@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
+#include "Components/SphereComponent.h"
 #include "HealthComponent.generated.h"
 
 
@@ -24,6 +25,9 @@ public:
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	float HealthValue;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	bool Alive = true;
 };

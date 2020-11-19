@@ -10,26 +10,6 @@ UPlayerAttackComponent::UPlayerAttackComponent()
 	// off to improve performance if you don't need them.
 	PrimaryComponentTick.bCanEverTick = true;
 	
-	// TO DO: Root Component Set up
-
-	//Sphere collider for detecting general area around the player
-	SphereCollider = CreateDefaultSubobject<USphereComponent>(TEXT("Sphere Collider"));
-	SphereCollider->InitSphereRadius(SphereRadius);
-	SphereCollider->SetCollisionEnabled(ECollisionEnabled::QueryOnly);
-	SphereCollider->SetCollisionProfileName("Attack Radius");
-	SphereCollider->OnComponentBeginOverlap.AddDynamic(this, &UPlayerAttackComponent::OnSphereBeginOverlap);
-	SphereCollider->OnComponentEndOverlap.AddDynamic(this, &UPlayerAttackComponent::OnSphereEndOverlap);
-
-	//Box (rectangle) collider to simulate the players view and to help determin the target
-	// TO DO: Set location and size of box so it extends in front of the player
-	ViewBoxCollider = CreateDefaultSubobject<UBoxComponent>(TEXT("View Collider"));
-	ViewBoxCollider->InitBoxExtent(BoxColliderSize); // half the size of the box: x, y, z //change me
-	ViewBoxCollider->SetCollisionEnabled(ECollisionEnabled::QueryOnly);
-	ViewBoxCollider->SetCollisionProfileName("View Box");
-	ViewBoxCollider->OnComponentBeginOverlap.AddDynamic(this, &UPlayerAttackComponent::OnBoxBeginOverlap);
-	ViewBoxCollider->OnComponentEndOverlap.AddDynamic(this, &UPlayerAttackComponent::OnBoxEndOverlap);
-
-
 	// ...
 }
 
@@ -53,58 +33,105 @@ void UPlayerAttackComponent::TickComponent(float DeltaTime, ELevelTick TickType,
 }
 
 
-void UPlayerAttackComponent::OnSphereBeginOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
-{
-	PotentialTargets.Add(OtherActor);
-}
-
-
-void UPlayerAttackComponent::OnSphereEndOverlap(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
-{
-	// Remove from list of potential targets as they are no longer in range
-	if (PotentialTargets.Contains(OtherActor))
-	{
-		int x = PotentialTargets.Find(OtherActor);
-		PotentialTargets.RemoveAt(x);
-	}
-
-	if (PotentialTargets.Num() == 0)
-		CanAttack = false;
-}
-
 
 void UPlayerAttackComponent::OnBoxBeginOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
+	//GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, "Target Enetered View");
+
+	//// 1. add to potential targets, if not already there
+	//if (!PotentialTargets.Contains(OtherActor))
+	//	PotentialTargets.Add(OtherActor);
+
+	//TargetsInView.Add(OtherActor);
+
+	//if(TargetsInView.Num() > 1)
+	//	OrderTargetsInView();
+
+	//CanAttack = true;
+
+	//// 2. compare distance to CurrentTarget
+	//if (CalculateDistanceAway(OtherActor->GetActorLocation()) < CalculateDistanceAway(CurrentTarget->GetActorLocation()))
+	//{
+	//	// 3. if closer replace
+	//	CurrentTarget = OtherActor;
+	//}
+
+}
+
+void UPlayerAttackComponent::OnEnterView(AActor* OtherActor)
+{
+	// Check if otherActor has health component
+	//GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, "Target Entered View");
+
 	// 1. add to potential targets, if not already there
-	if (!PotentialTargets.Contains(OtherActor))
-		PotentialTargets.Add(OtherActor);
+	//if (!PotentialTargets.Contains(OtherActor))
+		//PotentialTargets.Add(OtherActor);
 
 	TargetsInView.Add(OtherActor);
 
-	if(TargetsInView.Num() > 1)
+	if (TargetsInView.Num() > 1)
 		OrderTargetsInView();
 
 	CanAttack = true;
 
 	// 2. compare distance to CurrentTarget
-	if (CalculateDistanceAway(OtherActor->GetActorLocation()) < CalculateDistanceAway(CurrentTarget->GetActorLocation()))
+	if (TargetsInView.Num() >= 2)
 	{
-		// 3. if closer replace
+		if (CalculateDistanceAway(OtherActor->GetActorLocation()) < CalculateDistanceAway(CurrentTarget->GetActorLocation()))
+		{
+			// 3. if closer replace
+			CurrentTarget = OtherActor;
+		}
+	}
+	else
+	{
 		CurrentTarget = OtherActor;
 	}
-
+	
 }
-
 
 void UPlayerAttackComponent::OnBoxEndOverlap(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
 {
+	//GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, "Target Left view");
+
+	//// Just remove from TargetsInView
+	//if (TargetsInView.Contains(OtherActor))
+	//{
+	//	int x = TargetsInView.Find(OtherActor);
+	//	TargetsInView.RemoveAt(x);
+	//}
+	//
+	//// 1. If current target remove 
+	//if (CurrentTarget == OtherActor)
+	//{
+	//	CurrentTarget = nullptr;
+
+	//	// 2. Set new current target
+	//	if (TargetsInView.Num() != 0)
+	//	{
+	//		//Compare distances in the TargetsInView Tarrray
+	//		// Have TargetsInView already ordered and (re)ordered when a new actor is added
+	//		SelectTarget();
+	//	}
+	//	else
+	//	{
+	//		// No target
+	//		CanAttack = false;
+	//	}
+	//}
+}
+
+void UPlayerAttackComponent::OnLeaveView(AActor* OtherActor)
+{
+	//GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, "Target Left view");
+
 	// Just remove from TargetsInView
 	if (TargetsInView.Contains(OtherActor))
 	{
 		int x = TargetsInView.Find(OtherActor);
 		TargetsInView.RemoveAt(x);
 	}
-	
+
 	// 1. If current target remove 
 	if (CurrentTarget == OtherActor)
 	{
@@ -142,7 +169,16 @@ void UPlayerAttackComponent::AttackTarget()
 
 	//TArray<UActorComponent> targetComponents = CurrentTarget->GetComponents();
 	//CurrentTarget->FindComponentByClass(TSubclassOf<UActorComponent> UHealthComponent);
-	CurrentTarget->FindComponentByClass<UHealthComponent>()->Alive = false;
+	//GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, "Attack function In comp");
+
+	if (CurrentTarget != nullptr)
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, "Attack If");
+		SelectTarget();
+
+		CurrentTarget->FindComponentByClass<UHealthComponent>()->Alive = false;
+	}
+	
 	
 }
 

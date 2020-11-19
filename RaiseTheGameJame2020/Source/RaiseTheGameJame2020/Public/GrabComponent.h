@@ -6,6 +6,7 @@
 #include "Components/ActorComponent.h"
 #include "Components/BoxComponent.h"
 #include "DragComponent.h"
+#include "TestActor.h"
 #include "GrabComponent.generated.h"
 
 
@@ -26,15 +27,6 @@ public:
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
-	UPROPERTY(VisibleAnywhere)
-		UBoxComponent* AreaBoxCollider;
-
-	UPROPERTY(VisibleAnywhere)
-		FVector BoxColliderSize;
-		
-	//UPROPERTY(VisibleAnywhere)
-		//FSocket GrabSocket;
-
 	AActor* GrabTarget;
 
 	bool CurrentlyDragging = false;
@@ -44,9 +36,10 @@ public:
 	void ReleaseGTarget();
 
 	UFUNCTION()
-		void OnBoxBeginOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
+		void OnEnterGrabZone(AActor* OtherActor);
+
 
 	UFUNCTION()
-		void OnBoxEndOverlap(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
+		void OnLeaveGrabZone(AActor* OtherActor);
 
 };

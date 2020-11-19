@@ -10,13 +10,7 @@ UHideComponent::UHideComponent()
 	// off to improve performance if you don't need them.
 	PrimaryComponentTick.bCanEverTick = true;
 
-	AreaBoxCollider = CreateDefaultSubobject<UBoxComponent>(TEXT("Hide Collider"));
-	AreaBoxCollider->InitBoxExtent(BoxColliderSize); // half the size of the box: x, y, z //change me
-	AreaBoxCollider->SetCollisionEnabled(ECollisionEnabled::QueryOnly);
-	AreaBoxCollider->SetCollisionProfileName("Hide Box");
-	AreaBoxCollider->OnComponentBeginOverlap.AddDynamic(this, &UHideComponent::OnBoxBeginOverlap);
 
-	// On overlap, allow player ability to hide (delete) the body
 
 	// ...
 }
@@ -41,22 +35,39 @@ void UHideComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActorC
 }
 
 
-void UHideComponent::OnBoxBeginOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
-{
-	// 1. If OtherActor has a drag component
-	// 2. Check if currently alive
-	// 3. Check if currently being dragged
+//void UHideComponent::OnBoxBeginOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
+//{
+//	// 1. If OtherActor has a drag component
+//	// 2. Check if currently alive
+//	// 3. Check if currently being dragged
+//
+//	if (OtherActor->FindComponentByClass<UDragComponent>()->IsDragEnabled) // Health is zero
+//	{
+//		if (!OtherActor->FindComponentByClass<UDragComponent>()->IsBeingDragged) // Not being Dragged
+//		{
+//			OtherActor->Destroy(); // Delete
+//			// OtherActor->SetActorHiddenInGame(true); // Set Hidden Instead
+//		}
+//	}
+//	
+//	
+//}
 
-	if (OtherActor->FindComponentByClass<UDragComponent>()->IsDragEnabled) // Health is zero
+
+void UHideComponent::OnActorEnterHideZone(AActor* OtherActor)
+{
+	GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, "Actor Enter Hide Zone");
+
+	//if (OtherActor->FindComponentByClass<UDragComponent>()->IsDragEnabled) // Health is zero
 	{
-		if (!OtherActor->FindComponentByClass<UDragComponent>()->IsBeingDragged) // Not being Dragged
+		//GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, "Actor DragEnabled");
+
+		//if (!OtherActor->FindComponentByClass<UDragComponent>()->IsBeingDragged) // Not being Dragged
 		{
-			OtherActor->Destroy(); // Delete
+			//GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, "Actor Delete");
+
+			//OtherActor->Destroy(); // Delete
 			// OtherActor->SetActorHiddenInGame(true); // Set Hidden Instead
 		}
 	}
-	
-	
 }
-
-

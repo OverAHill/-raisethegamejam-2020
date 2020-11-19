@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\ryem_\Desktop\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\AgentCharacter.h
 C:\Users\ryem_\Desktop\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\AgentController.h
 C:\Users\ryem_\Desktop\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\AgentTaskManager.h
@@ -13,3 +14,17 @@ C:\Users\ryem_\Desktop\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTh
 C:\Users\ryem_\Desktop\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\TaskTarget.h
 C:\Users\ryem_\Desktop\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\RaiseTheGameJame2020Character.h
 C:\Users\ryem_\Desktop\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\RaiseTheGameJame2020GameMode.h
+=======
+D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\APlayerTask.h
+D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\DragComponent.h
+D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\HideComponent.h
+D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\PlayerAttackComponent.h
+D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\TargetActor.h
+D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\GrabComponent.h
+D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\HealthComponent.h
+D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\TaskTarget.h
+D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\TestActor.h
+D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\HideTestActor.h
+D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\RaiseTheGameJame2020GameMode.h
+D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\RaiseTheGameJame2020Character.h
+>>>>>>> TestingComponents

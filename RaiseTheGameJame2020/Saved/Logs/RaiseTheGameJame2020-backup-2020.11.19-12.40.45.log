@@ -1,0 +1,973 @@
+﻿Log file open, 11/19/20 12:29:59
+LogInit: Display: Running engine for game: RaiseTheGameJame2020
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.320188
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz, GPU: NVIDIA GeForce RTX 2080
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: D:/Program Files (x86)/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.11.19-12.29.59:963][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.11.19-12.29.59:963][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.11.19-12.29.59:963][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Engine.ini]
+[2020.11.19-12.29.59:963][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.11.19-12.29.59:963][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Engine.ini]
+[2020.11.19-12.29.59:963][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Engine.ini]
+[2020.11.19-12.29.59:963][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.11.19-12.29.59:963][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.11.19-12.29.59:963][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.11.19-12.29.59:964][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.11.19-12.29.59:964][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.11.19-12.29.59:964][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.11.19-12.29.59:964][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.11.19-12.29.59:964][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.11.19-12.29.59:964][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.11.19-12.29.59:964][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.11.19-12.29.59:964][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.11.19-12.29.59:964][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.11.19-12.29.59:964][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.11.19-12.29.59:964][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.11.19-12.29.59:964][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Engine.ini]
+[2020.11.19-12.29.59:964][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.11.19-12.29.59:964][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.11.19-12.29.59:964][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.11.19-12.29.59:964][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.11.19-12.29.59:964][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.11.19-12.29.59:964][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.11.19-12.29.59:964][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.11.19-12.29.59:964][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.11.19-12.29.59:964][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.11.19-12.29.59:965][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.11.19-12.29.59:965][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.11.19-12.29.59:965][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.11.19-12.29.59:965][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.11.19-12.29.59:965][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Engine.ini]
+[2020.11.19-12.29.59:965][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Engine.ini]
+[2020.11.19-12.29.59:980][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Scalability.ini]
+[2020.11.19-12.29.59:981][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.11.19-12.29.59:981][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.11.19-12.29.59:981][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Scalability.ini]
+[2020.11.19-12.29.59:981][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.11.19-12.29.59:981][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Scalability.ini]
+[2020.11.19-12.29.59:981][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.11.19-12.29.59:981][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.11.19-12.29.59:981][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.11.19-12.29.59:982][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.11.19-12.29.59:982][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.11.19-12.29.59:982][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.11.19-12.29.59:982][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.11.19-12.29.59:982][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.11.19-12.29.59:982][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.11.19-12.29.59:982][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.11.19-12.29.59:982][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.11.19-12.29.59:982][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.11.19-12.29.59:982][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.11.19-12.29.59:982][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.11.19-12.29.59:982][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.11.19-12.29.59:982][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.11.19-12.29.59:982][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.11.19-12.29.59:982][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.11.19-12.29.59:983][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Scalability.ini]
+[2020.11.19-12.29.59:983][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.11.19-12.29.59:983][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.11.19-12.29.59:983][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.11.19-12.29.59:983][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.11.19-12.29.59:983][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.11.19-12.29.59:983][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.11.19-12.29.59:983][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.11.19-12.29.59:983][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.11.19-12.29.59:983][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.11.19-12.29.59:983][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.11.19-12.29.59:983][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.11.19-12.29.59:983][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.11.19-12.29.59:983][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.11.19-12.29.59:983][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.11.19-12.29.59:983][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.11.19-12.29.59:983][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.11.19-12.29.59:983][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.11.19-12.29.59:983][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.11.19-12.29.59:983][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.11.19-12.29.59:983][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.11.19-12.29.59:984][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.11.19-12.29.59:984][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.11.19-12.29.59:984][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.11.19-12.29.59:984][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.11.19-12.29.59:984][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.11.19-12.29.59:984][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.11.19-12.29.59:984][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.11.19-12.29.59:984][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.11.19-12.29.59:984][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.11.19-12.29.59:984][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.11.19-12.29.59:984][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Scalability.ini]
+[2020.11.19-12.29.59:984][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.11.19-12.29.59:984][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.11.19-12.29.59:984][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.11.19-12.29.59:984][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.11.19-12.29.59:984][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.11.19-12.29.59:984][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.11.19-12.29.59:984][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.11.19-12.29.59:984][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.11.19-12.29.59:984][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.11.19-12.29.59:984][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Scalability.ini]
+[2020.11.19-12.29.59:985][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.11.19-12.29.59:985][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.11.19-12.29.59:985][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.11.19-12.29.59:985][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.11.19-12.29.59:985][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.11.19-12.29.59:985][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.11.19-12.29.59:985][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.11.19-12.29.59:985][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.11.19-12.29.59:985][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.11.19-12.29.59:985][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.11.19-12.29.59:985][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.11.19-12.29.59:985][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.11.19-12.29.59:985][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.11.19-12.29.59:985][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.11.19-12.29.59:985][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.11.19-12.29.59:985][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.11.19-12.29.59:985][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.11.19-12.29.59:986][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.11.19-12.29.59:986][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.11.19-12.29.59:986][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.11.19-12.29.59:986][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.11.19-12.29.59:986][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.11.19-12.29.59:986][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.11.19-12.29.59:986][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.11.19-12.29.59:986][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.11.19-12.29.59:986][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.11.19-12.29.59:986][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Scalability.ini]
+[2020.11.19-12.29.59:986][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.11.19-12.29.59:986][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.11.19-12.29.59:986][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Scalability.ini]
+[2020.11.19-12.29.59:986][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.11.19-12.29.59:986][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.11.19-12.29.59:986][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.11.19-12.29.59:986][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.11.19-12.29.59:986][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.11.19-12.29.59:986][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.11.19-12.29.59:986][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.11.19-12.29.59:987][  0]LogInit: Selected Device Profile: [Windows]
+[2020.11.19-12.29.59:987][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.11.19-12.29.59:987][  0]LogHAL: Display: Platform has ~ 16 GB [17130930176 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.11.19-12.29.59:987][  0]LogInit: Going up to parent DeviceProfile []
+[2020.11.19-12.29.59:987][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Scalability.ini]
+[2020.11.19-12.29.59:987][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.11.19-12.29.59:987][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.11.19-12.29.59:987][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Scalability.ini]
+[2020.11.19-12.29.59:987][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.11.19-12.29.59:987][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Scalability.ini]
+[2020.11.19-12.29.59:987][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.11.19-12.29.59:987][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.11.19-12.29.59:987][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.11.19-12.29.59:987][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.11.19-12.29.59:987][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.11.19-12.29.59:987][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.11.19-12.29.59:987][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.11.19-12.29.59:987][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.11.19-12.29.59:987][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.11.19-12.29.59:987][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.11.19-12.29.59:988][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.11.19-12.29.59:988][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.11.19-12.29.59:988][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.11.19-12.29.59:988][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.11.19-12.29.59:988][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.11.19-12.29.59:988][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.11.19-12.29.59:988][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.11.19-12.29.59:988][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.11.19-12.29.59:988][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Scalability.ini]
+[2020.11.19-12.29.59:988][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.11.19-12.29.59:988][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.11.19-12.29.59:988][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.11.19-12.29.59:988][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.11.19-12.29.59:988][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.11.19-12.29.59:988][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.11.19-12.29.59:988][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.11.19-12.29.59:988][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.11.19-12.29.59:988][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.11.19-12.29.59:988][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.11.19-12.29.59:988][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.11.19-12.29.59:988][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.11.19-12.29.59:989][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.11.19-12.29.59:989][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.11.19-12.29.59:989][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.11.19-12.29.59:989][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.11.19-12.29.59:989][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.11.19-12.29.59:989][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.11.19-12.29.59:989][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.11.19-12.29.59:989][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.11.19-12.29.59:989][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.11.19-12.29.59:989][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.11.19-12.29.59:989][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.11.19-12.29.59:989][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.11.19-12.29.59:989][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.11.19-12.29.59:989][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.11.19-12.29.59:989][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.11.19-12.29.59:989][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.11.19-12.29.59:989][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.11.19-12.29.59:989][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.11.19-12.29.59:989][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Scalability.ini]
+[2020.11.19-12.29.59:989][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.11.19-12.29.59:989][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.11.19-12.29.59:989][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.11.19-12.29.59:990][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.11.19-12.29.59:990][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.11.19-12.29.59:990][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.11.19-12.29.59:990][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.11.19-12.29.59:990][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.11.19-12.29.59:990][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.11.19-12.29.59:990][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Scalability.ini]
+[2020.11.19-12.29.59:990][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.11.19-12.29.59:990][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.11.19-12.29.59:990][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.11.19-12.29.59:990][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.11.19-12.29.59:990][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.11.19-12.29.59:990][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.11.19-12.29.59:990][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.11.19-12.29.59:990][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.11.19-12.29.59:990][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.11.19-12.29.59:990][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.11.19-12.29.59:990][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.11.19-12.29.59:990][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.11.19-12.29.59:990][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.11.19-12.29.59:990][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.11.19-12.29.59:990][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.11.19-12.29.59:991][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.11.19-12.29.59:991][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.11.19-12.29.59:991][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.11.19-12.29.59:991][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.11.19-12.29.59:991][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.11.19-12.29.59:991][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.11.19-12.29.59:991][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.11.19-12.29.59:991][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.11.19-12.29.59:991][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.11.19-12.29.59:991][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.11.19-12.29.59:991][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.11.19-12.29.59:991][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Scalability.ini]
+[2020.11.19-12.29.59:991][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.11.19-12.29.59:991][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.11.19-12.29.59:991][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Scalability.ini]
+[2020.11.19-12.29.59:991][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.11.19-12.29.59:991][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.11.19-12.29.59:991][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.11.19-12.29.59:991][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.11.19-12.29.59:991][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.11.19-12.29.59:991][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.11.19-12.29.59:992][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.11.19-12.29.59:992][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.11.19-12.29.59:992][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.11.19-12.29.59:992][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.11.19-12.29.59:992][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.11.19-12.29.59:992][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Engine.ini]
+[2020.11.19-12.29.59:992][  0]LogInit: Computer: DESKTOP-D8L6EI8
+[2020.11.19-12.29.59:992][  0]LogInit: User: h017026h
+[2020.11.19-12.29.59:992][  0]LogInit: CPU Page size=4096, Cores=6
+[2020.11.19-12.29.59:992][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.11.19-12.29.59:992][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2020.11.19-12.29.59:992][  0]LogMemory: Platform Memory Stats for Windows
+[2020.11.19-12.29.59:992][  0]LogMemory: Process Physical Memory: 116.39 MB used, 116.39 MB peak
+[2020.11.19-12.29.59:993][  0]LogMemory: Process Virtual Memory: 105.59 MB used, 105.59 MB peak
+[2020.11.19-12.29.59:993][  0]LogMemory: Physical Memory: 12624.71 MB used,  3712.62 MB free, 16337.33 MB total
+[2020.11.19-12.29.59:993][  0]LogMemory: Virtual Memory: 5173.71 MB used,  134212552.00 MB free, 134217728.00 MB total
+[2020.11.19-12.30.00:009][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.11.19-12.30.00:169][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.11.19-12.30.00:170][  0]LogInit: Using OS detected language (en-GB).
+[2020.11.19-12.30.00:170][  0]LogInit: Using OS detected locale (en-GB).
+[2020.11.19-12.30.00:173][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2020.11.19-12.30.00:325][  0]LogInit: Setting process to per monitor DPI aware
+[2020.11.19-12.30.00:449][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.11.19-12.30.00:449][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.11.19-12.30.00:645][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.11.19-12.30.00:645][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.11.19-12.30.00:645][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.11.19-12.30.00:645][  0]LogD3D11RHI: D3D11 adapters:
+[2020.11.19-12.30.00:736][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2080' (Feature Level 11_0)
+[2020.11.19-12.30.00:736][  0]LogD3D11RHI:       8010/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.11.19-12.30.00:752][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.11.19-12.30.00:752][  0]LogD3D11RHI:       0/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.11.19-12.30.00:752][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.11.19-12.30.00:762][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.11.19-12.30.00:763][  0]LogD3D11RHI:     GPU DeviceId: 0x1e87 (for the marketing name, search the web for "GPU Device Id")
+[2020.11.19-12.30.00:763][  0]LogWindows: EnumDisplayDevices:
+[2020.11.19-12.30.00:763][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2080' (P:1 D:1)
+[2020.11.19-12.30.00:763][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2080' (P:0 D:1)
+[2020.11.19-12.30.00:764][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
+[2020.11.19-12.30.00:765][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
+[2020.11.19-12.30.00:765][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.11.19-12.30.00:765][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2080
+[2020.11.19-12.30.00:765][  0]LogD3D11RHI:   Driver Version: 457.30 (internal:27.21.14.5730, unified:457.30)
+[2020.11.19-12.30.00:765][  0]LogD3D11RHI:      Driver Date: 11-6-2020
+[2020.11.19-12.30.00:765][  0]LogRHI: Texture pool is 5607 MB (70% of 8010 MB)
+[2020.11.19-12.30.00:815][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.11.19-12.30.00:815][  0]LogD3D11RHI: Async texture creation enabled
+[2020.11.19-12.30.00:816][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.11.19-12.30.00:843][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.11.19-12.30.01:116][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.11.19-12.30.01:138][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.11.19-12.30.01:138][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.11.19-12.30.01:138][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.11.19-12.30.01:139][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.11.19-12.30.01:139][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.11.19-12.30.01:139][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.11.19-12.30.01:139][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.11.19-12.30.01:139][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.11.19-12.30.01:139][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.11.19-12.30.01:139][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.11.19-12.30.01:167][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.11.19-12.30.01:167][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.11.19-12.30.01:177][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.11.19-12.30.01:188][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.11.19-12.30.01:198][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.11.19-12.30.01:207][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.11.19-12.30.01:218][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.11.19-12.30.01:227][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.11.19-12.30.01:237][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.11.19-12.30.01:260][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.11.19-12.30.01:260][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.11.19-12.30.01:275][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.11.19-12.30.01:275][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.11.19-12.30.01:284][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.11.19-12.30.01:294][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.11.19-12.30.01:303][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.11.19-12.30.01:313][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.11.19-12.30.01:313][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.11.19-12.30.01:326][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.11.19-12.30.01:452][  0]LogShaderCompilers: Guid format shader working directory is -44 characters bigger than the processId version (../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Intermediate/Shaders/WorkingDirectory/21600/).
+[2020.11.19-12.30.01:452][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/h017026h/AppData/Local/Temp/UnrealShaderWorkingDir/855C35234AAD818EDDF06496913EF0DB/'.
+[2020.11.19-12.30.01:452][  0]LogXGEController: Cleaning working directory: C:/Users/h017026h/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.11.19-12.30.01:453][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.11.19-12.30.01:453][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.11.19-12.30.01:453][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.11.19-12.30.02:161][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.11.19-12.30.02:212][  0]LogDerivedDataCache: Loaded boot cache 0.05s 79MB C:/Users/h017026h/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.11.19-12.30.02:212][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/h017026h/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.11.19-12.30.02:213][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.11.19-12.30.02:213][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.11.19-12.30.02:213][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.11.19-12.30.02:213][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.11.19-12.30.02:223][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.11.19-12.30.02:223][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.11.19-12.30.02:223][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.11.19-12.30.02:226][  0]LogDerivedDataCache: Using Local data cache path C:/Users/h017026h/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.11.19-12.30.02:226][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.11.19-12.30.02:226][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.11.19-12.30.02:271][  0]LogSlate: Using FreeType 2.10.0
+[2020.11.19-12.30.02:272][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.11.19-12.30.02:299][  0]LogAssetRegistry: FAssetRegistry took 0.0048 seconds to start up
+[2020.11.19-12.30.02:498][  0]LogInit: Selected Device Profile: [Windows]
+[2020.11.19-12.30.02:628][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.11.19-12.30.02:628][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.11.19-12.30.02:628][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.11.19-12.30.02:628][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.11.19-12.30.02:628][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.11.19-12.30.02:646][  0]LogNetVersion: RaiseTheGameJame2020 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 1455622770)
+[2020.11.19-12.30.03:061][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000002717572D380), frame # 0
+[2020.11.19-12.30.03:061][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027175672AC0), frame # 0
+[2020.11.19-12.30.03:063][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000271756ECA00), frame # 0
+[2020.11.19-12.30.03:124][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.055750 seconds
+[2020.11.19-12.30.03:129][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.11.19-12.30.03:129][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.11.19-12.30.03:129][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.11.19-12.30.03:614][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.11.19-12.30.03:622][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.11.19-12.30.03:887][  0]SourceControl: Source control is disabled
+[2020.11.19-12.30.03:887][  0]SourceControl: Source control is disabled
+[2020.11.19-12.30.03:892][  0]SourceControl: Source control is disabled
+[2020.11.19-12.30.03:897][  0]SourceControl: Source control is disabled
+[2020.11.19-12.30.03:909][  0]SourceControl: Source control is disabled
+[2020.11.19-12.30.04:268][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.11.19-12.30.04:298][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.11.19-12.30.04:299][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.11.19-12.30.04:356][  0]LogOcInput: OculusInput pre-init called
+[2020.11.19-12.30.04:368][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.11.19-12.30.04:369][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.11.19-12.30.04:441][  0]LogEngine: Initializing Engine...
+[2020.11.19-12.30.04:442][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.11.19-12.30.04:442][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.11.19-12.30.04:444][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.11.19-12.30.04:555][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.11.19-12.30.04:566][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.11.19-12.30.04:566][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002717D919C00), frame # 0
+[2020.11.19-12.30.04:566][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002717D95CB80), frame # 0
+[2020.11.19-12.30.04:589][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.19-12.30.04:589][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.19-12.30.04:589][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.19-12.30.04:589][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.19-12.30.04:589][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.19-12.30.04:590][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.19-12.30.04:590][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.19-12.30.04:590][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.19-12.30.04:591][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.19-12.30.04:591][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.19-12.30.04:635][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.19-12.30.04:636][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.11.19-12.30.04:636][  0]LogAudioMixer: Display: 2: FrontCenter
+[2020.11.19-12.30.04:636][  0]LogAudioMixer: Display: 3: LowFrequency
+[2020.11.19-12.30.04:636][  0]LogAudioMixer: Display: 4: BackLeft
+[2020.11.19-12.30.04:636][  0]LogAudioMixer: Display: 5: BackRight
+[2020.11.19-12.30.04:636][  0]LogAudioMixer: Display: 6: SideLeft
+[2020.11.19-12.30.04:636][  0]LogAudioMixer: Display: 7: SideRight
+[2020.11.19-12.30.04:818][  0]LogAudioMixer: Display: Using Audio Device Headset Earphone (CORSAIR HS70 PRO Wireless Gaming Headset)
+[2020.11.19-12.30.04:822][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.19-12.30.04:824][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.19-12.30.04:824][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.19-12.30.04:825][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.19-12.30.04:828][  0]LogInit: FAudioDevice initialized.
+[2020.11.19-12.30.04:828][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.11.19-12.30.04:905][  0]LogDerivedDataCache: Saved boot cache 0.08s 79MB C:/Users/h017026h/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.11.19-12.30.04:909][  0]LogInit: Texture streaming: Enabled
+[2020.11.19-12.30.04:939][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.11.19-12.30.04:939][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Debugger, SessionId={5E481ED2-419B-4F9C-F5C4-158AF7E7DAA9}
+[2020.11.19-12.30.04:939][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.11.19-12.30.04:948][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.11.19-12.30.05:000][  0]LogInit: Transaction tracking system initialized
+[2020.11.19-12.30.05:036][  0]BlueprintLog: New page: Editor Load
+[2020.11.19-12.30.05:150][  0]LocalizationService: Localization service is disabled
+[2020.11.19-12.30.05:346][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.11.19-12.30.05:346][  0]LogCook: Display: Mobile HDR setting 1
+[2020.11.19-12.30.05:528][  0]LogFileCache: Scanning file cache for directory 'D:/Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Content/' took 0.01s
+[2020.11.19-12.30.05:718][  0]SourceControl: Source control is disabled
+[2020.11.19-12.30.05:718][  0]LogUnrealEdMisc: Loading editor; pre map load, took 8.548
+[2020.11.19-12.30.05:718][  0]LightingResults: New page: Lighting Build
+[2020.11.19-12.30.05:719][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.11.19-12.30.05:719][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.19-12.30.05:719][  0]MapCheck: New page: Map Check
+[2020.11.19-12.30.05:719][  0]LightingResults: New page: Lighting Build
+[2020.11.19-12.30.05:730][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002717D919C00), frame # 0
+[2020.11.19-12.30.05:730][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002717D95CB80), frame # 0
+[2020.11.19-12.30.05:732][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2020.11.19-12.30.05:790][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.11.19-12.30.05:790][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027106FC1A00), frame # 0
+[2020.11.19-12.30.05:790][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002717BB06480), frame # 0
+[2020.11.19-12.30.05:803][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.19-12.30.05:818][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.11.19-12.30.05:818][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.19-12.30.05:819][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.146ms to complete.
+[2020.11.19-12.30.05:819][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.101
+[2020.11.19-12.30.05:821][  0]LogUnrealEdMisc: Total Editor Startup Time, took 8.652
+[2020.11.19-12.30.05:990][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.19-12.30.05:996][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.19-12.30.06:003][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.19-12.30.06:009][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.19-12.30.06:017][  0]LogCollectionManager: Loaded 0 collections in 0.000932 seconds
+[2020.11.19-12.30.06:036][  0]LogFileCache: Scanning file cache for directory 'D:/Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Collections/' took 0.00s
+[2020.11.19-12.30.06:036][  0]LogFileCache: Scanning file cache for directory 'D:/Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Content/Developers/h017026h/Collections/' took 0.00s
+[2020.11.19-12.30.06:036][  0]LogFileCache: Scanning file cache for directory 'D:/Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Content/Collections/' took 0.00s
+[2020.11.19-12.30.06:036][  0]LogContentBrowser: Native class hierarchy populated in 0.0088 seconds. Added 3438 classes and 824 folders.
+[2020.11.19-12.30.06:039][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.11.19-12.30.06:112][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.11.19-12.30.06:113][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 2 classes and 0 folders.
+[2020.11.19-12.30.06:214][  0]LogSlate: Took 0.000369 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.11.19-12.30.06:216][  0]LogSlate: Took 0.000343 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.11.19-12.30.06:220][  0]LogSlate: Took 0.000203 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.11.19-12.30.06:281][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2020.11.19-12.30.06:328][  0]LogSlate: Took 0.000181 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.11.19-12.30.06:433][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2020.11.19-12.30.06:433][  0]LogLoad: (Engine Initialization) Total time: 9.26 seconds
+[2020.11.19-12.30.06:433][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.11.19-12.30.06:479][  0]LogAssetRegistry: Asset discovery search completed in 4.1833 seconds
+[2020.11.19-12.30.06:482][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2020.11.19-12.30.06:483][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.11.19-12.30.09:222][311]LogTemp: Repeating last play command: Selected Viewport
+[2020.11.19-12.30.09:238][311]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.19-12.30.09:238][311]PIE: New page: PIE session: ThirdPersonExampleMap (19 Nov 2020, 12:30:09)
+[2020.11.19-12.30.09:240][311]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.11.19-12.30.09:243][311]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.11.19-12.30.09:243][311]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.11.19-12.30.09:258][311]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014782s)
+[2020.11.19-12.30.09:260][311]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.11.19-12.30.09:260][311]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002712C97FE00), frame # 311
+[2020.11.19-12.30.09:260][311]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002717DDA6980), frame # 311
+[2020.11.19-12.30.09:260][311]LogPlayLevel: PIE: World Init took: (0.002192s)
+[2020.11.19-12.30.09:261][311]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.017486s)
+[2020.11.19-12.30.09:274][311]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2020.11.19-12.30.09:276][311]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.19-12.30.09:276][311]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.19-12.30.09:276][311]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.19-12.30.09:276][311]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.19-12.30.09:276][311]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.19-12.30.09:276][311]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.19-12.30.09:276][311]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.19-12.30.09:277][311]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.19-12.30.09:277][311]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.19-12.30.09:277][311]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.19-12.30.09:286][311]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.19-12.30.09:286][311]LogAudioMixer: Display: 1: FrontRight
+[2020.11.19-12.30.09:287][311]LogAudioMixer: Display: 2: FrontCenter
+[2020.11.19-12.30.09:287][311]LogAudioMixer: Display: 3: LowFrequency
+[2020.11.19-12.30.09:287][311]LogAudioMixer: Display: 4: BackLeft
+[2020.11.19-12.30.09:287][311]LogAudioMixer: Display: 5: BackRight
+[2020.11.19-12.30.09:287][311]LogAudioMixer: Display: 6: SideLeft
+[2020.11.19-12.30.09:287][311]LogAudioMixer: Display: 7: SideRight
+[2020.11.19-12.30.09:433][311]LogAudioMixer: Display: Using Audio Device Headset Earphone (CORSAIR HS70 PRO Wireless Gaming Headset)
+[2020.11.19-12.30.09:433][311]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.19-12.30.09:433][311]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.19-12.30.09:434][311]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.19-12.30.09:434][311]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.19-12.30.09:446][311]LogInit: FAudioDevice initialized.
+[2020.11.19-12.30.09:459][311]LogLoad: Game class is 'RaiseTheGameJame2020GameMode'
+[2020.11.19-12.30.09:461][311]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.11.19-12.30.09
+[2020.11.19-12.30.09:461][311]LogWorld: Bringing up level for play took: 0.001286
+[2020.11.19-12.30.09:461][311]LogOnline: OSS: Creating online subsystem instance for: :Context_1
+[2020.11.19-12.30.09:465][311]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
+[2020.11.19-12.30.09:466][311]PIE: Server logged in
+[2020.11.19-12.30.09:467][311]PIE: Play in editor total start time 0.23 seconds.
+[2020.11.19-12.30.34:748][936]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.19-12.30.34:748][936]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.11.19-12.30.34:749][936]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.11.19-12.30.34:749][936]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.19-12.30.34:759][936]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.19-12.30.34:761][936]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.19-12.30.34:819][936]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.19-12.30.34:820][936]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002712C97FE00), frame # 1936
+[2020.11.19-12.30.34:821][936]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002717DDA6980), frame # 1936
+[2020.11.19-12.30.34:821][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2020.11.19-12.30.34:847][937]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2020.11.19-12.30.36:228][ 90]LogTemp: Repeating last play command: Selected Viewport
+[2020.11.19-12.30.36:245][ 90]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.19-12.30.36:245][ 90]PIE: New page: PIE session: ThirdPersonExampleMap (19 Nov 2020, 12:30:36)
+[2020.11.19-12.30.36:245][ 90]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.11.19-12.30.36:255][ 90]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009966s)
+[2020.11.19-12.30.36:256][ 90]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.11.19-12.30.36:257][ 90]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002712C6BEA00), frame # 2090
+[2020.11.19-12.30.36:257][ 90]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002712C956340), frame # 2090
+[2020.11.19-12.30.36:257][ 90]LogPlayLevel: PIE: World Init took: (0.001660s)
+[2020.11.19-12.30.36:257][ 90]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.012099s)
+[2020.11.19-12.30.36:268][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2020.11.19-12.30.36:270][ 90]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.19-12.30.36:270][ 90]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.19-12.30.36:270][ 90]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.19-12.30.36:270][ 90]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.19-12.30.36:270][ 90]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.19-12.30.36:271][ 90]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.19-12.30.36:271][ 90]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.19-12.30.36:271][ 90]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.19-12.30.36:272][ 90]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.19-12.30.36:272][ 90]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.19-12.30.36:282][ 90]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.19-12.30.36:282][ 90]LogAudioMixer: Display: 1: FrontRight
+[2020.11.19-12.30.36:282][ 90]LogAudioMixer: Display: 2: FrontCenter
+[2020.11.19-12.30.36:282][ 90]LogAudioMixer: Display: 3: LowFrequency
+[2020.11.19-12.30.36:282][ 90]LogAudioMixer: Display: 4: BackLeft
+[2020.11.19-12.30.36:282][ 90]LogAudioMixer: Display: 5: BackRight
+[2020.11.19-12.30.36:282][ 90]LogAudioMixer: Display: 6: SideLeft
+[2020.11.19-12.30.36:283][ 90]LogAudioMixer: Display: 7: SideRight
+[2020.11.19-12.30.36:440][ 90]LogAudioMixer: Display: Using Audio Device Headset Earphone (CORSAIR HS70 PRO Wireless Gaming Headset)
+[2020.11.19-12.30.36:441][ 90]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.19-12.30.36:441][ 90]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.19-12.30.36:441][ 90]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.19-12.30.36:441][ 90]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.19-12.30.36:454][ 90]LogInit: FAudioDevice initialized.
+[2020.11.19-12.30.36:468][ 90]LogLoad: Game class is 'RaiseTheGameJame2020GameMode'
+[2020.11.19-12.30.36:469][ 90]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.11.19-12.30.36
+[2020.11.19-12.30.36:470][ 90]LogWorld: Bringing up level for play took: 0.001520
+[2020.11.19-12.30.36:470][ 90]LogOnline: OSS: Creating online subsystem instance for: :Context_2
+[2020.11.19-12.30.36:473][ 90]PIE: Server logged in
+[2020.11.19-12.30.36:474][ 90]PIE: Play in editor total start time 0.23 seconds.
+[2020.11.19-12.31.02:594][210]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.19-12.31.02:594][210]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.11.19-12.31.02:595][210]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.11.19-12.31.02:595][210]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.19-12.31.02:606][210]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.19-12.31.02:608][210]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.19-12.31.02:661][210]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.19-12.31.02:662][210]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002712C956340), frame # 5210
+[2020.11.19-12.31.02:663][210]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002712C6BEA00), frame # 5210
+[2020.11.19-12.31.02:664][210]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2020.11.19-12.31.02:699][211]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2020.11.19-12.31.36:997][745]Candidate modules for hot reload:
+[2020.11.19-12.31.36:998][745]  RaiseTheGameJame2020
+[2020.11.19-12.31.36:998][745]Launching UnrealBuildTool... [D:/Program Files (x86)/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=RaiseTheGameJame2020,375 RaiseTheGameJame2020Editor Win64 Development -Project="D:/Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/RaiseTheGameJame2020.uproject" "D:/Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/RaiseTheGameJame2020.uproject"  -IgnoreJunk]
+[2020.11.19-12.31.37:000][745]Warning: Starting HotReload took  0.0s.
+[2020.11.19-12.31.39:607][963]CompilerResultsLog: New page: Compilation - 19 Nov 2020, 12:31:39
+[2020.11.19-12.31.39:607][963]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020).
+[2020.11.19-12.31.39:607][963]CompilerResultsLog: Building RaiseTheGameJame2020Editor...
+[2020.11.19-12.31.39:608][963]CompilerResultsLog: Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.11.19-12.31.39:608][963]CompilerResultsLog: Building 4 actions with 12 processes...
+[2020.11.19-12.31.39:608][963]CompilerResultsLog:   [1/4] GrabComponent.cpp
+[2020.11.19-12.31.39:608][963]CompilerResultsLog:   [2/4] UE4Editor-RaiseTheGameJame2020-0375.lib
+[2020.11.19-12.31.39:608][963]CompilerResultsLog:      Creating library D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\UE4Editor-RaiseTheGameJame2020-0375.lib and object D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\UE4Editor-RaiseTheGameJame2020-0375.exp
+[2020.11.19-12.31.39:608][963]CompilerResultsLog:   [3/4] UE4Editor-RaiseTheGameJame2020-0375.dll
+[2020.11.19-12.31.39:608][963]CompilerResultsLog:      Creating library D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\UE4Editor-RaiseTheGameJame2020-0375.suppressed.lib and object D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\UE4Editor-RaiseTheGameJame2020-0375.suppressed.exp
+[2020.11.19-12.31.39:608][963]CompilerResultsLog:   [4/4] RaiseTheGameJame2020Editor.target
+[2020.11.19-12.31.39:608][963]CompilerResultsLog: Total time in Parallel executor: 1.68 seconds
+[2020.11.19-12.31.39:608][963]CompilerResultsLog: Total execution time: 2.39 seconds
+[2020.11.19-12.31.39:608][963]LogMainFrame: MainFrame: Module compiling took 2.615 seconds
+[2020.11.19-12.31.39:624][963]LogContentBrowser: Native class hierarchy populated in 0.0095 seconds. Added 3438 classes and 824 folders.
+[2020.11.19-12.31.39:624][963]Display: HotReload took  2.7s.
+[2020.11.19-12.31.43:027][130]LogTemp: Repeating last play command: Selected Viewport
+[2020.11.19-12.31.43:047][130]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.19-12.31.43:047][130]PIE: New page: PIE session: ThirdPersonExampleMap (19 Nov 2020, 12:31:43)
+[2020.11.19-12.31.43:097][130]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.11.19-12.31.43:111][130]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013736s)
+[2020.11.19-12.31.43:113][130]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.11.19-12.31.43:113][130]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002712C729600), frame # 6130
+[2020.11.19-12.31.43:113][130]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002712C9574C0), frame # 6130
+[2020.11.19-12.31.43:113][130]LogPlayLevel: PIE: World Init took: (0.002222s)
+[2020.11.19-12.31.43:114][130]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.016648s)
+[2020.11.19-12.31.43:125][130]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2020.11.19-12.31.43:128][130]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.19-12.31.43:128][130]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.19-12.31.43:128][130]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.19-12.31.43:128][130]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.19-12.31.43:128][130]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.19-12.31.43:129][130]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.19-12.31.43:129][130]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.19-12.31.43:129][130]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.19-12.31.43:130][130]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.19-12.31.43:130][130]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.19-12.31.43:141][130]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.19-12.31.43:141][130]LogAudioMixer: Display: 1: FrontRight
+[2020.11.19-12.31.43:141][130]LogAudioMixer: Display: 2: FrontCenter
+[2020.11.19-12.31.43:141][130]LogAudioMixer: Display: 3: LowFrequency
+[2020.11.19-12.31.43:141][130]LogAudioMixer: Display: 4: BackLeft
+[2020.11.19-12.31.43:141][130]LogAudioMixer: Display: 5: BackRight
+[2020.11.19-12.31.43:141][130]LogAudioMixer: Display: 6: SideLeft
+[2020.11.19-12.31.43:141][130]LogAudioMixer: Display: 7: SideRight
+[2020.11.19-12.31.43:312][130]LogAudioMixer: Display: Using Audio Device Headset Earphone (CORSAIR HS70 PRO Wireless Gaming Headset)
+[2020.11.19-12.31.43:312][130]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.19-12.31.43:313][130]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.19-12.31.43:313][130]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.19-12.31.43:313][130]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.19-12.31.43:325][130]LogInit: FAudioDevice initialized.
+[2020.11.19-12.31.43:333][130]LogLoad: Game class is 'RaiseTheGameJame2020GameMode'
+[2020.11.19-12.31.43:335][130]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.11.19-12.31.43
+[2020.11.19-12.31.43:335][130]LogWorld: Bringing up level for play took: 0.001434
+[2020.11.19-12.31.43:335][130]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2020.11.19-12.31.43:338][130]PIE: Server logged in
+[2020.11.19-12.31.43:339][130]PIE: Play in editor total start time 0.296 seconds.
+[2020.11.19-12.32.03:548][543]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.19-12.32.03:548][543]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.11.19-12.32.03:549][543]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.11.19-12.32.03:549][543]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.19-12.32.03:566][543]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.19-12.32.03:567][543]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.19-12.32.03:623][543]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.19-12.32.03:624][543]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002712C9574C0), frame # 8543
+[2020.11.19-12.32.03:624][543]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002712C729600), frame # 8543
+[2020.11.19-12.32.03:625][543]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2020.11.19-12.32.03:658][544]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2020.11.19-12.33.10:343][121]Candidate modules for hot reload:
+[2020.11.19-12.33.10:343][121]  RaiseTheGameJame2020
+[2020.11.19-12.33.10:343][121]Launching UnrealBuildTool... [D:/Program Files (x86)/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=RaiseTheGameJame2020,8419 RaiseTheGameJame2020Editor Win64 Development -Project="D:/Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/RaiseTheGameJame2020.uproject" "D:/Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/RaiseTheGameJame2020.uproject"  -IgnoreJunk]
+[2020.11.19-12.33.10:345][121]Warning: Starting HotReload took  0.0s.
+[2020.11.19-12.34.25:411][ 76]CompilerResultsLog: New page: Compilation - 19 Nov 2020, 12:34:25
+[2020.11.19-12.34.25:411][ 76]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020).
+[2020.11.19-12.34.25:411][ 76]CompilerResultsLog: Building RaiseTheGameJame2020Editor...
+[2020.11.19-12.34.25:411][ 76]CompilerResultsLog: Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.11.19-12.34.25:411][ 76]CompilerResultsLog: Building 4 actions with 12 processes...
+[2020.11.19-12.34.25:412][ 76]CompilerResultsLog:   [1/4] GrabComponent.cpp
+[2020.11.19-12.34.25:412][ 76]CompilerResultsLog:   [2/4] UE4Editor-RaiseTheGameJame2020-8419.lib
+[2020.11.19-12.34.25:412][ 76]CompilerResultsLog:      Creating library D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\UE4Editor-RaiseTheGameJame2020-8419.lib and object D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\UE4Editor-RaiseTheGameJame2020-8419.exp
+[2020.11.19-12.34.25:412][ 76]CompilerResultsLog:   [3/4] UE4Editor-RaiseTheGameJame2020-8419.dll
+[2020.11.19-12.34.25:412][ 76]CompilerResultsLog:      Creating library D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\UE4Editor-RaiseTheGameJame2020-8419.suppressed.lib and object D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\UE4Editor-RaiseTheGameJame2020-8419.suppressed.exp
+[2020.11.19-12.34.25:412][ 76]CompilerResultsLog:   [4/4] RaiseTheGameJame2020Editor.target
+[2020.11.19-12.34.25:412][ 76]CompilerResultsLog: Total time in Parallel executor: 72.33 seconds
+[2020.11.19-12.34.25:412][ 76]CompilerResultsLog: Total execution time: 74.91 seconds
+[2020.11.19-12.34.25:412][ 76]LogMainFrame: MainFrame: Module compiling took 75.073 seconds
+[2020.11.19-12.34.25:647][ 76]LogContentBrowser: Native class hierarchy updated for 'RaiseTheGameJame2020' in 0.0007 seconds. Added 11 classes and 3 folders.
+[2020.11.19-12.34.25:666][ 76]Display: HotReload successful (20 functions remapped  0 scriptstructs remapped)
+[2020.11.19-12.34.26:100][ 76]LogContentBrowser: Native class hierarchy populated in 0.0094 seconds. Added 3438 classes and 824 folders.
+[2020.11.19-12.34.26:100][ 76]Display: HotReload took 75.8s.
+[2020.11.19-12.34.28:820][395]LogTemp: Repeating last play command: Selected Viewport
+[2020.11.19-12.34.28:850][395]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.19-12.34.28:850][395]PIE: New page: PIE session: ThirdPersonExampleMap (19 Nov 2020, 12:34:28)
+[2020.11.19-12.34.28:850][395]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.11.19-12.34.28:865][395]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014399s)
+[2020.11.19-12.34.28:867][395]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.11.19-12.34.28:867][395]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027104281400), frame # 18395
+[2020.11.19-12.34.28:867][395]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002717DDA6980), frame # 18395
+[2020.11.19-12.34.28:867][395]LogPlayLevel: PIE: World Init took: (0.002472s)
+[2020.11.19-12.34.28:868][395]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.017446s)
+[2020.11.19-12.34.28:882][395]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2020.11.19-12.34.28:883][395]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.19-12.34.28:884][395]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.19-12.34.28:884][395]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.19-12.34.28:884][395]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.19-12.34.28:884][395]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.19-12.34.28:884][395]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.19-12.34.28:884][395]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.19-12.34.28:884][395]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.19-12.34.28:885][395]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.19-12.34.28:885][395]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.19-12.34.28:899][395]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.19-12.34.28:899][395]LogAudioMixer: Display: 1: FrontRight
+[2020.11.19-12.34.28:900][395]LogAudioMixer: Display: 2: FrontCenter
+[2020.11.19-12.34.28:900][395]LogAudioMixer: Display: 3: LowFrequency
+[2020.11.19-12.34.28:900][395]LogAudioMixer: Display: 4: BackLeft
+[2020.11.19-12.34.28:900][395]LogAudioMixer: Display: 5: BackRight
+[2020.11.19-12.34.28:900][395]LogAudioMixer: Display: 6: SideLeft
+[2020.11.19-12.34.28:900][395]LogAudioMixer: Display: 7: SideRight
+[2020.11.19-12.34.29:054][395]LogAudioMixer: Display: Using Audio Device Headset Earphone (CORSAIR HS70 PRO Wireless Gaming Headset)
+[2020.11.19-12.34.29:055][395]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.19-12.34.29:055][395]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.19-12.34.29:055][395]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.19-12.34.29:055][395]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.19-12.34.29:067][395]LogInit: FAudioDevice initialized.
+[2020.11.19-12.34.29:081][395]LogLoad: Game class is 'RaiseTheGameJame2020GameMode'
+[2020.11.19-12.34.29:084][395]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.11.19-12.34.29
+[2020.11.19-12.34.29:085][395]LogWorld: Bringing up level for play took: 0.002403
+[2020.11.19-12.34.29:085][395]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2020.11.19-12.34.29:114][395]PIE: Server logged in
+[2020.11.19-12.34.29:115][395]PIE: Play in editor total start time 0.269 seconds.
+[2020.11.19-12.34.37:038][338]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.19-12.34.37:038][338]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.11.19-12.34.37:039][338]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.11.19-12.34.37:039][338]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.19-12.34.37:052][338]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.19-12.34.37:053][338]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.19-12.34.37:099][338]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.19-12.34.37:100][338]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002717DDA6980), frame # 19338
+[2020.11.19-12.34.37:100][338]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027104281400), frame # 19338
+[2020.11.19-12.34.37:101][338]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2020.11.19-12.34.37:139][339]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2020.11.19-12.38.08:735][171]Candidate modules for hot reload:
+[2020.11.19-12.38.08:735][171]  RaiseTheGameJame2020
+[2020.11.19-12.38.08:735][171]Launching UnrealBuildTool... [D:/Program Files (x86)/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=RaiseTheGameJame2020,4544 RaiseTheGameJame2020Editor Win64 Development -Project="D:/Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/RaiseTheGameJame2020.uproject" "D:/Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/RaiseTheGameJame2020.uproject"  -IgnoreJunk]
+[2020.11.19-12.38.08:737][171]Warning: Starting HotReload took  0.0s.
+[2020.11.19-12.40.40:028][583]CompilerResultsLog: New page: Compilation - 19 Nov 2020, 12:40:40
+[2020.11.19-12.40.40:028][583]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020).
+[2020.11.19-12.40.40:029][583]CompilerResultsLog: Building RaiseTheGameJame2020Editor...
+[2020.11.19-12.40.40:029][583]CompilerResultsLog: Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.11.19-12.40.40:029][583]CompilerResultsLog: Building 4 actions with 12 processes...
+[2020.11.19-12.40.40:029][583]CompilerResultsLog:   [1/4] GrabComponent.cpp
+[2020.11.19-12.40.40:029][583]CompilerResultsLog:   D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Private\GrabComponent.cpp(103): warning C4996: 'USceneComponent::DetachFromParent': This function is deprecated, please use DetachFromComponent() instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2020.11.19-12.40.40:029][583]CompilerResultsLog:   [2/4] UE4Editor-RaiseTheGameJame2020-4544.lib
+[2020.11.19-12.40.40:029][583]CompilerResultsLog:      Creating library D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\UE4Editor-RaiseTheGameJame2020-4544.lib and object D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\UE4Editor-RaiseTheGameJame2020-4544.exp
+[2020.11.19-12.40.40:029][583]CompilerResultsLog:   [3/4] UE4Editor-RaiseTheGameJame2020-4544.dll
+[2020.11.19-12.40.40:030][583]CompilerResultsLog:      Creating library D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\UE4Editor-RaiseTheGameJame2020-4544.suppressed.lib and object D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\UE4Editor-RaiseTheGameJame2020-4544.suppressed.exp
+[2020.11.19-12.40.40:030][583]CompilerResultsLog:   [4/4] RaiseTheGameJame2020Editor.target
+[2020.11.19-12.40.40:030][583]CompilerResultsLog: Total time in Parallel executor: 149.00 seconds
+[2020.11.19-12.40.40:030][583]CompilerResultsLog: Total execution time: 151.16 seconds
+[2020.11.19-12.40.40:030][583]LogMainFrame: MainFrame: Module compiling took 151.299 seconds
+[2020.11.19-12.40.40:078][583]LogContentBrowser: Native class hierarchy updated for 'RaiseTheGameJame2020' in 0.0006 seconds. Added 11 classes and 3 folders.
+[2020.11.19-12.40.40:079][583]Display: HotReload successful (20 functions remapped  0 scriptstructs remapped)
+[2020.11.19-12.40.40:119][583]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 3438 classes and 824 folders.
+[2020.11.19-12.40.40:119][583]Display: HotReload took 151.4s.
+[2020.11.19-12.40.44:894][139]LogTemp: Repeating last play command: Selected Viewport
+[2020.11.19-12.40.44:916][139]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.19-12.40.44:916][139]PIE: New page: PIE session: ThirdPersonExampleMap (19 Nov 2020, 12:40:44)
+[2020.11.19-12.40.44:938][139]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.11.19-12.40.44:950][139]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011499s)
+[2020.11.19-12.40.44:952][139]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.11.19-12.40.44:952][139]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027104572E00), frame # 24139
+[2020.11.19-12.40.44:952][139]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002712C955940), frame # 24139
+[2020.11.19-12.40.44:952][139]LogPlayLevel: PIE: World Init took: (0.002384s)
+[2020.11.19-12.40.44:952][139]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.014428s)
+[2020.11.19-12.40.44:972][139]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2020.11.19-12.40.44:974][139]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.19-12.40.44:974][139]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.19-12.40.44:974][139]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.19-12.40.44:974][139]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.19-12.40.44:974][139]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.19-12.40.44:974][139]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.19-12.40.44:974][139]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.19-12.40.44:974][139]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.19-12.40.44:975][139]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.19-12.40.44:975][139]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.19-12.40.45:003][139]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.19-12.40.45:004][139]LogAudioMixer: Display: 1: FrontRight
+[2020.11.19-12.40.45:004][139]LogAudioMixer: Display: 2: FrontCenter
+[2020.11.19-12.40.45:004][139]LogAudioMixer: Display: 3: LowFrequency
+[2020.11.19-12.40.45:004][139]LogAudioMixer: Display: 4: BackLeft
+[2020.11.19-12.40.45:004][139]LogAudioMixer: Display: 5: BackRight
+[2020.11.19-12.40.45:004][139]LogAudioMixer: Display: 6: SideLeft
+[2020.11.19-12.40.45:004][139]LogAudioMixer: Display: 7: SideRight
+[2020.11.19-12.40.45:178][139]LogAudioMixer: Display: Using Audio Device Headset Earphone (CORSAIR HS70 PRO Wireless Gaming Headset)
+[2020.11.19-12.40.45:178][139]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.19-12.40.45:178][139]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.19-12.40.45:178][139]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.19-12.40.45:179][139]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.19-12.40.45:192][139]LogInit: FAudioDevice initialized.
+[2020.11.19-12.40.45:204][139]LogLoad: Game class is 'RaiseTheGameJame2020GameMode'
+[2020.11.19-12.40.45:207][139]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.11.19-12.40.45
+[2020.11.19-12.40.45:207][139]LogWorld: Bringing up level for play took: 0.001980
+[2020.11.19-12.40.45:208][139]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2020.11.19-12.40.45:211][139]PIE: Server logged in
+[2020.11.19-12.40.45:212][139]PIE: Play in editor total start time 0.3 seconds.

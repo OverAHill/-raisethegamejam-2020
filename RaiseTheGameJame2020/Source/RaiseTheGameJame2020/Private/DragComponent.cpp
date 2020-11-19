@@ -10,12 +10,6 @@ UDragComponent::UDragComponent()
 	// off to improve performance if you don't need them.
 	PrimaryComponentTick.bCanEverTick = true;
 	
-	// ...
-	AreaBoxCollider = CreateDefaultSubobject<UBoxComponent>(TEXT("Hide Collider"));
-	AreaBoxCollider->InitBoxExtent(BoxColliderSize); // half the size of the box: x, y, z //change me
-	AreaBoxCollider->SetCollisionEnabled(ECollisionEnabled::QueryOnly);
-	AreaBoxCollider->SetCollisionProfileName("Hide Box");
-	
 }
 
 

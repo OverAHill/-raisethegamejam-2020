@@ -3,7 +3,11 @@
   <ItemGroup>
     <None Include="..\..\RaiseTheGameJame2020.uproject" />
     <Filter Include="Source">
+<<<<<<< HEAD
       <UniqueIdentifier>{B80BADC0-E941-4BD4-B22F-D7165A2A9A25}</UniqueIdentifier>
+=======
+      <UniqueIdentifier>{1B7DB1E6-EBA6-40A3-9D29-9CA2E1242B77}</UniqueIdentifier>
+>>>>>>> TestingComponents
     </Filter>
     <None Include="..\..\Source\RaiseTheGameJame2020.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +16,11 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
+<<<<<<< HEAD
       <UniqueIdentifier>{55042403-7CDF-4D83-A415-0E8727B2EDEF}</UniqueIdentifier>
+=======
+      <UniqueIdentifier>{0B87251B-95C7-4BD0-B9D0-E6D42715940A}</UniqueIdentifier>
+>>>>>>> TestingComponents
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +38,11 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\RaiseTheGameJame2020">
+<<<<<<< HEAD
       <UniqueIdentifier>{3ECADF12-B08D-4602-BD17-66D43E4E6D33}</UniqueIdentifier>
+=======
+      <UniqueIdentifier>{3E3E7FF1-6555-48B0-9C3A-E66B6417244C}</UniqueIdentifier>
+>>>>>>> TestingComponents
     </Filter>
     <None Include="..\..\Source\RaiseTheGameJame2020\RaiseTheGameJame2020.Build.cs">
       <Filter>Source\RaiseTheGameJame2020</Filter>
@@ -60,7 +72,11 @@
       <Filter>Source\RaiseTheGameJame2020</Filter>
     </ClInclude>
     <Filter Include="Source\RaiseTheGameJame2020\Private">
+<<<<<<< HEAD
       <UniqueIdentifier>{0874B085-BB72-4551-8388-F1DFF67DF9BD}</UniqueIdentifier>
+=======
+      <UniqueIdentifier>{BAB79444-AE73-419D-AC8B-7D6431702681}</UniqueIdentifier>
+>>>>>>> TestingComponents
     </Filter>
     <ClCompile Include="..\..\Source\RaiseTheGameJame2020\Private\AgentBody.cpp">
       <Filter>Source\RaiseTheGameJame2020\Private</Filter>
@@ -98,10 +114,14 @@
     <ClCompile Include="..\..\Source\RaiseTheGameJame2020\Private\HideComponent.cpp">
       <Filter>Source\RaiseTheGameJame2020\Private</Filter>
     </ClCompile>
+<<<<<<< HEAD
     <ClCompile Include="..\..\Source\RaiseTheGameJame2020\Private\IAgentTask.cpp">
       <Filter>Source\RaiseTheGameJame2020\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\RaiseTheGameJame2020\Private\PathfinderComponent.cpp">
+=======
+    <ClCompile Include="..\..\Source\RaiseTheGameJame2020\Private\HideTestActor.cpp">
+>>>>>>> TestingComponents
       <Filter>Source\RaiseTheGameJame2020\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\RaiseTheGameJame2020\Private\PlayerAttackComponent.cpp">
@@ -119,6 +139,7 @@
     <ClCompile Include="..\..\Source\RaiseTheGameJame2020\Private\TaskTarget.cpp">
       <Filter>Source\RaiseTheGameJame2020\Private</Filter>
     </ClCompile>
+<<<<<<< HEAD
     <ClCompile Include="..\..\Source\RaiseTheGameJame2020\Private\WaitForDurationAgentTask.cpp">
       <Filter>Source\RaiseTheGameJame2020\Private</Filter>
     </ClCompile>
@@ -127,6 +148,13 @@
     </ClCompile>
     <Filter Include="Source\RaiseTheGameJame2020\Public">
       <UniqueIdentifier>{5DFF4687-C69C-40DD-B7A7-BD1A2AAE591E}</UniqueIdentifier>
+=======
+    <ClCompile Include="..\..\Source\RaiseTheGameJame2020\Private\TestActor.cpp">
+      <Filter>Source\RaiseTheGameJame2020\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\RaiseTheGameJame2020\Public">
+      <UniqueIdentifier>{271AA11C-E727-487A-BCFA-503A645D1883}</UniqueIdentifier>
+>>>>>>> TestingComponents
     </Filter>
     <ClInclude Include="..\..\Source\RaiseTheGameJame2020\Public\AgentBody.h">
       <Filter>Source\RaiseTheGameJame2020\Public</Filter>
@@ -164,10 +192,14 @@
     <ClInclude Include="..\..\Source\RaiseTheGameJame2020\Public\HideComponent.h">
       <Filter>Source\RaiseTheGameJame2020\Public</Filter>
     </ClInclude>
+<<<<<<< HEAD
     <ClInclude Include="..\..\Source\RaiseTheGameJame2020\Public\IAgentTask.h">
       <Filter>Source\RaiseTheGameJame2020\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\RaiseTheGameJame2020\Public\PathfinderComponent.h">
+=======
+    <ClInclude Include="..\..\Source\RaiseTheGameJame2020\Public\HideTestActor.h">
+>>>>>>> TestingComponents
       <Filter>Source\RaiseTheGameJame2020\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\RaiseTheGameJame2020\Public\PlayerAttackComponent.h">
@@ -185,10 +217,14 @@
     <ClInclude Include="..\..\Source\RaiseTheGameJame2020\Public\TaskTarget.h">
       <Filter>Source\RaiseTheGameJame2020\Public</Filter>
     </ClInclude>
+<<<<<<< HEAD
     <ClInclude Include="..\..\Source\RaiseTheGameJame2020\Public\WaitForDurationAgentTask.h">
       <Filter>Source\RaiseTheGameJame2020\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\RaiseTheGameJame2020\Public\WanderLocationAgentTask.h">
+=======
+    <ClInclude Include="..\..\Source\RaiseTheGameJame2020\Public\TestActor.h">
+>>>>>>> TestingComponents
       <Filter>Source\RaiseTheGameJame2020\Public</Filter>
     </ClInclude>
   </ItemGroup>

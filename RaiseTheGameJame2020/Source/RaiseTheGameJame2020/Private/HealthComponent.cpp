@@ -10,7 +10,6 @@ UHealthComponent::UHealthComponent()
 	// off to improve performance if you don't need them.
 	PrimaryComponentTick.bCanEverTick = true;
 
-	// ...
 }
 
 
@@ -18,7 +17,7 @@ UHealthComponent::UHealthComponent()
 void UHealthComponent::BeginPlay()
 {
 	Super::BeginPlay();
-
+	//GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, VisibilitySphere->GetComponentLocation().ToString());
 	// ...
 	
 }
@@ -30,5 +29,7 @@ void UHealthComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActo
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
 	// ...
+
+	
 }
 
