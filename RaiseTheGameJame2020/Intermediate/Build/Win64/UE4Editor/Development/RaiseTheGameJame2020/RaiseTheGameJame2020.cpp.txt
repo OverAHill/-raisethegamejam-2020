@@ -1,2 +1,0 @@
-E:\Documents\Uni Projects\Game Jam\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\Definitions.RaiseTheGameJame2020.h
-E:\Documents\Uni Projects\Game Jam\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\RaiseTheGameJame2020.h
