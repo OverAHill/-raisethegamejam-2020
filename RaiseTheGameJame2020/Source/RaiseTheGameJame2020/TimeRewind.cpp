@@ -23,9 +23,8 @@ void TimeRewind::AddTimeNode()
 {
 	FVector charPosition = Character->GetActorLocation();
 	FRotator charRotation = Character->GetActorRotation();
-	FRotator camRotation = Character->Controller->GetControlRotation();
 
-	TimeNodes.EmplaceAt(0, charPosition, charRotation, camRotation);
+	TimeNodes.EmplaceAt(0, charPosition, charRotation);
 
 	if (TimeNodes.Num() > MaxElements)
 		TimeNodes.RemoveAt(MaxElements);
@@ -56,7 +55,6 @@ bool TimeRewind::Rewind(float deltaTime)
 	{
 		currentElement.position = Character->GetActorLocation();
 		currentElement.rotation = Character->GetActorRotation();
-		currentElement.camRotation = Character->Controller->GetControlRotation();
 	}
 	else
 	{
@@ -69,7 +67,6 @@ bool TimeRewind::Rewind(float deltaTime)
 
 	Character->SetActorLocation(finalValues.position);
 	Character->SetActorRotation(finalValues.rotation);
-	Character->Controller->SetControlRotation(finalValues.camRotation);
 
 	if (RewindProgress > RewindDuration)
 	{

@@ -95,9 +95,11 @@ public:
 	UPROPERTY(VisibleAnywhere, Category = "Time Rewind")
 	UParticleSystemComponent* RewindParticleSystem;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Time Rewind")
+	bool Rewinding;
+
 protected:
 	TimeRewind* mTimeRewind;
-	bool Rewinding;
 	
 	void GetAllTasks();
 	TArray<class ATargetActor*> PlayerTasks;

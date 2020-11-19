@@ -12,17 +12,15 @@ struct TimeNode
 {
 	FVector position;
 	FRotator rotation;
-	FRotator camRotation;
 
 	TimeNode()
 	{
 	}
 
-	TimeNode(FVector& pos, FRotator& rot, FRotator& camRot)
+	TimeNode(FVector& pos, FRotator& rot)
 	{
 		position = pos;
 		rotation = rot;
-		camRotation = camRot;
 	}
 
 
@@ -30,7 +28,6 @@ struct TimeNode
 	{
 		position = rhs.position;
 		rotation = rhs.rotation;
-		camRotation = rhs.camRotation;
 		return *this;
 	}
 
@@ -39,7 +36,6 @@ struct TimeNode
 		TimeNode temp = *this;
 		temp.position += rhs.position;
 		temp.rotation += rhs.rotation;
-		temp.camRotation += rhs.camRotation;
 		return temp;
 	}
 
@@ -48,7 +44,6 @@ struct TimeNode
 		TimeNode temp = *this;
 		temp.position -= rhs.position;
 		temp.rotation -= rhs.rotation;
-		temp.camRotation -= rhs.camRotation;
 		return temp;
 	}
 
@@ -57,7 +52,6 @@ struct TimeNode
 		TimeNode temp = *this;
 		temp.position *= val;
 		temp.rotation *= val;
-		temp.camRotation *= val;
 		return temp;
 	}
 };
