@@ -19,16 +19,25 @@ public:
 	UPROPERTY(EditAnywhere, Category = "AI")
 		TArray<FVector> actionLocations;
 
+	/** What type of AI this is. Can either be "Locations" "Idle" or "Random" If left blank will default to Random Points. */
+	UPROPERTY(EditAnywhere, Category = "AI")
+		FString AIType;
+
 
 protected:
 	UAgentTaskManager* TaskManager;
-
-	FVector PointerPosForPathfinding;
 
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
 public:	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		bool CanPathToLocation;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		FVector PointerPosForPathfinding;
+
+
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
@@ -39,4 +48,10 @@ public:
 
 	UFUNCTION(BlueprintImplementableEvent)
 	void PathfindToLocation(FVector position);
+
+	UFUNCTION(BlueprintImplementableEvent)
+	void IsLocationPathable(FVector position);
+
+	UFUNCTION(BlueprintImplementableEvent)
+	void GoToRandomLocation();
 };

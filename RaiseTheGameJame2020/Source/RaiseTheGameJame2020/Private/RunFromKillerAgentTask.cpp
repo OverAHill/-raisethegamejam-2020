@@ -3,9 +3,11 @@
 
 #include "RunFromKillerAgentTask.h"
 
-RunFromKillerAgentTask::RunFromKillerAgentTask(AActor* parentReference, AActor* killerReference)
+RunFromKillerAgentTask::RunFromKillerAgentTask(AActor* parentReference, FVector* pointerPosForPathfinding, AActor* killerReference)
 {
-
+	ParentReference = parentReference;
+	PointerPosForPathfinding = pointerPosForPathfinding;
+	KillerReference = killerReference;
 }
 
 RunFromKillerAgentTask::~RunFromKillerAgentTask()
@@ -32,8 +34,10 @@ void RunFromKillerAgentTask::Run(float DeltaTime)
 	FVector direction = GetDirectionToKiller();
 	direction.Normalize();
 
+	FVector goalLocation = ParentReference->GetActorLocation() + (direction * 100 * DeltaTime * -1);
+
 	// Run Away
-	ParentReference->SetActorLocation(ParentReference->GetActorLocation() + (direction * 100 * DeltaTime * -1));
+	*PointerPosForPathfinding = goalLocation;
 }
 
 bool RunFromKillerAgentTask::IsFinished()
