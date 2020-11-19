@@ -96,12 +96,13 @@ public:
 	UPROPERTY(VisibleAnywhere, Category = "Time Rewind")
 	UParticleSystemComponent* RewindParticleSystem;
 
-protected:
-	TimeRewind* mTimeRewind;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Time Rewind")
 	bool Rewinding;
 
-private:
+protected:
+	TimeRewind* mTimeRewind;
 
+private:
 
 public:
 

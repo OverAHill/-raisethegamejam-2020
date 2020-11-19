@@ -227,3 +227,4 @@ void ARaiseTheGameJame2020Character::Rewind()
 	RewindParticleSystem->Activate();
 	Rewinding = true;
 }
+
