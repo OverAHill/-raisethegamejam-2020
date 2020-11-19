@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "UObject/Interface.h"
+#include "HealthComponent.h"
 #include "TaskTarget.generated.h"
 
 // This class does not need to be modified.
@@ -13,19 +14,11 @@ class UTaskTarget : public UInterface
 	GENERATED_BODY()
 };
 
-/**
- * 
- */
 class RAISETHEGAMEJAME2020_API ITaskTarget
 {
 	GENERATED_BODY()
-	// Add interface functions to this class. This is the class that will be inherited to implement this interface.
+		// Add interface functions to this class. This is the class that will be inherited to implement this interface.
 public:
-
-	bool bIsAlive = true;
-
-	UFUNCTION()
-	virtual void SetIsAlive(bool state);
-	UFUNCTION()
-	virtual bool GetIsAlive();
+	UHealthComponent* Health;
+	bool GetIsAlive();
 };
