@@ -6,6 +6,9 @@
 #include "GameFramework/Character.h"
 #include "RaiseTheGameJame2020Character.generated.h"
 
+class TimeRewind;
+class UParticleSystemComponent;
+
 UCLASS(config=Game)
 class ARaiseTheGameJame2020Character : public ACharacter
 {
@@ -58,6 +61,8 @@ protected:
 	/** Handler for when a touch input stops. */
 	void TouchStopped(ETouchIndex::Type FingerIndex, FVector Location);
 
+	void Rewind();
+
 protected:
 	// APawn interface
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
@@ -68,5 +73,37 @@ public:
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
 	/** Returns FollowCamera subobject **/
 	FORCEINLINE class UCameraComponent* GetFollowCamera() const { return FollowCamera; }
-};
 
+
+
+//=================================================================================================
+// Variables
+//=================================================================================================
+public:
+	UPROPERTY(VisibleAnywhere, Category = "Time Rewind")
+	UParticleSystemComponent* RewindParticleSystem;
+
+protected:
+	TimeRewind* mTimeRewind;
+	bool Rewinding;
+
+private:
+
+
+public:
+	// Update
+	UFUNCTION(BlueprintCallable)
+	void AUpdate(float deltaSeconds);
+
+	void TestFunc();
+	void TestAnotherFunc();
+
+	UPROPERTY(EditAnywhere, Category = "Player stats:");
+	float Bloodlust;
+	UPROPERTY(EditAnywhere, Category = "Player stats:");
+	float TestValue;
+
+	float DeltaTime;
+
+	bool bPlayerKilled;
+};

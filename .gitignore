@@ -72,3 +72,9 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+RaiseTheGameJame2020/Binaries/
+
+RaiseTheGameJame2020/Saved/
+
+RaiseTheGameJame2020/Intermediate/
