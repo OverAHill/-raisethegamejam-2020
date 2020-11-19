@@ -2,6 +2,7 @@
 #include "AgentCharacter.h"
 #include "AgentController.h"
 #include "RunFromKillerAgentTask.h"
+#include "WaitForDurationAgentTask.h"
 
 // Sets default values
 AAgentCharacter::AAgentCharacter()
@@ -10,6 +11,16 @@ AAgentCharacter::AAgentCharacter()
 	PrimaryActorTick.bCanEverTick = true;
 
 	TaskManager = CreateDefaultSubobject<UAgentTaskManager>(TEXT("Agent Task Manager"));
+
+	sphere = CreateDefaultSubobject<USphereComponent>(TEXT("Root"));
+	//RootComponent = sphere;
+	sphere->InitSphereRadius(40.0f);
+	sphere->SetupAttachment(RootComponent);
+
+
+	// New Attack and Grab Component Set Up
+	DragComp = CreateDefaultSubobject<UDragComponent>(TEXT("NPCDrag"));
+	HealthComp = CreateDefaultSubobject<UHealthComponent>(TEXT("NPCHealth"));
 }
 
 // Called when the game starts or when spawned
@@ -31,6 +42,13 @@ void AAgentCharacter::Tick(float DeltaTime)
 
 	if (PointerPosForPathfinding != FVector(0, 0, 0))
 		PathfindToLocation(PointerPosForPathfinding);
+
+	if (!HealthComp->Alive)
+	{
+		PointerPosForPathfinding = FVector(0, 0, 0);
+		TaskManager->Stop();
+		this->Destroy();
+	}
 }
 
 // Called to bind functionality to input

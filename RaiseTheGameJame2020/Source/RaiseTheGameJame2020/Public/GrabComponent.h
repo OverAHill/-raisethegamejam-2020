@@ -7,6 +7,7 @@
 #include "Components/BoxComponent.h"
 #include "DragComponent.h"
 #include "TestActor.h"
+#include "AgentCharacter.h"
 #include "GrabComponent.generated.h"
 
 

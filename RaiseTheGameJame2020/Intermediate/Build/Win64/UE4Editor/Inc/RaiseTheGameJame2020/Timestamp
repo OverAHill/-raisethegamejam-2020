@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\AgentCharacter.h
 C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\AgentController.h
 C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\AgentTaskManager.h
@@ -15,3 +16,22 @@ C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisetheg
 C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\TargetActor.h
 C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\RaiseTheGameJame2020Character.h
 C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\RaiseTheGameJame2020GameMode.h
+=======
+D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\AgentController.h
+D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\AgentTaskManager.h
+D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\APlayerTask.h
+D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\DragComponent.h
+D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\GrabComponent.h
+D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\HealthComponent.h
+D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\DetectionZone.h
+D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\PlayerAttackComponent.h
+D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\TargetActor.h
+D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\TaskTarget.h
+D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\TestActor.h
+D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\PathfinderComponent.h
+D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\HideComponent.h
+D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\HideTestActor.h
+D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\AgentCharacter.h
+D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\RaiseTheGameJame2020Character.h
+D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\RaiseTheGameJame2020GameMode.h
+>>>>>>> main

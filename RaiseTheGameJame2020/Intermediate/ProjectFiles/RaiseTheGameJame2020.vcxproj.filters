@@ -3,7 +3,11 @@
   <ItemGroup>
     <None Include="..\..\RaiseTheGameJame2020.uproject" />
     <Filter Include="Source">
+<<<<<<< HEAD
       <UniqueIdentifier>{E3D88A53-DDD9-4D6F-B390-A43ED4AA7E2E}</UniqueIdentifier>
+=======
+      <UniqueIdentifier>{4B381FAD-80ED-4F90-92BF-A972611AED5F}</UniqueIdentifier>
+>>>>>>> main
     </Filter>
     <None Include="..\..\Source\RaiseTheGameJame2020.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +16,11 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
+<<<<<<< HEAD
       <UniqueIdentifier>{D7FDD937-B6B9-4417-94EC-CC2C640F23AC}</UniqueIdentifier>
+=======
+      <UniqueIdentifier>{A5A8E884-6038-4B64-BD19-D8CE777663AC}</UniqueIdentifier>
+>>>>>>> main
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +38,11 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\RaiseTheGameJame2020">
+<<<<<<< HEAD
       <UniqueIdentifier>{B007D091-610E-4F5B-83C5-FB92EABC3E4F}</UniqueIdentifier>
+=======
+      <UniqueIdentifier>{6E612CAC-A27D-4281-8AFE-C523F7806E0C}</UniqueIdentifier>
+>>>>>>> main
     </Filter>
     <None Include="..\..\Source\RaiseTheGameJame2020\RaiseTheGameJame2020.Build.cs">
       <Filter>Source\RaiseTheGameJame2020</Filter>
@@ -60,7 +72,11 @@
       <Filter>Source\RaiseTheGameJame2020</Filter>
     </ClInclude>
     <Filter Include="Source\RaiseTheGameJame2020\Private">
+<<<<<<< HEAD
       <UniqueIdentifier>{2B7F1EC3-F63C-40F3-A3CB-E7C68F73FEE4}</UniqueIdentifier>
+=======
+      <UniqueIdentifier>{B36285A4-90B0-4A0E-B1D8-C9F40F2BD23F}</UniqueIdentifier>
+>>>>>>> main
     </Filter>
     <ClCompile Include="..\..\Source\RaiseTheGameJame2020\Private\AgentBody.cpp">
       <Filter>Source\RaiseTheGameJame2020\Private</Filter>
@@ -135,7 +151,11 @@
       <Filter>Source\RaiseTheGameJame2020\Private</Filter>
     </ClCompile>
     <Filter Include="Source\RaiseTheGameJame2020\Public">
+<<<<<<< HEAD
       <UniqueIdentifier>{DEBFECED-141B-4A06-B2C6-C071A7343658}</UniqueIdentifier>
+=======
+      <UniqueIdentifier>{ECC07A93-8DAC-4158-99CF-0985620B85EC}</UniqueIdentifier>
+>>>>>>> main
     </Filter>
     <ClInclude Include="..\..\Source\RaiseTheGameJame2020\Public\AgentBody.h">
       <Filter>Source\RaiseTheGameJame2020\Public</Filter>

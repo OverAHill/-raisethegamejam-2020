@@ -319,7 +319,7 @@ void ARaiseTheGameJame2020Character::ReleaseTarget()
 
 void ARaiseTheGameJame2020Character::OnViewBoxBeginOverlap(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
-	ATestActor* Enemy = Cast<ATestActor>(OtherActor);
+	AAgentCharacter* Enemy = Cast<AAgentCharacter>(OtherActor);
 
 	if (Enemy)
 	{
