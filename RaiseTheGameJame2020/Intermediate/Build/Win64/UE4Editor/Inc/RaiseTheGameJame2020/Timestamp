@@ -1,15 +1,19 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+E:\Projects\Personal Projects\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\AgentCharacter.h
+E:\Projects\Personal Projects\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\AgentController.h
+>>>>>>> CreatingAI
 E:\Projects\Personal Projects\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\AgentTaskManager.h
-E:\Projects\Personal Projects\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\DragComponent.h
 E:\Projects\Personal Projects\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\APlayerTask.h
-E:\Projects\Personal Projects\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\GrabComponent.h
+E:\Projects\Personal Projects\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\DragComponent.h
 E:\Projects\Personal Projects\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\HealthComponent.h
+E:\Projects\Personal Projects\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\GrabComponent.h
 E:\Projects\Personal Projects\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\HideComponent.h
-E:\Projects\Personal Projects\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\TargetActor.h
-E:\Projects\Personal Projects\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\TaskTarget.h
 E:\Projects\Personal Projects\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\PathfinderComponent.h
 E:\Projects\Personal Projects\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\PlayerAttackComponent.h
-E:\Projects\Personal Projects\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\AgentBody.h
+E:\Projects\Personal Projects\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\TargetActor.h
+E:\Projects\Personal Projects\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\TaskTarget.h
 E:\Projects\Personal Projects\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\RaiseTheGameJame2020Character.h
 E:\Projects\Personal Projects\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\RaiseTheGameJame2020GameMode.h
 =======

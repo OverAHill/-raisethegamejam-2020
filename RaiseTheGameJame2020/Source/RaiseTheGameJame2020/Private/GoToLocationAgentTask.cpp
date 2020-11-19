@@ -2,11 +2,13 @@
 
 
 #include "GoToLocationAgentTask.h"
+#include "AgentController.h"
 
-GoToLocationAgentTask::GoToLocationAgentTask(AActor* parent, FVector goalLocation)
+GoToLocationAgentTask::GoToLocationAgentTask(AActor* parent, FVector goalLocation, FVector* pointerPosForPathfinding)
 {
 	Parent = parent;
 	GoalLocation = goalLocation;
+	PointerPosForPathfinding = pointerPosForPathfinding;
 	IsRunning = false;
 }
 
@@ -50,11 +52,14 @@ void GoToLocationAgentTask::Run(float DeltaTime)
 
 	IAgentTask::Run(DeltaTime);
 
-	FVector direction = GoalLocation - Parent->GetActorLocation();
+	/*FVector direction = GoalLocation - Parent->GetActorLocation();
 
-	direction.Normalize();
+	direction.Normalize();*/
 
-	Parent->SetActorLocation(Parent->GetActorLocation() + (direction * 100 * DeltaTime));
+	*PointerPosForPathfinding = GoalLocation;
+	//((AAgentController*)AgentController)->SetGoalLocationAndMovementSpeed(GoalLocation, 1);
+
+	//Parent->SetActorLocation(Parent->GetActorLocation() + (direction * 100 * DeltaTime));
 }
 
 bool GoToLocationAgentTask::IsFinished()
@@ -65,9 +70,10 @@ bool GoToLocationAgentTask::IsFinished()
 bool GoToLocationAgentTask::IsAtTargetLocation()
 {
 	FVector direction = GoalLocation - Parent->GetActorLocation();
+	GEngine->AddOnScreenDebugMessage(-1, 2, FColor::Blue, FString::SanitizeFloat(direction.Size()));
 
 	// If we're too far return false
-	if (direction.Size() > 10)
+	if (direction.Size() > 50)
 	{
 		return false;
 	}

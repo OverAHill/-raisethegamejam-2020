@@ -44,6 +44,7 @@ D:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\In
 D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Particles/Emitter.h
 D:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Emitter.generated.h
 D:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ParticleSystemComponent.generated.h
+<<<<<<< HEAD
 =======
 C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\Definitions.RaiseTheGameJame2020.h
 C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\RaiseTheGameJame2020Character.h
@@ -93,3 +94,13 @@ C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Particl
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Emitter.generated.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ParticleSystemComponent.generated.h
 >>>>>>> UI
+=======
+E:\Projects\Personal Projects\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\APlayerTask.h
+E:\Projects\Personal Projects\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\TargetActor.h
+E:\Projects\Personal Projects\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\TaskTarget.h
+E:\Projects\Personal Projects\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\HealthComponent.h
+E:\Projects\Personal Projects\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Inc\RaiseTheGameJame2020\HealthComponent.generated.h
+E:\Projects\Personal Projects\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Inc\RaiseTheGameJame2020\TaskTarget.generated.h
+E:\Projects\Personal Projects\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Inc\RaiseTheGameJame2020\TargetActor.generated.h
+E:\Projects\Personal Projects\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Inc\RaiseTheGameJame2020\APlayerTask.generated.h
+>>>>>>> CreatingAI

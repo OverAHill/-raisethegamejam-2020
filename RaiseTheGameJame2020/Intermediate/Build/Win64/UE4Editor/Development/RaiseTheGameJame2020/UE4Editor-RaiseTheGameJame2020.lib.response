@@ -9,6 +9,8 @@
 <<<<<<< HEAD
 "E:\Projects\Personal Projects\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\RaiseTheGameJame2020Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
 "E:\Projects\Personal Projects\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\AgentBody.cpp.obj"
+"E:\Projects\Personal Projects\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\AgentCharacter.cpp.obj"
+"E:\Projects\Personal Projects\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\AgentController.cpp.obj"
 "E:\Projects\Personal Projects\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\AgentTask.cpp.obj"
 "E:\Projects\Personal Projects\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\AgentTaskManager.cpp.obj"
 "E:\Projects\Personal Projects\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\APlayerTask.cpp.obj"
@@ -30,7 +32,8 @@
 "E:\Projects\Personal Projects\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\RaiseTheGameJame2020Character.cpp.obj"
 "E:\Projects\Personal Projects\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\RaiseTheGameJame2020GameMode.cpp.obj"
 "E:\Projects\Personal Projects\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\TimeRewind.cpp.obj"
-"E:\Projects\Personal Projects\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\AgentBody.gen.cpp.obj"
+"E:\Projects\Personal Projects\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\AgentCharacter.gen.cpp.obj"
+"E:\Projects\Personal Projects\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\AgentController.gen.cpp.obj"
 "E:\Projects\Personal Projects\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\AgentTaskManager.gen.cpp.obj"
 "E:\Projects\Personal Projects\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\APlayerTask.gen.cpp.obj"
 "E:\Projects\Personal Projects\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\DragComponent.gen.cpp.obj"

@@ -5,6 +5,7 @@
 #include "Components/ActorComponent.h"
 #include "Containers/Queue.h"
 #include "IAgentTask.h"
+#include "AgentController.h"
 #include "AgentTaskManager.generated.h"
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
@@ -28,6 +29,6 @@ public:
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 	void RunCurrentTask(float DeltaTime);
 	bool IsRemainingTasksEmpty();
-	void SetupTaskManager(AActor* parent, TArray<FVector> positions);
+	void SetupTaskManager(AActor* parent, TArray<FVector> positions, FVector* pointerPosForPathfinding);
 	void ForceTaskToFront(IAgentTask* taskToFront);
 };

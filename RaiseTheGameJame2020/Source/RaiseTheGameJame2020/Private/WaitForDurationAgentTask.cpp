@@ -21,7 +21,7 @@ void WaitForDurationAgentTask::Run(float DeltaTime)
 {
 	IAgentTask::Run((DeltaTime));
 
-	if (WaitedDelta < DeltaToWait)
+	if (WaitedDelta <= DeltaToWait)
 	{
 		WaitedDelta += DeltaTime;
 	}

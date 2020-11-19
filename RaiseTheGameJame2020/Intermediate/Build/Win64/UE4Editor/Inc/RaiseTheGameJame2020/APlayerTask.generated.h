@@ -19,6 +19,8 @@ struct FHitResult;
 #define RaiseTheGameJame2020_Source_RaiseTheGameJame2020_Public_APlayerTask_h_13_SPARSE_DATA
 #define RaiseTheGameJame2020_Source_RaiseTheGameJame2020_Public_APlayerTask_h_13_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execOnTaskAreaOverlapEnd); \
+	DECLARE_FUNCTION(execOnTaskAreaEntryOverlapBegin); \
 	DECLARE_FUNCTION(execOnTaskExitOverlapEnd); \
 	DECLARE_FUNCTION(execOnTaskExitOverlapBegin); \
 	DECLARE_FUNCTION(execOnTaskEntryOverlapEnd); \
@@ -27,6 +29,8 @@ struct FHitResult;
 
 #define RaiseTheGameJame2020_Source_RaiseTheGameJame2020_Public_APlayerTask_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execOnTaskAreaOverlapEnd); \
+	DECLARE_FUNCTION(execOnTaskAreaEntryOverlapBegin); \
 	DECLARE_FUNCTION(execOnTaskExitOverlapEnd); \
 	DECLARE_FUNCTION(execOnTaskExitOverlapBegin); \
 	DECLARE_FUNCTION(execOnTaskEntryOverlapEnd); \
