@@ -61,3 +61,22 @@ void UAgentTaskManager::SetupTaskManager(AActor* parent, TArray<FVector> positio
 
 	RemainingTasks.Dequeue(CurrentTask);
 }
+
+void UAgentTaskManager::ForceTaskToFront(IAgentTask* taskToFront)
+{
+	TArray<IAgentTask*> tasks;
+	tasks.Add(taskToFront);
+
+	IAgentTask* poppedTask;
+	while (!RemainingTasks.IsEmpty())
+	{
+		poppedTask = nullptr;
+		RemainingTasks.Dequeue(poppedTask);
+		tasks.Add(poppedTask);
+	}
+
+	for (auto task : tasks)
+	{
+		RemainingTasks.Enqueue(task);
+	}
+}

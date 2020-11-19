@@ -29,4 +29,5 @@ public:
 	void RunCurrentTask(float DeltaTime);
 	bool IsRemainingTasksEmpty();
 	void SetupTaskManager(AActor* parent, TArray<FVector> positions);
+	void ForceTaskToFront(IAgentTask* taskToFront);
 };
