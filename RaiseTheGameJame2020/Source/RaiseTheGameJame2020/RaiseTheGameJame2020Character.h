@@ -8,6 +8,7 @@
 
 class TimeRewind;
 class UParticleSystemComponent;
+class UHealthComponent;
 
 UCLASS(config=Game)
 class ARaiseTheGameJame2020Character : public ACharacter
@@ -95,20 +96,23 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void AUpdate(float deltaSeconds);
 
+	UFUNCTION(BlueprintCallable)
+	float AGetHealth();
+
 	void TestFunc();
 
-	/* UFUNCTION(BlueprintCallable)
-	float AGetBloodlustVal(); */
-
-	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Player stats:");
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Player Stats");
 	float Bloodlust;
-	UPROPERTY(EditAnywhere, Category = "Player stats:");
+	UPROPERTY(EditAnywhere, Category = "Player Stats");
 	float DecreaseBloodlust;
-	UPROPERTY(EditAnywhere, Category = "Player stats:")
+	UPROPERTY(EditAnywhere, Category = "Player Stats")
 	float IncreaseBloodlust;
-	float DeltaTime;
-
-	bool bPlayerKilled;
-	UPROPERTY(EditAnywhere, Category = "Player stats:");
+	UPROPERTY(EditAnywhere, Category = "Player Stats");
 	bool bToggleBloodlustOn;
+
+	float DeltaTime;
+	bool bPlayerKilled;
+
+	//UPROPERTY(VisibleAnywhere)
+	UHealthComponent* mHealthComponent;
 };

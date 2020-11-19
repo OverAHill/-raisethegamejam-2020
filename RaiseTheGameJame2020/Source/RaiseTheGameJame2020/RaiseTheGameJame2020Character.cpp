@@ -9,6 +9,7 @@
 #include "GameFramework/Controller.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "TimeRewind.h"
+#include "Public/HealthComponent.h"
 #include "Particles/ParticleSystemComponent.h"
 
 //////////////////////////////////////////////////////////////////////////
@@ -47,7 +48,7 @@ ARaiseTheGameJame2020Character::ARaiseTheGameJame2020Character()
 	FollowCamera->SetupAttachment(CameraBoom, USpringArmComponent::SocketName); // Attach the camera to the end of the boom and let the boom adjust to match the controller orientation
 	FollowCamera->bUsePawnControlRotation = false; // Camera does not rotate relative to arm
 
-
+	// Setup bloodlust variables
 	PrimaryActorTick.bCanEverTick = true;
 	PrimaryActorTick.bStartWithTickEnabled = true;
 	//bToggleBloodlust = true;
@@ -55,6 +56,8 @@ ARaiseTheGameJame2020Character::ARaiseTheGameJame2020Character()
 	IncreaseBloodlust = 1.0f; 
 	DecreaseBloodlust = 2.0f; 
 
+
+	mHealthComponent = CreateDefaultSubobject<UHealthComponent>(TEXT("PlayerHealth"));
 	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
 	// are set in the derived blueprint asset named MyCharacter (to avoid direct content references in C++)
 
@@ -67,14 +70,17 @@ void ARaiseTheGameJame2020Character::AUpdate(float deltaSeconds)
 {
 	DeltaTime = deltaSeconds;
 	//Super::Tick(DeltaTime);
+
+	//TODO::ADD INCREASE TO BLOODLUST WHEN YOU'RE NEAR MULTIPLE AIs
+
 	if(bToggleBloodlustOn)
 	{
 		Bloodlust += IncreaseBloodlust * DeltaTime; //increases bloodlust - subject to change :) 
 		float nearest = roundf(Bloodlust * 100) / 100; // sets debug text to only display to two decimal places
-		FString bloodlustDebug = FString::SanitizeFloat(nearest);
+		FString bloodlustDebug = FString::SanitizeFloat(nearest); // converts float to string
 
-		GEngine->AddOnScreenDebugMessage(-1, DeltaTime, FColor::Red, TEXT(" Bloodlust: " + bloodlustDebug));
-		//GEngine->AddOnScreenDebugMessage(-1, DeltaTime, FColor::Red, TEXT(" Bool: " + bPlayerKilled ? TEXT("true") : TEXT("false")));
+		//GEngine->AddOnScreenDebugMessage(-1, DeltaTime, FColor::Red, TEXT("Bloodlust: " + bloodlustDebug));
+		//GEngine->AddOnScreenDebugMessage(-1, DeltaTime, FColor::Red, TEXT("Bool: " + bPlayerKilled ? TEXT("true") : TEXT("false")));
 
 		//If the player hasn't killed and their bloodlust has reached max then they DIE
 		if (Bloodlust >= 100)
@@ -89,12 +95,6 @@ void ARaiseTheGameJame2020Character::AUpdate(float deltaSeconds)
 			bPlayerKilled = false;
 		}
 	}
-	if (bPlayerKilled == true)
-	{
-		Bloodlust = Bloodlust / TestValue;
-		bPlayerKilled = false;
-	}
-
 
 	static float timer = 0;
 
@@ -116,10 +116,6 @@ void ARaiseTheGameJame2020Character::AUpdate(float deltaSeconds)
 	}
 }
 
-/* float ARaiseTheGameJame2020Character::AGetBloodlustVal()
-{
-	return Bloodlust;
-} */
 //////////////////////////////////////////////////////////////////////////
 // Input
 
@@ -158,6 +154,12 @@ void ARaiseTheGameJame2020Character::TestFunc()
 {
 	bPlayerKilled = true;
 } 
+
+//TODO::FINISH THIS 
+float ARaiseTheGameJame2020Character::AGetHealth()
+{
+	return mHealthComponent->HealthValue;
+}
 
 void ARaiseTheGameJame2020Character::OnResetVR()
 {

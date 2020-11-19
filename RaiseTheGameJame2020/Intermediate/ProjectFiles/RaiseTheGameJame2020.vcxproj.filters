@@ -3,11 +3,7 @@
   <ItemGroup>
     <None Include="..\..\RaiseTheGameJame2020.uproject" />
     <Filter Include="Source">
-<<<<<<< HEAD
-      <UniqueIdentifier>{851FC544-5ED5-4BE0-BEB9-B5BFF33CA33D}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{F3F9104C-B333-4903-972C-DA271EA01BDB}</UniqueIdentifier>
->>>>>>> main
+      <UniqueIdentifier>{C6211A93-78D0-45B4-8714-081C2B86F59D}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\RaiseTheGameJame2020.Target.cs">
       <Filter>Source</Filter>
@@ -16,11 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-<<<<<<< HEAD
-      <UniqueIdentifier>{EFA6E9B1-3E51-4D95-A8E3-1FF30B135EBC}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{70CCD9C8-7639-49EF-9928-340C9CF64C4C}</UniqueIdentifier>
->>>>>>> main
+      <UniqueIdentifier>{451F0AD4-3A22-4AE3-B3A9-14D11BCD333A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -38,11 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\RaiseTheGameJame2020">
-<<<<<<< HEAD
-      <UniqueIdentifier>{5BD5D61E-D49C-4699-AB5F-56459189AB99}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{11AB0065-A233-4CCA-8B01-C75195B0B3BF}</UniqueIdentifier>
->>>>>>> main
+      <UniqueIdentifier>{6FB4D970-C247-42CC-81F7-64D8A38A366E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\RaiseTheGameJame2020\RaiseTheGameJame2020.Build.cs">
       <Filter>Source\RaiseTheGameJame2020</Filter>
@@ -65,12 +53,14 @@
     <ClInclude Include="..\..\Source\RaiseTheGameJame2020\RaiseTheGameJame2020GameMode.h">
       <Filter>Source\RaiseTheGameJame2020</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\RaiseTheGameJame2020\TimeRewind.cpp">
+      <Filter>Source\RaiseTheGameJame2020</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RaiseTheGameJame2020\TimeRewind.h">
+      <Filter>Source\RaiseTheGameJame2020</Filter>
+    </ClInclude>
     <Filter Include="Source\RaiseTheGameJame2020\Private">
-<<<<<<< HEAD
-      <UniqueIdentifier>{243B2FA7-A09C-4D38-B978-99749CF88BD4}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{95CE6222-BB96-4C2A-9BD2-93D649BD1EFB}</UniqueIdentifier>
->>>>>>> main
+      <UniqueIdentifier>{FFB83D75-EAF8-4A04-B589-A08C9F56078A}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\RaiseTheGameJame2020\Private\APlayerTask.cpp">
       <Filter>Source\RaiseTheGameJame2020\Private</Filter>
@@ -97,11 +87,7 @@
       <Filter>Source\RaiseTheGameJame2020\Private</Filter>
     </ClCompile>
     <Filter Include="Source\RaiseTheGameJame2020\Public">
-<<<<<<< HEAD
-      <UniqueIdentifier>{16109859-5979-48CF-B227-B169948AF811}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{7A682EBB-8831-47D8-883F-E7E3181D0891}</UniqueIdentifier>
->>>>>>> main
+      <UniqueIdentifier>{4D72FD1E-8653-41CB-942D-944B83DD6300}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\RaiseTheGameJame2020\Public\APlayerTask.h">
       <Filter>Source\RaiseTheGameJame2020\Public</Filter>

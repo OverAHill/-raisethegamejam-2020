@@ -1,7 +1,2 @@
-<<<<<<< HEAD
-E:\Documents\Uni Projects\Game Jam\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\Definitions.RaiseTheGameJame2020.h
-E:\Documents\Uni Projects\Game Jam\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\RaiseTheGameJame2020.h
-=======
-D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\Definitions.RaiseTheGameJame2020.h
-D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\RaiseTheGameJame2020.h
->>>>>>> HealthComp
+C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\Definitions.RaiseTheGameJame2020.h
+C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\RaiseTheGameJame2020.h
