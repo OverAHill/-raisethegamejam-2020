@@ -15,7 +15,7 @@ AAgentBody::AAgentBody()
 void AAgentBody::BeginPlay()
 {
 	Super::BeginPlay();
-	TaskManager->SetupTaskManager(this);
+	TaskManager->SetupTaskManager(this, actionLocations);
 }
 
 // Called every frame

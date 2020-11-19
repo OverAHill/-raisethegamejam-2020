@@ -4,7 +4,6 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-#include "Containers/Queue.h"
 #include "AgentTaskManager.h"
 #include "AgentBody.generated.h"
 
@@ -16,6 +15,9 @@ class RAISETHEGAMEJAME2020_API AAgentBody : public AActor
 public:	
 	// Sets default values for this actor's properties
 	AAgentBody();
+
+	UPROPERTY(EditAnywhere, Category = "AI")
+	TArray<FVector> actionLocations;
 
 protected:
 	UAgentTaskManager* TaskManager;

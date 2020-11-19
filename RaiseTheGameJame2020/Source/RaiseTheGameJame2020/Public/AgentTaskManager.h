@@ -28,5 +28,5 @@ public:
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 	void RunCurrentTask(float DeltaTime);
 	bool IsRemainingTasksEmpty();
-	void SetupTaskManager(AActor* parent);
+	void SetupTaskManager(AActor* parent, TArray<FVector> positions);
 };

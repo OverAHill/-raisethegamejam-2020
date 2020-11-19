@@ -52,17 +52,12 @@ bool UAgentTaskManager::IsRemainingTasksEmpty()
 	return RemainingTasks.IsEmpty();
 }
 
-void UAgentTaskManager::SetupTaskManager(AActor* parent)
+void UAgentTaskManager::SetupTaskManager(AActor* parent, TArray<FVector> positions)
 {
-	RemainingTasks.Enqueue(new GoToLocationAgentTask(parent, FVector(0, 0, 130.277084)));
-	RemainingTasks.Enqueue(new GoToLocationAgentTask(parent, FVector(1000, 0, 130.277084)));
-	RemainingTasks.Enqueue(new GoToLocationAgentTask(parent, FVector(0, -1000, 130.277084)));
-	RemainingTasks.Enqueue(new GoToLocationAgentTask(parent, FVector(0, 0, 130.277084)));
-	RemainingTasks.Enqueue(new GoToLocationAgentTask(parent, FVector(1000, 0, 130.277084)));
-	RemainingTasks.Enqueue(new GoToLocationAgentTask(parent, FVector(0, -1000, 130.277084)));
-	RemainingTasks.Enqueue(new GoToLocationAgentTask(parent, FVector(0, 0, 130.277084)));
-	RemainingTasks.Enqueue(new GoToLocationAgentTask(parent, FVector(1000, 0, 130.277084)));
-	RemainingTasks.Enqueue(new GoToLocationAgentTask(parent, FVector(0, -1000, 130.277084)));
+	for (auto pos : positions)
+	{
+		RemainingTasks.Enqueue(new GoToLocationAgentTask(parent, pos));
+	}
 
 	RemainingTasks.Dequeue(CurrentTask);
 }
