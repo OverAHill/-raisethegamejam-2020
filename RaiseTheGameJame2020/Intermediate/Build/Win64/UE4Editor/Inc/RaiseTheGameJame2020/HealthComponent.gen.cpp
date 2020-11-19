@@ -70,9 +70,7 @@ void EmptyLinkFunctionForGeneratedCodeHealthComponent() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UHealthComponent_Statics::NewProp_HealthValue_MetaData[] = {
 		{ "Category", "HealthComponent" },
-		{ "Comment", "//UPROPERTY(EditAnywhere, BlueprintReadWrite)\n//USphereComponent* VisibilitySphere;\n" },
 		{ "ModuleRelativePath", "Public/HealthComponent.h" },
-		{ "ToolTip", "UPROPERTY(EditAnywhere, BlueprintReadWrite)\nUSphereComponent* VisibilitySphere;" },
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UHealthComponent_Statics::NewProp_HealthValue = { "HealthValue", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UHealthComponent, HealthValue), METADATA_PARAMS(Z_Construct_UClass_UHealthComponent_Statics::NewProp_HealthValue_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UHealthComponent_Statics::NewProp_HealthValue_MetaData)) };
@@ -107,7 +105,7 @@ void EmptyLinkFunctionForGeneratedCodeHealthComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UHealthComponent, 1860680041);
+	IMPLEMENT_CLASS(UHealthComponent, 1734096958);
 	template<> RAISETHEGAMEJAME2020_API UClass* StaticClass<UHealthComponent>()
 	{
 		return UHealthComponent::StaticClass();

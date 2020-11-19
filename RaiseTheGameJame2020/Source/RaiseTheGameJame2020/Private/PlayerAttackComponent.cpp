@@ -10,26 +10,6 @@ UPlayerAttackComponent::UPlayerAttackComponent()
 	// off to improve performance if you don't need them.
 	PrimaryComponentTick.bCanEverTick = true;
 	
-	// TO DO: Root Component Set up
-
-	//Sphere collider for detecting general area around the player
-	//SphereCollider = CreateDefaultSubobject<USphereComponent>(TEXT("Sphere Collider"));
-	//SphereCollider->InitSphereRadius(SphereRadius);
-	//SphereCollider->SetCollisionEnabled(ECollisionEnabled::QueryOnly);
-	//SphereCollider->SetCollisionProfileName("Attack Radius");
-	//SphereCollider->OnComponentBeginOverlap.AddDynamic(this, &UPlayerAttackComponent::OnSphereBeginOverlap);
-	//SphereCollider->OnComponentEndOverlap.AddDynamic(this, &UPlayerAttackComponent::OnSphereEndOverlap);
-
-	////Box (rectangle) collider to simulate the players view and to help determin the target
-	//// TO DO: Set location and size of box so it extends in front of the player
-	//ViewBoxCollider = CreateDefaultSubobject<UBoxComponent>(TEXT("View Collider"));
-	//ViewBoxCollider->InitBoxExtent(BoxColliderSize); // half the size of the box: x, y, z //change me
-	//ViewBoxCollider->SetCollisionEnabled(ECollisionEnabled::QueryOnly);
-	//ViewBoxCollider->SetCollisionProfileName("View Box");
-	//ViewBoxCollider->OnComponentBeginOverlap.AddDynamic(this, &UPlayerAttackComponent::OnBoxBeginOverlap);
-	//ViewBoxCollider->OnComponentEndOverlap.AddDynamic(this, &UPlayerAttackComponent::OnBoxEndOverlap);
-
-
 	// ...
 }
 
@@ -52,31 +32,6 @@ void UPlayerAttackComponent::TickComponent(float DeltaTime, ELevelTick TickType,
 	// ...
 }
 
-
-//void UPlayerAttackComponent::OnSphereBeginOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
-//{
-	//GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, "Target Located");
-	//GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, );
-
-	// 1. If other actor has a health component
-	//PotentialTargets.Add(OtherActor);
-//}
-
-
-//void UPlayerAttackComponent::OnSphereEndOverlap(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
-//{
-	//GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, "Target Left Range");
-
-	// Remove from list of potential targets as they are no longer in range
-	/*if (PotentialTargets.Contains(OtherActor))
-	{
-		int x = PotentialTargets.Find(OtherActor);
-		PotentialTargets.RemoveAt(x);
-	}
-
-	if (PotentialTargets.Num() == 0)
-		CanAttack = false;*/
-//}
 
 
 void UPlayerAttackComponent::OnBoxBeginOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)

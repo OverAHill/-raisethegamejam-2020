@@ -10,14 +10,6 @@ UHealthComponent::UHealthComponent()
 	// off to improve performance if you don't need them.
 	PrimaryComponentTick.bCanEverTick = true;
 
-	// ...
-	//VisibilitySphere = CreateDefaultSubobject<USphereComponent>(TEXT("Root"));
-	////VisibilitySphere->InitSphereRadius(40.0f);
-	//VisibilitySphere->SetCollisionEnabled(ECollisionEnabled::QueryOnly);
-	//VisibilitySphere->SetCollisionProfileName("Box Box");
-
-
-
 }
 
 

@@ -180,9 +180,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerAttackComponent() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UPlayerAttackComponent_OnBoxBeginOverlap_Statics::Function_MetaDataParams[] = {
-		{ "Comment", "//UFUNCTION()\n//void OnSphereEndOverlap(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);\n" },
 		{ "ModuleRelativePath", "Public/PlayerAttackComponent.h" },
-		{ "ToolTip", "UFUNCTION()\nvoid OnSphereEndOverlap(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);" },
 	};
 #endif
 	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UPlayerAttackComponent_OnBoxBeginOverlap_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UPlayerAttackComponent, nullptr, "OnBoxBeginOverlap", nullptr, nullptr, sizeof(PlayerAttackComponent_eventOnBoxBeginOverlap_Parms), Z_Construct_UFunction_UPlayerAttackComponent_OnBoxBeginOverlap_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UPlayerAttackComponent_OnBoxBeginOverlap_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00420401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UPlayerAttackComponent_OnBoxBeginOverlap_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UPlayerAttackComponent_OnBoxBeginOverlap_Statics::Function_MetaDataParams)) };
@@ -374,7 +372,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerAttackComponent() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UPlayerAttackComponent_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_UPlayerAttackComponent_AttackTarget, "AttackTarget" }, // 1663072977
-		{ &Z_Construct_UFunction_UPlayerAttackComponent_OnBoxBeginOverlap, "OnBoxBeginOverlap" }, // 2473393189
+		{ &Z_Construct_UFunction_UPlayerAttackComponent_OnBoxBeginOverlap, "OnBoxBeginOverlap" }, // 2354531825
 		{ &Z_Construct_UFunction_UPlayerAttackComponent_OnBoxEndOverlap, "OnBoxEndOverlap" }, // 2557049445
 		{ &Z_Construct_UFunction_UPlayerAttackComponent_OnEnterView, "OnEnterView" }, // 218903046
 		{ &Z_Construct_UFunction_UPlayerAttackComponent_OnLeaveView, "OnLeaveView" }, // 1459904118
@@ -407,10 +405,8 @@ void EmptyLinkFunctionForGeneratedCodePlayerAttackComponent() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UPlayerAttackComponent_Statics::NewProp_ViewBoxCollider_MetaData[] = {
 		{ "Category", "PlayerAttackComponent" },
-		{ "Comment", "//UPROPERTY(EditAnywhere, BlueprintReadWrite)\n//USphereComponent* SphereCollider;\n" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Public/PlayerAttackComponent.h" },
-		{ "ToolTip", "UPROPERTY(EditAnywhere, BlueprintReadWrite)\nUSphereComponent* SphereCollider;" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UPlayerAttackComponent_Statics::NewProp_ViewBoxCollider = { "ViewBoxCollider", nullptr, (EPropertyFlags)0x001000000008000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UPlayerAttackComponent, ViewBoxCollider), Z_Construct_UClass_UBoxComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UPlayerAttackComponent_Statics::NewProp_ViewBoxCollider_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UPlayerAttackComponent_Statics::NewProp_ViewBoxCollider_MetaData)) };
@@ -446,7 +442,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerAttackComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UPlayerAttackComponent, 936393588);
+	IMPLEMENT_CLASS(UPlayerAttackComponent, 2556875492);
 	template<> RAISETHEGAMEJAME2020_API UClass* StaticClass<UPlayerAttackComponent>()
 	{
 		return UPlayerAttackComponent::StaticClass();

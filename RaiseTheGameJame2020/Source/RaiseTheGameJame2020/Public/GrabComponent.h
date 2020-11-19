@@ -27,15 +27,6 @@ public:
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
-	//UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	//	UBoxComponent* AreaBoxCollider;
-
-	//UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	//	FVector BoxColliderSize;
-		
-	//UPROPERTY(VisibleAnywhere)
-		//FSocket GrabSocket;
-
 	AActor* GrabTarget;
 
 	bool CurrentlyDragging = false;
@@ -44,14 +35,9 @@ public:
 
 	void ReleaseGTarget();
 
-	//UFUNCTION()
-		//void OnBoxBeginOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
-
 	UFUNCTION()
 		void OnEnterGrabZone(AActor* OtherActor);
 
-	//UFUNCTION()
-		//void OnBoxEndOverlap(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
 
 	UFUNCTION()
 		void OnLeaveGrabZone(AActor* OtherActor);

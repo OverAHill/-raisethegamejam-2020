@@ -9,13 +9,6 @@ UGrabComponent::UGrabComponent()
 	// Set this component to be initialized when the game starts, and to be ticked every frame.  You can turn these features
 	// off to improve performance if you don't need them.
 	PrimaryComponentTick.bCanEverTick = true;
-
-	//AreaBoxCollider = CreateDefaultSubobject<UBoxComponent>(TEXT("Hide Collider"));
-	//AreaBoxCollider->SetCollisionEnabled(ECollisionEnabled::QueryOnly);
-	//AreaBoxCollider->SetCollisionProfileName("Hide Box");
-	//AreaBoxCollider->OnComponentBeginOverlap.AddDynamic(this, &UGrabComponent::OnBoxBeginOverlap);
-	//AreaBoxCollider->OnComponentEndOverlap.AddDynamic(this, &UGrabComponent::OnBoxEndOverlap);
-
 }
 
 
@@ -38,11 +31,6 @@ void UGrabComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActorC
 }
 
 
-//void UGrabComponent::OnBoxBeginOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
-//{
-	//GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, "Grab Overlap");
-	//GrabTarget = OtherActor;
-//}
 
 void UGrabComponent::OnEnterGrabZone(AActor* OtherActor)
 {
@@ -57,11 +45,6 @@ void UGrabComponent::OnEnterGrabZone(AActor* OtherActor)
 
 	}
 }
-
-//void UGrabComponent::OnBoxEndOverlap(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
-//{
-	//GrabTarget = nullptr;
-//}
 
 void UGrabComponent::OnLeaveGrabZone(AActor* OtherActor)
 {

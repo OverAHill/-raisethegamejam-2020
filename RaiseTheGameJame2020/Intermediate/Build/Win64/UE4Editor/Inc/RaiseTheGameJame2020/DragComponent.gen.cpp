@@ -71,9 +71,7 @@ void EmptyLinkFunctionForGeneratedCodeDragComponent() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UDragComponent_Statics::NewProp_IsDragEnabled_MetaData[] = {
 		{ "Category", "DragComponent" },
-		{ "Comment", "//UPROPERTY(EditAnywhere, BlueprintReadWrite)\n//FVector BoxColliderSize;\n" },
 		{ "ModuleRelativePath", "Public/DragComponent.h" },
-		{ "ToolTip", "UPROPERTY(EditAnywhere, BlueprintReadWrite)\nFVector BoxColliderSize;" },
 	};
 #endif
 	void Z_Construct_UClass_UDragComponent_Statics::NewProp_IsDragEnabled_SetBit(void* Obj)
@@ -112,7 +110,7 @@ void EmptyLinkFunctionForGeneratedCodeDragComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UDragComponent, 1343975764);
+	IMPLEMENT_CLASS(UDragComponent, 2649713934);
 	template<> RAISETHEGAMEJAME2020_API UClass* StaticClass<UDragComponent>()
 	{
 		return UDragComponent::StaticClass();

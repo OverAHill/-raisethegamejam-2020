@@ -63,9 +63,7 @@ void EmptyLinkFunctionForGeneratedCodeGrabComponent() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGrabComponent_OnEnterGrabZone_Statics::Function_MetaDataParams[] = {
-		{ "Comment", "//UFUNCTION()\n//void OnBoxBeginOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);\n" },
 		{ "ModuleRelativePath", "Public/GrabComponent.h" },
-		{ "ToolTip", "UFUNCTION()\nvoid OnBoxBeginOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);" },
 	};
 #endif
 	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UGrabComponent_OnEnterGrabZone_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGrabComponent, nullptr, "OnEnterGrabZone", nullptr, nullptr, sizeof(GrabComponent_eventOnEnterGrabZone_Parms), Z_Construct_UFunction_UGrabComponent_OnEnterGrabZone_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UGrabComponent_OnEnterGrabZone_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UGrabComponent_OnEnterGrabZone_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UGrabComponent_OnEnterGrabZone_Statics::Function_MetaDataParams)) };
@@ -97,9 +95,7 @@ void EmptyLinkFunctionForGeneratedCodeGrabComponent() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGrabComponent_OnLeaveGrabZone_Statics::Function_MetaDataParams[] = {
-		{ "Comment", "//UFUNCTION()\n//void OnBoxEndOverlap(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);\n" },
 		{ "ModuleRelativePath", "Public/GrabComponent.h" },
-		{ "ToolTip", "UFUNCTION()\nvoid OnBoxEndOverlap(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);" },
 	};
 #endif
 	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UGrabComponent_OnLeaveGrabZone_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGrabComponent, nullptr, "OnLeaveGrabZone", nullptr, nullptr, sizeof(GrabComponent_eventOnLeaveGrabZone_Parms), Z_Construct_UFunction_UGrabComponent_OnLeaveGrabZone_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UGrabComponent_OnLeaveGrabZone_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UGrabComponent_OnLeaveGrabZone_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UGrabComponent_OnLeaveGrabZone_Statics::Function_MetaDataParams)) };
@@ -131,8 +127,8 @@ void EmptyLinkFunctionForGeneratedCodeGrabComponent() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_RaiseTheGameJame2020,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UGrabComponent_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UGrabComponent_OnEnterGrabZone, "OnEnterGrabZone" }, // 1648853470
-		{ &Z_Construct_UFunction_UGrabComponent_OnLeaveGrabZone, "OnLeaveGrabZone" }, // 2720816137
+		{ &Z_Construct_UFunction_UGrabComponent_OnEnterGrabZone, "OnEnterGrabZone" }, // 1316387744
+		{ &Z_Construct_UFunction_UGrabComponent_OnLeaveGrabZone, "OnLeaveGrabZone" }, // 1393175281
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGrabComponent_Statics::Class_MetaDataParams[] = {
@@ -169,7 +165,7 @@ void EmptyLinkFunctionForGeneratedCodeGrabComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UGrabComponent, 1020221015);
+	IMPLEMENT_CLASS(UGrabComponent, 4052517448);
 	template<> RAISETHEGAMEJAME2020_API UClass* StaticClass<UGrabComponent>()
 	{
 		return UGrabComponent::StaticClass();
