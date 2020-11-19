@@ -2,7 +2,9 @@
 
 
 #include "APlayerTask.h"
-#include "Components/BoxComponent.h" 
+#include "Components/BoxComponent.h"
+#include "Kismet/KismetSystemLibrary.h" 
+#include <Runtime/Engine/Classes/Kismet/GameplayStatics.h>
 
 // Sets default values
 AAPlayerTask::AAPlayerTask()
@@ -12,6 +14,7 @@ AAPlayerTask::AAPlayerTask()
 
 	bIsCompleted = false;
 	bIsActive = false;
+	TargetActors = TArray<ATargetActor*>();
 
 	TaskRootComponent = CreateDefaultSubobject<USceneComponent>(TEXT("Root Component"));
 	RootComponent = TaskRootComponent;
@@ -31,6 +34,8 @@ AAPlayerTask::AAPlayerTask()
 	TaskArea = CreateDefaultSubobject<UBoxComponent>(TEXT("Task Zone Area Collider"));
 	TaskArea->SetupAttachment(GetRootComponent());
 	TaskArea->SetRelativeLocationAndRotation(FVector(0.0f, 0.0f, 0.0f), FRotator(0.0f, 0.0f, 0.0f));
+	TaskArea->OnComponentBeginOverlap.AddDynamic(this, &AAPlayerTask::OnTaskAreaEntryOverlapBegin);
+	TaskArea->OnComponentEndOverlap.AddDynamic(this, &AAPlayerTask::OnTaskAreaOverlapEnd);
 }
 
 // Called when the game starts or when spawned
@@ -49,7 +54,6 @@ void AAPlayerTask::Tick(float DeltaTime)
 	FString isComp = GetIsCompleted() ? "true" : "false";
 
 	s = "Active: " + isAct + ", Completed: " + isComp;
-	
 	GEngine->AddOnScreenDebugMessage(INDEX_NONE, 5.f, FColor::Red, s);
 
 	if (GetIsCompleted() == false && GetIsActive() == true)
@@ -67,8 +71,7 @@ void AAPlayerTask::Tick(float DeltaTime)
 			SetIsCompleted(true);
 		}
 
-
-		s = "Killed: " + kills + '/' + TargetActors.Num();
+		s = "Killed: " + FString::SanitizeFloat(kills) + "/" + FString::SanitizeFloat(TargetActors.Num());
 		GEngine->AddOnScreenDebugMessage(INDEX_NONE, 5.f, FColor::Red, s);
 	}
 }
@@ -95,22 +98,37 @@ bool AAPlayerTask::GetIsCompleted()
 
 void AAPlayerTask::OnTaskEntryOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
-	GEngine->AddOnScreenDebugMessage(INDEX_NONE, 5.f, FColor::Red, TEXT("OnTaskEntryOverlapBegin"));
+
 }
 
 void AAPlayerTask::OnTaskEntryOverlapEnd(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
 {
 	SetIsActive(true);
-	GEngine->AddOnScreenDebugMessage(INDEX_NONE, 5.f, FColor::Red, TEXT("OnTaskEntryOverlapEnd"));
 }
 
 void AAPlayerTask::OnTaskExitOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
 	SetIsActive(false);
-	GEngine->AddOnScreenDebugMessage(INDEX_NONE, 5.f, FColor::Red, TEXT("OnTaskExitOverlapBegin"));
 }
 
 void AAPlayerTask::OnTaskExitOverlapEnd(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
 {
-	GEngine->AddOnScreenDebugMessage(INDEX_NONE, 5.f, FColor::Red, TEXT("OnTaskExitOverlapEnd"));
+
+}
+
+void AAPlayerTask::OnTaskAreaEntryOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
+{
+	ATargetActor* target = dynamic_cast<ATargetActor*>(OtherActor);
+	if (target != nullptr)
+	{
+		if (target->IsA(ATargetActor::StaticClass()))
+		{
+			TargetActors.Push(target);
+		}
+	}
+}
+
+void AAPlayerTask::OnTaskAreaOverlapEnd(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
+{
+
 }

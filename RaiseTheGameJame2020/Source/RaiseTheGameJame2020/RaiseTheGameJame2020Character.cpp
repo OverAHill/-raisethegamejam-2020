@@ -8,8 +8,10 @@
 #include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/Controller.h"
 #include "GameFramework/SpringArmComponent.h"
+
 #include "TimeRewind.h"
 #include "Particles/ParticleSystemComponent.h"
+#include "APlayerTask.h"
 
 //////////////////////////////////////////////////////////////////////////
 // ARaiseTheGameJame2020Character
@@ -47,6 +49,7 @@ ARaiseTheGameJame2020Character::ARaiseTheGameJame2020Character()
 	FollowCamera->SetupAttachment(CameraBoom, USpringArmComponent::SocketName); // Attach the camera to the end of the boom and let the boom adjust to match the controller orientation
 	FollowCamera->bUsePawnControlRotation = false; // Camera does not rotate relative to arm
 
+	bPlayerKilled = false;
 
 	PrimaryActorTick.bCanEverTick = true;
 	PrimaryActorTick.bStartWithTickEnabled = true;
@@ -68,9 +71,10 @@ void ARaiseTheGameJame2020Character::AUpdate(float deltaSeconds)
 	float nearest = roundf(Bloodlust * 100) / 100;
 	FString bloodlustDebug = FString::SanitizeFloat(nearest);
 
-
 	GEngine->AddOnScreenDebugMessage(-1, DeltaTime, FColor::Red, TEXT(" Bloodlust: " + bloodlustDebug));
-	GEngine->AddOnScreenDebugMessage(-1, DeltaTime, FColor::Red, TEXT(" Bool: " + bPlayerKilled ? TEXT("true") : TEXT("false")));
+	FString s = bPlayerKilled ? "true" : "false";
+	FString out = "Bool: " + s;
+	GEngine->AddOnScreenDebugMessage(-1, DeltaTime, FColor::Green, out);
 
 	//If the player hasn't killed and their bloodlust has reached max then they DIE
 	if (Bloodlust >= 10)
