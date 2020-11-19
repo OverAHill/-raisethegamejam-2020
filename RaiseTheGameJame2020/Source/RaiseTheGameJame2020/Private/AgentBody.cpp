@@ -1,7 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-
 #include "AgentBody.h"
+#include "RunFromKillerAgentTask.h"
 
 // Sets default values
 AAgentBody::AAgentBody()
@@ -23,5 +23,10 @@ void AAgentBody::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+}
+
+void AAgentBody::SignalWitnessedDeath(AActor* killerReference)
+{
+	TaskManager->ForceTaskToFront(new RunFromKillerAgentTask(this, killerReference));
 }
 
