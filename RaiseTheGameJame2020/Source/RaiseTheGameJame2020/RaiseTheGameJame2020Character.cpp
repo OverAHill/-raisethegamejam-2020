@@ -52,9 +52,10 @@ ARaiseTheGameJame2020Character::ARaiseTheGameJame2020Character()
 	PrimaryActorTick.bCanEverTick = true;
 	PrimaryActorTick.bStartWithTickEnabled = true;
 	//bToggleBloodlust = true;
-	Bloodlust = 0.0f;
+	CurrentBloodlust = 0.0f;
+	MaxBloodlust = 100.0f;
 	IncreaseBloodlust = 1.0f; 
-	DecreaseBloodlust = 2.0f; 
+	DecreaseBloodlust = 5.0f; 
 
 
 	mHealthComponent = CreateDefaultSubobject<UHealthComponent>(TEXT("PlayerHealth"));
@@ -75,15 +76,15 @@ void ARaiseTheGameJame2020Character::AUpdate(float deltaSeconds)
 
 	if(bToggleBloodlustOn)
 	{
-		Bloodlust += IncreaseBloodlust * DeltaTime; //increases bloodlust - subject to change :) 
-		float nearest = roundf(Bloodlust * 100) / 100; // sets debug text to only display to two decimal places
+		CurrentBloodlust += IncreaseBloodlust * DeltaTime; //increases bloodlust - subject to change :) 
+		float nearest = roundf(CurrentBloodlust * 100) / 100; // sets debug text to only display to two decimal places
 		FString bloodlustDebug = FString::SanitizeFloat(nearest); // converts float to string
 
 		//GEngine->AddOnScreenDebugMessage(-1, DeltaTime, FColor::Red, TEXT("Bloodlust: " + bloodlustDebug));
 		//GEngine->AddOnScreenDebugMessage(-1, DeltaTime, FColor::Red, TEXT("Bool: " + bPlayerKilled ? TEXT("true") : TEXT("false")));
 
 		//If the player hasn't killed and their bloodlust has reached max then they DIE
-		if (Bloodlust >= 100)
+		if (CurrentBloodlust >= MaxBloodlust)
 		{
 			//die
 			Destroy();
@@ -91,7 +92,7 @@ void ARaiseTheGameJame2020Character::AUpdate(float deltaSeconds)
 
 		if (bPlayerKilled == true)
 		{
-			Bloodlust = Bloodlust / DecreaseBloodlust;
+			CurrentBloodlust = CurrentBloodlust - DecreaseBloodlust;
 			bPlayerKilled = false;
 		}
 	}
@@ -126,7 +127,7 @@ void ARaiseTheGameJame2020Character::SetupPlayerInputComponent(class UInputCompo
 	PlayerInputComponent->BindAction("Jump", IE_Pressed,  this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
 
-	PlayerInputComponent->BindAction("Test", IE_Pressed,  this, &ARaiseTheGameJame2020Character::TestFunc);
+	PlayerInputComponent->BindAction("Test", IE_Pressed,  this, &ARaiseTheGameJame2020Character::PlayerKilled);
 
 	PlayerInputComponent->BindAxis("MoveForward", this, &ARaiseTheGameJame2020Character::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight",   this, &ARaiseTheGameJame2020Character::MoveRight);
@@ -150,7 +151,7 @@ void ARaiseTheGameJame2020Character::SetupPlayerInputComponent(class UInputCompo
 }
 
 //Just testing for when the player kills if it resets their bloodlust or not. 
-void ARaiseTheGameJame2020Character::TestFunc()
+void ARaiseTheGameJame2020Character::PlayerKilled()
 {
 	bPlayerKilled = true;
 } 

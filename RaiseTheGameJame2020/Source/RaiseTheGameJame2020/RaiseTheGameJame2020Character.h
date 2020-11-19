@@ -75,6 +75,18 @@ public:
 	/** Returns FollowCamera subobject **/
 	FORCEINLINE class UCameraComponent* GetFollowCamera() const { return FollowCamera; }
 
+//=================================================================================================
+// Functions
+//=================================================================================================
+public:
+	// Update
+	UFUNCTION(BlueprintCallable)
+		void AUpdate(float deltaSeconds);
+
+	UFUNCTION(BlueprintCallable)
+		float AGetHealth();
+
+	void PlayerKilled();
 
 
 //=================================================================================================
@@ -92,17 +104,12 @@ private:
 
 
 public:
-	// Update
-	UFUNCTION(BlueprintCallable)
-	void AUpdate(float deltaSeconds);
-
-	UFUNCTION(BlueprintCallable)
-	float AGetHealth();
-
-	void TestFunc();
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Player Stats");
-	float Bloodlust;
+	float CurrentBloodlust;
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Player Stats");
+	float MaxBloodlust;
+
 	UPROPERTY(EditAnywhere, Category = "Player Stats");
 	float DecreaseBloodlust;
 	UPROPERTY(EditAnywhere, Category = "Player Stats")
@@ -112,6 +119,7 @@ public:
 
 	float DeltaTime;
 	bool bPlayerKilled;
+
 
 	//UPROPERTY(VisibleAnywhere)
 	UHealthComponent* mHealthComponent;
