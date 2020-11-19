@@ -31,8 +31,8 @@ public:
 
 	bool CanAttack = false;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	USphereComponent* SphereCollider;
+	//UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	//USphereComponent* SphereCollider;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	UBoxComponent* ViewBoxCollider; // No cones
@@ -43,11 +43,11 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float SphereRadius = 5.0f;
 
-	UFUNCTION()
-	void OnSphereBeginOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
+	//UFUNCTION()
+	//void OnSphereBeginOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
 
-	UFUNCTION()
-		void OnSphereEndOverlap(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
+	//UFUNCTION()
+		//void OnSphereEndOverlap(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
 
 	UFUNCTION()
 		void OnBoxBeginOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
@@ -72,7 +72,7 @@ public:
 
 	void OrderTargetsInView();
 
-	TArray<AActor*> PotentialTargets;
+	//TArray<AActor*> PotentialTargets;
 	TArray<AActor*> TargetsInView;
 	AActor* CurrentTarget;
 

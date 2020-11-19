@@ -26,11 +26,11 @@ public:
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		UBoxComponent* AreaBoxCollider;
+	//UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		//UBoxComponent* AreaBoxCollider;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		FVector BoxColliderSize;
+	//UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		//FVector BoxColliderSize;
 
 	UPROPERTY(VisibleAnywhere)
 		bool IsDragEnabled = false;

@@ -24,9 +24,7 @@ struct FHitResult;
 	DECLARE_FUNCTION(execOnLeaveView); \
 	DECLARE_FUNCTION(execOnBoxEndOverlap); \
 	DECLARE_FUNCTION(execOnEnterView); \
-	DECLARE_FUNCTION(execOnBoxBeginOverlap); \
-	DECLARE_FUNCTION(execOnSphereEndOverlap); \
-	DECLARE_FUNCTION(execOnSphereBeginOverlap);
+	DECLARE_FUNCTION(execOnBoxBeginOverlap);
 
 
 #define RaiseTheGameJame2020_Source_RaiseTheGameJame2020_Public_PlayerAttackComponent_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
@@ -36,9 +34,7 @@ struct FHitResult;
 	DECLARE_FUNCTION(execOnLeaveView); \
 	DECLARE_FUNCTION(execOnBoxEndOverlap); \
 	DECLARE_FUNCTION(execOnEnterView); \
-	DECLARE_FUNCTION(execOnBoxBeginOverlap); \
-	DECLARE_FUNCTION(execOnSphereEndOverlap); \
-	DECLARE_FUNCTION(execOnSphereBeginOverlap);
+	DECLARE_FUNCTION(execOnBoxBeginOverlap);
 
 
 #define RaiseTheGameJame2020_Source_RaiseTheGameJame2020_Public_PlayerAttackComponent_h_16_INCLASS_NO_PURE_DECLS \

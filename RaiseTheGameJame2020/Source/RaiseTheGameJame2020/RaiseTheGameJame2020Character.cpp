@@ -248,7 +248,7 @@ void ARaiseTheGameJame2020Character::Rewind()
 
 void ARaiseTheGameJame2020Character::AttackTarget()
 {
-	GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, "Attack");
+	//GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, "Attack");
 
 	AttackComp->AttackTarget();
 }
@@ -256,27 +256,31 @@ void ARaiseTheGameJame2020Character::AttackTarget()
 
 void ARaiseTheGameJame2020Character::AttemptGrab()
 {
-	GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, "Attempt Grab");
+	//GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, "Attempt Grab");
 
-	//if (GrabComp->CurrentlyDragging)
+	if (GrabComp->CurrentlyDragging)
 	{
-		//ReleaseTarget();
+		ReleaseTarget();
 	}
-	//else
+	else
 	{
-		//GrabTarget();
+		GrabTarget();
 	}
 }
 
 void ARaiseTheGameJame2020Character::GrabTarget()
 {
-	//GrabComp->GrabGTarget();
+	//GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, "Grab");
+
+	GrabComp->GrabGTarget();
 }
 
 
 void ARaiseTheGameJame2020Character::ReleaseTarget()
 {
-	//GrabComp->ReleaseGTarget();
+	//GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, "Release Grab");
+
+	GrabComp->ReleaseGTarget();
 }
 
 void ARaiseTheGameJame2020Character::OnViewBoxBeginOverlap(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
@@ -285,7 +289,7 @@ void ARaiseTheGameJame2020Character::OnViewBoxBeginOverlap(class UPrimitiveCompo
 
 	if (Enemy)
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, "Enemy Detected");
+		//GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, "Enemy Detected");
 		AttackComp->OnEnterView(OtherActor);
 	}
 	
@@ -297,18 +301,22 @@ void ARaiseTheGameJame2020Character::OnViewBoxEndOverlap(class UPrimitiveCompone
 
 	if (Enemy)
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, "EnemyLeft");
+		//GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, "EnemyLeft");
 		AttackComp->OnLeaveView(OtherActor);
 	}
 }
 
 void ARaiseTheGameJame2020Character::OnGrabSphereBeginOverlap(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
-	//GrabComp->OnEnterGrabZone(OtherActor);
+	//GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, "Grab Overlap");
+
+	GrabComp->OnEnterGrabZone(OtherActor);
 }
 
 void ARaiseTheGameJame2020Character::OnGrabSphereEndOverlap(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
 {
-	//GrabComp->OnLeaveGrabZone(OtherActor);
+	//GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, "Grab Overlap end");
+
+	GrabComp->OnLeaveGrabZone(OtherActor);
 }
 

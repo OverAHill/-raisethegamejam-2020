@@ -25,8 +25,8 @@ public:
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		USphereComponent* VisibilitySphere;
+	//UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		//USphereComponent* VisibilitySphere;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	float HealthValue;

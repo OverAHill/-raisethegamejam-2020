@@ -53,30 +53,30 @@ void UPlayerAttackComponent::TickComponent(float DeltaTime, ELevelTick TickType,
 }
 
 
-void UPlayerAttackComponent::OnSphereBeginOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
-{
-	GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, "Target Located");
+//void UPlayerAttackComponent::OnSphereBeginOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
+//{
+	//GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, "Target Located");
 	//GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, );
 
 	// 1. If other actor has a health component
 	//PotentialTargets.Add(OtherActor);
-}
+//}
 
 
-void UPlayerAttackComponent::OnSphereEndOverlap(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
-{
-	GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, "Target Left Range");
+//void UPlayerAttackComponent::OnSphereEndOverlap(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
+//{
+	//GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, "Target Left Range");
 
 	// Remove from list of potential targets as they are no longer in range
-	if (PotentialTargets.Contains(OtherActor))
+	/*if (PotentialTargets.Contains(OtherActor))
 	{
 		int x = PotentialTargets.Find(OtherActor);
 		PotentialTargets.RemoveAt(x);
 	}
 
 	if (PotentialTargets.Num() == 0)
-		CanAttack = false;
-}
+		CanAttack = false;*/
+//}
 
 
 void UPlayerAttackComponent::OnBoxBeginOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
@@ -106,11 +106,11 @@ void UPlayerAttackComponent::OnBoxBeginOverlap(UPrimitiveComponent* OverlappedCo
 void UPlayerAttackComponent::OnEnterView(AActor* OtherActor)
 {
 	// Check if otherActor has health component
-	GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, "Target Entered View");
+	//GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, "Target Entered View");
 
 	// 1. add to potential targets, if not already there
-	if (!PotentialTargets.Contains(OtherActor))
-		PotentialTargets.Add(OtherActor);
+	//if (!PotentialTargets.Contains(OtherActor))
+		//PotentialTargets.Add(OtherActor);
 
 	TargetsInView.Add(OtherActor);
 
@@ -168,7 +168,7 @@ void UPlayerAttackComponent::OnBoxEndOverlap(class UPrimitiveComponent* Overlapp
 
 void UPlayerAttackComponent::OnLeaveView(AActor* OtherActor)
 {
-	GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, "Target Left view");
+	//GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, "Target Left view");
 
 	// Just remove from TargetsInView
 	if (TargetsInView.Contains(OtherActor))
@@ -214,7 +214,7 @@ void UPlayerAttackComponent::AttackTarget()
 
 	//TArray<UActorComponent> targetComponents = CurrentTarget->GetComponents();
 	//CurrentTarget->FindComponentByClass(TSubclassOf<UActorComponent> UHealthComponent);
-	GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, "Attack function In comp");
+	//GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, "Attack function In comp");
 
 	if (CurrentTarget != nullptr)
 	{

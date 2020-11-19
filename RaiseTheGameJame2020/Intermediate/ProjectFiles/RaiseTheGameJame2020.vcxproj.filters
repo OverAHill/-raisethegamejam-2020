@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\RaiseTheGameJame2020.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{CF20C51E-BAB9-44B3-A703-6092B6656094}</UniqueIdentifier>
+      <UniqueIdentifier>{1B7DB1E6-EBA6-40A3-9D29-9CA2E1242B77}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\RaiseTheGameJame2020.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{7DBB7D43-B91A-4638-BFF7-6C41A988BD42}</UniqueIdentifier>
+      <UniqueIdentifier>{0B87251B-95C7-4BD0-B9D0-E6D42715940A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\RaiseTheGameJame2020">
-      <UniqueIdentifier>{6645EAB2-6995-4BBD-A352-1731DEFF4EE9}</UniqueIdentifier>
+      <UniqueIdentifier>{3E3E7FF1-6555-48B0-9C3A-E66B6417244C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\RaiseTheGameJame2020\RaiseTheGameJame2020.Build.cs">
       <Filter>Source\RaiseTheGameJame2020</Filter>
@@ -60,7 +60,7 @@
       <Filter>Source\RaiseTheGameJame2020</Filter>
     </ClInclude>
     <Filter Include="Source\RaiseTheGameJame2020\Private">
-      <UniqueIdentifier>{0AF909DB-FD33-4642-BF2A-A3B3E4C429A7}</UniqueIdentifier>
+      <UniqueIdentifier>{BAB79444-AE73-419D-AC8B-7D6431702681}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\RaiseTheGameJame2020\Private\APlayerTask.cpp">
       <Filter>Source\RaiseTheGameJame2020\Private</Filter>
@@ -77,6 +77,9 @@
     <ClCompile Include="..\..\Source\RaiseTheGameJame2020\Private\HideComponent.cpp">
       <Filter>Source\RaiseTheGameJame2020\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\RaiseTheGameJame2020\Private\HideTestActor.cpp">
+      <Filter>Source\RaiseTheGameJame2020\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\RaiseTheGameJame2020\Private\PlayerAttackComponent.cpp">
       <Filter>Source\RaiseTheGameJame2020\Private</Filter>
     </ClCompile>
@@ -90,7 +93,7 @@
       <Filter>Source\RaiseTheGameJame2020\Private</Filter>
     </ClCompile>
     <Filter Include="Source\RaiseTheGameJame2020\Public">
-      <UniqueIdentifier>{EA4FB400-A51E-406F-9012-CBDA1718AD32}</UniqueIdentifier>
+      <UniqueIdentifier>{271AA11C-E727-487A-BCFA-503A645D1883}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\RaiseTheGameJame2020\Public\APlayerTask.h">
       <Filter>Source\RaiseTheGameJame2020\Public</Filter>
@@ -105,6 +108,9 @@
       <Filter>Source\RaiseTheGameJame2020\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\RaiseTheGameJame2020\Public\HideComponent.h">
+      <Filter>Source\RaiseTheGameJame2020\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RaiseTheGameJame2020\Public\HideTestActor.h">
       <Filter>Source\RaiseTheGameJame2020\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\RaiseTheGameJame2020\Public\PlayerAttackComponent.h">

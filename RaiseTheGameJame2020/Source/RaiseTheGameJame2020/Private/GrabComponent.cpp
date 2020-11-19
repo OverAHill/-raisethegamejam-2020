@@ -10,12 +10,11 @@ UGrabComponent::UGrabComponent()
 	// off to improve performance if you don't need them.
 	PrimaryComponentTick.bCanEverTick = true;
 
-	AreaBoxCollider = CreateDefaultSubobject<UBoxComponent>(TEXT("Hide Collider"));
-	AreaBoxCollider->InitBoxExtent(BoxColliderSize); // half the size of the box: x, y, z //change me
-	AreaBoxCollider->SetCollisionEnabled(ECollisionEnabled::QueryOnly);
-	AreaBoxCollider->SetCollisionProfileName("Hide Box");
-	AreaBoxCollider->OnComponentBeginOverlap.AddDynamic(this, &UGrabComponent::OnBoxBeginOverlap);
-	AreaBoxCollider->OnComponentEndOverlap.AddDynamic(this, &UGrabComponent::OnBoxEndOverlap);
+	//AreaBoxCollider = CreateDefaultSubobject<UBoxComponent>(TEXT("Hide Collider"));
+	//AreaBoxCollider->SetCollisionEnabled(ECollisionEnabled::QueryOnly);
+	//AreaBoxCollider->SetCollisionProfileName("Hide Box");
+	//AreaBoxCollider->OnComponentBeginOverlap.AddDynamic(this, &UGrabComponent::OnBoxBeginOverlap);
+	//AreaBoxCollider->OnComponentEndOverlap.AddDynamic(this, &UGrabComponent::OnBoxEndOverlap);
 
 }
 
@@ -39,22 +38,30 @@ void UGrabComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActorC
 }
 
 
-void UGrabComponent::OnBoxBeginOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
-{
+//void UGrabComponent::OnBoxBeginOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
+//{
 	//GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, "Grab Overlap");
 	//GrabTarget = OtherActor;
-}
+//}
 
 void UGrabComponent::OnEnterGrabZone(AActor* OtherActor)
 {
 	//GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, "Grab Overlap");
-	GrabTarget = OtherActor;
+	GrabTarget = nullptr;
+
+	ATestActor* Enemy = Cast<ATestActor>(OtherActor);
+
+	if (Enemy)
+	{
+		GrabTarget = OtherActor;
+
+	}
 }
 
-void UGrabComponent::OnBoxEndOverlap(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
-{
+//void UGrabComponent::OnBoxEndOverlap(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
+//{
 	//GrabTarget = nullptr;
-}
+//}
 
 void UGrabComponent::OnLeaveGrabZone(AActor* OtherActor)
 {
@@ -64,26 +71,48 @@ void UGrabComponent::OnLeaveGrabZone(AActor* OtherActor)
 void UGrabComponent::GrabGTarget()
 {
 	// 1. Check if grab is allow
-	if (GrabTarget != nullptr) //is within range
+	if (GrabTarget) //is within range
 	{
+		//GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, "Grab GTarget Attempt");
+
 		if (GrabTarget->FindComponentByClass<UDragComponent>()->IsDragEnabled)
 		{
+			//GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, "Grab GTarget Attempt Passed");
+
 			// 2. attach to socket
-			GrabTarget->GetRootComponent()->AttachToComponent(this->GetOwner()->GetRootComponent(), FAttachmentTransformRules::KeepRelativeTransform); // Transform Rules might need adjusting
+			GrabTarget->GetRootComponent()->AttachToComponent(this->GetOwner()->GetRootComponent(), FAttachmentTransformRules::SnapToTargetNotIncludingScale); // Transform Rules might need adjusting
 			CurrentlyDragging = true;
+
 			GrabTarget->FindComponentByClass<UDragComponent>()->IsBeingDragged = true;
 		}
-	}	
+	}
+	else
+	{
+		//GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, "Grab Target nullptr");
+
+	}
 }
 
-void UGrabComponent::ReleaseGTarget()
+void UGrabComponent::ReleaseGTarget() //Release Doesnt Work Rn
 {
+	//GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, "Release GTarget Attempt");
+
 	// 1. Check if socketed
-	if (CurrentlyDragging)
+	//if (CurrentlyDragging)
 	{
-		// 2. Un Attach Socket
-		GrabTarget->GetRootComponent()->DetachFromComponent(FDetachmentTransformRules::KeepWorldTransform); // Transform Rules might need adjusting
-		GrabTarget->FindComponentByClass<UDragComponent>()->IsBeingDragged = false;
+		//GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, "Release GTarget Attempt Passed STep 1");
+		if (GrabTarget)
+		{
+			GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, "Release GTarget Attempt Passed Step 2");
+
+			// 2. Un Attach Socket
+			//GrabTarget->GetRootComponent()->DetachFromComponent(FDetachmentTransformRules::KeepWorldTransform); // Transform Rules might need adjusting
+			GrabTarget->GetRootComponent()->DetachFromComponent(FDetachmentTransformRules::KeepWorldTransform);
+			//GrabTarget->FindComponentByClass<UDragComponent>()->IsBeingDragged = false;
+			//GrabTarget->FindComponentByClass<UDragComponent>()->IsBeingDragged = false;
+			CurrentlyDragging = false;
+		}
+		
 	}
 	
 }

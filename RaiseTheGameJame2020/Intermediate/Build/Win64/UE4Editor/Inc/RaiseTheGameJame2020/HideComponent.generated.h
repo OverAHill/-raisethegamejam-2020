@@ -8,9 +8,7 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-class UPrimitiveComponent;
 class AActor;
-struct FHitResult;
 #ifdef RAISETHEGAMEJAME2020_HideComponent_generated_h
 #error "HideComponent.generated.h already included, missing '#pragma once' in HideComponent.h"
 #endif
@@ -19,12 +17,12 @@ struct FHitResult;
 #define RaiseTheGameJame2020_Source_RaiseTheGameJame2020_Public_HideComponent_h_15_SPARSE_DATA
 #define RaiseTheGameJame2020_Source_RaiseTheGameJame2020_Public_HideComponent_h_15_RPC_WRAPPERS \
  \
-	DECLARE_FUNCTION(execOnBoxBeginOverlap);
+	DECLARE_FUNCTION(execOnActorEnterHideZone);
 
 
 #define RaiseTheGameJame2020_Source_RaiseTheGameJame2020_Public_HideComponent_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
  \
-	DECLARE_FUNCTION(execOnBoxBeginOverlap);
+	DECLARE_FUNCTION(execOnActorEnterHideZone);
 
 
 #define RaiseTheGameJame2020_Source_RaiseTheGameJame2020_Public_HideComponent_h_15_INCLASS_NO_PURE_DECLS \

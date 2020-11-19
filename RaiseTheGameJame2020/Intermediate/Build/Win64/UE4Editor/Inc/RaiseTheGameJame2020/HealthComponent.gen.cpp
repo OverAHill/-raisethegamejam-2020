@@ -17,7 +17,6 @@ void EmptyLinkFunctionForGeneratedCodeHealthComponent() {}
 	RAISETHEGAMEJAME2020_API UClass* Z_Construct_UClass_UHealthComponent();
 	ENGINE_API UClass* Z_Construct_UClass_UActorComponent();
 	UPackage* Z_Construct_UPackage__Script_RaiseTheGameJame2020();
-	ENGINE_API UClass* Z_Construct_UClass_USphereComponent_NoRegister();
 // End Cross Module References
 	void UHealthComponent::StaticRegisterNativesUHealthComponent()
 	{
@@ -38,9 +37,9 @@ void EmptyLinkFunctionForGeneratedCodeHealthComponent() {}
 		static void NewProp_Alive_SetBit(void* Obj);
 		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_Alive;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_VisibilitySphere_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HealthValue_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_VisibilitySphere;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_HealthValue;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -69,16 +68,17 @@ void EmptyLinkFunctionForGeneratedCodeHealthComponent() {}
 	}
 	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UHealthComponent_Statics::NewProp_Alive = { "Alive", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(UHealthComponent), &Z_Construct_UClass_UHealthComponent_Statics::NewProp_Alive_SetBit, METADATA_PARAMS(Z_Construct_UClass_UHealthComponent_Statics::NewProp_Alive_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UHealthComponent_Statics::NewProp_Alive_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UHealthComponent_Statics::NewProp_VisibilitySphere_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UHealthComponent_Statics::NewProp_HealthValue_MetaData[] = {
 		{ "Category", "HealthComponent" },
-		{ "EditInline", "true" },
+		{ "Comment", "//UPROPERTY(EditAnywhere, BlueprintReadWrite)\n//USphereComponent* VisibilitySphere;\n" },
 		{ "ModuleRelativePath", "Public/HealthComponent.h" },
+		{ "ToolTip", "UPROPERTY(EditAnywhere, BlueprintReadWrite)\nUSphereComponent* VisibilitySphere;" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UHealthComponent_Statics::NewProp_VisibilitySphere = { "VisibilitySphere", nullptr, (EPropertyFlags)0x001000000008000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UHealthComponent, VisibilitySphere), Z_Construct_UClass_USphereComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UHealthComponent_Statics::NewProp_VisibilitySphere_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UHealthComponent_Statics::NewProp_VisibilitySphere_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UHealthComponent_Statics::NewProp_HealthValue = { "HealthValue", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UHealthComponent, HealthValue), METADATA_PARAMS(Z_Construct_UClass_UHealthComponent_Statics::NewProp_HealthValue_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UHealthComponent_Statics::NewProp_HealthValue_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UHealthComponent_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UHealthComponent_Statics::NewProp_Alive,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UHealthComponent_Statics::NewProp_VisibilitySphere,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UHealthComponent_Statics::NewProp_HealthValue,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UHealthComponent_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UHealthComponent>::IsAbstract,
@@ -107,7 +107,7 @@ void EmptyLinkFunctionForGeneratedCodeHealthComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UHealthComponent, 3935998303);
+	IMPLEMENT_CLASS(UHealthComponent, 1860680041);
 	template<> RAISETHEGAMEJAME2020_API UClass* StaticClass<UHealthComponent>()
 	{
 		return UHealthComponent::StaticClass();
