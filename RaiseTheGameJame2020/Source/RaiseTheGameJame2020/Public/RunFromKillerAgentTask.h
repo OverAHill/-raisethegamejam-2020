@@ -14,6 +14,9 @@ private:
 	FVector* PointerPosForPathfinding;
 	AActor* KillerReference;
 
+	float fleeTime = 0;
+	float escapeTime = 30;
+
 	bool CanSeeKiller();
 	FVector GetDirectionToKiller();
 	float GetDistanceToKiller();

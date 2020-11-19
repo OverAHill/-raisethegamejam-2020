@@ -2,20 +2,12 @@
 	"Targets": [
 		{
 			"Name": "RaiseTheGameJame2020",
-<<<<<<< HEAD
 			"Path": "E:\\Projects\\Personal Projects\\-raisethegamejam-2020\\RaiseTheGameJame2020\\Source\\RaiseTheGameJame2020.Target.cs",
-=======
-			"Path": "C:\\Users\\onlyr\\OneDrive - Staffordshire University\\GameJam\\WORKINGONE\\-raisethegamejam-2020\\RaiseTheGameJame2020\\Source\\RaiseTheGameJame2020.Target.cs",
->>>>>>> UI
 			"Type": "Game"
 		},
 		{
 			"Name": "RaiseTheGameJame2020Editor",
-<<<<<<< HEAD
 			"Path": "E:\\Projects\\Personal Projects\\-raisethegamejam-2020\\RaiseTheGameJame2020\\Source\\RaiseTheGameJame2020Editor.Target.cs",
-=======
-			"Path": "C:\\Users\\onlyr\\OneDrive - Staffordshire University\\GameJam\\WORKINGONE\\-raisethegamejam-2020\\RaiseTheGameJame2020\\Source\\RaiseTheGameJame2020Editor.Target.cs",
->>>>>>> UI
 			"Type": "Editor"
 		}
 	]

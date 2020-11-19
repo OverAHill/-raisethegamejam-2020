@@ -17,13 +17,9 @@ RunFromKillerAgentTask::~RunFromKillerAgentTask()
 
 bool RunFromKillerAgentTask::CanRun()
 {
-	if (CanSeeKiller())
+	if (fleeTime < escapeTime)
 	{
 		return true;
-	}
-	else if (GetDistanceToKiller() > 100)
-	{
-		return false;
 	}
 
 	return IAgentTask::CanRun();
@@ -38,6 +34,16 @@ void RunFromKillerAgentTask::Run(float DeltaTime)
 
 	// Run Away
 	*PointerPosForPathfinding = goalLocation;
+
+	if (!CanSeeKiller())
+	{
+		fleeTime += DeltaTime;
+
+		if (fleeTime >= escapeTime)
+		{
+			completed = true;
+		}
+	}
 }
 
 bool RunFromKillerAgentTask::IsFinished()

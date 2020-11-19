@@ -1,64 +1,14 @@
-<<<<<<< HEAD
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (E:\Projects\Personal Projects\-raisethegamejam-2020).
   Building RaiseTheGameJame2020Editor...
   Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Building 4 actions with 8 processes...
-    [1/4] GoToLocationAgentTask.cpp
+    [1/4] GoToRandomLocationAgentTask.cpp
 E:\Projects\Personal Projects\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\IAgentTask.h(24): warning C4265: 'IAgentTask': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly
-E:\Projects\Personal Projects\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\GoToLocationAgentTask.h(21): warning C4265: 'GoToLocationAgentTask': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly
+E:\Projects\Personal Projects\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\GoToRandomLocationAgentTask.h(23): warning C4265: 'GoToRandomLocationAgentTask': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly
     [2/4] UE4Editor-RaiseTheGameJame2020.lib
        Creating library E:\Projects\Personal Projects\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\UE4Editor-RaiseTheGameJame2020.lib and object E:\Projects\Personal Projects\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\UE4Editor-RaiseTheGameJame2020.exp
     [3/4] UE4Editor-RaiseTheGameJame2020.dll
        Creating library E:\Projects\Personal Projects\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\UE4Editor-RaiseTheGameJame2020.suppressed.lib and object E:\Projects\Personal Projects\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\UE4Editor-RaiseTheGameJame2020.suppressed.exp
-<<<<<<< HEAD
-    [38/38] RaiseTheGameJame2020Editor.target
-EXEC : warning : Unable to read 'E:\Projects\Personal Projects\-raisethegamejam-2020\RaiseTheGameJame2020\Binaries\Win64\UE4Editor.modules'; ignoring.
-  Total time in Parallel executor: 43.05 seconds
-  Total execution time: 73.26 seconds
-=======
-﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020).
-  Creating makefile for RaiseTheGameJame2020Editor (no existing makefile)
-  Parsing headers for RaiseTheGameJame2020Editor
-    Running UnrealHeaderTool "C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\RaiseTheGameJame2020.uproject" "C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\RaiseTheGameJame2020Editor\Development\RaiseTheGameJame2020Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\onlyr\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-  Reflection code generated for RaiseTheGameJame2020Editor in 4.9704551 seconds
-  Building RaiseTheGameJame2020Editor...
-  Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 28 actions with 6 processes...
-    [1/28] Default.rc2
-    [2/28] SharedPCH.Engine.ShadowErrors.cpp
-    [3/28] HealthComponent.cpp
-    [4/28] DragComponent.cpp
-    [5/28] GrabComponent.cpp
-    [6/28] PlayerAttackComponent.cpp
-    [7/28] HideComponent.cpp
-    [8/28] APlayerTask.cpp
-    [9/28] TargetActor.cpp
-    [10/28] TaskTarget.cpp
-    [11/28] RaiseTheGameJame2020.cpp
-    [12/28] APlayerTask.gen.cpp
-    [13/28] DragComponent.gen.cpp
-    [14/28] GrabComponent.gen.cpp
-    [15/28] HealthComponent.gen.cpp
-    [16/28] HideComponent.gen.cpp
-    [17/28] RaiseTheGameJame2020.init.gen.cpp
-    [18/28] RaiseTheGameJame2020Character.cpp
-    [19/28] PlayerAttackComponent.gen.cpp
-    [20/28] RaiseTheGameJame2020GameMode.gen.cpp
-    [21/28] RaiseTheGameJame2020Character.gen.cpp
-    [22/28] TargetActor.gen.cpp
-    [23/28] TaskTarget.gen.cpp
-    [24/28] TimeRewind.cpp
-    [25/28] RaiseTheGameJame2020GameMode.cpp
-    [26/28] UE4Editor-RaiseTheGameJame2020.lib
-       Creating library C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\UE4Editor-RaiseTheGameJame2020.lib and object C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\UE4Editor-RaiseTheGameJame2020.exp
-    [27/28] UE4Editor-RaiseTheGameJame2020.dll
-       Creating library C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\UE4Editor-RaiseTheGameJame2020.suppressed.lib and object C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\UE4Editor-RaiseTheGameJame2020.suppressed.exp
-    [28/28] RaiseTheGameJame2020Editor.target
-  Total time in Parallel executor: 29.77 seconds
-  Total execution time: 46.20 seconds
->>>>>>> UI
-=======
     [4/4] RaiseTheGameJame2020Editor.target
-  Total time in Parallel executor: 6.56 seconds
-  Total execution time: 7.23 seconds
->>>>>>> CreatingAI
+  Total time in Parallel executor: 2.01 seconds
+  Total execution time: 2.71 seconds
