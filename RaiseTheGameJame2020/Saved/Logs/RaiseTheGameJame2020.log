@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿Log file open, 11/19/20 14:29:03
 LogInit: Display: Running engine for game: RaiseTheGameJame2020
 LogPlatformFile: Not using cached read wrapper
@@ -11,6 +12,13 @@ LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
 LogStats: Stats thread started at 0.205164
 >>>>>>> AI_Variance
+=======
+﻿Log file open, 11/19/20 12:28:45
+LogInit: Display: Running engine for game: RaiseTheGameJame2020
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.975356
+>>>>>>> Accessibility
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -148,14 +156,19 @@ LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
 LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
 LogInit: Net CL: 13144385
 <<<<<<< HEAD
+<<<<<<< HEAD
 LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz, GPU: NVIDIA GeForce RTX 2080
 =======
 LogInit: OS: Windows 10 (Release 2004) (), CPU: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz, GPU: NVIDIA GeForce GTX 1060 6GB
 >>>>>>> AI_Variance
+=======
+LogInit: OS: Windows 10 (Release 2004) (), CPU: Intel(R) Core(TM) i5-8400 CPU @ 2.80GHz, GPU: NVIDIA GeForce GTX 1050 Ti
+>>>>>>> Accessibility
 LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
 LogInit: Compiled with Visual C++: 19.24.28315.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.25
+<<<<<<< HEAD
 <<<<<<< HEAD
 LogInit: Command Line:  -skipcompile
 LogInit: Base Directory: D:/Program Files (x86)/UE_4.25/Engine/Binaries/Win64/
@@ -163,6 +176,10 @@ LogInit: Base Directory: D:/Program Files (x86)/UE_4.25/Engine/Binaries/Win64/
 LogInit: Command Line: 
 LogInit: Base Directory: D:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
 >>>>>>> AI_Variance
+=======
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+>>>>>>> Accessibility
 LogInit: Allocator: TBB
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 26
@@ -194,10 +211,14 @@ LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C05
 LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
 LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 <<<<<<< HEAD
+<<<<<<< HEAD
 LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Users/h017026h/Documents/GitKraken/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Engine.ini]
 =======
 LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/Projects/Personal Projects/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Engine.ini]
 >>>>>>> AI_Variance
+=======
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Engine.ini]
+>>>>>>> Accessibility
 LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
 LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
 LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
@@ -215,6 +236,7 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
+<<<<<<< HEAD
 <<<<<<< HEAD
 [2020.11.19-14.29.05:943][  0]LogConfig: Setting CVar [[r.VSync:0]]
 [2020.11.19-14.29.05:943][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
@@ -9560,3 +9582,1671 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.11.19-14.41.29:383][286]LogExit: Exiting.
 [2020.11.19-14.41.29:432][286]Log file closed, 11/19/20 14:41:29
 >>>>>>> AI_Variance
+=======
+[2020.11.19-12.28.46:373][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.11.19-12.28.46:373][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.11.19-12.28.46:374][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Engine.ini]
+[2020.11.19-12.28.46:374][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.11.19-12.28.46:374][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Engine.ini]
+[2020.11.19-12.28.46:374][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Engine.ini]
+[2020.11.19-12.28.46:374][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.11.19-12.28.46:374][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.11.19-12.28.46:374][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.11.19-12.28.46:374][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.11.19-12.28.46:374][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.11.19-12.28.46:374][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.11.19-12.28.46:374][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.11.19-12.28.46:374][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.11.19-12.28.46:374][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.11.19-12.28.46:375][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.11.19-12.28.46:375][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.11.19-12.28.46:375][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.11.19-12.28.46:375][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.11.19-12.28.46:375][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.11.19-12.28.46:375][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Engine.ini]
+[2020.11.19-12.28.46:375][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.11.19-12.28.46:375][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.11.19-12.28.46:375][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.11.19-12.28.46:375][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.11.19-12.28.46:375][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.11.19-12.28.46:375][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.11.19-12.28.46:375][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.11.19-12.28.46:375][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.11.19-12.28.46:375][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.11.19-12.28.46:375][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.11.19-12.28.46:375][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.11.19-12.28.46:375][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.11.19-12.28.46:375][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.11.19-12.28.46:375][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Engine.ini]
+[2020.11.19-12.28.46:375][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Engine.ini]
+[2020.11.19-12.28.46:383][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Scalability.ini]
+[2020.11.19-12.28.46:383][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.11.19-12.28.46:383][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.11.19-12.28.46:383][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Scalability.ini]
+[2020.11.19-12.28.46:384][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.11.19-12.28.46:384][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Scalability.ini]
+[2020.11.19-12.28.46:384][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.11.19-12.28.46:384][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.11.19-12.28.46:384][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.11.19-12.28.46:384][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.11.19-12.28.46:384][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.11.19-12.28.46:384][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.11.19-12.28.46:384][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.11.19-12.28.46:384][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.11.19-12.28.46:384][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.11.19-12.28.46:384][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.11.19-12.28.46:384][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.11.19-12.28.46:384][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.11.19-12.28.46:384][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.11.19-12.28.46:384][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.11.19-12.28.46:384][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.11.19-12.28.46:384][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.11.19-12.28.46:384][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.11.19-12.28.46:384][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.11.19-12.28.46:384][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Scalability.ini]
+[2020.11.19-12.28.46:384][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.11.19-12.28.46:385][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.11.19-12.28.46:385][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.11.19-12.28.46:385][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.11.19-12.28.46:385][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.11.19-12.28.46:385][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.11.19-12.28.46:385][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.11.19-12.28.46:385][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.11.19-12.28.46:385][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.11.19-12.28.46:385][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.11.19-12.28.46:385][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.11.19-12.28.46:385][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.11.19-12.28.46:385][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.11.19-12.28.46:385][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.11.19-12.28.46:385][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.11.19-12.28.46:385][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.11.19-12.28.46:385][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.11.19-12.28.46:385][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.11.19-12.28.46:385][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.11.19-12.28.46:385][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.11.19-12.28.46:385][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.11.19-12.28.46:385][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.11.19-12.28.46:385][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.11.19-12.28.46:385][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.11.19-12.28.46:385][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.11.19-12.28.46:386][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.11.19-12.28.46:386][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.11.19-12.28.46:386][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.11.19-12.28.46:386][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.11.19-12.28.46:386][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.11.19-12.28.46:386][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Scalability.ini]
+[2020.11.19-12.28.46:386][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.11.19-12.28.46:386][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.11.19-12.28.46:386][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.11.19-12.28.46:386][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.11.19-12.28.46:386][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.11.19-12.28.46:386][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.11.19-12.28.46:386][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.11.19-12.28.46:386][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.11.19-12.28.46:386][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.11.19-12.28.46:386][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Scalability.ini]
+[2020.11.19-12.28.46:386][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.11.19-12.28.46:386][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.11.19-12.28.46:386][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.11.19-12.28.46:386][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.11.19-12.28.46:387][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.11.19-12.28.46:387][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.11.19-12.28.46:387][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.11.19-12.28.46:387][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.11.19-12.28.46:387][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.11.19-12.28.46:387][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.11.19-12.28.46:387][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.11.19-12.28.46:387][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.11.19-12.28.46:387][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.11.19-12.28.46:387][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.11.19-12.28.46:387][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.11.19-12.28.46:387][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.11.19-12.28.46:387][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.11.19-12.28.46:387][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.11.19-12.28.46:387][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.11.19-12.28.46:387][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.11.19-12.28.46:387][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.11.19-12.28.46:387][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.11.19-12.28.46:387][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.11.19-12.28.46:387][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.11.19-12.28.46:387][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.11.19-12.28.46:387][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.11.19-12.28.46:387][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Scalability.ini]
+[2020.11.19-12.28.46:387][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.11.19-12.28.46:387][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.11.19-12.28.46:388][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Scalability.ini]
+[2020.11.19-12.28.46:388][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.11.19-12.28.46:388][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.11.19-12.28.46:388][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.11.19-12.28.46:388][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.11.19-12.28.46:388][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.11.19-12.28.46:388][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.11.19-12.28.46:388][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.11.19-12.28.46:388][  0]LogInit: Selected Device Profile: [Windows]
+[2020.11.19-12.28.46:388][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.11.19-12.28.46:389][  0]LogHAL: Display: Platform has ~ 16 GB [17118105600 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.11.19-12.28.46:390][  0]LogInit: Going up to parent DeviceProfile []
+[2020.11.19-12.28.46:390][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Scalability.ini]
+[2020.11.19-12.28.46:390][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.11.19-12.28.46:390][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.11.19-12.28.46:390][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Scalability.ini]
+[2020.11.19-12.28.46:390][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.11.19-12.28.46:390][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Scalability.ini]
+[2020.11.19-12.28.46:390][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.11.19-12.28.46:390][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.11.19-12.28.46:390][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.11.19-12.28.46:390][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.11.19-12.28.46:390][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.11.19-12.28.46:390][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.11.19-12.28.46:391][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.11.19-12.28.46:391][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.11.19-12.28.46:391][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.11.19-12.28.46:391][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.11.19-12.28.46:391][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.11.19-12.28.46:391][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.11.19-12.28.46:391][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.11.19-12.28.46:391][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.11.19-12.28.46:391][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.11.19-12.28.46:391][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.11.19-12.28.46:391][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.11.19-12.28.46:391][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.11.19-12.28.46:391][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Scalability.ini]
+[2020.11.19-12.28.46:391][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.11.19-12.28.46:391][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.11.19-12.28.46:391][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.11.19-12.28.46:391][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.11.19-12.28.46:391][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.11.19-12.28.46:391][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.11.19-12.28.46:391][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.11.19-12.28.46:391][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.11.19-12.28.46:391][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.11.19-12.28.46:391][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.11.19-12.28.46:391][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.11.19-12.28.46:391][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.11.19-12.28.46:392][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.11.19-12.28.46:392][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.11.19-12.28.46:392][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.11.19-12.28.46:392][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.11.19-12.28.46:392][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.11.19-12.28.46:392][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.11.19-12.28.46:392][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.11.19-12.28.46:392][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.11.19-12.28.46:392][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.11.19-12.28.46:392][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.11.19-12.28.46:392][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.11.19-12.28.46:392][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.11.19-12.28.46:392][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.11.19-12.28.46:392][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.11.19-12.28.46:392][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.11.19-12.28.46:392][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.11.19-12.28.46:392][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.11.19-12.28.46:392][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.11.19-12.28.46:392][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Scalability.ini]
+[2020.11.19-12.28.46:393][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.11.19-12.28.46:393][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.11.19-12.28.46:393][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.11.19-12.28.46:393][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.11.19-12.28.46:393][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.11.19-12.28.46:393][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.11.19-12.28.46:393][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.11.19-12.28.46:393][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.11.19-12.28.46:393][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.11.19-12.28.46:393][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Scalability.ini]
+[2020.11.19-12.28.46:393][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.11.19-12.28.46:393][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.11.19-12.28.46:393][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.11.19-12.28.46:393][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.11.19-12.28.46:393][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.11.19-12.28.46:393][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.11.19-12.28.46:393][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.11.19-12.28.46:393][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.11.19-12.28.46:393][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.11.19-12.28.46:393][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.11.19-12.28.46:393][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.11.19-12.28.46:394][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.11.19-12.28.46:394][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.11.19-12.28.46:394][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.11.19-12.28.46:394][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.11.19-12.28.46:394][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.11.19-12.28.46:394][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.11.19-12.28.46:394][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.11.19-12.28.46:394][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.11.19-12.28.46:394][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.11.19-12.28.46:394][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.11.19-12.28.46:394][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.11.19-12.28.46:394][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.11.19-12.28.46:394][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.11.19-12.28.46:394][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.11.19-12.28.46:394][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.11.19-12.28.46:394][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Scalability.ini]
+[2020.11.19-12.28.46:394][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.11.19-12.28.46:394][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.11.19-12.28.46:394][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Scalability.ini]
+[2020.11.19-12.28.46:394][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.11.19-12.28.46:394][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.11.19-12.28.46:394][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.11.19-12.28.46:394][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.11.19-12.28.46:394][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.11.19-12.28.46:394][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.11.19-12.28.46:395][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.11.19-12.28.46:395][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.11.19-12.28.46:395][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.11.19-12.28.46:395][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.11.19-12.28.46:395][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.11.19-12.28.46:395][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Config/Windows/Engine.ini]
+[2020.11.19-12.28.46:397][  0]LogInit: Computer: DESKTOP-C123S3I
+[2020.11.19-12.28.46:397][  0]LogInit: User: onlyr
+[2020.11.19-12.28.46:397][  0]LogInit: CPU Page size=4096, Cores=6
+[2020.11.19-12.28.46:397][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.11.19-12.28.46:397][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.11.19-12.28.46:397][  0]LogMemory: Platform Memory Stats for Windows
+[2020.11.19-12.28.46:397][  0]LogMemory: Process Physical Memory: 116.39 MB used, 116.39 MB peak
+[2020.11.19-12.28.46:397][  0]LogMemory: Process Virtual Memory: 113.72 MB used, 113.72 MB peak
+[2020.11.19-12.28.46:397][  0]LogMemory: Physical Memory: 9053.92 MB used,  7271.18 MB free, 16325.10 MB total
+[2020.11.19-12.28.46:397][  0]LogMemory: Virtual Memory: 5157.03 MB used,  134212568.00 MB free, 134217728.00 MB total
+[2020.11.19-12.28.46:406][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.11.19-12.28.46:800][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.11.19-12.28.46:804][  0]LogInit: Using OS detected language (en-GB).
+[2020.11.19-12.28.46:804][  0]LogInit: Using OS detected locale (en-GB).
+[2020.11.19-12.28.46:822][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2020.11.19-12.28.47:158][  0]LogInit: Setting process to per monitor DPI aware
+[2020.11.19-12.28.47:272][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.11.19-12.28.47:272][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.11.19-12.28.47:962][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.11.19-12.28.47:962][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.11.19-12.28.47:962][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.11.19-12.28.47:963][  0]LogD3D11RHI: D3D11 adapters:
+[2020.11.19-12.28.48:090][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2020.11.19-12.28.48:090][  0]LogD3D11RHI:       4018/0/8162 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.11.19-12.28.48:099][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.11.19-12.28.48:099][  0]LogD3D11RHI:       0/0/8162 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.11.19-12.28.48:099][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.11.19-12.28.48:106][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.11.19-12.28.48:106][  0]LogD3D11RHI:     GPU DeviceId: 0x1c82 (for the marketing name, search the web for "GPU Device Id")
+[2020.11.19-12.28.48:106][  0]LogWindows: EnumDisplayDevices:
+[2020.11.19-12.28.48:106][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050 Ti' (P:1 D:1)
+[2020.11.19-12.28.48:106][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2020.11.19-12.28.48:107][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2020.11.19-12.28.48:107][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2020.11.19-12.28.48:107][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.11.19-12.28.48:107][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2020.11.19-12.28.48:107][  0]LogD3D11RHI:   Driver Version: 457.30 (internal:27.21.14.5730, unified:457.30)
+[2020.11.19-12.28.48:107][  0]LogD3D11RHI:      Driver Date: 11-6-2020
+[2020.11.19-12.28.48:107][  0]LogRHI: Texture pool is 2812 MB (70% of 4018 MB)
+[2020.11.19-12.28.48:172][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.11.19-12.28.48:172][  0]LogD3D11RHI: Async texture creation enabled
+[2020.11.19-12.28.48:172][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.11.19-12.28.48:221][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2020.11.19-12.28.48:492][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.11.19-12.28.48:515][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.11.19-12.28.48:515][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.11.19-12.28.48:515][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.11.19-12.28.48:515][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.11.19-12.28.48:515][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.11.19-12.28.48:516][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.11.19-12.28.48:516][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.11.19-12.28.48:516][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.11.19-12.28.48:516][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.11.19-12.28.48:516][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.11.19-12.28.48:557][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.11.19-12.28.48:557][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.11.19-12.28.48:578][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.11.19-12.28.48:590][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.11.19-12.28.48:602][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.11.19-12.28.48:613][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.11.19-12.28.48:625][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.11.19-12.28.48:636][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.11.19-12.28.48:648][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.11.19-12.28.48:680][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.11.19-12.28.48:680][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.11.19-12.28.48:697][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.11.19-12.28.48:697][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.11.19-12.28.48:709][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.11.19-12.28.48:721][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.11.19-12.28.48:733][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.11.19-12.28.48:745][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.11.19-12.28.48:745][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.11.19-12.28.48:764][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.11.19-12.28.48:913][  0]LogShaderCompilers: Guid format shader working directory is -82 characters bigger than the processId version (../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Intermediate/Shaders/WorkingDirectory/16848/).
+[2020.11.19-12.28.48:913][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/onlyr/AppData/Local/Temp/UnrealShaderWorkingDir/3AD63331494F5E27996B5F9B4C3A0C0C/'.
+[2020.11.19-12.28.48:915][  0]LogXGEController: Cleaning working directory: C:/Users/onlyr/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.11.19-12.28.48:915][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.11.19-12.28.48:915][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.11.19-12.28.48:915][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.11.19-12.28.49:809][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.11.19-12.28.50:028][  0]LogDerivedDataCache: Loaded boot cache 0.22s 79MB C:/Users/onlyr/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.11.19-12.28.50:028][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/onlyr/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.11.19-12.28.50:028][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.11.19-12.28.50:028][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.11.19-12.28.50:028][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.11.19-12.28.50:028][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.11.19-12.28.50:041][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.11.19-12.28.50:041][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.11.19-12.28.50:041][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.11.19-12.28.50:044][  0]LogDerivedDataCache: Using Local data cache path C:/Users/onlyr/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.11.19-12.28.50:044][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.11.19-12.28.50:044][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.11.19-12.28.50:101][  0]LogSlate: Using FreeType 2.10.0
+[2020.11.19-12.28.50:105][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.11.19-12.28.50:157][  0]LogAssetRegistry: FAssetRegistry took 0.0062 seconds to start up
+[2020.11.19-12.28.50:503][  0]LogInit: Selected Device Profile: [Windows]
+[2020.11.19-12.28.50:769][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.11.19-12.28.50:770][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.11.19-12.28.50:770][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.11.19-12.28.50:770][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.11.19-12.28.50:771][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.11.19-12.28.50:808][  0]LogNetVersion: RaiseTheGameJame2020 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 1455622770)
+[2020.11.19-12.28.51:607][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000021ACEC55BC0), frame # 0
+[2020.11.19-12.28.51:607][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021ACEB7D080), frame # 0
+[2020.11.19-12.28.51:612][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021ACEBDDC00), frame # 0
+[2020.11.19-12.28.51:689][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.049118 seconds
+[2020.11.19-12.28.51:695][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.11.19-12.28.51:695][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.11.19-12.28.51:695][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.11.19-12.28.52:587][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.11.19-12.28.52:599][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.11.19-12.28.53:002][  0]SourceControl: Source control is disabled
+[2020.11.19-12.28.53:002][  0]SourceControl: Source control is disabled
+[2020.11.19-12.28.53:015][  0]SourceControl: Source control is disabled
+[2020.11.19-12.28.53:023][  0]SourceControl: Source control is disabled
+[2020.11.19-12.28.53:040][  0]SourceControl: Source control is disabled
+[2020.11.19-12.28.53:644][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.11.19-12.28.53:684][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.11.19-12.28.53:684][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.11.19-12.28.53:777][  0]LogOcInput: OculusInput pre-init called
+[2020.11.19-12.28.53:798][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.11.19-12.28.53:799][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.11.19-12.28.53:971][  0]LogEngine: Initializing Engine...
+[2020.11.19-12.28.53:972][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.11.19-12.28.53:972][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.11.19-12.28.53:975][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
+[2020.11.19-12.28.54:107][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.11.19-12.28.54:143][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.11.19-12.28.54:143][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021AD5471C00), frame # 0
+[2020.11.19-12.28.54:144][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021AD54AA200), frame # 0
+[2020.11.19-12.28.54:157][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.19-12.28.54:157][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.19-12.28.54:157][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.19-12.28.54:157][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.19-12.28.54:157][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.19-12.28.54:157][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.19-12.28.54:157][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.19-12.28.54:157][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.19-12.28.54:159][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.19-12.28.54:159][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.19-12.28.54:189][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.19-12.28.54:189][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.11.19-12.28.54:189][  0]LogAudioMixer: Display: 2: FrontCenter
+[2020.11.19-12.28.54:189][  0]LogAudioMixer: Display: 3: LowFrequency
+[2020.11.19-12.28.54:189][  0]LogAudioMixer: Display: 4: BackLeft
+[2020.11.19-12.28.54:189][  0]LogAudioMixer: Display: 5: BackRight
+[2020.11.19-12.28.54:189][  0]LogAudioMixer: Display: 6: SideLeft
+[2020.11.19-12.28.54:189][  0]LogAudioMixer: Display: 7: SideRight
+[2020.11.19-12.28.54:246][  0]LogAudioMixer: Display: Using Audio Device Speakers (2- Logitech G430 Gaming Headset)
+[2020.11.19-12.28.54:248][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.19-12.28.54:250][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.19-12.28.54:250][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.19-12.28.54:252][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.19-12.28.54:253][  0]LogInit: FAudioDevice initialized.
+[2020.11.19-12.28.54:254][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.11.19-12.28.54:321][  0]LogDerivedDataCache: Saved boot cache 0.07s 79MB C:/Users/onlyr/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.11.19-12.28.54:325][  0]LogInit: Texture streaming: Enabled
+[2020.11.19-12.28.54:357][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.11.19-12.28.54:357][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Debugger, SessionId={385DE933-4B36-A597-A17E-EDB1AD9B0B26}
+[2020.11.19-12.28.54:357][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.11.19-12.28.54:360][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.11.19-12.28.54:441][  0]LogInit: Transaction tracking system initialized
+[2020.11.19-12.28.54:499][  0]BlueprintLog: New page: Editor Load
+[2020.11.19-12.28.54:719][  0]LocalizationService: Localization service is disabled
+[2020.11.19-12.28.55:018][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.11.19-12.28.55:018][  0]LogCook: Display: Mobile HDR setting 1
+[2020.11.19-12.28.55:323][  0]LogFileCache: Scanning file cache for directory 'C:/Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Content/' took 0.01s
+[2020.11.19-12.28.55:559][  0]SourceControl: Source control is disabled
+[2020.11.19-12.28.55:698][  0]LogSlate: Took 0.001095 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.11.19-12.30.17:310][  0]LogSlate: Window 'Restore Packages' being destroyed
+[2020.11.19-12.30.17:312][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.11.19-12.30.17:352][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.11.19-12.30.18:510][  0]LogSlate: Window 'Unable to Check Out From Source Control!' being destroyed
+[2020.11.19-12.30.18:511][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.11.19-12.30.18:517][  0]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/Images/PNG/ProgressBar03
+[2020.11.19-12.30.18:541][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.11.19-12.30.18:544][  0]LogUnrealEdMisc: Loading editor; pre map load, took 95.185
+[2020.11.19-12.30.18:556][  0]LightingResults: New page: Lighting Build
+[2020.11.19-12.30.18:571][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.11.19-12.30.18:574][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.19-12.30.18:576][  0]MapCheck: New page: Map Check
+[2020.11.19-12.30.18:576][  0]LightingResults: New page: Lighting Build
+[2020.11.19-12.30.18:630][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021AD5471C00), frame # 0
+[2020.11.19-12.30.18:631][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000021AD54AA200), frame # 0
+[2020.11.19-12.30.18:632][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2020.11.19-12.30.18:912][  0]LogAIModule: Creating AISystem for world RhiannonTest
+[2020.11.19-12.30.18:912][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021AC2813400), frame # 0
+[2020.11.19-12.30.18:912][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021AD2C37D80), frame # 0
+[2020.11.19-12.30.18:993][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.19-12.30.19:013][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2020.11.19-12.30.19:015][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.19-12.30.19:016][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.746ms to complete.
+[2020.11.19-12.30.19:016][  0]LogFileHelpers: Loading map 'RhiannonTest' took 0.471
+[2020.11.19-12.30.19:071][  0]LogUnrealEdMisc: Total Editor Startup Time, took 95.712
+[2020.11.19-12.30.19:209][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.19-12.30.19:218][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.19-12.30.19:225][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.19-12.30.19:232][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.19-12.30.19:251][  0]LogCollectionManager: Loaded 0 collections in 0.002217 seconds
+[2020.11.19-12.30.19:300][  0]LogFileCache: Scanning file cache for directory 'C:/Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Collections/' took 0.00s
+[2020.11.19-12.30.19:300][  0]LogFileCache: Scanning file cache for directory 'C:/Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Content/Developers/onlyr/Collections/' took 0.00s
+[2020.11.19-12.30.19:300][  0]LogFileCache: Scanning file cache for directory 'C:/Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Content/Collections/' took 0.00s
+[2020.11.19-12.30.19:300][  0]LogContentBrowser: Native class hierarchy populated in 0.0123 seconds. Added 3442 classes and 824 folders.
+[2020.11.19-12.30.19:312][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.11.19-12.30.19:481][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.11.19-12.30.19:488][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 2 classes and 0 folders.
+[2020.11.19-12.30.19:582][  0]LogSlate: Took 0.001191 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.11.19-12.30.19:594][  0]LogSlate: Took 0.006121 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.11.19-12.30.19:641][  0]LogRenderer: Reallocating scene render targets to support 1288x580 Format 10 NumSamples 1 (Frame:1).
+[2020.11.19-12.30.20:183][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2020.11.19-12.30.20:183][  0]LogLoad: (Engine Initialization) Total time: 96.82 seconds
+[2020.11.19-12.30.20:183][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.11.19-12.30.20:250][  0]LogAssetRegistry: Asset discovery search completed in 90.0968 seconds
+[2020.11.19-12.30.20:256][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2020.11.19-12.30.20:267][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.11.19-12.30.20:301][  0]LogSlate: Took 0.006273 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.11.19-12.30.20:533][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Content/' took 0.33s
+[2020.11.19-12.30.21:534][  4]LogSlate: Took 0.000124 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.11.19-12.30.57:586][473]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UserInterface/GameUI.GameUI
+[2020.11.19-12.30.57:807][473]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 125 classes and 0 folders.
+[2020.11.19-12.30.58:805][473]LogLinker: Warning: Failed to load '/Game/Maps/RhiannonTest.RhiannonTest:PersistentLevel.RhiannonTest': Can't resolve asset name
+[2020.11.19-12.30.58:833][473]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MyAgentCharacter.MyAgentCharacter
+[2020.11.19-12.30.59:167][473]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2020.11.19-12.30.59:484][473]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonCPP/Blueprints/BPDetectionZone.BPDetectionZone
+[2020.11.19-12.31.00:120][473]LogSlate: Took 0.000710 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.11.19-12.31.00:234][474]LogSlate: Took 0.007184 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.11.19-12.31.09:146][411]LogSlate: Window 'BPDetectionZone' being destroyed
+[2020.11.19-12.31.09:150][411]LogSlate: Window 'BPDetectionZone' being destroyed
+[2020.11.19-12.31.09:168][411]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2020.11.19-12.31.09:168][411]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.19-12.31.09:192][411]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2020.11.19-12.31.09:192][411]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.19-12.31.09:230][411]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.11.19-12.31.09:232][411]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.19-12.31.30:413][886]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.11.19-12.31.30:413][886]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2020.11.19-12.31.30:413][886]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.19-12.31.33:031][176]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2020.11.19-12.31.46:648][671]LogTemp: Repeating last play command: Selected Viewport
+[2020.11.19-12.31.46:678][671]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.19-12.31.46:683][671]PIE: New page: PIE session: RhiannonTest (19 Nov 2020, 12:31:46)
+[2020.11.19-12.31.46:689][671]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.11.19-12.31.46:692][671]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.11.19-12.31.46:693][671]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_RhiannonTest
+[2020.11.19-12.31.46:712][671]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018603s)
+[2020.11.19-12.31.46:714][671]LogAIModule: Creating AISystem for world RhiannonTest
+[2020.11.19-12.31.46:714][671]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021B1D911600), frame # 8671
+[2020.11.19-12.31.46:714][671]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021B1D8F7D80), frame # 8671
+[2020.11.19-12.31.46:714][671]LogPlayLevel: PIE: World Init took: (0.002153s)
+[2020.11.19-12.31.46:715][671]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/RhiannonTest.RhiannonTest to /Game/Maps/UEDPIE_0_RhiannonTest.RhiannonTest (0.021204s)
+[2020.11.19-12.31.46:770][671]LogUObjectHash: Compacting FUObjectHashTables data took   3.69ms
+[2020.11.19-12.31.46:776][671]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.19-12.31.46:776][671]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.19-12.31.46:777][671]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.19-12.31.46:777][671]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.19-12.31.46:777][671]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.19-12.31.46:777][671]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.19-12.31.46:777][671]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.19-12.31.46:777][671]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.19-12.31.46:777][671]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.19-12.31.46:777][671]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.19-12.31.46:781][671]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.19-12.31.46:781][671]LogAudioMixer: Display: 1: FrontRight
+[2020.11.19-12.31.46:781][671]LogAudioMixer: Display: 2: FrontCenter
+[2020.11.19-12.31.46:781][671]LogAudioMixer: Display: 3: LowFrequency
+[2020.11.19-12.31.46:781][671]LogAudioMixer: Display: 4: BackLeft
+[2020.11.19-12.31.46:781][671]LogAudioMixer: Display: 5: BackRight
+[2020.11.19-12.31.46:781][671]LogAudioMixer: Display: 6: SideLeft
+[2020.11.19-12.31.46:781][671]LogAudioMixer: Display: 7: SideRight
+[2020.11.19-12.31.46:815][671]LogAudioMixer: Display: Using Audio Device Speakers (2- Logitech G430 Gaming Headset)
+[2020.11.19-12.31.46:816][671]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.19-12.31.46:816][671]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.19-12.31.46:816][671]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.19-12.31.46:816][671]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.19-12.31.46:829][671]LogInit: FAudioDevice initialized.
+[2020.11.19-12.31.46:844][671]LogLoad: Game class is 'RaiseTheGameJame2020GameMode'
+[2020.11.19-12.31.46:846][671]LogWorld: Bringing World /Game/Maps/UEDPIE_0_RhiannonTest.RhiannonTest up for play (max tick rate 0) at 2020.11.19-12.31.46
+[2020.11.19-12.31.46:848][671]LogWorld: Bringing up level for play took: 0.003298
+[2020.11.19-12.31.46:849][671]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2020.11.19-12.31.46:870][671]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 20 classes and 0 folders.
+[2020.11.19-12.31.46:886][671]PIE: Server logged in
+[2020.11.19-12.31.46:888][671]PIE: Play in editor total start time 0.218 seconds.
+[2020.11.19-12.31.53:661][428]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.19-12.31.53:661][428]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_RhiannonTest
+[2020.11.19-12.31.53:662][428]LogWorld: UWorld::CleanupWorld for RhiannonTest, bSessionEnded=true, bCleanupResources=true
+[2020.11.19-12.31.53:663][428]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.19-12.31.53:678][428]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.19-12.31.53:683][428]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.19-12.31.53:706][428]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.19-12.31.53:763][428]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021B1D911600), frame # 9428
+[2020.11.19-12.31.53:763][428]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000021B1D8F7D80), frame # 9428
+[2020.11.19-12.31.53:784][428]LogUObjectHash: Compacting FUObjectHashTables data took   3.40ms
+[2020.11.19-12.31.53:837][429]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2020.11.19-12.38.19:053][244]LogSavePackage: Moving '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/ThirdPersonCharacterB81FA8864204DD784DF0ABA859FB7260.tmp' to '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset'
+[2020.11.19-12.38.19:074][244]AssetCheck: New page: Asset Save: ThirdPersonCharacter
+[2020.11.19-12.38.19:074][244]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2020.11.19-12.38.29:536][463]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UserInterface/DetectionWarning.DetectionWarning
+[2020.11.19-12.38.34:308][964]LogSlate: Window 'DetectionWarning' being destroyed
+[2020.11.19-12.38.34:347][964]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2020.11.19-12.38.34:348][964]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.19-12.38.34:370][964]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2020.11.19-12.38.34:371][964]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.19-12.38.43:370][ 21]LogAssetEditorSubsystem: Opening Asset editor for World /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2020.11.19-12.38.43:423][ 21]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2020.11.19-12.38.43:426][ 21]LightingResults: New page: Lighting Build
+[2020.11.19-12.38.43:426][ 21]LoadErrors: New page: Loading map: ThirdPersonExampleMap.umap
+[2020.11.19-12.38.43:429][ 21]LogWorld: UWorld::CleanupWorld for RhiannonTest, bSessionEnded=true, bCleanupResources=true
+[2020.11.19-12.38.43:430][ 21]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.19-12.38.43:430][ 21]MapCheck: New page: Map Check
+[2020.11.19-12.38.43:430][ 21]LightingResults: New page: Lighting Build
+[2020.11.19-12.38.43:452][ 21]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021AC2813400), frame # 14021
+[2020.11.19-12.38.43:452][ 21]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000021AD2C37D80), frame # 14021
+[2020.11.19-12.38.43:455][ 21]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2020.11.19-12.38.43:459][ 21]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.19-12.38.43:459][ 21]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.11.19-12.38.43:460][ 21]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021AC27A9E00), frame # 14021
+[2020.11.19-12.38.43:460][ 21]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021AD2C35440), frame # 14021
+[2020.11.19-12.38.43:485][ 21]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2020.11.19-12.38.43:520][ 21]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.19-12.38.43:521][ 21]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.092ms to complete.
+[2020.11.19-12.38.43:522][ 21]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.096
+[2020.11.19-12.38.44:991][177]LogTemp: Repeating last play command: Selected Viewport
+[2020.11.19-12.38.45:011][177]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.19-12.38.45:011][177]PIE: New page: PIE session: ThirdPersonExampleMap (19 Nov 2020, 12:38:45)
+[2020.11.19-12.38.45:037][177]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.11.19-12.38.45:055][177]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017088s)
+[2020.11.19-12.38.45:056][177]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.11.19-12.38.45:056][177]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021B10C14C00), frame # 14177
+[2020.11.19-12.38.45:056][177]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021A8F1291C0), frame # 14177
+[2020.11.19-12.38.45:056][177]LogPlayLevel: PIE: World Init took: (0.001584s)
+[2020.11.19-12.38.45:056][177]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.019127s)
+[2020.11.19-12.38.45:079][177]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2020.11.19-12.38.45:081][177]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.19-12.38.45:081][177]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.19-12.38.45:081][177]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.19-12.38.45:081][177]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.19-12.38.45:081][177]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.19-12.38.45:081][177]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.19-12.38.45:081][177]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.19-12.38.45:081][177]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.19-12.38.45:081][177]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.19-12.38.45:082][177]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.19-12.38.45:085][177]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.19-12.38.45:085][177]LogAudioMixer: Display: 1: FrontRight
+[2020.11.19-12.38.45:085][177]LogAudioMixer: Display: 2: FrontCenter
+[2020.11.19-12.38.45:085][177]LogAudioMixer: Display: 3: LowFrequency
+[2020.11.19-12.38.45:085][177]LogAudioMixer: Display: 4: BackLeft
+[2020.11.19-12.38.45:085][177]LogAudioMixer: Display: 5: BackRight
+[2020.11.19-12.38.45:085][177]LogAudioMixer: Display: 6: SideLeft
+[2020.11.19-12.38.45:085][177]LogAudioMixer: Display: 7: SideRight
+[2020.11.19-12.38.45:114][177]LogAudioMixer: Display: Using Audio Device Speakers (2- Logitech G430 Gaming Headset)
+[2020.11.19-12.38.45:115][177]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.19-12.38.45:115][177]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.19-12.38.45:115][177]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.19-12.38.45:115][177]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.19-12.38.45:129][177]LogInit: FAudioDevice initialized.
+[2020.11.19-12.38.45:140][177]LogLoad: Game class is 'RaiseTheGameJame2020GameMode'
+[2020.11.19-12.38.45:142][177]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.11.19-12.38.45
+[2020.11.19-12.38.45:142][177]LogWorld: Bringing up level for play took: 0.001277
+[2020.11.19-12.38.45:143][177]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2020.11.19-12.38.45:147][177]PIE: Server logged in
+[2020.11.19-12.38.45:148][177]PIE: Play in editor total start time 0.138 seconds.
+[2020.11.19-12.38.50:748][841]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.19-12.38.50:748][841]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.11.19-12.38.50:749][841]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.11.19-12.38.50:749][841]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.19-12.38.50:757][841]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.19-12.38.50:761][841]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.19-12.38.50:814][841]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.19-12.38.50:815][841]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000021A8F1291C0), frame # 14841
+[2020.11.19-12.38.50:815][841]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021B10C14C00), frame # 14841
+[2020.11.19-12.38.50:818][841]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2020.11.19-12.38.50:852][842]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2020.11.19-12.38.57:952][667]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/RhiannonTest.RhiannonTest
+[2020.11.19-12.38.57:974][667]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2020.11.19-12.38.57:977][667]LightingResults: New page: Lighting Build
+[2020.11.19-12.38.57:977][667]LoadErrors: New page: Loading map: RhiannonTest.umap
+[2020.11.19-12.38.58:007][667]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.11.19-12.38.58:007][667]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.19-12.38.58:007][667]MapCheck: New page: Map Check
+[2020.11.19-12.38.58:007][667]LightingResults: New page: Lighting Build
+[2020.11.19-12.38.58:028][667]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000021AD2C35440), frame # 15667
+[2020.11.19-12.38.58:028][667]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021AC27A9E00), frame # 15667
+[2020.11.19-12.38.58:030][667]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2020.11.19-12.38.58:034][667]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.19-12.38.58:035][667]LogAIModule: Creating AISystem for world RhiannonTest
+[2020.11.19-12.38.58:035][667]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021AEEED5800), frame # 15667
+[2020.11.19-12.38.58:035][667]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021A8F1B60C0), frame # 15667
+[2020.11.19-12.38.58:059][667]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2020.11.19-12.38.58:094][667]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.19-12.38.58:094][667]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.147ms to complete.
+[2020.11.19-12.38.58:094][667]LogFileHelpers: Loading map 'RhiannonTest' took 0.117
+[2020.11.19-12.39.14:684][338]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UserInterface/MainMenu.MainMenu
+[2020.11.19-12.39.21:287][ 86]LogSlate: Took 0.016810 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2020.11.19-12.41.32:980][919]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2020.11.19-12.41.32:980][919]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.19-12.41.33:004][919]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2020.11.19-12.41.33:004][919]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.19-12.41.44:588][259]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UserInterface/TeamName.TeamName
+[2020.11.19-12.41.45:901][378]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2020.11.19-12.41.45:902][378]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.19-12.41.45:906][378]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2020.11.19-12.41.45:906][378]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.19-12.41.47:534][551]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UserInterface/OptionsMenu.OptionsMenu
+[2020.11.19-12.41.49:858][773]LogSlate: Window 'OptionsMenu' being destroyed
+[2020.11.19-12.41.51:080][910]LogSavePackage: Moving '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/OptionsMenu3E32DC584FCAF6AC48A40B9EFAEAAAE9.tmp' to '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Content/UserInterface/OptionsMenu.uasset'
+[2020.11.19-12.41.51:093][910]AssetCheck: New page: Asset Save: OptionsMenu
+[2020.11.19-12.41.51:093][910]LogContentValidation: Display: Validating WidgetBlueprint /Game/UserInterface/OptionsMenu.OptionsMenu
+[2020.11.19-12.44.53:324][334]LogSlate: Took 0.007914 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.11.19-12.46.16:254][399]BlueprintLog: New page: Compile OptionsMenu
+[2020.11.19-12.46.16:312][399]LogUObjectHash: Compacting FUObjectHashTables data took   3.52ms
+[2020.11.19-12.46.16:908][463]LogSavePackage: Moving '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/OptionsMenu2F996C3E4A1D17D6141BFF8B3F3E20B8.tmp' to '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Content/UserInterface/OptionsMenu.uasset'
+[2020.11.19-12.46.16:922][463]AssetCheck: New page: Asset Save: OptionsMenu
+[2020.11.19-12.46.16:922][463]LogContentValidation: Display: Validating WidgetBlueprint /Game/UserInterface/OptionsMenu.OptionsMenu
+[2020.11.19-12.46.22:771][143]LogSavePackage: Moving '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/OptionsMenuAAC2881C405AF23CB8F85BAD2AE3DC1F.tmp' to '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Content/UserInterface/OptionsMenu.uasset'
+[2020.11.19-12.46.22:784][143]AssetCheck: New page: Asset Save: OptionsMenu
+[2020.11.19-12.46.22:784][143]LogContentValidation: Display: Validating WidgetBlueprint /Game/UserInterface/OptionsMenu.OptionsMenu
+[2020.11.19-12.46.28:133][609]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UserInterface/MainMenu.MainMenu
+[2020.11.19-12.47.54:665][341]LogTemp: Repeating last play command: Selected Viewport
+[2020.11.19-12.47.54:685][341]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.19-12.47.54:686][341]PIE: New page: PIE session: RhiannonTest (19 Nov 2020, 12:47:54)
+[2020.11.19-12.47.54:686][341]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_RhiannonTest
+[2020.11.19-12.47.54:700][341]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014548s)
+[2020.11.19-12.47.54:701][341]LogAIModule: Creating AISystem for world RhiannonTest
+[2020.11.19-12.47.54:702][341]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021AFDBF9E00), frame # 51341
+[2020.11.19-12.47.54:702][341]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021B15974B80), frame # 51341
+[2020.11.19-12.47.54:702][341]LogPlayLevel: PIE: World Init took: (0.001398s)
+[2020.11.19-12.47.54:702][341]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/RhiannonTest.RhiannonTest to /Game/Maps/UEDPIE_0_RhiannonTest.RhiannonTest (0.016322s)
+[2020.11.19-12.47.54:735][341]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2020.11.19-12.47.54:738][341]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.19-12.47.54:738][341]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.19-12.47.54:738][341]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.19-12.47.54:738][341]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.19-12.47.54:738][341]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.19-12.47.54:738][341]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.19-12.47.54:739][341]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.19-12.47.54:739][341]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.19-12.47.54:740][341]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.19-12.47.54:740][341]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.19-12.47.54:743][341]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.19-12.47.54:743][341]LogAudioMixer: Display: 1: FrontRight
+[2020.11.19-12.47.54:743][341]LogAudioMixer: Display: 2: FrontCenter
+[2020.11.19-12.47.54:743][341]LogAudioMixer: Display: 3: LowFrequency
+[2020.11.19-12.47.54:743][341]LogAudioMixer: Display: 4: BackLeft
+[2020.11.19-12.47.54:743][341]LogAudioMixer: Display: 5: BackRight
+[2020.11.19-12.47.54:743][341]LogAudioMixer: Display: 6: SideLeft
+[2020.11.19-12.47.54:743][341]LogAudioMixer: Display: 7: SideRight
+[2020.11.19-12.47.54:777][341]LogAudioMixer: Display: Using Audio Device Speakers (2- Logitech G430 Gaming Headset)
+[2020.11.19-12.47.54:777][341]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.19-12.47.54:777][341]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.19-12.47.54:777][341]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.19-12.47.54:778][341]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.19-12.47.54:791][341]LogInit: FAudioDevice initialized.
+[2020.11.19-12.47.54:832][341]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.19-12.47.54:832][341]LogLoad: Game class is 'RaiseTheGameJame2020GameMode'
+[2020.11.19-12.47.54:834][341]LogWorld: Bringing World /Game/Maps/UEDPIE_0_RhiannonTest.RhiannonTest up for play (max tick rate 0) at 2020.11.19-12.47.54
+[2020.11.19-12.47.54:834][341]LogWorld: Bringing up level for play took: 0.001538
+[2020.11.19-12.47.54:835][341]LogOnline: OSS: Creating online subsystem instance for: :Context_21
+[2020.11.19-12.47.54:840][341]PIE: Server logged in
+[2020.11.19-12.47.54:841][341]PIE: Play in editor total start time 0.157 seconds.
+[2020.11.19-12.47.54:871][342]LogRenderer: Reallocating scene render targets to support 1288x720 Format 10 NumSamples 1 (Frame:1).
+[2020.11.19-12.47.58:258][731]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.19-12.47.58:258][731]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_RhiannonTest
+[2020.11.19-12.47.58:259][731]LogSlate: Window 'RaiseTheGameJame2020 Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2020.11.19-12.47.58:263][731]LogWorld: UWorld::CleanupWorld for RhiannonTest, bSessionEnded=true, bCleanupResources=true
+[2020.11.19-12.47.58:264][731]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.19-12.47.58:278][731]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.19-12.47.58:282][731]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.19-12.47.58:350][731]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000021B15974B80), frame # 51731
+[2020.11.19-12.47.58:350][731]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021AFDBF9E00), frame # 51731
+[2020.11.19-12.47.58:352][731]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2020.11.19-12.47.58:382][732]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2020.11.19-12.48.07:322][780]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/StartMenu.StartMenu
+[2020.11.19-12.48.07:349][780]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2020.11.19-12.48.07:351][780]LightingResults: New page: Lighting Build
+[2020.11.19-12.48.07:351][780]LoadErrors: New page: Loading map: StartMenu.umap
+[2020.11.19-12.48.07:397][780]LogWorld: UWorld::CleanupWorld for RhiannonTest, bSessionEnded=true, bCleanupResources=true
+[2020.11.19-12.48.07:397][780]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.19-12.48.07:398][780]MapCheck: New page: Map Check
+[2020.11.19-12.48.07:398][780]LightingResults: New page: Lighting Build
+[2020.11.19-12.48.07:423][780]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000021A8F1B60C0), frame # 52780
+[2020.11.19-12.48.07:423][780]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021AEEED5800), frame # 52780
+[2020.11.19-12.48.07:426][780]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2020.11.19-12.48.07:434][780]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.19-12.48.07:434][780]LogAIModule: Creating AISystem for world StartMenu
+[2020.11.19-12.48.07:434][780]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021B039BF000), frame # 52780
+[2020.11.19-12.48.07:434][780]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021AFF145E40), frame # 52780
+[2020.11.19-12.48.07:463][780]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2020.11.19-12.48.07:497][780]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.19-12.48.07:498][780]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.117ms to complete.
+[2020.11.19-12.48.07:498][780]LogFileHelpers: Loading map 'StartMenu' took 0.147
+[2020.11.19-12.48.08:421][882]LogTemp: Repeating last play command: Selected Viewport
+[2020.11.19-12.48.08:441][882]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.19-12.48.08:441][882]PIE: New page: PIE session: StartMenu (19 Nov 2020, 12:48:08)
+[2020.11.19-12.48.08:441][882]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartMenu
+[2020.11.19-12.48.08:442][882]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000952s)
+[2020.11.19-12.48.08:443][882]LogAIModule: Creating AISystem for world StartMenu
+[2020.11.19-12.48.08:443][882]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021AFE440200), frame # 52882
+[2020.11.19-12.48.08:443][882]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021A89D39800), frame # 52882
+[2020.11.19-12.48.08:443][882]LogPlayLevel: PIE: World Init took: (0.001103s)
+[2020.11.19-12.48.08:444][882]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartMenu.StartMenu to /Game/Maps/UEDPIE_0_StartMenu.StartMenu (0.002376s)
+[2020.11.19-12.48.08:471][882]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2020.11.19-12.48.08:471][882]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.19-12.48.08:472][882]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.19-12.48.08:472][882]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.19-12.48.08:472][882]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.19-12.48.08:472][882]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.19-12.48.08:472][882]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.19-12.48.08:472][882]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.19-12.48.08:472][882]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.19-12.48.08:472][882]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.19-12.48.08:472][882]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.19-12.48.08:475][882]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.19-12.48.08:475][882]LogAudioMixer: Display: 1: FrontRight
+[2020.11.19-12.48.08:475][882]LogAudioMixer: Display: 2: FrontCenter
+[2020.11.19-12.48.08:475][882]LogAudioMixer: Display: 3: LowFrequency
+[2020.11.19-12.48.08:475][882]LogAudioMixer: Display: 4: BackLeft
+[2020.11.19-12.48.08:475][882]LogAudioMixer: Display: 5: BackRight
+[2020.11.19-12.48.08:476][882]LogAudioMixer: Display: 6: SideLeft
+[2020.11.19-12.48.08:476][882]LogAudioMixer: Display: 7: SideRight
+[2020.11.19-12.48.08:503][882]LogAudioMixer: Display: Using Audio Device Speakers (2- Logitech G430 Gaming Headset)
+[2020.11.19-12.48.08:503][882]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.19-12.48.08:503][882]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.19-12.48.08:503][882]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.19-12.48.08:504][882]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.19-12.48.08:518][882]LogInit: FAudioDevice initialized.
+[2020.11.19-12.48.08:532][882]LogLoad: Game class is 'GameMode'
+[2020.11.19-12.48.08:533][882]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartMenu.StartMenu up for play (max tick rate 0) at 2020.11.19-12.48.08
+[2020.11.19-12.48.08:533][882]LogWorld: Bringing up level for play took: 0.000411
+[2020.11.19-12.48.08:533][882]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2020.11.19-12.48.08:538][882]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2020.11.19-12.48.08:538][882]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2020.11.19-12.48.08:538][882]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2020.11.19-12.48.08:542][882]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2020.11.19-12.48.08:542][882]PIE: Server logged in
+[2020.11.19-12.48.08:543][882]PIE: Play in editor total start time 0.102 seconds.
+[2020.11.19-12.48.10:415][106]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.19-12.48.15:602][722]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.19-12.48.15:602][722]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartMenu
+[2020.11.19-12.48.15:603][722]LogWorld: UWorld::CleanupWorld for StartMenu, bSessionEnded=true, bCleanupResources=true
+[2020.11.19-12.48.15:603][722]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.19-12.48.15:616][722]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.19-12.48.15:619][722]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.19-12.48.15:682][722]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.19-12.48.15:683][722]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000021A89D39800), frame # 53722
+[2020.11.19-12.48.15:683][722]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021AFE440200), frame # 53722
+[2020.11.19-12.48.15:686][722]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2020.11.19-12.48.15:713][723]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2020.11.19-12.48.48:718][673]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2020.11.19-12.48.48:718][673]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.19-12.48.48:740][673]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2020.11.19-12.48.48:741][673]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.19-12.48.55:700][456]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2020.11.19-12.48.56:854][456]LogSlate: Window 'Delete Assets' being destroyed
+[2020.11.19-12.48.56:976][456]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2020.11.19-12.48.57:007][456]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2020.11.19-12.48.57:031][456]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2020.11.19-12.50.06:797][817]BlueprintLog: New page: Compile MainMenu
+[2020.11.19-12.50.06:834][817]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2020.11.19-12.50.07:265][855]LogSavePackage: Moving '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/MainMenu46217BE94E2C23C7DEC03EA0A1A1272A.tmp' to '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Content/UserInterface/MainMenu.uasset'
+[2020.11.19-12.50.07:278][855]AssetCheck: New page: Asset Save: MainMenu
+[2020.11.19-12.50.07:278][855]LogContentValidation: Display: Validating WidgetBlueprint /Game/UserInterface/MainMenu.MainMenu
+[2020.11.19-12.50.11:075][297]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.11.19-12.50.11:075][297]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.11.19-12.50.11:075][297]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.19-12.50.43:817][242]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UserInterface/GameUI.GameUI
+[2020.11.19-12.50.48:090][670]LogSlate: Window 'GameUI' being destroyed
+[2020.11.19-12.51.18:696][300]BlueprintLog: New page: Compile GameUI
+[2020.11.19-12.51.18:749][300]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
+[2020.11.19-12.51.19:477][373]LogSavePackage: Moving '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/GameUID240BA1F480CE0589298DB969668635A.tmp' to '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Content/UserInterface/GameUI.uasset'
+[2020.11.19-12.51.19:488][373]AssetCheck: New page: Asset Save: GameUI
+[2020.11.19-12.51.19:488][373]LogContentValidation: Display: Validating WidgetBlueprint /Game/UserInterface/GameUI.GameUI
+[2020.11.19-12.52.09:008][184]LogSlate: Window 'Color Picker' being destroyed
+[2020.11.19-12.52.11:056][427]LogTemp: Repeating last play command: Selected Viewport
+[2020.11.19-12.52.11:080][427]BlueprintLog: New page: Pre-Play auto-recompile
+[2020.11.19-12.52.11:082][427]LogPlayLevel: [PlayLevel] Compiling MainMenu before play...
+[2020.11.19-12.52.11:211][427]LogUObjectHash: Compacting FUObjectHashTables data took   3.34ms
+[2020.11.19-12.52.11:212][427]LogPlayLevel: PlayLevel: Blueprint regeneration took 133 ms (1 blueprints)
+[2020.11.19-12.52.11:212][427]PIE: New page: PIE session: StartMenu (19 Nov 2020, 12:52:11)
+[2020.11.19-12.52.11:214][427]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartMenu
+[2020.11.19-12.52.11:215][427]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001030s)
+[2020.11.19-12.52.11:216][427]LogAIModule: Creating AISystem for world StartMenu
+[2020.11.19-12.52.11:216][427]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021A8F374A00), frame # 76427
+[2020.11.19-12.52.11:216][427]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021B1AAD0E00), frame # 76427
+[2020.11.19-12.52.11:217][427]LogPlayLevel: PIE: World Init took: (0.001291s)
+[2020.11.19-12.52.11:217][427]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartMenu.StartMenu to /Game/Maps/UEDPIE_0_StartMenu.StartMenu (0.002747s)
+[2020.11.19-12.52.11:237][427]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2020.11.19-12.52.11:237][427]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.19-12.52.11:238][427]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.19-12.52.11:238][427]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.19-12.52.11:238][427]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.19-12.52.11:238][427]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.19-12.52.11:238][427]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.19-12.52.11:238][427]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.19-12.52.11:238][427]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.19-12.52.11:239][427]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.19-12.52.11:239][427]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.19-12.52.11:242][427]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.19-12.52.11:242][427]LogAudioMixer: Display: 1: FrontRight
+[2020.11.19-12.52.11:242][427]LogAudioMixer: Display: 2: FrontCenter
+[2020.11.19-12.52.11:242][427]LogAudioMixer: Display: 3: LowFrequency
+[2020.11.19-12.52.11:242][427]LogAudioMixer: Display: 4: BackLeft
+[2020.11.19-12.52.11:242][427]LogAudioMixer: Display: 5: BackRight
+[2020.11.19-12.52.11:242][427]LogAudioMixer: Display: 6: SideLeft
+[2020.11.19-12.52.11:242][427]LogAudioMixer: Display: 7: SideRight
+[2020.11.19-12.52.11:273][427]LogAudioMixer: Display: Using Audio Device Speakers (2- Logitech G430 Gaming Headset)
+[2020.11.19-12.52.11:273][427]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.19-12.52.11:273][427]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.19-12.52.11:273][427]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.19-12.52.11:274][427]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.19-12.52.11:286][427]LogInit: FAudioDevice initialized.
+[2020.11.19-12.52.11:330][427]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.19-12.52.11:331][427]LogLoad: Game class is 'GameMode'
+[2020.11.19-12.52.11:332][427]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartMenu.StartMenu up for play (max tick rate 0) at 2020.11.19-12.52.11
+[2020.11.19-12.52.11:332][427]LogWorld: Bringing up level for play took: 0.000608
+[2020.11.19-12.52.11:333][427]LogOnline: OSS: Creating online subsystem instance for: :Context_25
+[2020.11.19-12.52.11:335][427]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2020.11.19-12.52.11:336][427]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2020.11.19-12.52.11:336][427]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2020.11.19-12.52.11:336][427]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2020.11.19-12.52.11:336][427]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2020.11.19-12.52.11:338][427]PIE: Server logged in
+[2020.11.19-12.52.11:339][427]PIE: Play in editor total start time 0.263 seconds.
+[2020.11.19-12.52.13:054][622]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.19-12.52.19:430][376]LogSlate: Window 'RaiseTheGameJame2020 Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2020.11.19-12.52.19:435][376]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartMenu
+[2020.11.19-12.52.19:478][376]LogWorld: UWorld::CleanupWorld for StartMenu, bSessionEnded=true, bCleanupResources=true
+[2020.11.19-12.52.19:478][376]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.19-12.52.19:490][376]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.19-12.52.19:493][376]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.19-12.52.19:552][376]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000021B1AAD0E00), frame # 77376
+[2020.11.19-12.52.19:552][376]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021A8F374A00), frame # 77376
+[2020.11.19-12.52.19:554][376]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2020.11.19-12.52.19:583][377]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2020.11.19-12.52.56:426][704]LogSlate: Window 'Color Picker' being destroyed
+[2020.11.19-12.52.58:265][916]BlueprintLog: New page: Compile MainMenu
+[2020.11.19-12.52.58:303][916]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2020.11.19-12.52.59:856][ 87]LogTemp: Repeating last play command: Selected Viewport
+[2020.11.19-12.52.59:879][ 87]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.19-12.52.59:879][ 87]PIE: New page: PIE session: StartMenu (19 Nov 2020, 12:52:59)
+[2020.11.19-12.52.59:880][ 87]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartMenu
+[2020.11.19-12.52.59:881][ 87]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001114s)
+[2020.11.19-12.52.59:882][ 87]LogAIModule: Creating AISystem for world StartMenu
+[2020.11.19-12.52.59:882][ 87]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021B048B3000), frame # 82087
+[2020.11.19-12.52.59:882][ 87]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021A8AD82D40), frame # 82087
+[2020.11.19-12.52.59:882][ 87]LogPlayLevel: PIE: World Init took: (0.001224s)
+[2020.11.19-12.52.59:882][ 87]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartMenu.StartMenu to /Game/Maps/UEDPIE_0_StartMenu.StartMenu (0.002657s)
+[2020.11.19-12.52.59:902][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2020.11.19-12.52.59:903][ 87]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.19-12.52.59:903][ 87]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.19-12.52.59:903][ 87]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.19-12.52.59:903][ 87]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.19-12.52.59:903][ 87]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.19-12.52.59:903][ 87]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.19-12.52.59:903][ 87]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.19-12.52.59:904][ 87]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.19-12.52.59:904][ 87]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.19-12.52.59:904][ 87]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.19-12.52.59:907][ 87]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.19-12.52.59:907][ 87]LogAudioMixer: Display: 1: FrontRight
+[2020.11.19-12.52.59:907][ 87]LogAudioMixer: Display: 2: FrontCenter
+[2020.11.19-12.52.59:907][ 87]LogAudioMixer: Display: 3: LowFrequency
+[2020.11.19-12.52.59:907][ 87]LogAudioMixer: Display: 4: BackLeft
+[2020.11.19-12.52.59:907][ 87]LogAudioMixer: Display: 5: BackRight
+[2020.11.19-12.52.59:907][ 87]LogAudioMixer: Display: 6: SideLeft
+[2020.11.19-12.52.59:907][ 87]LogAudioMixer: Display: 7: SideRight
+[2020.11.19-12.52.59:935][ 87]LogAudioMixer: Display: Using Audio Device Speakers (2- Logitech G430 Gaming Headset)
+[2020.11.19-12.52.59:935][ 87]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.19-12.52.59:935][ 87]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.19-12.52.59:935][ 87]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.19-12.52.59:935][ 87]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.19-12.52.59:949][ 87]LogInit: FAudioDevice initialized.
+[2020.11.19-12.52.59:998][ 87]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.19-12.52.59:998][ 87]LogLoad: Game class is 'GameMode'
+[2020.11.19-12.52.59:999][ 87]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartMenu.StartMenu up for play (max tick rate 0) at 2020.11.19-12.52.59
+[2020.11.19-12.53.00:000][ 87]LogWorld: Bringing up level for play took: 0.000848
+[2020.11.19-12.53.00:000][ 87]LogOnline: OSS: Creating online subsystem instance for: :Context_26
+[2020.11.19-12.53.00:005][ 87]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2020.11.19-12.53.00:005][ 87]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2020.11.19-12.53.00:005][ 87]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2020.11.19-12.53.00:005][ 87]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2020.11.19-12.53.00:006][ 87]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2020.11.19-12.53.00:007][ 87]PIE: Server logged in
+[2020.11.19-12.53.00:008][ 87]PIE: Play in editor total start time 0.132 seconds.
+[2020.11.19-12.53.01:854][301]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.19-12.53.08:414][ 87]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.19-12.53.08:415][ 87]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartMenu
+[2020.11.19-12.53.08:415][ 87]LogSlate: Window 'RaiseTheGameJame2020 Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2020.11.19-12.53.08:419][ 87]LogWorld: UWorld::CleanupWorld for StartMenu, bSessionEnded=true, bCleanupResources=true
+[2020.11.19-12.53.08:419][ 87]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.19-12.53.08:434][ 87]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.19-12.53.08:436][ 87]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.19-12.53.08:490][ 87]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000021A8AD82D40), frame # 83087
+[2020.11.19-12.53.08:490][ 87]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021B048B3000), frame # 83087
+[2020.11.19-12.53.08:491][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2020.11.19-12.53.08:520][ 88]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2020.11.19-12.54.12:645][909]LogEditorTransaction: Undo Move Widget
+[2020.11.19-12.54.17:073][348]LogEditorTransaction: Undo Move Widget
+[2020.11.19-12.56.25:324][576]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2020.11.19-12.56.25:324][576]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.19-12.56.25:348][576]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2020.11.19-12.56.25:348][576]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.19-12.57.19:648][824]LogEditorTransaction: Undo Move Widget
+[2020.11.19-12.57.51:549][420]LogEditorTransaction: Undo Move Widget
+[2020.11.19-12.57.51:899][429]LogEditorTransaction: Undo Move Widget
+[2020.11.19-12.57.52:174][446]LogEditorTransaction: Undo Move Widget
+[2020.11.19-12.57.52:764][513]LogEditorTransaction: Undo Move Widget
+[2020.11.19-12.57.53:481][594]LogEditorTransaction: Undo Paste clipboard contents
+[2020.11.19-12.57.54:591][719]LogEditorTransaction: Undo Remove Widget
+[2020.11.19-12.59.28:063][574]LogEditorTransaction: Undo Edit Padding
+[2020.11.19-13.02.18:996][120]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2020.11.19-13.02.19:002][120]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/StartMenu' took 0.042
+[2020.11.19-13.02.19:003][120]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UserInterface/MainMenu] ([1] browsable assets)...
+[2020.11.19-13.02.19:003][120]OBJ SavePackage: Finished generating thumbnails for package [/Game/UserInterface/MainMenu]
+[2020.11.19-13.02.19:037][120]LogSavePackage: Moving '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/MainMenu_Auto102A9905F4D777DB8942E3EAB2FDA5D8A.tmp' to '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Autosaves/Game/UserInterface/MainMenu_Auto1.uasset'
+[2020.11.19-13.02.19:039][120]LogFileHelpers: Auto-saving content packages took 0.036
+[2020.11.19-13.02.28:513][389]BlueprintLog: New page: Compile MainMenu
+[2020.11.19-13.02.28:552][389]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2020.11.19-13.02.29:024][429]LogSavePackage: Moving '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/MainMenu867940D148F8D69327E9AC9674CC228D.tmp' to '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Content/UserInterface/MainMenu.uasset'
+[2020.11.19-13.02.29:038][429]AssetCheck: New page: Asset Save: MainMenu
+[2020.11.19-13.02.29:039][429]LogContentValidation: Display: Validating WidgetBlueprint /Game/UserInterface/MainMenu.MainMenu
+[2020.11.19-13.08.50:430][ 11]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UserInterface/GameUI.GameUI
+[2020.11.19-13.09.10:344][335]BlueprintLog: New page: Compile MainMenu
+[2020.11.19-13.09.10:394][335]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2020.11.19-13.09.11:033][402]LogSavePackage: Moving '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/MainMenu1E74CC12428EDBE92DC653809899B3AE.tmp' to '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Content/UserInterface/MainMenu.uasset'
+[2020.11.19-13.09.11:044][402]AssetCheck: New page: Asset Save: MainMenu
+[2020.11.19-13.09.11:045][402]LogContentValidation: Display: Validating WidgetBlueprint /Game/UserInterface/MainMenu.MainMenu
+[2020.11.19-13.10.17:053][649]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{5f8f96df-cf0e-41a1-a4cf-6326e2a2c40c}.
+[2020.11.19-13.10.17:053][649]LogTemp: Resetting audio stream to device id 
+[2020.11.19-13.10.17:091][649]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.19-13.10.17:091][649]LogAudioMixer: Display: 1: FrontRight
+[2020.11.19-13.12.53:932][185]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2020.11.19-13.12.53:932][185]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.19-13.12.53:954][185]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2020.11.19-13.12.53:954][185]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.19-13.13.14:894][638]BlueprintLog: New page: Compile MainMenu
+[2020.11.19-13.13.14:940][638]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2020.11.19-13.13.15:409][683]LogSavePackage: Moving '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/MainMenu40F1D77242DA3EBD928E628D496B9FFE.tmp' to '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Content/UserInterface/MainMenu.uasset'
+[2020.11.19-13.13.15:421][683]AssetCheck: New page: Asset Save: MainMenu
+[2020.11.19-13.13.15:422][683]LogContentValidation: Display: Validating WidgetBlueprint /Game/UserInterface/MainMenu.MainMenu
+[2020.11.19-13.13.27:727][137]LogSavePackage: Moving '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/MainMenuD660F40C4D0EBA5E4D8B5595956AFBBE.tmp' to '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Content/UserInterface/MainMenu.uasset'
+[2020.11.19-13.13.27:740][137]AssetCheck: New page: Asset Save: MainMenu
+[2020.11.19-13.13.27:741][137]LogContentValidation: Display: Validating WidgetBlueprint /Game/UserInterface/MainMenu.MainMenu
+[2020.11.19-13.15.35:778][559]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2020.11.19-13.15.35:782][559]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/StartMenu' took 0.026
+[2020.11.19-13.15.35:783][559]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UserInterface/MainMenu] ([1] browsable assets)...
+[2020.11.19-13.15.35:783][559]OBJ SavePackage: Finished generating thumbnails for package [/Game/UserInterface/MainMenu]
+[2020.11.19-13.15.35:817][559]LogSavePackage: Moving '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/MainMenu_Auto288F3B96B416F3EC65A28F6A7E14CCD29.tmp' to '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Autosaves/Game/UserInterface/MainMenu_Auto2.uasset'
+[2020.11.19-13.15.35:818][559]LogFileHelpers: Auto-saving content packages took 0.036
+[2020.11.19-13.16.51:546][824]LogSavePackage: Moving '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/MainMenu988BA7FB44E6A6A5DBC5BDB2B7B1963E.tmp' to '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Content/UserInterface/MainMenu.uasset'
+[2020.11.19-13.16.51:560][824]AssetCheck: New page: Asset Save: MainMenu
+[2020.11.19-13.16.51:560][824]LogContentValidation: Display: Validating WidgetBlueprint /Game/UserInterface/MainMenu.MainMenu
+[2020.11.19-13.17.43:160][847]BlueprintLog: New page: Compile MainMenu
+[2020.11.19-13.17.43:205][847]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2020.11.19-13.17.43:778][904]LogSavePackage: Moving '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/MainMenuF9C7FEC94EA94198472D458BDD972663.tmp' to '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Content/UserInterface/MainMenu.uasset'
+[2020.11.19-13.17.43:793][904]AssetCheck: New page: Asset Save: MainMenu
+[2020.11.19-13.17.43:793][904]LogContentValidation: Display: Validating WidgetBlueprint /Game/UserInterface/MainMenu.MainMenu
+[2020.11.19-13.17.51:336][754]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.19-13.17.51:336][754]PIE: New page: SIE session: StartMenu (19 Nov 2020, 13:17:51)
+[2020.11.19-13.17.51:336][754]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartMenu
+[2020.11.19-13.17.51:338][754]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001048s)
+[2020.11.19-13.17.51:338][754]LogAIModule: Creating AISystem for world StartMenu
+[2020.11.19-13.17.51:339][754]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021B22497E00), frame # 212754
+[2020.11.19-13.17.51:339][754]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021B02939E40), frame # 212754
+[2020.11.19-13.17.51:339][754]LogPlayLevel: PIE: World Init took: (0.001379s)
+[2020.11.19-13.17.51:339][754]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartMenu.StartMenu to /Game/Maps/UEDPIE_0_StartMenu.StartMenu (0.002728s)
+[2020.11.19-13.17.51:360][754]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2020.11.19-13.17.51:362][754]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.19-13.17.51:362][754]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.19-13.17.51:362][754]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.19-13.17.51:362][754]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.19-13.17.51:362][754]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.19-13.17.51:362][754]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.19-13.17.51:362][754]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.19-13.17.51:362][754]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.19-13.17.51:363][754]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.19-13.17.51:363][754]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.19-13.17.51:366][754]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.19-13.17.51:367][754]LogAudioMixer: Display: 1: FrontRight
+[2020.11.19-13.17.51:401][754]LogAudioMixer: Display: Using Audio Device PL2530H (NVIDIA High Definition Audio)
+[2020.11.19-13.17.51:401][754]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.19-13.17.51:401][754]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.19-13.17.51:401][754]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.19-13.17.51:401][754]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.19-13.17.51:414][754]LogInit: FAudioDevice initialized.
+[2020.11.19-13.17.51:426][754]LogLoad: Game class is 'GameMode'
+[2020.11.19-13.17.51:427][754]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartMenu.StartMenu up for play (max tick rate 0) at 2020.11.19-13.17.51
+[2020.11.19-13.17.51:427][754]LogWorld: Bringing up level for play took: 0.000383
+[2020.11.19-13.17.51:427][754]LogOnline: OSS: Creating online subsystem instance for: :Context_29
+[2020.11.19-13.17.51:429][754]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2020.11.19-13.17.51:430][754]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2020.11.19-13.17.51:431][754]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2020.11.19-13.17.51:431][754]PIE: Server logged in
+[2020.11.19-13.17.51:432][754]PIE: Play in editor total start time 0.099 seconds.
+[2020.11.19-13.17.52:347][851]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.19-13.17.52:347][851]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartMenu
+[2020.11.19-13.17.52:347][851]LogWorld: UWorld::CleanupWorld for StartMenu, bSessionEnded=true, bCleanupResources=true
+[2020.11.19-13.17.52:348][851]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.19-13.17.52:362][851]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.19-13.17.52:365][851]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.19-13.17.52:414][851]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.19-13.17.52:415][851]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000021B02939E40), frame # 212851
+[2020.11.19-13.17.52:415][851]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021B22497E00), frame # 212851
+[2020.11.19-13.17.52:416][851]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2020.11.19-13.17.52:444][852]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2020.11.19-13.17.54:450][ 83]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2020.11.19-13.19.23:953][404]BlueprintLog: New page: Compile MainMenu
+[2020.11.19-13.19.24:000][404]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2020.11.19-13.19.24:380][441]LogSavePackage: Moving '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/MainMenu140444AA4B72D797F9733DA9C7EB034B.tmp' to '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Content/UserInterface/MainMenu.uasset'
+[2020.11.19-13.19.24:394][441]AssetCheck: New page: Asset Save: MainMenu
+[2020.11.19-13.19.24:394][441]LogContentValidation: Display: Validating WidgetBlueprint /Game/UserInterface/MainMenu.MainMenu
+[2020.11.19-13.19.27:257][769]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2020.11.19-13.21.05:802][922]BlueprintLog: New page: Compile MainMenu
+[2020.11.19-13.21.05:849][922]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2020.11.19-13.21.06:297][965]LogSavePackage: Moving '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/MainMenu8D80AB1D44ACDFB3D011D7B02341140C.tmp' to '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Content/UserInterface/MainMenu.uasset'
+[2020.11.19-13.21.06:310][965]AssetCheck: New page: Asset Save: MainMenu
+[2020.11.19-13.21.06:310][965]LogContentValidation: Display: Validating WidgetBlueprint /Game/UserInterface/MainMenu.MainMenu
+[2020.11.19-13.21.15:760][ 81]LogTemp: Repeating last play command: Standalone Game
+[2020.11.19-13.21.15:800][ 81]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2020.11.19-13.22.25:503][706]LogSlate: Window 'Color Picker' being destroyed
+[2020.11.19-13.22.30:104][231]LogSlate: Window 'Color Picker' being destroyed
+[2020.11.19-13.22.40:012][382]LogSlate: Window 'Color Picker' being destroyed
+[2020.11.19-13.22.44:087][850]LogSlate: Window 'Color Picker' being destroyed
+[2020.11.19-13.22.48:353][336]LogSlate: Window 'Color Picker' being destroyed
+[2020.11.19-13.22.51:656][713]LogSlate: Window 'Color Picker' being destroyed
+[2020.11.19-13.22.52:827][850]BlueprintLog: New page: Compile MainMenu
+[2020.11.19-13.22.52:874][850]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2020.11.19-13.22.53:328][885]LogSavePackage: Moving '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/MainMenu2563DAED4D5A59A3B107C59D00129CFF.tmp' to '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Content/UserInterface/MainMenu.uasset'
+[2020.11.19-13.22.53:340][885]AssetCheck: New page: Asset Save: MainMenu
+[2020.11.19-13.22.53:340][885]LogContentValidation: Display: Validating WidgetBlueprint /Game/UserInterface/MainMenu.MainMenu
+[2020.11.19-13.22.59:419][589]LogSlate: Window 'Color Picker' being destroyed
+[2020.11.19-13.23.02:077][890]LogSlate: Window 'Color Picker' being destroyed
+[2020.11.19-13.23.07:559][537]BlueprintLog: New page: Compile MainMenu
+[2020.11.19-13.23.07:601][537]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2020.11.19-13.23.08:227][585]LogSavePackage: Moving '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/MainMenuF413AD0A461234C6B920F3A9489323B3.tmp' to '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Content/UserInterface/MainMenu.uasset'
+[2020.11.19-13.23.08:238][585]AssetCheck: New page: Asset Save: MainMenu
+[2020.11.19-13.23.08:238][585]LogContentValidation: Display: Validating WidgetBlueprint /Game/UserInterface/MainMenu.MainMenu
+[2020.11.19-13.23.57:375][296]LogEditorTransaction: Undo Move Node
+[2020.11.19-13.23.57:977][322]LogEditorTransaction: Undo Create Pin Link
+[2020.11.19-13.23.58:644][394]LogEditorTransaction: Undo Create Pin Link
+[2020.11.19-13.24.20:912][960]BlueprintLog: New page: Compile MainMenu
+[2020.11.19-13.24.20:954][960]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2020.11.19-13.24.21:327][993]LogSavePackage: Moving '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/MainMenuD5A3FA884DE58E1AFD172AB5A7127CB7.tmp' to '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Content/UserInterface/MainMenu.uasset'
+[2020.11.19-13.24.21:341][993]AssetCheck: New page: Asset Save: MainMenu
+[2020.11.19-13.24.21:341][993]LogContentValidation: Display: Validating WidgetBlueprint /Game/UserInterface/MainMenu.MainMenu
+[2020.11.19-13.24.22:918][171]LogTemp: Repeating last play command: Standalone Game
+[2020.11.19-13.24.22:956][171]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2020.11.19-13.27.12:054][677]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{555be741-e5e4-4fb4-afbc-57a83ba59a0a}.
+[2020.11.19-13.27.12:054][677]LogTemp: Resetting audio stream to device id 
+[2020.11.19-13.27.12:099][677]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.19-13.27.12:100][677]LogAudioMixer: Display: 1: FrontRight
+[2020.11.19-13.27.12:100][677]LogAudioMixer: Display: 2: FrontCenter
+[2020.11.19-13.27.12:100][677]LogAudioMixer: Display: 3: LowFrequency
+[2020.11.19-13.27.12:100][677]LogAudioMixer: Display: 4: BackLeft
+[2020.11.19-13.27.12:100][677]LogAudioMixer: Display: 5: BackRight
+[2020.11.19-13.27.12:100][677]LogAudioMixer: Display: 6: SideLeft
+[2020.11.19-13.27.12:100][677]LogAudioMixer: Display: 7: SideRight
+[2020.11.19-13.31.16:878][ 77]LogSlate: Window 'Color Picker' being destroyed
+[2020.11.19-13.31.25:136][ 14]LogSlate: Window 'Color Picker' being destroyed
+[2020.11.19-13.36.03:836][892]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2020.11.19-13.36.03:843][892]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/StartMenu' took 0.040
+[2020.11.19-13.36.03:844][892]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UserInterface/MainMenu] ([1] browsable assets)...
+[2020.11.19-13.36.03:846][892]OBJ SavePackage: Finished generating thumbnails for package [/Game/UserInterface/MainMenu]
+[2020.11.19-13.36.03:891][892]LogSavePackage: Moving '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/MainMenu_Auto324D8592140629EF7CCBC18A6DB254DCB.tmp' to '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Autosaves/Game/UserInterface/MainMenu_Auto3.uasset'
+[2020.11.19-13.36.03:893][892]LogFileHelpers: Auto-saving content packages took 0.050
+[2020.11.19-13.41.09:816][645]BlueprintLog: New page: Compile MainMenu
+[2020.11.19-13.41.09:869][645]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2020.11.19-13.41.10:380][691]LogSavePackage: Moving '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/MainMenu5FB7BFAE4C8B9D0FE36338938F17BF43.tmp' to '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Content/UserInterface/MainMenu.uasset'
+[2020.11.19-13.41.10:391][691]AssetCheck: New page: Asset Save: MainMenu
+[2020.11.19-13.41.10:391][691]LogContentValidation: Display: Validating WidgetBlueprint /Game/UserInterface/MainMenu.MainMenu
+[2020.11.19-13.46.50:545][154]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2020.11.19-13.46.50:549][154]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/StartMenu' took 0.031
+[2020.11.19-13.46.50:549][154]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UserInterface/MainMenu] ([1] browsable assets)...
+[2020.11.19-13.46.50:549][154]OBJ SavePackage: Finished generating thumbnails for package [/Game/UserInterface/MainMenu]
+[2020.11.19-13.46.50:595][154]LogSavePackage: Moving '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/MainMenu_Auto49898CC9F44D94F724D0F33B3F31D743D.tmp' to '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/Autosaves/Game/UserInterface/MainMenu_Auto4.uasset'
+[2020.11.19-13.46.50:596][154]LogFileHelpers: Auto-saving content packages took 0.047
+[2020.11.19-13.55.34:682][660]BlueprintLog: New page: Compile MainMenu
+[2020.11.19-13.55.34:734][660]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2020.11.19-13.55.35:281][709]LogSavePackage: Moving '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/MainMenu0CCC8D5B42B3328DD31338B842EB962E.tmp' to '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Content/UserInterface/MainMenu.uasset'
+[2020.11.19-13.55.35:298][709]AssetCheck: New page: Asset Save: MainMenu
+[2020.11.19-13.55.35:298][709]LogContentValidation: Display: Validating WidgetBlueprint /Game/UserInterface/MainMenu.MainMenu
+[2020.11.19-13.57.33:629][327]LogTemp: Repeating last play command: Standalone Game
+[2020.11.19-13.57.33:670][327]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2020.11.19-13.58.24:286][923]BlueprintLog: New page: Compile MainMenu
+[2020.11.19-13.58.24:338][923]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2020.11.19-13.58.24:861][974]LogSavePackage: Moving '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/MainMenu361F5F5A431E55BB3450FEB4C14B98D3.tmp' to '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Content/UserInterface/MainMenu.uasset'
+[2020.11.19-13.58.24:874][974]AssetCheck: New page: Asset Save: MainMenu
+[2020.11.19-13.58.24:875][974]LogContentValidation: Display: Validating WidgetBlueprint /Game/UserInterface/MainMenu.MainMenu
+[2020.11.19-13.58.26:087][118]LogTemp: Repeating last play command: Standalone Game
+[2020.11.19-13.58.26:126][118]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2020.11.19-13.58.57:238][211]LogEditorTransaction: Undo Resize Node
+[2020.11.19-13.59.27:731][761]BlueprintLog: New page: Compile MainMenu
+[2020.11.19-13.59.27:783][761]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2020.11.19-13.59.28:396][819]LogSavePackage: Moving '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/MainMenuBE58D79E4C1770FA30B4C1B904EB9003.tmp' to '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Content/UserInterface/MainMenu.uasset'
+[2020.11.19-13.59.28:407][819]AssetCheck: New page: Asset Save: MainMenu
+[2020.11.19-13.59.28:407][819]LogContentValidation: Display: Validating WidgetBlueprint /Game/UserInterface/MainMenu.MainMenu
+[2020.11.19-14.01.46:520][752]LogTemp: Repeating last play command: Standalone Game
+[2020.11.19-14.01.46:562][752]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2020.11.19-14.02.06:805][857]LogTemp: Repeating last play command: Standalone Game
+[2020.11.19-14.02.06:844][857]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2020.11.19-14.03.23:444][382]BlueprintLog: New page: Compile MainMenu
+[2020.11.19-14.03.23:499][382]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2020.11.19-14.03.23:865][412]LogSavePackage: Moving '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/MainMenuFF402D024873423A0873B99A3D1B46B4.tmp' to '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Content/UserInterface/MainMenu.uasset'
+[2020.11.19-14.03.23:877][412]AssetCheck: New page: Asset Save: MainMenu
+[2020.11.19-14.03.23:877][412]LogContentValidation: Display: Validating WidgetBlueprint /Game/UserInterface/MainMenu.MainMenu
+[2020.11.19-14.03.27:921][889]LogTemp: Repeating last play command: Standalone Game
+[2020.11.19-14.03.27:959][889]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2020.11.19-14.04.58:895][386]BlueprintLog: New page: Compile MainMenu
+[2020.11.19-14.04.58:949][386]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2020.11.19-14.04.59:360][421]LogSavePackage: Moving '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/MainMenu43E1A97641512FB3BE302BA479C4BC23.tmp' to '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Content/UserInterface/MainMenu.uasset'
+[2020.11.19-14.04.59:375][421]AssetCheck: New page: Asset Save: MainMenu
+[2020.11.19-14.04.59:375][421]LogContentValidation: Display: Validating WidgetBlueprint /Game/UserInterface/MainMenu.MainMenu
+[2020.11.19-14.05.02:069][731]LogTemp: Repeating last play command: Standalone Game
+[2020.11.19-14.05.02:110][731]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2020.11.19-14.06.39:089][332]BlueprintLog: New page: Compile MainMenu
+[2020.11.19-14.06.39:144][332]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2020.11.19-14.06.39:595][372]LogSavePackage: Moving '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/MainMenuB504A61E4A309A0EA4B59FADB3745B64.tmp' to '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Content/UserInterface/MainMenu.uasset'
+[2020.11.19-14.06.39:609][372]AssetCheck: New page: Asset Save: MainMenu
+[2020.11.19-14.06.39:609][372]LogContentValidation: Display: Validating WidgetBlueprint /Game/UserInterface/MainMenu.MainMenu
+[2020.11.19-14.06.42:237][683]LogTemp: Repeating last play command: Standalone Game
+[2020.11.19-14.06.42:277][683]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2020.11.19-14.08.52:053][957]BlueprintLog: New page: Compile MainMenu
+[2020.11.19-14.08.52:107][957]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
+[2020.11.19-14.08.52:483][988]LogSavePackage: Moving '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/MainMenuEB52A0FE40ED2E9F5212E2B9009930FF.tmp' to '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Content/UserInterface/MainMenu.uasset'
+[2020.11.19-14.08.52:497][988]AssetCheck: New page: Asset Save: MainMenu
+[2020.11.19-14.08.52:497][988]LogContentValidation: Display: Validating WidgetBlueprint /Game/UserInterface/MainMenu.MainMenu
+[2020.11.19-14.09.22:630][550]LogSavePackage: Moving '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/MainMenuEAF8FB2C47D5B47064E71C8A1FAB86C4.tmp' to '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Content/UserInterface/MainMenu.uasset'
+[2020.11.19-14.09.22:644][550]AssetCheck: New page: Asset Save: MainMenu
+[2020.11.19-14.09.22:645][550]LogContentValidation: Display: Validating WidgetBlueprint /Game/UserInterface/MainMenu.MainMenu
+[2020.11.19-14.09.23:613][654]LogTemp: Repeating last play command: Standalone Game
+[2020.11.19-14.09.23:655][654]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2020.11.19-14.11.10:245][283]LogEditorTransaction: Undo Move Node
+[2020.11.19-14.11.10:506][289]LogEditorTransaction: Undo Move Node
+[2020.11.19-14.11.11:065][332]LogEditorTransaction: Undo Move Node
+[2020.11.19-14.11.12:432][490]LogEditorTransaction: Undo Move Node
+[2020.11.19-14.11.20:608][452]BlueprintLog: New page: Compile MainMenu
+[2020.11.19-14.11.20:666][452]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2020.11.19-14.11.21:010][478]LogSavePackage: Moving '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/MainMenu111239D84A3A49C51F15D3AF53BA99D5.tmp' to '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Content/UserInterface/MainMenu.uasset'
+[2020.11.19-14.11.21:022][478]AssetCheck: New page: Asset Save: MainMenu
+[2020.11.19-14.11.21:022][478]LogContentValidation: Display: Validating WidgetBlueprint /Game/UserInterface/MainMenu.MainMenu
+[2020.11.19-14.13.37:807][342]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UserInterface/GameUI.GameUI
+[2020.11.19-14.13.43:417][964]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2020.11.19-14.13.43:417][964]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.19-14.13.43:423][964]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2020.11.19-14.13.43:423][964]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.19-14.13.52:860][ 57]LogTemp: Repeating last play command: Standalone Game
+[2020.11.19-14.13.52:906][ 57]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2020.11.19-14.14.57:194][585]BlueprintLog: New page: Compile MainMenu
+[2020.11.19-14.14.57:245][585]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2020.11.19-14.14.57:867][638]LogSavePackage: Moving '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/MainMenuF04E058D41BEE2D9069C62B38671FD4A.tmp' to '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Content/UserInterface/MainMenu.uasset'
+[2020.11.19-14.14.57:883][638]AssetCheck: New page: Asset Save: MainMenu
+[2020.11.19-14.14.57:884][638]LogContentValidation: Display: Validating WidgetBlueprint /Game/UserInterface/MainMenu.MainMenu
+[2020.11.19-14.14.59:602][837]LogTemp: Repeating last play command: Standalone Game
+[2020.11.19-14.14.59:642][837]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2020.11.19-14.15.17:644][494]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.19-14.15.17:644][494]PIE: New page: PIE session: StartMenu (19 Nov 2020, 14:15:17)
+[2020.11.19-14.15.17:644][494]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartMenu
+[2020.11.19-14.15.17:646][494]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001331s)
+[2020.11.19-14.15.17:647][494]LogAIModule: Creating AISystem for world StartMenu
+[2020.11.19-14.15.17:647][494]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021B35C58C00), frame # 421494
+[2020.11.19-14.15.17:647][494]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021ADA481300), frame # 421494
+[2020.11.19-14.15.17:647][494]LogPlayLevel: PIE: World Init took: (0.001434s)
+[2020.11.19-14.15.17:648][494]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartMenu.StartMenu to /Game/Maps/UEDPIE_0_StartMenu.StartMenu (0.003149s)
+[2020.11.19-14.15.17:667][494]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2020.11.19-14.15.17:668][494]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.19-14.15.17:668][494]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.19-14.15.17:669][494]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.19-14.15.17:669][494]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.19-14.15.17:669][494]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.19-14.15.17:669][494]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.19-14.15.17:669][494]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.19-14.15.17:669][494]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.19-14.15.17:670][494]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.19-14.15.17:670][494]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.19-14.15.17:674][494]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.19-14.15.17:674][494]LogAudioMixer: Display: 1: FrontRight
+[2020.11.19-14.15.17:674][494]LogAudioMixer: Display: 2: FrontCenter
+[2020.11.19-14.15.17:674][494]LogAudioMixer: Display: 3: LowFrequency
+[2020.11.19-14.15.17:674][494]LogAudioMixer: Display: 4: BackLeft
+[2020.11.19-14.15.17:674][494]LogAudioMixer: Display: 5: BackRight
+[2020.11.19-14.15.17:674][494]LogAudioMixer: Display: 6: SideLeft
+[2020.11.19-14.15.17:674][494]LogAudioMixer: Display: 7: SideRight
+[2020.11.19-14.15.17:704][494]LogAudioMixer: Display: Using Audio Device Speakers (2- Logitech G430 Gaming Headset)
+[2020.11.19-14.15.17:705][494]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.19-14.15.17:705][494]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.19-14.15.17:705][494]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.19-14.15.17:706][494]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.19-14.15.17:720][494]LogInit: FAudioDevice initialized.
+[2020.11.19-14.15.17:737][494]LogLoad: Game class is 'GameMode'
+[2020.11.19-14.15.17:738][494]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartMenu.StartMenu up for play (max tick rate 0) at 2020.11.19-14.15.17
+[2020.11.19-14.15.17:738][494]LogWorld: Bringing up level for play took: 0.000444
+[2020.11.19-14.15.17:739][494]LogOnline: OSS: Creating online subsystem instance for: :Context_32
+[2020.11.19-14.15.17:742][494]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2020.11.19-14.15.17:742][494]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2020.11.19-14.15.17:742][494]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2020.11.19-14.15.17:743][494]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2020.11.19-14.15.17:743][494]PIE: Server logged in
+[2020.11.19-14.15.17:744][494]PIE: Play in editor total start time 0.104 seconds.
+[2020.11.19-14.15.18:881][625]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.19-14.15.18:881][625]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartMenu
+[2020.11.19-14.15.18:881][625]LogWorld: UWorld::CleanupWorld for StartMenu, bSessionEnded=true, bCleanupResources=true
+[2020.11.19-14.15.18:881][625]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.19-14.15.18:894][625]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.19-14.15.18:897][625]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.19-14.15.18:949][625]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.19-14.15.18:950][625]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000021ADA481300), frame # 421625
+[2020.11.19-14.15.18:950][625]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021B35C58C00), frame # 421625
+[2020.11.19-14.15.18:952][625]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2020.11.19-14.15.18:980][626]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2020.11.19-14.15.22:555][ 26]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/RhiannonTest.RhiannonTest
+[2020.11.19-14.15.22:576][ 26]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2020.11.19-14.15.22:579][ 26]LightingResults: New page: Lighting Build
+[2020.11.19-14.15.22:665][ 26]LoadErrors: New page: Loading map: RhiannonTest.umap
+[2020.11.19-14.15.22:698][ 26]LogWorld: UWorld::CleanupWorld for StartMenu, bSessionEnded=true, bCleanupResources=true
+[2020.11.19-14.15.22:699][ 26]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.19-14.15.22:699][ 26]MapCheck: New page: Map Check
+[2020.11.19-14.15.22:699][ 26]LightingResults: New page: Lighting Build
+[2020.11.19-14.15.22:745][ 26]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000021AFF145E40), frame # 422026
+[2020.11.19-14.15.22:745][ 26]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021B039BF000), frame # 422026
+[2020.11.19-14.15.22:747][ 26]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2020.11.19-14.15.22:755][ 26]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.19-14.15.22:755][ 26]LogAIModule: Creating AISystem for world RhiannonTest
+[2020.11.19-14.15.22:755][ 26]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021AFE539000), frame # 422026
+[2020.11.19-14.15.22:756][ 26]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021B575F34C0), frame # 422026
+[2020.11.19-14.15.22:778][ 26]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2020.11.19-14.15.22:814][ 26]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.19-14.15.22:815][ 26]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.154ms to complete.
+[2020.11.19-14.15.22:815][ 26]LogFileHelpers: Loading map 'RhiannonTest' took 0.236
+[2020.11.19-14.15.23:395][ 88]LogTemp: Repeating last play command: Selected Viewport
+[2020.11.19-14.15.23:413][ 88]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.19-14.15.23:413][ 88]PIE: New page: PIE session: RhiannonTest (19 Nov 2020, 14:15:23)
+[2020.11.19-14.15.23:414][ 88]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_RhiannonTest
+[2020.11.19-14.15.23:427][ 88]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013037s)
+[2020.11.19-14.15.23:428][ 88]LogAIModule: Creating AISystem for world RhiannonTest
+[2020.11.19-14.15.23:428][ 88]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021B039BC400), frame # 422088
+[2020.11.19-14.15.23:428][ 88]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021B45AD2FC0), frame # 422088
+[2020.11.19-14.15.23:428][ 88]LogPlayLevel: PIE: World Init took: (0.001334s)
+[2020.11.19-14.15.23:428][ 88]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/RhiannonTest.RhiannonTest to /Game/Maps/UEDPIE_0_RhiannonTest.RhiannonTest (0.014692s)
+[2020.11.19-14.15.23:447][ 88]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2020.11.19-14.15.23:449][ 88]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.19-14.15.23:449][ 88]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.19-14.15.23:449][ 88]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.19-14.15.23:449][ 88]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.19-14.15.23:449][ 88]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.19-14.15.23:449][ 88]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.19-14.15.23:449][ 88]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.19-14.15.23:450][ 88]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.19-14.15.23:450][ 88]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.19-14.15.23:450][ 88]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.19-14.15.23:453][ 88]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.19-14.15.23:453][ 88]LogAudioMixer: Display: 1: FrontRight
+[2020.11.19-14.15.23:453][ 88]LogAudioMixer: Display: 2: FrontCenter
+[2020.11.19-14.15.23:453][ 88]LogAudioMixer: Display: 3: LowFrequency
+[2020.11.19-14.15.23:453][ 88]LogAudioMixer: Display: 4: BackLeft
+[2020.11.19-14.15.23:453][ 88]LogAudioMixer: Display: 5: BackRight
+[2020.11.19-14.15.23:453][ 88]LogAudioMixer: Display: 6: SideLeft
+[2020.11.19-14.15.23:453][ 88]LogAudioMixer: Display: 7: SideRight
+[2020.11.19-14.15.23:482][ 88]LogAudioMixer: Display: Using Audio Device Speakers (2- Logitech G430 Gaming Headset)
+[2020.11.19-14.15.23:483][ 88]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.19-14.15.23:483][ 88]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.19-14.15.23:483][ 88]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.19-14.15.23:483][ 88]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.19-14.15.23:497][ 88]LogInit: FAudioDevice initialized.
+[2020.11.19-14.15.23:511][ 88]LogLoad: Game class is 'RaiseTheGameJame2020GameMode'
+[2020.11.19-14.15.23:513][ 88]LogWorld: Bringing World /Game/Maps/UEDPIE_0_RhiannonTest.RhiannonTest up for play (max tick rate 0) at 2020.11.19-14.15.23
+[2020.11.19-14.15.23:513][ 88]LogWorld: Bringing up level for play took: 0.001578
+[2020.11.19-14.15.23:513][ 88]LogOnline: OSS: Creating online subsystem instance for: :Context_33
+[2020.11.19-14.15.23:517][ 88]PIE: Server logged in
+[2020.11.19-14.15.23:518][ 88]PIE: Play in editor total start time 0.105 seconds.
+[2020.11.19-14.15.27:059][504]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.19-14.15.27:060][504]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_RhiannonTest
+[2020.11.19-14.15.27:060][504]LogWorld: UWorld::CleanupWorld for RhiannonTest, bSessionEnded=true, bCleanupResources=true
+[2020.11.19-14.15.27:060][504]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.19-14.15.27:076][504]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.19-14.15.27:078][504]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.19-14.15.27:126][504]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.19-14.15.27:126][504]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000021B45AD2FC0), frame # 422504
+[2020.11.19-14.15.27:126][504]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021B039BC400), frame # 422504
+[2020.11.19-14.15.27:128][504]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2020.11.19-14.15.27:165][505]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2020.11.19-14.15.28:244][631]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2020.11.19-14.16.01:727][393]LogTemp: Repeating last play command: Selected Viewport
+[2020.11.19-14.16.01:752][393]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.19-14.16.01:752][393]PIE: New page: PIE session: RhiannonTest (19 Nov 2020, 14:16:01)
+[2020.11.19-14.16.01:752][393]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_RhiannonTest
+[2020.11.19-14.16.01:763][393]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010453s)
+[2020.11.19-14.16.01:764][393]LogAIModule: Creating AISystem for world RhiannonTest
+[2020.11.19-14.16.01:764][393]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021A8F377A00), frame # 426393
+[2020.11.19-14.16.01:764][393]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021A82D58180), frame # 426393
+[2020.11.19-14.16.01:765][393]LogPlayLevel: PIE: World Init took: (0.001572s)
+[2020.11.19-14.16.01:765][393]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/RhiannonTest.RhiannonTest to /Game/Maps/UEDPIE_0_RhiannonTest.RhiannonTest (0.012417s)
+[2020.11.19-14.16.01:787][393]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2020.11.19-14.16.01:796][393]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.19-14.16.01:797][393]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.19-14.16.01:797][393]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.19-14.16.01:797][393]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.19-14.16.01:797][393]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.19-14.16.01:797][393]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.19-14.16.01:797][393]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.19-14.16.01:797][393]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.19-14.16.01:797][393]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.19-14.16.01:799][393]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.19-14.16.01:804][393]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.19-14.16.01:806][393]LogAudioMixer: Display: 1: FrontRight
+[2020.11.19-14.16.01:806][393]LogAudioMixer: Display: 2: FrontCenter
+[2020.11.19-14.16.01:806][393]LogAudioMixer: Display: 3: LowFrequency
+[2020.11.19-14.16.01:806][393]LogAudioMixer: Display: 4: BackLeft
+[2020.11.19-14.16.01:807][393]LogAudioMixer: Display: 5: BackRight
+[2020.11.19-14.16.01:807][393]LogAudioMixer: Display: 6: SideLeft
+[2020.11.19-14.16.01:807][393]LogAudioMixer: Display: 7: SideRight
+[2020.11.19-14.16.01:841][393]LogAudioMixer: Display: Using Audio Device Speakers (2- Logitech G430 Gaming Headset)
+[2020.11.19-14.16.01:841][393]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.19-14.16.01:841][393]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.19-14.16.01:841][393]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.19-14.16.01:842][393]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.19-14.16.01:855][393]LogInit: FAudioDevice initialized.
+[2020.11.19-14.16.01:866][393]LogLoad: Game class is 'RaiseTheGameJame2020GameMode'
+[2020.11.19-14.16.01:868][393]LogWorld: Bringing World /Game/Maps/UEDPIE_0_RhiannonTest.RhiannonTest up for play (max tick rate 0) at 2020.11.19-14.16.01
+[2020.11.19-14.16.01:868][393]LogWorld: Bringing up level for play took: 0.001599
+[2020.11.19-14.16.01:868][393]LogOnline: OSS: Creating online subsystem instance for: :Context_34
+[2020.11.19-14.16.01:873][393]PIE: Server logged in
+[2020.11.19-14.16.01:874][393]PIE: Play in editor total start time 0.125 seconds.
+[2020.11.19-14.16.11:989][574]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.19-14.16.11:989][574]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_RhiannonTest
+[2020.11.19-14.16.11:989][574]LogWorld: UWorld::CleanupWorld for RhiannonTest, bSessionEnded=true, bCleanupResources=true
+[2020.11.19-14.16.11:990][574]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.19-14.16.12:005][574]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.19-14.16.12:008][574]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.19-14.16.12:060][574]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.19-14.16.12:061][574]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000021A82D58180), frame # 427574
+[2020.11.19-14.16.12:061][574]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021A8F377A00), frame # 427574
+[2020.11.19-14.16.12:063][574]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2020.11.19-14.16.12:109][575]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2020.11.19-14.16.13:945][793]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2020.11.19-14.16.26:852][245]LogTemp: Repeating last play command: Selected Viewport
+[2020.11.19-14.16.26:875][245]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.19-14.16.26:875][245]PIE: New page: PIE session: RhiannonTest (19 Nov 2020, 14:16:26)
+[2020.11.19-14.16.26:897][245]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_RhiannonTest
+[2020.11.19-14.16.26:908][245]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011211s)
+[2020.11.19-14.16.26:909][245]LogAIModule: Creating AISystem for world RhiannonTest
+[2020.11.19-14.16.26:910][245]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021B0ABD6400), frame # 429245
+[2020.11.19-14.16.26:910][245]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021A8CDAE980), frame # 429245
+[2020.11.19-14.16.26:910][245]LogPlayLevel: PIE: World Init took: (0.002085s)
+[2020.11.19-14.16.26:911][245]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/RhiannonTest.RhiannonTest to /Game/Maps/UEDPIE_0_RhiannonTest.RhiannonTest (0.013933s)
+[2020.11.19-14.16.26:933][245]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2020.11.19-14.16.26:940][245]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.19-14.16.26:943][245]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.19-14.16.26:943][245]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.19-14.16.26:944][245]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.19-14.16.26:944][245]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.19-14.16.26:944][245]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.19-14.16.26:944][245]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.19-14.16.26:944][245]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.19-14.16.26:945][245]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.19-14.16.26:945][245]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.19-14.16.26:948][245]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.19-14.16.26:948][245]LogAudioMixer: Display: 1: FrontRight
+[2020.11.19-14.16.26:948][245]LogAudioMixer: Display: 2: FrontCenter
+[2020.11.19-14.16.26:949][245]LogAudioMixer: Display: 3: LowFrequency
+[2020.11.19-14.16.26:949][245]LogAudioMixer: Display: 4: BackLeft
+[2020.11.19-14.16.26:949][245]LogAudioMixer: Display: 5: BackRight
+[2020.11.19-14.16.26:949][245]LogAudioMixer: Display: 6: SideLeft
+[2020.11.19-14.16.26:949][245]LogAudioMixer: Display: 7: SideRight
+[2020.11.19-14.16.26:981][245]LogAudioMixer: Display: Using Audio Device Speakers (2- Logitech G430 Gaming Headset)
+[2020.11.19-14.16.26:981][245]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.19-14.16.26:981][245]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.19-14.16.26:981][245]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.19-14.16.26:982][245]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.19-14.16.26:996][245]LogInit: FAudioDevice initialized.
+[2020.11.19-14.16.27:010][245]LogLoad: Game class is 'RaiseTheGameJame2020GameMode'
+[2020.11.19-14.16.27:012][245]LogWorld: Bringing World /Game/Maps/UEDPIE_0_RhiannonTest.RhiannonTest up for play (max tick rate 0) at 2020.11.19-14.16.27
+[2020.11.19-14.16.27:012][245]LogWorld: Bringing up level for play took: 0.001319
+[2020.11.19-14.16.27:012][245]LogOnline: OSS: Creating online subsystem instance for: :Context_35
+[2020.11.19-14.16.27:016][245]PIE: Server logged in
+[2020.11.19-14.16.27:017][245]PIE: Play in editor total start time 0.145 seconds.
+[2020.11.19-14.16.29:850][565]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.19-14.16.29:850][565]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_RhiannonTest
+[2020.11.19-14.16.29:850][565]LogWorld: UWorld::CleanupWorld for RhiannonTest, bSessionEnded=true, bCleanupResources=true
+[2020.11.19-14.16.29:851][565]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.19-14.16.29:860][565]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.19-14.16.29:863][565]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.19-14.16.29:914][565]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.19-14.16.29:915][565]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000021A8CDAE980), frame # 429565
+[2020.11.19-14.16.29:915][565]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021B0ABD6400), frame # 429565
+[2020.11.19-14.16.29:917][565]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2020.11.19-14.16.29:963][566]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2020.11.19-14.16.42:241][  2]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2020.11.19-14.18.08:626][384]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2020.11.19-14.18.12:967][888]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2020.11.19-14.18.13:022][888]LogSavePackage: Moving '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/RhiannonTest535BD0034ABAB4BA566A5B94E6139DB0.tmp' to '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Content/Maps/RhiannonTest.umap'
+[2020.11.19-14.18.13:177][888]LogSavePackage: Moving '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/RhiannonTest_BuiltData411A1BE24218C5D381958298D0D776BD.tmp' to '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Content/Maps/RhiannonTest_BuiltData.uasset'
+[2020.11.19-14.18.13:189][888]AssetCheck: New page: Asset Save: multiple assets
+[2020.11.19-14.18.13:189][888]LogContentValidation: Display: Validating World /Game/Maps/RhiannonTest.RhiannonTest
+[2020.11.19-14.18.13:189][888]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/RhiannonTest_BuiltData.RhiannonTest_BuiltData
+[2020.11.19-14.20.43:694][761]BlueprintLog: New page: Compile MainMenu
+[2020.11.19-14.20.43:726][761]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2020.11.19-14.20.44:301][810]LogSavePackage: Moving '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/MainMenuE74318C940B7B9822D2E7E9C0056DFB6.tmp' to '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Content/UserInterface/MainMenu.uasset'
+[2020.11.19-14.20.44:313][810]AssetCheck: New page: Asset Save: MainMenu
+[2020.11.19-14.20.44:313][810]LogContentValidation: Display: Validating WidgetBlueprint /Game/UserInterface/MainMenu.MainMenu
+[2020.11.19-14.22.27:320][635]BlueprintLog: New page: Compile MainMenu
+[2020.11.19-14.22.27:351][635]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2020.11.19-14.22.27:776][669]LogSavePackage: Moving '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/MainMenuD3125F3041F10A319ADFC88B4E88A8D1.tmp' to '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Content/UserInterface/MainMenu.uasset'
+[2020.11.19-14.22.27:789][669]AssetCheck: New page: Asset Save: MainMenu
+[2020.11.19-14.22.27:790][669]LogContentValidation: Display: Validating WidgetBlueprint /Game/UserInterface/MainMenu.MainMenu
+[2020.11.19-14.23.43:844][294]BlueprintLog: New page: Compile MainMenu
+[2020.11.19-14.23.43:874][294]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2020.11.19-14.23.44:361][336]LogSavePackage: Moving '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/MainMenuEDEF7FB74D0CC8D7191B56847DECA40F.tmp' to '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Content/UserInterface/MainMenu.uasset'
+[2020.11.19-14.23.44:375][336]AssetCheck: New page: Asset Save: MainMenu
+[2020.11.19-14.23.44:376][336]LogContentValidation: Display: Validating WidgetBlueprint /Game/UserInterface/MainMenu.MainMenu
+[2020.11.19-14.24.29:835][735]BlueprintLog: New page: Compile MainMenu
+[2020.11.19-14.24.29:867][735]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2020.11.19-14.24.30:259][767]LogSavePackage: Moving '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/MainMenuD12B3DA34A38DD1DA613CCB06009587D.tmp' to '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Content/UserInterface/MainMenu.uasset'
+[2020.11.19-14.24.30:274][767]AssetCheck: New page: Asset Save: MainMenu
+[2020.11.19-14.24.30:274][767]LogContentValidation: Display: Validating WidgetBlueprint /Game/UserInterface/MainMenu.MainMenu
+[2020.11.19-14.24.39:720][884]BlueprintLog: New page: Compile MainMenu
+[2020.11.19-14.24.39:750][884]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2020.11.19-14.24.40:192][922]LogSavePackage: Moving '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/MainMenu472F1FE44C65AE9E72D47E90CC318E17.tmp' to '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Content/UserInterface/MainMenu.uasset'
+[2020.11.19-14.24.40:205][922]AssetCheck: New page: Asset Save: MainMenu
+[2020.11.19-14.24.40:205][922]LogContentValidation: Display: Validating WidgetBlueprint /Game/UserInterface/MainMenu.MainMenu
+[2020.11.19-14.25.13:785][893]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2020.11.19-14.25.25:495][414]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/StartMenu.StartMenu
+[2020.11.19-14.25.25:513][414]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2020.11.19-14.25.25:516][414]LightingResults: New page: Lighting Build
+[2020.11.19-14.25.25:516][414]LoadErrors: New page: Loading map: StartMenu.umap
+[2020.11.19-14.25.25:518][414]LogWorld: UWorld::CleanupWorld for RhiannonTest, bSessionEnded=true, bCleanupResources=true
+[2020.11.19-14.25.25:518][414]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.19-14.25.25:518][414]MapCheck: New page: Map Check
+[2020.11.19-14.25.25:518][414]LightingResults: New page: Lighting Build
+[2020.11.19-14.25.25:537][414]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000021B575F34C0), frame # 480414
+[2020.11.19-14.25.25:537][414]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021AFE539000), frame # 480414
+[2020.11.19-14.25.25:539][414]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2020.11.19-14.25.25:542][414]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.19-14.25.25:542][414]LogAIModule: Creating AISystem for world StartMenu
+[2020.11.19-14.25.25:542][414]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021AFE539000), frame # 480414
+[2020.11.19-14.25.25:542][414]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021B016F5800), frame # 480414
+[2020.11.19-14.25.25:561][414]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2020.11.19-14.25.25:596][414]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.19-14.25.25:596][414]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.137ms to complete.
+[2020.11.19-14.25.25:596][414]LogFileHelpers: Loading map 'StartMenu' took 0.080
+[2020.11.19-14.25.26:441][509]LogTemp: Repeating last play command: Standalone Game
+[2020.11.19-14.25.26:478][509]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2020.11.19-14.26.27:830][760]LogSlate: Window 'Color Picker' being destroyed
+[2020.11.19-14.26.42:637][484]LogSlate: Window 'Color Picker' being destroyed
+[2020.11.19-14.26.54:104][810]LogSlate: Window 'Color Picker' being destroyed
+[2020.11.19-14.26.59:729][466]LogSlate: Window 'Color Picker' being destroyed
+[2020.11.19-14.27.18:418][654]LogSlate: Window 'Color Picker' being destroyed
+[2020.11.19-14.31.55:067][776]BlueprintLog: New page: Compile MainMenu
+[2020.11.19-14.31.55:108][776]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2020.11.19-14.31.55:663][816]LogSavePackage: Moving '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/MainMenuF0F8E55C44EF336BCA95BA81273965C2.tmp' to '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Content/UserInterface/MainMenu.uasset'
+[2020.11.19-14.31.55:676][816]AssetCheck: New page: Asset Save: MainMenu
+[2020.11.19-14.31.55:676][816]LogContentValidation: Display: Validating WidgetBlueprint /Game/UserInterface/MainMenu.MainMenu
+[2020.11.19-14.32.15:292][158]LogTemp: Repeating last play command: Standalone Game
+[2020.11.19-14.32.15:331][158]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2020.11.19-14.32.51:003][821]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/RhiannonTest.RhiannonTest
+[2020.11.19-14.32.51:023][821]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2020.11.19-14.32.51:026][821]LightingResults: New page: Lighting Build
+[2020.11.19-14.32.51:026][821]LoadErrors: New page: Loading map: RhiannonTest.umap
+[2020.11.19-14.32.51:027][821]LogWorld: UWorld::CleanupWorld for StartMenu, bSessionEnded=true, bCleanupResources=true
+[2020.11.19-14.32.51:027][821]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.19-14.32.51:027][821]MapCheck: New page: Map Check
+[2020.11.19-14.32.51:027][821]LightingResults: New page: Lighting Build
+[2020.11.19-14.32.51:044][821]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000021B016F5800), frame # 527821
+[2020.11.19-14.32.51:044][821]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021AFE539000), frame # 527821
+[2020.11.19-14.32.51:046][821]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2020.11.19-14.32.51:050][821]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.19-14.32.51:050][821]LogAIModule: Creating AISystem for world RhiannonTest
+[2020.11.19-14.32.51:051][821]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021AF18EB800), frame # 527821
+[2020.11.19-14.32.51:051][821]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021A8B1D9BC0), frame # 527821
+[2020.11.19-14.32.51:071][821]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2020.11.19-14.32.51:107][821]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.19-14.32.51:107][821]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.133ms to complete.
+[2020.11.19-14.32.51:108][821]LogFileHelpers: Loading map 'RhiannonTest' took 0.082
+[2020.11.19-14.32.52:284][954]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2020.11.19-14.33.32:177][585]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2020.11.19-14.33.39:570][411]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2020.11.19-14.35.02:988][ 40]BlueprintLog: New page: Compile MainMenu
+[2020.11.19-14.35.02:994][ 40]LogBlueprint: Error: [Compiler MainMenu] The type of  Object  is undetermined.  Connect something to  Cast To ThirdPersonCharacter  to imply a specific type.
+[2020.11.19-14.35.02:995][ 40]LogBlueprint: Error: [Compiler MainMenu] The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2020.11.19-14.35.03:022][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2020.11.19-14.35.11:467][983]BlueprintLog: New page: Compile MainMenu
+[2020.11.19-14.35.11:499][983]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2020.11.19-14.35.12:176][ 50]LogSavePackage: Moving '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/MainMenu4213ACDE48A3FF271DBC998FB37070D7.tmp' to '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Content/UserInterface/MainMenu.uasset'
+[2020.11.19-14.35.12:189][ 50]AssetCheck: New page: Asset Save: MainMenu
+[2020.11.19-14.35.12:189][ 50]LogContentValidation: Display: Validating WidgetBlueprint /Game/UserInterface/MainMenu.MainMenu
+[2020.11.19-14.35.14:730][317]LogTemp: Repeating last play command: Standalone Game
+[2020.11.19-14.35.14:770][317]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2020.11.19-14.35.31:779][321]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/StartMenu.StartMenu
+[2020.11.19-14.35.31:800][321]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2020.11.19-14.35.31:802][321]LightingResults: New page: Lighting Build
+[2020.11.19-14.35.31:802][321]LoadErrors: New page: Loading map: StartMenu.umap
+[2020.11.19-14.35.31:850][321]LogWorld: UWorld::CleanupWorld for RhiannonTest, bSessionEnded=true, bCleanupResources=true
+[2020.11.19-14.35.31:850][321]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.19-14.35.31:850][321]MapCheck: New page: Map Check
+[2020.11.19-14.35.31:851][321]LightingResults: New page: Lighting Build
+[2020.11.19-14.35.31:871][321]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000021A8B1D9BC0), frame # 545321
+[2020.11.19-14.35.31:871][321]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021AF18EB800), frame # 545321
+[2020.11.19-14.35.31:873][321]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2020.11.19-14.35.31:875][321]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.19-14.35.31:875][321]LogAIModule: Creating AISystem for world StartMenu
+[2020.11.19-14.35.31:875][321]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021B5934AC00), frame # 545321
+[2020.11.19-14.35.31:875][321]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021A8BF22980), frame # 545321
+[2020.11.19-14.35.31:896][321]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2020.11.19-14.35.31:931][321]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.19-14.35.31:931][321]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.139ms to complete.
+[2020.11.19-14.35.31:931][321]LogFileHelpers: Loading map 'StartMenu' took 0.130
+[2020.11.19-14.35.32:549][386]LogTemp: Repeating last play command: Standalone Game
+[2020.11.19-14.35.32:590][386]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2020.11.19-14.38.19:109][208]LogEditorTransaction: Undo Delete current selection
+[2020.11.19-14.38.19:551][220]LogEditorTransaction: Undo Add Node
+[2020.11.19-14.38.20:074][275]LogEditorTransaction: Undo Delete current selection
+[2020.11.19-14.38.21:217][404]LogEditorTransaction: Undo Move Node
+[2020.11.19-14.38.21:608][444]LogEditorTransaction: Undo Move Node
+[2020.11.19-14.38.21:981][483]LogEditorTransaction: Undo Change String Pin Value
+[2020.11.19-14.38.22:392][523]LogEditorTransaction: Undo Move Node
+[2020.11.19-14.38.22:779][563]LogEditorTransaction: Undo Add Node
+[2020.11.19-14.38.23:231][610]LogEditorTransaction: Undo Delete current selection
+[2020.11.19-14.38.23:983][693]LogEditorTransaction: Undo Delete current selection
+[2020.11.19-14.38.25:003][810]LogEditorTransaction: Undo Delete current selection
+[2020.11.19-14.38.26:307][961]LogEditorTransaction: Undo Delete current selection
+[2020.11.19-14.38.58:099][741]BlueprintLog: New page: Compile MainMenu
+[2020.11.19-14.38.58:143][741]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2020.11.19-14.38.58:995][827]LogSavePackage: Moving '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/MainMenu78E49A5D454F4E04E45F3FBA1E5BFD4D.tmp' to '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Content/UserInterface/MainMenu.uasset'
+[2020.11.19-14.38.59:009][827]AssetCheck: New page: Asset Save: MainMenu
+[2020.11.19-14.38.59:009][827]LogContentValidation: Display: Validating WidgetBlueprint /Game/UserInterface/MainMenu.MainMenu
+[2020.11.19-14.39.23:085][664]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/RhiannonTest.RhiannonTest
+[2020.11.19-14.39.23:108][664]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2020.11.19-14.39.23:111][664]LightingResults: New page: Lighting Build
+[2020.11.19-14.39.23:111][664]LoadErrors: New page: Loading map: RhiannonTest.umap
+[2020.11.19-14.39.23:140][664]LogWorld: UWorld::CleanupWorld for StartMenu, bSessionEnded=true, bCleanupResources=true
+[2020.11.19-14.39.23:140][664]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.19-14.39.23:140][664]MapCheck: New page: Map Check
+[2020.11.19-14.39.23:140][664]LightingResults: New page: Lighting Build
+[2020.11.19-14.39.23:160][664]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000021A8BF22980), frame # 564664
+[2020.11.19-14.39.23:160][664]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021B5934AC00), frame # 564664
+[2020.11.19-14.39.23:162][664]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2020.11.19-14.39.23:165][664]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.19-14.39.23:166][664]LogAIModule: Creating AISystem for world RhiannonTest
+[2020.11.19-14.39.23:166][664]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021B3CA51600), frame # 564664
+[2020.11.19-14.39.23:166][664]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021AFF10EFC0), frame # 564664
+[2020.11.19-14.39.23:189][664]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2020.11.19-14.39.23:225][664]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.19-14.39.23:225][664]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.131ms to complete.
+[2020.11.19-14.39.23:225][664]LogFileHelpers: Loading map 'RhiannonTest' took 0.114
+[2020.11.19-14.39.24:877][855]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2020.11.19-14.40.38:041][325]BlueprintLog: New page: Compile MainMenu
+[2020.11.19-14.40.38:075][325]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2020.11.19-14.40.38:592][372]LogSavePackage: Moving '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/MainMenuB273EAAC40E894F7DAB66C93C7FADD76.tmp' to '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Content/UserInterface/MainMenu.uasset'
+[2020.11.19-14.40.38:604][372]AssetCheck: New page: Asset Save: MainMenu
+[2020.11.19-14.40.38:605][372]LogContentValidation: Display: Validating WidgetBlueprint /Game/UserInterface/MainMenu.MainMenu
+[2020.11.19-14.40.42:156][746]LogTemp: Repeating last play command: Standalone Game
+[2020.11.19-14.40.42:198][746]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2020.11.19-14.40.44:322][746]LogSlate: Window 'Save Content' being destroyed
+[2020.11.19-14.40.44:376][746]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2020.11.19-14.40.44:419][746]LogSavePackage: Moving '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/RhiannonTest9515A5AE4208A44F33628D9DB3F2EE45.tmp' to '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Content/Maps/RhiannonTest.umap'
+[2020.11.19-14.40.44:457][746]LogFileHelpers: Saving map 'RhiannonTest' took 0.103
+[2020.11.19-14.40.44:573][746]LogSavePackage: Moving '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/RhiannonTest_BuiltData52C6907F4AC0FCB6EF8DCC99D54AC0B8.tmp' to '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Content/Maps/RhiannonTest_BuiltData.uasset'
+[2020.11.19-14.40.44:600][747]AssetCheck: New page: Asset Save: multiple assets
+[2020.11.19-14.40.44:603][747]LogContentValidation: Display: Validating World /Game/Maps/RhiannonTest.RhiannonTest
+[2020.11.19-14.40.44:605][747]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/RhiannonTest_BuiltData.RhiannonTest_BuiltData
+[2020.11.19-14.40.56:762][180]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/StartMenu.StartMenu
+[2020.11.19-14.40.56:784][180]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2020.11.19-14.40.56:787][180]LightingResults: New page: Lighting Build
+[2020.11.19-14.40.56:787][180]LoadErrors: New page: Loading map: StartMenu.umap
+[2020.11.19-14.40.56:820][180]LogWorld: UWorld::CleanupWorld for RhiannonTest, bSessionEnded=true, bCleanupResources=true
+[2020.11.19-14.40.56:820][180]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.19-14.40.56:821][180]MapCheck: New page: Map Check
+[2020.11.19-14.40.56:821][180]LightingResults: New page: Lighting Build
+[2020.11.19-14.40.56:843][180]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000021AFF10EFC0), frame # 574180
+[2020.11.19-14.40.56:843][180]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021B3CA51600), frame # 574180
+[2020.11.19-14.40.56:845][180]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2020.11.19-14.40.56:848][180]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.19-14.40.56:848][180]LogAIModule: Creating AISystem for world StartMenu
+[2020.11.19-14.40.56:848][180]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021B5BE16600), frame # 574180
+[2020.11.19-14.40.56:848][180]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021B0A919BC0), frame # 574180
+[2020.11.19-14.40.56:870][180]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2020.11.19-14.40.56:906][180]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.19-14.40.56:906][180]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.121ms to complete.
+[2020.11.19-14.40.56:906][180]LogFileHelpers: Loading map 'StartMenu' took 0.120
+[2020.11.19-14.40.58:157][322]LogTemp: Repeating last play command: Standalone Game
+[2020.11.19-14.40.58:198][322]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2020.11.19-14.41.23:056][763]LogTemp: Repeating last play command: Standalone Game
+[2020.11.19-14.41.23:096][763]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2020.11.19-14.41.45:267][795]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/Maps/StartMenu.StartMenu:PersistentLevel.StartMenu
+[2020.11.19-14.41.53:267][711]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2020.11.19-14.41.53:268][711]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.19-14.42.31:394][391]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2020.11.19-14.42.31:394][391]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.19-14.42.41:424][565]BlueprintLog: New page: Compile MainMenu
+[2020.11.19-14.42.41:470][565]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2020.11.19-14.42.41:939][607]LogSavePackage: Moving '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/MainMenu1496C36F49344B16813088BF055D21C2.tmp' to '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Content/UserInterface/MainMenu.uasset'
+[2020.11.19-14.42.41:951][607]AssetCheck: New page: Asset Save: MainMenu
+[2020.11.19-14.42.41:951][607]LogContentValidation: Display: Validating WidgetBlueprint /Game/UserInterface/MainMenu.MainMenu
+[2020.11.19-14.42.43:456][781]LogTemp: Repeating last play command: Standalone Game
+[2020.11.19-14.42.43:493][781]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2020.11.19-14.43.12:386][532]LogSlate: Window 'Color Picker' being destroyed
+[2020.11.19-14.43.21:742][614]LogSlate: Window 'Color Picker' being destroyed
+[2020.11.19-14.43.24:526][919]LogSlate: Window 'Color Picker' being destroyed
+[2020.11.19-14.43.30:702][610]LogSlate: Window 'Color Picker' being destroyed
+[2020.11.19-14.44.12:853][449]LogSlate: Window 'Color Picker' being destroyed
+[2020.11.19-14.44.19:977][258]LogSlate: Window 'Color Picker' being destroyed
+[2020.11.19-14.44.58:985][742]LogSlate: Window 'Color Picker' being destroyed
+[2020.11.19-14.45.07:592][715]LogSlate: Window 'Color Picker' being destroyed
+[2020.11.19-14.45.27:293][972]LogSlate: Window 'Color Picker' being destroyed
+[2020.11.19-14.45.33:660][689]LogSlate: Window 'Color Picker' being destroyed
+[2020.11.19-14.45.51:347][727]LogSlate: Window 'Color Picker' being destroyed
+[2020.11.19-14.46.01:568][879]LogSlate: Window 'Color Picker' being destroyed
+[2020.11.19-14.46.08:245][626]LogSlate: Window 'Color Picker' being destroyed
+[2020.11.19-14.46.28:110][896]LogSlate: Window 'Color Picker' being destroyed
+[2020.11.19-14.46.33:884][532]LogSlate: Window 'Color Picker' being destroyed
+[2020.11.19-14.46.39:424][169]BlueprintLog: New page: Compile MainMenu
+[2020.11.19-14.46.39:465][169]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2020.11.19-14.46.39:929][206]LogSavePackage: Moving '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Saved/MainMenu9F25F22F4968C19F247F9D90D09AD3A5.tmp' to '../../../../../../Users/onlyr/OneDrive - Staffordshire University/GameJam/WORKINGONE/-raisethegamejam-2020/RaiseTheGameJame2020/Content/UserInterface/MainMenu.uasset'
+[2020.11.19-14.46.39:941][206]AssetCheck: New page: Asset Save: MainMenu
+[2020.11.19-14.46.39:941][206]LogContentValidation: Display: Validating WidgetBlueprint /Game/UserInterface/MainMenu.MainMenu
+>>>>>>> Accessibility

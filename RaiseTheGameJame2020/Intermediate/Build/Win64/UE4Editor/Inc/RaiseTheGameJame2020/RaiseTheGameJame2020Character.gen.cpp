@@ -516,8 +516,12 @@ void EmptyLinkFunctionForGeneratedCodeRaiseTheGameJame2020Character() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Rewinding_MetaData[];
 #endif
+<<<<<<< HEAD
 		static void NewProp_Rewinding_SetBit(void* Obj);
 		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_Rewinding;
+=======
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_RewindParticleSystem;
+>>>>>>> Accessibility
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BaseLookUpRate_MetaData[];
 #endif
@@ -654,11 +658,15 @@ void EmptyLinkFunctionForGeneratedCodeRaiseTheGameJame2020Character() {}
 		{ "ModuleRelativePath", "RaiseTheGameJame2020Character.h" },
 	};
 #endif
+<<<<<<< HEAD
 	void Z_Construct_UClass_ARaiseTheGameJame2020Character_Statics::NewProp_Rewinding_SetBit(void* Obj)
 	{
 		((ARaiseTheGameJame2020Character*)Obj)->Rewinding = 1;
 	}
 	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ARaiseTheGameJame2020Character_Statics::NewProp_Rewinding = { "Rewinding", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ARaiseTheGameJame2020Character), &Z_Construct_UClass_ARaiseTheGameJame2020Character_Statics::NewProp_Rewinding_SetBit, METADATA_PARAMS(Z_Construct_UClass_ARaiseTheGameJame2020Character_Statics::NewProp_Rewinding_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ARaiseTheGameJame2020Character_Statics::NewProp_Rewinding_MetaData)) };
+=======
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ARaiseTheGameJame2020Character_Statics::NewProp_RewindParticleSystem = { "RewindParticleSystem", nullptr, (EPropertyFlags)0x00100000000a0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ARaiseTheGameJame2020Character, RewindParticleSystem), Z_Construct_UClass_UParticleSystemComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ARaiseTheGameJame2020Character_Statics::NewProp_RewindParticleSystem_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ARaiseTheGameJame2020Character_Statics::NewProp_RewindParticleSystem_MetaData)) };
+>>>>>>> Accessibility
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ARaiseTheGameJame2020Character_Statics::NewProp_BaseLookUpRate_MetaData[] = {
 		{ "Category", "Camera" },
@@ -701,6 +709,7 @@ void EmptyLinkFunctionForGeneratedCodeRaiseTheGameJame2020Character() {}
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ARaiseTheGameJame2020Character_Statics::NewProp_CameraBoom = { "CameraBoom", nullptr, (EPropertyFlags)0x00400000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ARaiseTheGameJame2020Character, CameraBoom), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ARaiseTheGameJame2020Character_Statics::NewProp_CameraBoom_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ARaiseTheGameJame2020Character_Statics::NewProp_CameraBoom_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ARaiseTheGameJame2020Character_Statics::PropPointers[] = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARaiseTheGameJame2020Character_Statics::NewProp_GrabComp,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARaiseTheGameJame2020Character_Statics::NewProp_AttackComp,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARaiseTheGameJame2020Character_Statics::NewProp_ViewBoxCollider,
@@ -709,15 +718,20 @@ void EmptyLinkFunctionForGeneratedCodeRaiseTheGameJame2020Character() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARaiseTheGameJame2020Character_Statics::NewProp_GrabSphereRadius,
 =======
 >>>>>>> AI_Variance
+=======
+>>>>>>> Accessibility
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARaiseTheGameJame2020Character_Statics::NewProp_bToggleBloodlustOn,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARaiseTheGameJame2020Character_Statics::NewProp_IncreaseBloodlust,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARaiseTheGameJame2020Character_Statics::NewProp_DecreaseBloodlust,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARaiseTheGameJame2020Character_Statics::NewProp_MaxBloodlust,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARaiseTheGameJame2020Character_Statics::NewProp_CurrentBloodlust,
 <<<<<<< HEAD
+<<<<<<< HEAD
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARaiseTheGameJame2020Character_Statics::NewProp_Rewinding,
 =======
 >>>>>>> AI_Variance
+=======
+>>>>>>> Accessibility
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARaiseTheGameJame2020Character_Statics::NewProp_RewindParticleSystem,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARaiseTheGameJame2020Character_Statics::NewProp_BaseLookUpRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARaiseTheGameJame2020Character_Statics::NewProp_BaseTurnRate,
@@ -752,10 +766,14 @@ void EmptyLinkFunctionForGeneratedCodeRaiseTheGameJame2020Character() {}
 		return OuterClass;
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
 	IMPLEMENT_CLASS(ARaiseTheGameJame2020Character, 755486454);
 =======
 	IMPLEMENT_CLASS(ARaiseTheGameJame2020Character, 262828491);
 >>>>>>> AI_Variance
+=======
+	IMPLEMENT_CLASS(ARaiseTheGameJame2020Character, 262828491);
+>>>>>>> Accessibility
 	template<> RAISETHEGAMEJAME2020_API UClass* StaticClass<ARaiseTheGameJame2020Character>()
 	{
 		return ARaiseTheGameJame2020Character::StaticClass();
