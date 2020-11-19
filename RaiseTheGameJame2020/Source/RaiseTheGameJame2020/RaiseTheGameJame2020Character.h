@@ -6,6 +6,7 @@
 #include "GameFramework/Character.h"
 #include "GrabComponent.h"
 #include "PlayerAttackComponent.h"
+#include "TestActor.h"
 #include "RaiseTheGameJame2020Character.generated.h"
 
 class TimeRewind;
@@ -110,12 +111,41 @@ public:
 	bool bPlayerKilled;
 
 
+	//
 	// Ang Testing Stuff
+	//
+
+
+	UPROPERTY(EditAnywhere)
+		float GrabSphereRadius;
+
+	UPROPERTY(EditAnywhere)
+		FVector ViewBoxHalfSize;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		USphereComponent* GrabSphereCollider; // If in grab range
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		UBoxComponent* ViewBoxCollider; // If in view/attack range
+
 	UPROPERTY(EditAnywhere)
 		UPlayerAttackComponent* AttackComp; // ->AttackTarget()
 
+	UFUNCTION()
+		void OnViewBoxBeginOverlap(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
+
+	UFUNCTION()
+		void OnViewBoxEndOverlap(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
+
 	UPROPERTY(EditAnywhere)
 		UGrabComponent* GrabComp; // ->GrabGtarget()  ->ReleaseGTarget()
+
+	UFUNCTION()
+		void OnGrabSphereBeginOverlap(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
+
+	UFUNCTION()
+		void OnGrabSphereEndOverlap(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
+
 
 	void AttackTarget();
 

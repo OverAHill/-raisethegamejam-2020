@@ -33,7 +33,7 @@ ARaiseTheGameJame2020Character::ARaiseTheGameJame2020Character()
 	// Configure character movement
 	GetCharacterMovement()->bOrientRotationToMovement = true; // Character moves in the direction of input...	
 	GetCharacterMovement()->RotationRate = FRotator(0.0f, 540.0f, 0.0f); // ...at this rotation rate
-	GetCharacterMovement()->JumpZVelocity = 6000.f;
+	GetCharacterMovement()->JumpZVelocity = 600.f;
 	GetCharacterMovement()->AirControl = 0.2f;
 
 	// Create a camera boom (pulls in towards the player if there is a collision)
@@ -59,6 +59,28 @@ ARaiseTheGameJame2020Character::ARaiseTheGameJame2020Character()
 	RewindParticleSystem = CreateDefaultSubobject<UParticleSystemComponent>(TEXT("MyRewindParticleSystem"));
 
 	// New Attack and Grab Component Set Up
+
+	//Sphere collider for detecting general area around the player
+	GrabSphereCollider = CreateDefaultSubobject<USphereComponent>(TEXT("Sphere Collider"));
+	GrabSphereCollider->InitSphereRadius(GrabSphereRadius);
+	GrabSphereCollider->SetupAttachment(RootComponent);
+	GrabSphereCollider->SetCollisionEnabled(ECollisionEnabled::QueryOnly);
+	GrabSphereCollider->SetCollisionProfileName("Attack Radius");
+	GrabSphereCollider->OnComponentBeginOverlap.AddDynamic(this, &ARaiseTheGameJame2020Character::OnGrabSphereBeginOverlap);
+	GrabSphereCollider->OnComponentEndOverlap.AddDynamic(this, &ARaiseTheGameJame2020Character::OnGrabSphereEndOverlap);
+
+	//Box (rectangle) collider to simulate the players view and to help determin the target
+	// TO DO: Set location and size of box so it extends in front of the player
+	ViewBoxCollider = CreateDefaultSubobject<UBoxComponent>(TEXT("View Collider"));
+	ViewBoxCollider->InitBoxExtent(ViewBoxHalfSize); // half the size of the box: x, y, z //change me
+	
+	ViewBoxCollider->SetupAttachment(RootComponent);
+	ViewBoxCollider->SetCollisionEnabled(ECollisionEnabled::QueryOnly);
+	ViewBoxCollider->SetCollisionProfileName("View Box");
+	ViewBoxCollider->OnComponentBeginOverlap.AddDynamic(this, &ARaiseTheGameJame2020Character::OnViewBoxBeginOverlap);
+	ViewBoxCollider->OnComponentEndOverlap.AddDynamic(this, &ARaiseTheGameJame2020Character::OnViewBoxEndOverlap);
+
+
 	GrabComp = CreateDefaultSubobject<UGrabComponent>(TEXT("PlayerGrab"));
 	AttackComp = CreateDefaultSubobject<UPlayerAttackComponent>(TEXT("PlayerAttack"));
 }
@@ -68,6 +90,8 @@ void ARaiseTheGameJame2020Character::AUpdate(float deltaSeconds)
 	DeltaTime = deltaSeconds;
 	//Super::Tick(DeltaTime);
 	
+	
+
 	Bloodlust += DeltaTime; //increases bloodlust - subject to change :) 
 	float nearest = roundf(Bloodlust * 100) / 100;
 	FString bloodlustDebug = FString::SanitizeFloat(nearest);
@@ -75,6 +99,8 @@ void ARaiseTheGameJame2020Character::AUpdate(float deltaSeconds)
 
 	//GEngine->AddOnScreenDebugMessage(-1, DeltaTime, FColor::Red, TEXT(" Bloodlust: " + bloodlustDebug));
 	//GEngine->AddOnScreenDebugMessage(-1, DeltaTime, FColor::Red, TEXT(" Bool: " + bPlayerKilled ? TEXT("true") : TEXT("false")));
+
+	Bloodlust = 0;
 
 	//If the player hasn't killed and their bloodlust has reached max then they DIE
 	if (Bloodlust >= 10)
@@ -183,6 +209,7 @@ void ARaiseTheGameJame2020Character::LookUpAtRate(float Rate)
 
 void ARaiseTheGameJame2020Character::MoveForward(float Value)
 {
+
 	if ((Controller != NULL) && (Value != 0.0f))
 	{
 		// find out which way is forward
@@ -231,23 +258,57 @@ void ARaiseTheGameJame2020Character::AttemptGrab()
 {
 	GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, "Attempt Grab");
 
-	if (GrabComp->CurrentlyDragging)
+	//if (GrabComp->CurrentlyDragging)
 	{
-		ReleaseTarget();
+		//ReleaseTarget();
 	}
-	else
+	//else
 	{
-		GrabTarget();
+		//GrabTarget();
 	}
 }
 
 void ARaiseTheGameJame2020Character::GrabTarget()
 {
-	GrabComp->GrabGTarget();
+	//GrabComp->GrabGTarget();
 }
 
 
 void ARaiseTheGameJame2020Character::ReleaseTarget()
 {
-	GrabComp->ReleaseGTarget();
+	//GrabComp->ReleaseGTarget();
 }
+
+void ARaiseTheGameJame2020Character::OnViewBoxBeginOverlap(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
+{
+	ATestActor* Enemy = Cast<ATestActor>(OtherActor);
+
+	if (Enemy)
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, "Enemy Detected");
+		AttackComp->OnEnterView(OtherActor);
+	}
+	
+}
+
+void ARaiseTheGameJame2020Character::OnViewBoxEndOverlap(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
+{
+	ATestActor* Enemy = Cast<ATestActor>(OtherActor);
+
+	if (Enemy)
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, "EnemyLeft");
+		AttackComp->OnLeaveView(OtherActor);
+	}
+}
+
+void ARaiseTheGameJame2020Character::OnGrabSphereBeginOverlap(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
+{
+	//GrabComp->OnEnterGrabZone(OtherActor);
+}
+
+void ARaiseTheGameJame2020Character::OnGrabSphereEndOverlap(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
+{
+	//GrabComp->OnLeaveGrabZone(OtherActor);
+}
+

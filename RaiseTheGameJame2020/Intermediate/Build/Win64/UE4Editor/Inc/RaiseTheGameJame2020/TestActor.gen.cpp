@@ -67,7 +67,7 @@ void EmptyLinkFunctionForGeneratedCodeTestActor() {}
 		{ "ModuleRelativePath", "Public/TestActor.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATestActor_Statics::NewProp_HealthComp = { "HealthComp", nullptr, (EPropertyFlags)0x0010000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATestActor, HealthComp), Z_Construct_UClass_UHealthComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATestActor_Statics::NewProp_HealthComp_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATestActor_Statics::NewProp_HealthComp_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATestActor_Statics::NewProp_HealthComp = { "HealthComp", nullptr, (EPropertyFlags)0x001000000008000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATestActor, HealthComp), Z_Construct_UClass_UHealthComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATestActor_Statics::NewProp_HealthComp_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATestActor_Statics::NewProp_HealthComp_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATestActor_Statics::NewProp_DragComp_MetaData[] = {
 		{ "Category", "TestActor" },
@@ -118,7 +118,7 @@ void EmptyLinkFunctionForGeneratedCodeTestActor() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATestActor, 1808663027);
+	IMPLEMENT_CLASS(ATestActor, 3819051202);
 	template<> RAISETHEGAMEJAME2020_API UClass* StaticClass<ATestActor>()
 	{
 		return ATestActor::StaticClass();

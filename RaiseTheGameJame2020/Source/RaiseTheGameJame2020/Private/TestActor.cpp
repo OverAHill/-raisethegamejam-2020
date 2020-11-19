@@ -17,6 +17,7 @@ ATestActor::ATestActor()
 	// New Attack and Grab Component Set Up
 	DragComp = CreateDefaultSubobject<UDragComponent>(TEXT("NPCDrag"));
 	HealthComp = CreateDefaultSubobject<UHealthComponent>(TEXT("NPCHealth"));
+	
 }
 
 // Called when the game starts or when spawned

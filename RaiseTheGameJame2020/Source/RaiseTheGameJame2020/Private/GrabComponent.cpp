@@ -42,15 +42,24 @@ void UGrabComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActorC
 void UGrabComponent::OnBoxBeginOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
 	//GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, "Grab Overlap");
+	//GrabTarget = OtherActor;
+}
+
+void UGrabComponent::OnEnterGrabZone(AActor* OtherActor)
+{
+	//GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, "Grab Overlap");
 	GrabTarget = OtherActor;
 }
 
-
 void UGrabComponent::OnBoxEndOverlap(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
+{
+	//GrabTarget = nullptr;
+}
+
+void UGrabComponent::OnLeaveGrabZone(AActor* OtherActor)
 {
 	GrabTarget = nullptr;
 }
-
 
 void UGrabComponent::GrabGTarget()
 {

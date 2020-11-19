@@ -23,6 +23,14 @@ void EmptyLinkFunctionForGeneratedCodeGrabComponent() {}
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	ENGINE_API UClass* Z_Construct_UClass_UBoxComponent_NoRegister();
 // End Cross Module References
+	DEFINE_FUNCTION(UGrabComponent::execOnLeaveGrabZone)
+	{
+		P_GET_OBJECT(AActor,Z_Param_OtherActor);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->OnLeaveGrabZone(Z_Param_OtherActor);
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(UGrabComponent::execOnBoxEndOverlap)
 	{
 		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OverlappedComp);
@@ -32,6 +40,14 @@ void EmptyLinkFunctionForGeneratedCodeGrabComponent() {}
 		P_FINISH;
 		P_NATIVE_BEGIN;
 		P_THIS->OnBoxEndOverlap(Z_Param_OverlappedComp,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_OtherBodyIndex);
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(UGrabComponent::execOnEnterGrabZone)
+	{
+		P_GET_OBJECT(AActor,Z_Param_OtherActor);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->OnEnterGrabZone(Z_Param_OtherActor);
 		P_NATIVE_END;
 	}
 	DEFINE_FUNCTION(UGrabComponent::execOnBoxBeginOverlap)
@@ -53,6 +69,8 @@ void EmptyLinkFunctionForGeneratedCodeGrabComponent() {}
 		static const FNameNativePtrPair Funcs[] = {
 			{ "OnBoxBeginOverlap", &UGrabComponent::execOnBoxBeginOverlap },
 			{ "OnBoxEndOverlap", &UGrabComponent::execOnBoxEndOverlap },
+			{ "OnEnterGrabZone", &UGrabComponent::execOnEnterGrabZone },
+			{ "OnLeaveGrabZone", &UGrabComponent::execOnLeaveGrabZone },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
@@ -197,6 +215,70 @@ void EmptyLinkFunctionForGeneratedCodeGrabComponent() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_UGrabComponent_OnEnterGrabZone_Statics
+	{
+		struct GrabComponent_eventOnEnterGrabZone_Parms
+		{
+			AActor* OtherActor;
+		};
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OtherActor;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UGrabComponent_OnEnterGrabZone_Statics::NewProp_OtherActor = { "OtherActor", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(GrabComponent_eventOnEnterGrabZone_Parms, OtherActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UGrabComponent_OnEnterGrabZone_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UGrabComponent_OnEnterGrabZone_Statics::NewProp_OtherActor,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGrabComponent_OnEnterGrabZone_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/GrabComponent.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UGrabComponent_OnEnterGrabZone_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGrabComponent, nullptr, "OnEnterGrabZone", nullptr, nullptr, sizeof(GrabComponent_eventOnEnterGrabZone_Parms), Z_Construct_UFunction_UGrabComponent_OnEnterGrabZone_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UGrabComponent_OnEnterGrabZone_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UGrabComponent_OnEnterGrabZone_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UGrabComponent_OnEnterGrabZone_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UGrabComponent_OnEnterGrabZone()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UGrabComponent_OnEnterGrabZone_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_UGrabComponent_OnLeaveGrabZone_Statics
+	{
+		struct GrabComponent_eventOnLeaveGrabZone_Parms
+		{
+			AActor* OtherActor;
+		};
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OtherActor;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UGrabComponent_OnLeaveGrabZone_Statics::NewProp_OtherActor = { "OtherActor", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(GrabComponent_eventOnLeaveGrabZone_Parms, OtherActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UGrabComponent_OnLeaveGrabZone_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UGrabComponent_OnLeaveGrabZone_Statics::NewProp_OtherActor,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGrabComponent_OnLeaveGrabZone_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/GrabComponent.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UGrabComponent_OnLeaveGrabZone_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGrabComponent, nullptr, "OnLeaveGrabZone", nullptr, nullptr, sizeof(GrabComponent_eventOnLeaveGrabZone_Parms), Z_Construct_UFunction_UGrabComponent_OnLeaveGrabZone_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UGrabComponent_OnLeaveGrabZone_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UGrabComponent_OnLeaveGrabZone_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UGrabComponent_OnLeaveGrabZone_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UGrabComponent_OnLeaveGrabZone()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UGrabComponent_OnLeaveGrabZone_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_UGrabComponent_NoRegister()
 	{
 		return UGrabComponent::StaticClass();
@@ -227,6 +309,8 @@ void EmptyLinkFunctionForGeneratedCodeGrabComponent() {}
 	const FClassFunctionLinkInfo Z_Construct_UClass_UGrabComponent_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_UGrabComponent_OnBoxBeginOverlap, "OnBoxBeginOverlap" }, // 156365480
 		{ &Z_Construct_UFunction_UGrabComponent_OnBoxEndOverlap, "OnBoxEndOverlap" }, // 3227451070
+		{ &Z_Construct_UFunction_UGrabComponent_OnEnterGrabZone, "OnEnterGrabZone" }, // 1316387744
+		{ &Z_Construct_UFunction_UGrabComponent_OnLeaveGrabZone, "OnLeaveGrabZone" }, // 1393175281
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGrabComponent_Statics::Class_MetaDataParams[] = {
@@ -282,7 +366,7 @@ void EmptyLinkFunctionForGeneratedCodeGrabComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UGrabComponent, 2089308199);
+	IMPLEMENT_CLASS(UGrabComponent, 2372115640);
 	template<> RAISETHEGAMEJAME2020_API UClass* StaticClass<UGrabComponent>()
 	{
 		return UGrabComponent::StaticClass();

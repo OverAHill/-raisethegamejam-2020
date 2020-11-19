@@ -8,8 +8,8 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-class UPrimitiveComponent;
 class AActor;
+class UPrimitiveComponent;
 struct FHitResult;
 #ifdef RAISETHEGAMEJAME2020_GrabComponent_generated_h
 #error "GrabComponent.generated.h already included, missing '#pragma once' in GrabComponent.h"
@@ -19,13 +19,17 @@ struct FHitResult;
 #define RaiseTheGameJame2020_Source_RaiseTheGameJame2020_Public_GrabComponent_h_15_SPARSE_DATA
 #define RaiseTheGameJame2020_Source_RaiseTheGameJame2020_Public_GrabComponent_h_15_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execOnLeaveGrabZone); \
 	DECLARE_FUNCTION(execOnBoxEndOverlap); \
+	DECLARE_FUNCTION(execOnEnterGrabZone); \
 	DECLARE_FUNCTION(execOnBoxBeginOverlap);
 
 
 #define RaiseTheGameJame2020_Source_RaiseTheGameJame2020_Public_GrabComponent_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execOnLeaveGrabZone); \
 	DECLARE_FUNCTION(execOnBoxEndOverlap); \
+	DECLARE_FUNCTION(execOnEnterGrabZone); \
 	DECLARE_FUNCTION(execOnBoxBeginOverlap);
 
 

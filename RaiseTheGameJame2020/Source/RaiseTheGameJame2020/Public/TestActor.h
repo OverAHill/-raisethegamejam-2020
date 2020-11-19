@@ -33,6 +33,6 @@ public:
 	UPROPERTY(EditAnywhere)
 		UDragComponent* DragComp;
 
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		UHealthComponent* HealthComp;
 };

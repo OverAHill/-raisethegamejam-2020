@@ -8,8 +8,8 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-class UPrimitiveComponent;
 class AActor;
+class UPrimitiveComponent;
 struct FHitResult;
 #ifdef RAISETHEGAMEJAME2020_PlayerAttackComponent_generated_h
 #error "PlayerAttackComponent.generated.h already included, missing '#pragma once' in PlayerAttackComponent.h"
@@ -21,7 +21,9 @@ struct FHitResult;
  \
 	DECLARE_FUNCTION(execSelectTarget); \
 	DECLARE_FUNCTION(execAttackTarget); \
+	DECLARE_FUNCTION(execOnLeaveView); \
 	DECLARE_FUNCTION(execOnBoxEndOverlap); \
+	DECLARE_FUNCTION(execOnEnterView); \
 	DECLARE_FUNCTION(execOnBoxBeginOverlap); \
 	DECLARE_FUNCTION(execOnSphereEndOverlap); \
 	DECLARE_FUNCTION(execOnSphereBeginOverlap);
@@ -31,7 +33,9 @@ struct FHitResult;
  \
 	DECLARE_FUNCTION(execSelectTarget); \
 	DECLARE_FUNCTION(execAttackTarget); \
+	DECLARE_FUNCTION(execOnLeaveView); \
 	DECLARE_FUNCTION(execOnBoxEndOverlap); \
+	DECLARE_FUNCTION(execOnEnterView); \
 	DECLARE_FUNCTION(execOnBoxBeginOverlap); \
 	DECLARE_FUNCTION(execOnSphereEndOverlap); \
 	DECLARE_FUNCTION(execOnSphereBeginOverlap);

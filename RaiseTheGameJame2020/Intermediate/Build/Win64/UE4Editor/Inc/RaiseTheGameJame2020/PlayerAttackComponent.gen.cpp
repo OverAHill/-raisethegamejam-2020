@@ -38,6 +38,14 @@ void EmptyLinkFunctionForGeneratedCodePlayerAttackComponent() {}
 		P_THIS->AttackTarget();
 		P_NATIVE_END;
 	}
+	DEFINE_FUNCTION(UPlayerAttackComponent::execOnLeaveView)
+	{
+		P_GET_OBJECT(AActor,Z_Param_OtherActor);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->OnLeaveView(Z_Param_OtherActor);
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(UPlayerAttackComponent::execOnBoxEndOverlap)
 	{
 		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OverlappedComp);
@@ -47,6 +55,14 @@ void EmptyLinkFunctionForGeneratedCodePlayerAttackComponent() {}
 		P_FINISH;
 		P_NATIVE_BEGIN;
 		P_THIS->OnBoxEndOverlap(Z_Param_OverlappedComp,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_OtherBodyIndex);
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(UPlayerAttackComponent::execOnEnterView)
+	{
+		P_GET_OBJECT(AActor,Z_Param_OtherActor);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->OnEnterView(Z_Param_OtherActor);
 		P_NATIVE_END;
 	}
 	DEFINE_FUNCTION(UPlayerAttackComponent::execOnBoxBeginOverlap)
@@ -93,6 +109,8 @@ void EmptyLinkFunctionForGeneratedCodePlayerAttackComponent() {}
 			{ "AttackTarget", &UPlayerAttackComponent::execAttackTarget },
 			{ "OnBoxBeginOverlap", &UPlayerAttackComponent::execOnBoxBeginOverlap },
 			{ "OnBoxEndOverlap", &UPlayerAttackComponent::execOnBoxEndOverlap },
+			{ "OnEnterView", &UPlayerAttackComponent::execOnEnterView },
+			{ "OnLeaveView", &UPlayerAttackComponent::execOnLeaveView },
 			{ "OnSphereBeginOverlap", &UPlayerAttackComponent::execOnSphereBeginOverlap },
 			{ "OnSphereEndOverlap", &UPlayerAttackComponent::execOnSphereEndOverlap },
 			{ "SelectTarget", &UPlayerAttackComponent::execSelectTarget },
@@ -259,6 +277,70 @@ void EmptyLinkFunctionForGeneratedCodePlayerAttackComponent() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UPlayerAttackComponent_OnBoxEndOverlap_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_UPlayerAttackComponent_OnEnterView_Statics
+	{
+		struct PlayerAttackComponent_eventOnEnterView_Parms
+		{
+			AActor* OtherActor;
+		};
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OtherActor;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UPlayerAttackComponent_OnEnterView_Statics::NewProp_OtherActor = { "OtherActor", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(PlayerAttackComponent_eventOnEnterView_Parms, OtherActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UPlayerAttackComponent_OnEnterView_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UPlayerAttackComponent_OnEnterView_Statics::NewProp_OtherActor,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UPlayerAttackComponent_OnEnterView_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/PlayerAttackComponent.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UPlayerAttackComponent_OnEnterView_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UPlayerAttackComponent, nullptr, "OnEnterView", nullptr, nullptr, sizeof(PlayerAttackComponent_eventOnEnterView_Parms), Z_Construct_UFunction_UPlayerAttackComponent_OnEnterView_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UPlayerAttackComponent_OnEnterView_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UPlayerAttackComponent_OnEnterView_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UPlayerAttackComponent_OnEnterView_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UPlayerAttackComponent_OnEnterView()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UPlayerAttackComponent_OnEnterView_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_UPlayerAttackComponent_OnLeaveView_Statics
+	{
+		struct PlayerAttackComponent_eventOnLeaveView_Parms
+		{
+			AActor* OtherActor;
+		};
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OtherActor;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UPlayerAttackComponent_OnLeaveView_Statics::NewProp_OtherActor = { "OtherActor", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(PlayerAttackComponent_eventOnLeaveView_Parms, OtherActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UPlayerAttackComponent_OnLeaveView_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UPlayerAttackComponent_OnLeaveView_Statics::NewProp_OtherActor,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UPlayerAttackComponent_OnLeaveView_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/PlayerAttackComponent.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UPlayerAttackComponent_OnLeaveView_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UPlayerAttackComponent, nullptr, "OnLeaveView", nullptr, nullptr, sizeof(PlayerAttackComponent_eventOnLeaveView_Parms), Z_Construct_UFunction_UPlayerAttackComponent_OnLeaveView_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UPlayerAttackComponent_OnLeaveView_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UPlayerAttackComponent_OnLeaveView_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UPlayerAttackComponent_OnLeaveView_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UPlayerAttackComponent_OnLeaveView()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UPlayerAttackComponent_OnLeaveView_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -464,6 +546,8 @@ void EmptyLinkFunctionForGeneratedCodePlayerAttackComponent() {}
 		{ &Z_Construct_UFunction_UPlayerAttackComponent_AttackTarget, "AttackTarget" }, // 1663072977
 		{ &Z_Construct_UFunction_UPlayerAttackComponent_OnBoxBeginOverlap, "OnBoxBeginOverlap" }, // 2354531825
 		{ &Z_Construct_UFunction_UPlayerAttackComponent_OnBoxEndOverlap, "OnBoxEndOverlap" }, // 2557049445
+		{ &Z_Construct_UFunction_UPlayerAttackComponent_OnEnterView, "OnEnterView" }, // 218903046
+		{ &Z_Construct_UFunction_UPlayerAttackComponent_OnLeaveView, "OnLeaveView" }, // 1459904118
 		{ &Z_Construct_UFunction_UPlayerAttackComponent_OnSphereBeginOverlap, "OnSphereBeginOverlap" }, // 4180957289
 		{ &Z_Construct_UFunction_UPlayerAttackComponent_OnSphereEndOverlap, "OnSphereEndOverlap" }, // 475594111
 		{ &Z_Construct_UFunction_UPlayerAttackComponent_SelectTarget, "SelectTarget" }, // 2999686034
@@ -541,7 +625,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerAttackComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UPlayerAttackComponent, 2981333069);
+	IMPLEMENT_CLASS(UPlayerAttackComponent, 2172193330);
 	template<> RAISETHEGAMEJAME2020_API UClass* StaticClass<UPlayerAttackComponent>()
 	{
 		return UPlayerAttackComponent::StaticClass();

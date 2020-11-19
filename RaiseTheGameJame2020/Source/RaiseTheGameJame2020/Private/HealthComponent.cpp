@@ -11,11 +11,12 @@ UHealthComponent::UHealthComponent()
 	PrimaryComponentTick.bCanEverTick = true;
 
 	// ...
-	/*VisibilitySphere = CreateDefaultSubobject<USphereComponent>(TEXT("Root"));
-	RootComponent = VisibiltySphere;
-	this->GetOwner();
-	VisibilitySphere->AttachTo(this->GetOwner()->GetRootComponent());
-	VisibilitySphere->InitSphereRadius(40.0f);*/
+	VisibilitySphere = CreateDefaultSubobject<USphereComponent>(TEXT("Root"));
+	VisibilitySphere->InitSphereRadius(40.0f);
+	VisibilitySphere->SetCollisionEnabled(ECollisionEnabled::QueryOnly);
+	VisibilitySphere->SetCollisionProfileName("Box Box");
+
+
 
 }
 
@@ -24,7 +25,7 @@ UHealthComponent::UHealthComponent()
 void UHealthComponent::BeginPlay()
 {
 	Super::BeginPlay();
-
+	//GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, VisibilitySphere->GetComponentLocation().ToString());
 	// ...
 	
 }
@@ -36,5 +37,7 @@ void UHealthComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActo
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
 	// ...
+
+	
 }
 
