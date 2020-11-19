@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-// PCH for D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Public\EngineSharedPCH.h
-=======
 // PCH for C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Public\EngineSharedPCH.h
->>>>>>> UI
 #define IS_PROGRAM 0
 #define UE_EDITOR 1
 #define ENABLE_PGO_PROFILE 0
@@ -78,7 +74,7 @@
 #define GPUPARTICLE_LOCAL_VF_ONLY 0
 #define ENGINE_API DLLIMPORT
 #define UE_ENABLE_ICU 1
-#define WITH_VS_PERF_PROFILER 0
+#define WITH_VS_PERF_PROFILER 1
 #define WITH_DIRECTXMATH 0
 #define WITH_MALLOC_STOMP 1
 #define CORE_API DLLIMPORT
@@ -296,8 +292,4 @@
 #define WITH_CUSTOM_SQ_STRUCTURE 0
 #define WITH_IMMEDIATE_PHYSX 0
 #define CLOTHINGSYSTEMRUNTIMEINTERFACE_API DLLIMPORT
-<<<<<<< HEAD
-#include "D:/Program Files/Epic Games/UE_4.25/Engine/Source/Runtime/Engine/Public/EngineSharedPCH.h"
-=======
 #include "C:/Program Files/Epic Games/UE_4.25/Engine/Source/Runtime/Engine/Public/EngineSharedPCH.h"
->>>>>>> UI

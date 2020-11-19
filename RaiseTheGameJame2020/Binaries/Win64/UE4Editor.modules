@@ -2,14 +2,6 @@
 	"BuildId": "13144385",
 	"Modules": 
 	{
-<<<<<<< HEAD
-<<<<<<< HEAD
-		"RaiseTheGameJame2020": "UE4Editor-RaiseTheGameJame2020-1182.dll"
-=======
-		"RaiseTheGameJame2020": "UE4Editor-RaiseTheGameJame2020-0998.dll"
->>>>>>> UI
-=======
-		"RaiseTheGameJame2020": "UE4Editor-RaiseTheGameJame2020-9083.dll"
->>>>>>> CreatingAI
+		"RaiseTheGameJame2020": "UE4Editor-RaiseTheGameJame2020.dll"
 	}
 }

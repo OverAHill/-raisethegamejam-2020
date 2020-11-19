@@ -120,10 +120,6 @@ static float timer = 0;
 	{
 		RewindParticleSystem->Deactivate();
 
-void ARaiseTheGameJame2020Character::GetAllTasks()
-{
-	TArray<AActor*> FoundActors;
-	UGameplayStatics::GetAllActorsOfClass(GetWorld(), ATargetActor::StaticClass(), FoundActors);
 
 		if (timer > mTimeRewind->GetSpacing() && Controller)
 		{
@@ -131,6 +127,12 @@ void ARaiseTheGameJame2020Character::GetAllTasks()
 			timer = 0;
 		}
 	}
+}
+
+void ARaiseTheGameJame2020Character::GetAllTasks()
+{
+	TArray<AActor*> FoundActors;
+	UGameplayStatics::GetAllActorsOfClass(GetWorld(), ATargetActor::StaticClass(), FoundActors);
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -170,36 +172,6 @@ void ARaiseTheGameJame2020Character::SetupPlayerInputComponent(class UInputCompo
 void ARaiseTheGameJame2020Character::PlayerKilled()
 {
     bPlayerKilled = true;
-} 
-
-//TODO::FINISH THIS 
-float ARaiseTheGameJame2020Character::AGetHealth()
-{
-	return mHealthComponent->HealthValue;
-	
-}
-
-void ARaiseTheGameJame2020Character::OnResetVR()
-{
-	UHeadMountedDisplayFunctionLibrary::ResetOrientationAndPosition();
-}
-
-void ARaiseTheGameJame2020Character::TouchStarted(ETouchIndex::Type FingerIndex, FVector Location)
-{
-	Jump();
-}
-
-void ARaiseTheGameJame2020Character::TouchStopped(ETouchIndex::Type FingerIndex, FVector Location)
-{
-	StopJumping();
-}
-
-void ARaiseTheGameJame2020Character::TurnAtRate(float Rate)
-{
-	// calculate delta for this frame from the rate information
-	TArray<FHitResult> SweepResults;
-	
-	bPlayerKilled = true;
 } 
 
 //TODO::FINISH THIS 

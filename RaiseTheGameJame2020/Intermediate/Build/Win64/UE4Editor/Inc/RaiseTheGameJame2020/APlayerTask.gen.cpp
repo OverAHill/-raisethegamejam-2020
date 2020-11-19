@@ -563,6 +563,10 @@ void EmptyLinkFunctionForGeneratedCodeAPlayerTask() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_TaskEntry;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TaskName_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStrPropertyParams NewProp_TaskName;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TaskRootComponent_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_TaskRootComponent;
@@ -626,6 +630,13 @@ void EmptyLinkFunctionForGeneratedCodeAPlayerTask() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AAPlayerTask_Statics::NewProp_TaskEntry = { "TaskEntry", nullptr, (EPropertyFlags)0x001000000008081d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAPlayerTask, TaskEntry), Z_Construct_UClass_UBoxComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AAPlayerTask_Statics::NewProp_TaskEntry_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AAPlayerTask_Statics::NewProp_TaskEntry_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAPlayerTask_Statics::NewProp_TaskName_MetaData[] = {
+		{ "Category", "Tasks" },
+		{ "ModuleRelativePath", "Public/APlayerTask.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UClass_AAPlayerTask_Statics::NewProp_TaskName = { "TaskName", nullptr, (EPropertyFlags)0x0010000000000815, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAPlayerTask, TaskName), METADATA_PARAMS(Z_Construct_UClass_AAPlayerTask_Statics::NewProp_TaskName_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AAPlayerTask_Statics::NewProp_TaskName_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAPlayerTask_Statics::NewProp_TaskRootComponent_MetaData[] = {
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Public/APlayerTask.h" },
@@ -649,6 +660,7 @@ void EmptyLinkFunctionForGeneratedCodeAPlayerTask() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAPlayerTask_Statics::NewProp_TaskArea,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAPlayerTask_Statics::NewProp_TaskExit,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAPlayerTask_Statics::NewProp_TaskEntry,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAPlayerTask_Statics::NewProp_TaskName,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAPlayerTask_Statics::NewProp_TaskRootComponent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAPlayerTask_Statics::NewProp_bIsCompleted,
 	};
@@ -679,7 +691,7 @@ void EmptyLinkFunctionForGeneratedCodeAPlayerTask() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AAPlayerTask, 247563384);
+	IMPLEMENT_CLASS(AAPlayerTask, 1912880190);
 	template<> RAISETHEGAMEJAME2020_API UClass* StaticClass<AAPlayerTask>()
 	{
 		return AAPlayerTask::StaticClass();
