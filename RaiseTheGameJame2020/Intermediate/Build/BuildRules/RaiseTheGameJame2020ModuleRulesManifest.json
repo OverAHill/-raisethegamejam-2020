@@ -1,20 +1,8 @@
 {
 	"SourceFiles": [
-<<<<<<< HEAD
-<<<<<<< HEAD
 		"D:\\Users\\h017026h\\Documents\\GitKraken\\-raisethegamejam-2020\\RaiseTheGameJame2020\\Source\\RaiseTheGameJame2020\\RaiseTheGameJame2020.Build.cs",
 		"D:\\Users\\h017026h\\Documents\\GitKraken\\-raisethegamejam-2020\\RaiseTheGameJame2020\\Source\\RaiseTheGameJame2020.Target.cs",
 		"D:\\Users\\h017026h\\Documents\\GitKraken\\-raisethegamejam-2020\\RaiseTheGameJame2020\\Source\\RaiseTheGameJame2020Editor.Target.cs"
-=======
-		"E:\\Projects\\Personal Projects\\-raisethegamejam-2020\\RaiseTheGameJame2020\\Source\\RaiseTheGameJame2020\\RaiseTheGameJame2020.Build.cs",
-		"E:\\Projects\\Personal Projects\\-raisethegamejam-2020\\RaiseTheGameJame2020\\Source\\RaiseTheGameJame2020.Target.cs",
-		"E:\\Projects\\Personal Projects\\-raisethegamejam-2020\\RaiseTheGameJame2020\\Source\\RaiseTheGameJame2020Editor.Target.cs"
->>>>>>> AI_Variance
-=======
-		"C:\\Users\\onlyr\\OneDrive - Staffordshire University\\GameJam\\WORKINGONE\\-raisethegamejam-2020\\RaiseTheGameJame2020\\Source\\RaiseTheGameJame2020\\RaiseTheGameJame2020.Build.cs",
-		"C:\\Users\\onlyr\\OneDrive - Staffordshire University\\GameJam\\WORKINGONE\\-raisethegamejam-2020\\RaiseTheGameJame2020\\Source\\RaiseTheGameJame2020.Target.cs",
-		"C:\\Users\\onlyr\\OneDrive - Staffordshire University\\GameJam\\WORKINGONE\\-raisethegamejam-2020\\RaiseTheGameJame2020\\Source\\RaiseTheGameJame2020Editor.Target.cs"
->>>>>>> Accessibility
 	],
 	"EngineVersion": "4.25.4"
 }

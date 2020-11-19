@@ -1,248 +1,49 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020).
-UnrealBuildTool : warning : Couldn't parse '<<<<<<< HEAD' in UnrealBuildTool.ConfigFileSection of D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\Engine.ini
-UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\Engine.ini
-UnrealBuildTool : warning : Couldn't parse '>>>>>>> TestingComponents' in UnrealBuildTool.ConfigFileSection of D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\Engine.ini
-UnrealBuildTool : warning : Couldn't parse '<<<<<<< HEAD' in UnrealBuildTool.ConfigFileSection of D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '>>>>>>> TestingComponents' in UnrealBuildTool.ConfigFileSection of D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '<<<<<<< HEAD' in UnrealBuildTool.ConfigFileSection of D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '>>>>>>> TestingComponents' in UnrealBuildTool.ConfigFileSection of D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '<<<<<<< HEAD' in UnrealBuildTool.ConfigFileSection of D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '>>>>>>> TestingComponents' in UnrealBuildTool.ConfigFileSection of D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '<<<<<<< HEAD' in UnrealBuildTool.ConfigFileSection of D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '>>>>>>> TestingComponents' in UnrealBuildTool.ConfigFileSection of D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '<<<<<<< HEAD' in UnrealBuildTool.ConfigFileSection of D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '>>>>>>> TestingComponents' in UnrealBuildTool.ConfigFileSection of D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '<<<<<<< HEAD' in UnrealBuildTool.ConfigFileSection of D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '>>>>>>> TestingComponents' in UnrealBuildTool.ConfigFileSection of D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '<<<<<<< HEAD' in UnrealBuildTool.ConfigFileSection of D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '>>>>>>> TestingComponents' in UnrealBuildTool.ConfigFileSection of D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '<<<<<<< HEAD' in UnrealBuildTool.ConfigFileSection of D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '>>>>>>> TestingComponents' in UnrealBuildTool.ConfigFileSection of D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '<<<<<<< HEAD' in UnrealBuildTool.ConfigFileSection of D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '>>>>>>> TestingComponents' in UnrealBuildTool.ConfigFileSection of D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '<<<<<<< HEAD' in UnrealBuildTool.ConfigFileSection of D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '>>>>>>> TestingComponents' in UnrealBuildTool.ConfigFileSection of D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '<<<<<<< HEAD' in UnrealBuildTool.ConfigFileSection of D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '>>>>>>> TestingComponents' in UnrealBuildTool.ConfigFileSection of D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '<<<<<<< HEAD' in UnrealBuildTool.ConfigFileSection of D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '>>>>>>> TestingComponents' in UnrealBuildTool.ConfigFileSection of D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '<<<<<<< HEAD' in UnrealBuildTool.ConfigFileSection of D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '>>>>>>> TestingComponents' in UnrealBuildTool.ConfigFileSection of D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '<<<<<<< HEAD' in UnrealBuildTool.ConfigFileSection of D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '>>>>>>> TestingComponents' in UnrealBuildTool.ConfigFileSection of D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-  Building RaiseTheGameJame2020Editor...
-  Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 4 actions with 12 processes...
-    [1/4] RaiseTheGameJame2020Character.cpp
-=======
-﻿  Using 'git status' to determine working set for adaptive non-unity build (E:\Projects\Personal Projects\-raisethegamejam-2020).
-  Building RaiseTheGameJame2020Editor...
-  Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 4 actions with 8 processes...
-    [1/4] GoToRandomLocationAgentTask.cpp
-E:\Projects\Personal Projects\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\IAgentTask.h(24): warning C4265: 'IAgentTask': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly
-E:\Projects\Personal Projects\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\GoToRandomLocationAgentTask.h(23): warning C4265: 'GoToRandomLocationAgentTask': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly
->>>>>>> AI_Variance
-    [2/4] UE4Editor-RaiseTheGameJame2020.lib
-       Creating library D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\UE4Editor-RaiseTheGameJame2020.lib and object D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\UE4Editor-RaiseTheGameJame2020.exp
-    [3/4] UE4Editor-RaiseTheGameJame2020.dll
-<<<<<<< HEAD
-       Creating library D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\UE4Editor-RaiseTheGameJame2020.suppressed.lib and object D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\UE4Editor-RaiseTheGameJame2020.suppressed.exp
-    [4/4] RaiseTheGameJame2020Editor.target
-  Total time in Parallel executor: 2.34 seconds
-  Total execution time: 2.86 seconds
-=======
-       Creating library E:\Projects\Personal Projects\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\UE4Editor-RaiseTheGameJame2020.suppressed.lib and object E:\Projects\Personal Projects\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\UE4Editor-RaiseTheGameJame2020.suppressed.exp
-    [4/4] RaiseTheGameJame2020Editor.target
-  Total time in Parallel executor: 2.01 seconds
-  Total execution time: 2.71 seconds
->>>>>>> AI_Variance
-=======
-﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020).
-  Creating makefile for RaiseTheGameJame2020Editor (no existing makefile)
-UnrealBuildTool : warning : Couldn't parse '<<<<<<< HEAD' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\Engine.ini
-UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\Engine.ini
-UnrealBuildTool : warning : Couldn't parse '>>>>>>> Stealth' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\Engine.ini
   Parsing headers for RaiseTheGameJame2020Editor
-    Running UnrealHeaderTool "C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\RaiseTheGameJame2020.uproject" "C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\RaiseTheGameJame2020Editor\Development\RaiseTheGameJame2020Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\onlyr\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-  Reflection code generated for RaiseTheGameJame2020Editor in 7.3736275 seconds
-UnrealBuildTool : warning : Couldn't parse '<<<<<<< HEAD' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '>>>>>>> UI' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '<<<<<<< HEAD' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '<<<<<<< HEAD' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '>>>>>>> Stealth' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '>>>>>>> UI' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '<<<<<<< HEAD' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '<<<<<<< HEAD' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '>>>>>>> Stealth' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '>>>>>>> UI' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '<<<<<<< HEAD' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '>>>>>>> UI' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '<<<<<<< HEAD' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '>>>>>>> Stealth' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '<<<<<<< HEAD' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '<<<<<<< HEAD' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '<<<<<<< HEAD' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '>>>>>>> UI' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '>>>>>>> CreatingAI' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '>>>>>>> Stealth' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '<<<<<<< HEAD' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '<<<<<<< HEAD' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '>>>>>>> UI' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '>>>>>>> Stealth' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '<<<<<<< HEAD' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '<<<<<<< HEAD' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '<<<<<<< HEAD' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '>>>>>>> UI' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '>>>>>>> CreatingAI' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '>>>>>>> Stealth' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '<<<<<<< HEAD' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '>>>>>>> UI' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '<<<<<<< HEAD' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '<<<<<<< HEAD' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '<<<<<<< HEAD' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '>>>>>>> UI' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '>>>>>>> CreatingAI' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '>>>>>>> Stealth' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '<<<<<<< HEAD' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '<<<<<<< HEAD' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '>>>>>>> CreatingAI' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '<<<<<<< HEAD' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '>>>>>>> CreatingAI' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '>>>>>>> Stealth' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '<<<<<<< HEAD' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '<<<<<<< HEAD' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '<<<<<<< HEAD' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '>>>>>>> UI' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '>>>>>>> CreatingAI' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '>>>>>>> Stealth' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '<<<<<<< HEAD' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '<<<<<<< HEAD' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '<<<<<<< HEAD' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '>>>>>>> UI' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '>>>>>>> CreatingAI' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '>>>>>>> Stealth' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '<<<<<<< HEAD' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '>>>>>>> Stealth' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '<<<<<<< HEAD' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '>>>>>>> Stealth' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '<<<<<<< HEAD' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '<<<<<<< HEAD' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '>>>>>>> UI' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
-UnrealBuildTool : warning : Couldn't parse '>>>>>>> Stealth' in UnrealBuildTool.ConfigFileSection of C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Saved\Config\Windows\EditorPerProjectUserSettings.ini
+    Running UnrealHeaderTool "D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\RaiseTheGameJame2020.uproject" "D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\RaiseTheGameJame2020Editor\Development\RaiseTheGameJame2020Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\h017026h\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  Reflection code generated for RaiseTheGameJame2020Editor in 8.3118537 seconds
+  Deleted hot-reload file: D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Binaries\Win64\UE4Editor-RaiseTheGameJame2020-0002.dll
+  Deleted hot-reload file: D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Binaries\Win64\UE4Editor-RaiseTheGameJame2020-0003.dll
+  Deleted hot-reload file: D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\UE4Editor-RaiseTheGameJame2020-0002.lib
+  Deleted hot-reload file: D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\UE4Editor-RaiseTheGameJame2020-0003.lib
   Building RaiseTheGameJame2020Editor...
   Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 46 actions with 6 processes...
-    [1/46] Default.rc2
-    [2/46] SharedPCH.Engine.ShadowErrors.cpp
-    [3/46] AgentTask.cpp
-    [4/46] WaitForDurationAgentTask.cpp
-C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\IAgentTask.h(24): warning C4265: 'IAgentTask': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly
-C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\WaitForDurationAgentTask.h(18): warning C4265: 'WaitForDurationAgentTask': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly
-    [5/46] DragComponent.cpp
-    [6/46] DetectionZone.cpp
-    [7/46] AgentBody.cpp
-    [8/46] APlayerTask.cpp
-    [9/46] IAgentTask.cpp
-C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\IAgentTask.h(24): warning C4265: 'IAgentTask': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly
-    [10/46] GrabComponent.cpp
-    [11/46] PathfinderComponent.cpp
-    [12/46] AgentTaskManager.cpp
-C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\IAgentTask.h(24): warning C4265: 'IAgentTask': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly
-C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\GoToLocationAgentTask.h(21): warning C4265: 'GoToLocationAgentTask': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly
-C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\WaitForDurationAgentTask.h(18): warning C4265: 'WaitForDurationAgentTask': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly
-    [13/46] RunThroughTasksAgentTask.cpp
-    [14/46] PlayerAttackComponent.cpp
-    [15/46] RunFromKillerAgentTask.cpp
-C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\IAgentTask.h(24): warning C4265: 'IAgentTask': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly
-C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\RunFromKillerAgentTask.h(22): warning C4265: 'RunFromKillerAgentTask': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly
-    [16/46] TaskTarget.cpp
-    [17/46] TargetActor.cpp
-    [18/46] AgentCharacter.cpp
-C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\IAgentTask.h(24): warning C4265: 'IAgentTask': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly
-C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\RunFromKillerAgentTask.h(22): warning C4265: 'RunFromKillerAgentTask': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly
-    [19/46] HealthComponent.cpp
-    [20/46] RaiseTheGameJame2020.cpp
-    [21/46] HideComponent.cpp
-    [22/46] TimeRewind.cpp
-    [23/46] RaiseTheGameJame2020GameMode.cpp
-    [24/46] GoToLocationAgentTask.cpp
-C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\IAgentTask.h(24): warning C4265: 'IAgentTask': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly
-C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\GoToLocationAgentTask.h(21): warning C4265: 'GoToLocationAgentTask': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly
-    [25/46] APlayerTask.gen.cpp
-    [26/46] RaiseTheGameJame2020Character.cpp
-    [27/46] AgentCharacter.gen.cpp
-C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\IAgentTask.h(24): warning C4265: 'IAgentTask': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly
-    [28/46] AgentController.gen.cpp
-    [29/46] DetectionZone.gen.cpp
-    [30/46] WanderLocationAgentTask.cpp
-    [31/46] AgentTaskManager.gen.cpp
-C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\IAgentTask.h(24): warning C4265: 'IAgentTask': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly
-    [32/46] DragComponent.gen.cpp
-    [33/46] GrabComponent.gen.cpp
-    [34/46] HideComponent.gen.cpp
-    [35/46] PathfinderComponent.gen.cpp
-    [36/46] RaiseTheGameJame2020.init.gen.cpp
-    [37/46] PlayerAttackComponent.gen.cpp
-    [38/46] RaiseTheGameJame2020Character.gen.cpp
-    [39/46] TargetActor.gen.cpp
-    [40/46] TaskTarget.gen.cpp
-    [41/46] RaiseTheGameJame2020GameMode.gen.cpp
-    [42/46] HealthComponent.gen.cpp
-    [43/46] AgentController.cpp
-    [44/46] UE4Editor-RaiseTheGameJame2020.lib
-       Creating library C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\UE4Editor-RaiseTheGameJame2020.lib and object C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\UE4Editor-RaiseTheGameJame2020.exp
-    [45/46] UE4Editor-RaiseTheGameJame2020.dll
-       Creating library C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\UE4Editor-RaiseTheGameJame2020.suppressed.lib and object C:\Users\onlyr\OneDrive - Staffordshire University\GameJam\WORKINGONE\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\UE4Editor-RaiseTheGameJame2020.suppressed.exp
-    [46/46] RaiseTheGameJame2020Editor.target
-  Total time in Parallel executor: 36.91 seconds
-  Total execution time: 64.44 seconds
->>>>>>> Accessibility
+  Building 15 actions with 12 processes...
+    [1/15] AgentCharacter.cpp
+D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\IAgentTask.h(24): warning C4265: 'IAgentTask': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly
+D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\RunFromKillerAgentTask.h(26): warning C4265: 'RunFromKillerAgentTask': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly
+D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\WaitForDurationAgentTask.h(18): warning C4265: 'WaitForDurationAgentTask': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly
+    [2/15] GoToRandomLocationAgentTask.cpp
+D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\IAgentTask.h(24): warning C4265: 'IAgentTask': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly
+D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\GoToRandomLocationAgentTask.h(23): warning C4265: 'GoToRandomLocationAgentTask': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly
+    [3/15] GoToLocationAgentTask.cpp
+D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\IAgentTask.h(24): warning C4265: 'IAgentTask': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly
+D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\GoToLocationAgentTask.h(21): warning C4265: 'GoToLocationAgentTask': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly
+    [4/15] GrabComponent.cpp
+D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\IAgentTask.h(24): warning C4265: 'IAgentTask': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly
+    [5/15] AgentTaskManager.cpp
+D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\IAgentTask.h(24): warning C4265: 'IAgentTask': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly
+D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\GoToLocationAgentTask.h(21): warning C4265: 'GoToLocationAgentTask': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly
+D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\WaitForDurationAgentTask.h(18): warning C4265: 'WaitForDurationAgentTask': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly
+D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\GoToRandomLocationAgentTask.h(23): warning C4265: 'GoToRandomLocationAgentTask': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly
+    [6/15] RaiseTheGameJame2020GameMode.cpp
+D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\IAgentTask.h(24): warning C4265: 'IAgentTask': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly
+    [7/15] GrabComponent.gen.cpp
+D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\IAgentTask.h(24): warning C4265: 'IAgentTask': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly
+    [8/15] AgentCharacter.gen.cpp
+D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\IAgentTask.h(24): warning C4265: 'IAgentTask': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly
+    [9/15] TimeRewind.cpp
+D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\IAgentTask.h(24): warning C4265: 'IAgentTask': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly
+    [10/15] AgentTaskManager.gen.cpp
+D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\IAgentTask.h(24): warning C4265: 'IAgentTask': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly
+    [11/15] RaiseTheGameJame2020Character.gen.cpp
+D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\IAgentTask.h(24): warning C4265: 'IAgentTask': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly
+    [12/15] RaiseTheGameJame2020Character.cpp
+D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Source\RaiseTheGameJame2020\Public\IAgentTask.h(24): warning C4265: 'IAgentTask': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly
+    [13/15] UE4Editor-RaiseTheGameJame2020.lib
+       Creating library D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\UE4Editor-RaiseTheGameJame2020.lib and object D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\UE4Editor-RaiseTheGameJame2020.exp
+    [14/15] UE4Editor-RaiseTheGameJame2020.dll
+       Creating library D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\UE4Editor-RaiseTheGameJame2020.suppressed.lib and object D:\Users\h017026h\Documents\GitKraken\-raisethegamejam-2020\RaiseTheGameJame2020\Intermediate\Build\Win64\UE4Editor\Development\RaiseTheGameJame2020\UE4Editor-RaiseTheGameJame2020.suppressed.exp
+    [15/15] RaiseTheGameJame2020Editor.target
+  Total time in Parallel executor: 62.20 seconds
+  Total execution time: 71.20 seconds

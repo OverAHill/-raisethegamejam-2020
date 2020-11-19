@@ -37,7 +37,7 @@ void UGrabComponent::OnEnterGrabZone(AActor* OtherActor)
 	//GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, "Grab Overlap");
 	GrabTarget = nullptr;
 
-	ATestActor* Enemy = Cast<ATestActor>(OtherActor);
+	AAgentCharacter* Enemy = Cast<AAgentCharacter>(OtherActor);
 
 	if (Enemy)
 	{

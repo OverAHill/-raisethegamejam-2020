@@ -138,3 +138,10 @@ void UAgentTaskManager::ForceTaskToFront(IAgentTask* taskToFront)
 		RemainingTasks.Enqueue(task);
 	}
 }
+
+void UAgentTaskManager::Stop()
+{
+	RemainingTasks.Empty();
+	delete CurrentTask;
+	CurrentTask = nullptr;
+}

@@ -5,6 +5,9 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "AgentTaskManager.h"
+#include "DragComponent.h"
+#include "HealthComponent.h"
+#include "Components/SphereComponent.h"
 #include "AgentCharacter.generated.h"
 
 UCLASS()
@@ -30,6 +33,7 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
+
 public:	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		bool CanPathToLocation;
@@ -37,6 +41,8 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		FVector PointerPosForPathfinding;
 
+	//UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	//	UGrabComponent* GrabComp = nullptr;
 
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
@@ -54,4 +60,15 @@ public:
 
 	UFUNCTION(BlueprintImplementableEvent)
 	void GoToRandomLocation();
+
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		USphereComponent* sphere;
+
+	// Ang Testing Stuff
+	UPROPERTY(EditAnywhere)
+		UDragComponent* DragComp;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		UHealthComponent* HealthComp;
 };

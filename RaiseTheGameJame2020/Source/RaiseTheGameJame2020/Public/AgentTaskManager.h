@@ -31,4 +31,5 @@ public:
 	bool IsRemainingTasksEmpty();
 	void SetupTaskManager(FString AIType, ACharacter* parent, TArray<FVector> positions, FVector* pointerPosForPathfinding);
 	void ForceTaskToFront(IAgentTask* taskToFront);
+	void Stop();
 };

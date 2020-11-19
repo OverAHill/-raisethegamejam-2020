@@ -7,6 +7,7 @@
 #include "GrabComponent.h"
 #include "PlayerAttackComponent.h"
 #include "TestActor.h"
+#include "AgentCharacter.h"
 #include "RaiseTheGameJame2020Character.generated.h"
 
 class TimeRewind;

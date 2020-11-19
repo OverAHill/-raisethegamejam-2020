@@ -3,15 +3,7 @@
   <ItemGroup>
     <None Include="..\..\RaiseTheGameJame2020.uproject" />
     <Filter Include="Source">
-<<<<<<< HEAD
-<<<<<<< HEAD
-      <UniqueIdentifier>{604AE7C3-4227-4710-94A3-62ACDF109082}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{C75917C5-3833-4DD2-AA34-90880F4DA5B9}</UniqueIdentifier>
->>>>>>> AI_Variance
-=======
-      <UniqueIdentifier>{A20E1928-5633-4C2C-9DB9-96A34DE5F498}</UniqueIdentifier>
->>>>>>> Accessibility
+      <UniqueIdentifier>{4B381FAD-80ED-4F90-92BF-A972611AED5F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\RaiseTheGameJame2020.Target.cs">
       <Filter>Source</Filter>
@@ -20,15 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-<<<<<<< HEAD
-<<<<<<< HEAD
-      <UniqueIdentifier>{4E671FA3-C4C1-42E6-BA7D-5C0FF7FE7CE1}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{83D0395D-E035-414F-8307-F22215BE82AB}</UniqueIdentifier>
->>>>>>> AI_Variance
-=======
-      <UniqueIdentifier>{A823A8B6-D118-4A6A-B15B-45FB0987E500}</UniqueIdentifier>
->>>>>>> Accessibility
+      <UniqueIdentifier>{A5A8E884-6038-4B64-BD19-D8CE777663AC}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -46,15 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\RaiseTheGameJame2020">
-<<<<<<< HEAD
-<<<<<<< HEAD
-      <UniqueIdentifier>{A689C269-A4DA-4023-8F4F-C232A24D6233}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{2CAE20F8-DAE4-4423-A074-B6127BDB9D6D}</UniqueIdentifier>
->>>>>>> AI_Variance
-=======
-      <UniqueIdentifier>{BFC1FBF6-4E71-4CAE-8D06-3E846DF8587C}</UniqueIdentifier>
->>>>>>> Accessibility
+      <UniqueIdentifier>{6E612CAC-A27D-4281-8AFE-C523F7806E0C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\RaiseTheGameJame2020\RaiseTheGameJame2020.Build.cs">
       <Filter>Source\RaiseTheGameJame2020</Filter>
@@ -84,15 +60,7 @@
       <Filter>Source\RaiseTheGameJame2020</Filter>
     </ClInclude>
     <Filter Include="Source\RaiseTheGameJame2020\Private">
-<<<<<<< HEAD
-<<<<<<< HEAD
-      <UniqueIdentifier>{8E42EF94-8CB1-4360-9510-516860A2400A}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{20988E10-6900-4EA2-A6BB-06A8755D14D4}</UniqueIdentifier>
->>>>>>> AI_Variance
-=======
-      <UniqueIdentifier>{814CDDFD-C89C-4494-BFA8-85BE07A90460}</UniqueIdentifier>
->>>>>>> Accessibility
+      <UniqueIdentifier>{B36285A4-90B0-4A0E-B1D8-C9F40F2BD23F}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\RaiseTheGameJame2020\Private\AgentBody.cpp">
       <Filter>Source\RaiseTheGameJame2020\Private</Filter>
@@ -167,15 +135,7 @@
       <Filter>Source\RaiseTheGameJame2020\Private</Filter>
     </ClCompile>
     <Filter Include="Source\RaiseTheGameJame2020\Public">
-<<<<<<< HEAD
-<<<<<<< HEAD
-      <UniqueIdentifier>{FE4F2097-4397-426F-B6A1-C4BD356C993F}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{1EC9788A-7CF9-4AAA-A8CC-86C37C401F02}</UniqueIdentifier>
->>>>>>> AI_Variance
-=======
-      <UniqueIdentifier>{284B653C-2898-4954-9948-5BFF4558414E}</UniqueIdentifier>
->>>>>>> Accessibility
+      <UniqueIdentifier>{ECC07A93-8DAC-4158-99CF-0985620B85EC}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\RaiseTheGameJame2020\Public\AgentBody.h">
       <Filter>Source\RaiseTheGameJame2020\Public</Filter>
