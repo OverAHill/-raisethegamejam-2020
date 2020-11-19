@@ -8,6 +8,7 @@
 
 class TimeRewind;
 class UParticleSystemComponent;
+class UHealthComponent;
 
 UCLASS(config=Game)
 class ARaiseTheGameJame2020Character : public ACharacter
@@ -74,6 +75,18 @@ public:
 	/** Returns FollowCamera subobject **/
 	FORCEINLINE class UCameraComponent* GetFollowCamera() const { return FollowCamera; }
 
+//=================================================================================================
+// Functions
+//=================================================================================================
+public:
+	// Update
+	UFUNCTION(BlueprintCallable)
+		void AUpdate(float deltaSeconds);
+
+	UFUNCTION(BlueprintCallable)
+		float AGetHealth();
+
+	void PlayerKilled();
 
 
 //=================================================================================================
@@ -91,19 +104,23 @@ private:
 
 
 public:
-	// Update
-	UFUNCTION(BlueprintCallable)
-	void AUpdate(float deltaSeconds);
 
-	void TestFunc();
-	void TestAnotherFunc();
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Player Stats");
+	float CurrentBloodlust;
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Player Stats");
+	float MaxBloodlust;
 
-	UPROPERTY(EditAnywhere, Category = "Player stats:");
-	float Bloodlust;
-	UPROPERTY(EditAnywhere, Category = "Player stats:");
-	float TestValue;
+	UPROPERTY(EditAnywhere, Category = "Player Stats");
+	float DecreaseBloodlust;
+	UPROPERTY(EditAnywhere, Category = "Player Stats")
+	float IncreaseBloodlust;
+	UPROPERTY(EditAnywhere, Category = "Player Stats");
+	bool bToggleBloodlustOn;
 
 	float DeltaTime;
-
 	bool bPlayerKilled;
+
+
+	//UPROPERTY(VisibleAnywhere)
+	UHealthComponent* mHealthComponent;
 };

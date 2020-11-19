@@ -21,8 +21,13 @@ void EmptyLinkFunctionForGeneratedCodeRaiseTheGameJame2020_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
+<<<<<<< HEAD
 				0x3E1001FF,
 				0x0C98B7AB,
+=======
+				0x65392EEE,
+				0x572CAD2E,
+>>>>>>> UI
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);
