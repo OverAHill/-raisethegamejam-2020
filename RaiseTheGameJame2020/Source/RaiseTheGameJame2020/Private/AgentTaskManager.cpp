@@ -142,6 +142,7 @@ void UAgentTaskManager::ForceTaskToFront(IAgentTask* taskToFront)
 void UAgentTaskManager::Stop()
 {
 	RemainingTasks.Empty();
+	CurrentTask->completed = true;
 	delete CurrentTask;
 	CurrentTask = nullptr;
 }

@@ -14,10 +14,10 @@ private:
 	int retryCount;
 
 protected:
-	bool completed;
 	void CheckForFailed();
 
 public:
+	bool completed;
 	bool Failed;
 
 	IAgentTask();

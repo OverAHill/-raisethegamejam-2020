@@ -45,9 +45,10 @@ void AAgentCharacter::Tick(float DeltaTime)
 
 	if (!HealthComp->Alive)
 	{
-		PointerPosForPathfinding = FVector(0, 0, 0);
 		TaskManager->Stop();
-		this->Destroy();
+		PointerPosForPathfinding = FVector(0, 0, 0);
+		PathfindToLocation(this->GetActorLocation());
+		//this->Destroy();
 	}
 }
 
