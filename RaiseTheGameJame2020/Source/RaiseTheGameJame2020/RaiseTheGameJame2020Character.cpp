@@ -134,6 +134,10 @@ void ARaiseTheGameJame2020Character::AUpdate(float deltaSeconds)
 		if (bPlayerAttacked == true /*CurrentTarget->FindComponentByClass<UHealthComponent>()->Alive = false;*/)
 	    {
 	    	CurrentBloodlust = CurrentBloodlust - DecreaseBloodlust;
+
+			if (CurrentBloodlust <= 0.0f)
+				CurrentBloodlust = 0.0f;
+
 	    	bPlayerAttacked = false;
 	   	}
     }
